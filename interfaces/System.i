@@ -6,15 +6,20 @@
 
  /* Parse the header file to generate wrappers */
 
-%define MACOSX %enddef
 %define __APPLE__ %enddef
-%define MACOSX %enddef
-%define macintosh %enddef
-%define Macintosh %enddef
-%define CSFML_SYSTEM_MACOS %enddef
 
 %include <SFML/Config.h>
-%include "Export.h"
+%include <SFML/System/Export.h>
 
-%include "Vector2.h"
-%include "Vector3.h"
+%include <SFML/System/Alloc.h>
+%include <SFML/System/Buffer.h>
+%include <SFML/System/Clock.h>
+%include <SFML/System/InputStream.h>
+%include <SFML/System/Mutex.h>
+%include <SFML/System/Sleep.h>
+%include <SFML/System/Thread.h>
+%include <SFML/System/Time.h>
+%include <SFML/System/Types.h>
+%include <SFML/System/Vector2.h>
+%include <SFML/System/Vector3.h>
+

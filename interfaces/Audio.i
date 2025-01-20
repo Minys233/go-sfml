@@ -6,22 +6,16 @@
 
  /* Parse the header file to generate wrappers */
 
-%define MACOSX %enddef
 %define __APPLE__ %enddef
-%define MACOSX %enddef
-%define macintosh %enddef
-%define Macintosh %enddef
-%define CSFML_SYSTEM_MACOS %enddef
 
 %include <SFML/Config.h>
-%include "Export.h"
-
-%include "Listener.h"
-%include "Music.h"
-%include "Sound.h"
-%include "SoundBuffer.h"
-%include "SoundBufferRecorder.h"
-%include "SoundRecorder.h"
-%include "SoundStatus.h"
-%include "SoundStream.h"
-%include "Types.h"
+%include <SFML/Audio/Export.h>
+%include <SFML/Audio/Listener.h>
+%include <SFML/Audio/Music.h>
+%include <SFML/Audio/Sound.h>
+%include <SFML/Audio/SoundBuffer.h>
+%include <SFML/Audio/SoundBufferRecorder.h>
+%include <SFML/Audio/SoundRecorder.h>
+%include <SFML/Audio/SoundStatus.h>
+%include <SFML/Audio/SoundStream.h>
+%include <SFML/Audio/Types.h>
