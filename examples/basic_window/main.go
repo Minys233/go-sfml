@@ -3,8 +3,8 @@ package main
 import (
 	"runtime"
 
-	"github.com/minys233/go-sfml/graphics"
-	"github.com/minys233/go-sfml/window"
+	"github.com/minys233/go-sfml/v2/graphics"
+	"github.com/minys233/go-sfml/v2/window"
 )
 
 func init() { runtime.LockOSThread() }
