@@ -22,4 +22,3 @@
 %include <SFML/System/Types.h>
 %include <SFML/System/Vector2.h>
 %include <SFML/System/Vector3.h>
-

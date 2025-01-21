@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__audio_e67fa8ec1da7dec2(const char*);
+  void cgo_panic__audio_4a33675c87ed0ff7(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__audio_e67fa8ec1da7dec2(p);
+  cgo_panic__audio_4a33675c87ed0ff7(p);
 }
 
 
@@ -280,7 +280,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_audio_e67fa8ec1da7dec2(void *_swig_go_0) {
+void _wrap_Swig_free_audio_4a33675c87ed0ff7(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -290,7 +290,7 @@ void _wrap_Swig_free_audio_e67fa8ec1da7dec2(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_audio_e67fa8ec1da7dec2(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_audio_4a33675c87ed0ff7(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -303,7 +303,7 @@ void *_wrap_Swig_malloc_audio_e67fa8ec1da7dec2(intgo _swig_go_0) {
 }
 
 
-void _wrap_sfListener_setGlobalVolume_audio_e67fa8ec1da7dec2(float _swig_go_0) {
+void _wrap_sfListener_setGlobalVolume_audio_4a33675c87ed0ff7(float _swig_go_0) {
   float arg1 ;
   
   arg1 = (float)_swig_go_0; 
@@ -313,7 +313,7 @@ void _wrap_sfListener_setGlobalVolume_audio_e67fa8ec1da7dec2(float _swig_go_0) {
 }
 
 
-float _wrap_sfListener_getGlobalVolume_audio_e67fa8ec1da7dec2() {
+float _wrap_sfListener_getGlobalVolume_audio_4a33675c87ed0ff7() {
   float result;
   float _swig_go_result;
   
@@ -324,7 +324,7 @@ float _wrap_sfListener_getGlobalVolume_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfListener_setPosition_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0) {
+void _wrap_sfListener_setPosition_audio_4a33675c87ed0ff7(sfVector3f *_swig_go_0) {
   sfVector3f arg1 ;
   sfVector3f *argp1 ;
   
@@ -341,7 +341,7 @@ void _wrap_sfListener_setPosition_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0)
 }
 
 
-sfVector3f *_wrap_sfListener_getPosition_audio_e67fa8ec1da7dec2() {
+sfVector3f *_wrap_sfListener_getPosition_audio_4a33675c87ed0ff7() {
   sfVector3f result;
   sfVector3f *_swig_go_result;
   
@@ -352,7 +352,7 @@ sfVector3f *_wrap_sfListener_getPosition_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfListener_setDirection_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0) {
+void _wrap_sfListener_setDirection_audio_4a33675c87ed0ff7(sfVector3f *_swig_go_0) {
   sfVector3f arg1 ;
   sfVector3f *argp1 ;
   
@@ -369,7 +369,7 @@ void _wrap_sfListener_setDirection_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0
 }
 
 
-sfVector3f *_wrap_sfListener_getDirection_audio_e67fa8ec1da7dec2() {
+sfVector3f *_wrap_sfListener_getDirection_audio_4a33675c87ed0ff7() {
   sfVector3f result;
   sfVector3f *_swig_go_result;
   
@@ -380,7 +380,7 @@ sfVector3f *_wrap_sfListener_getDirection_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfListener_setUpVector_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0) {
+void _wrap_sfListener_setUpVector_audio_4a33675c87ed0ff7(sfVector3f *_swig_go_0) {
   sfVector3f arg1 ;
   sfVector3f *argp1 ;
   
@@ -397,7 +397,7 @@ void _wrap_sfListener_setUpVector_audio_e67fa8ec1da7dec2(sfVector3f *_swig_go_0)
 }
 
 
-sfVector3f *_wrap_sfListener_getUpVector_audio_e67fa8ec1da7dec2() {
+sfVector3f *_wrap_sfListener_getUpVector_audio_4a33675c87ed0ff7() {
   sfVector3f result;
   sfVector3f *_swig_go_result;
   
@@ -408,7 +408,7 @@ sfVector3f *_wrap_sfListener_getUpVector_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfTimeSpan_offset_set_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfTimeSpan_offset_set_audio_4a33675c87ed0ff7(sfTimeSpan *_swig_go_0, sfTime *_swig_go_1) {
   sfTimeSpan *arg1 = (sfTimeSpan *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -427,7 +427,7 @@ void _wrap_sfTimeSpan_offset_set_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0, 
 }
 
 
-sfTime *_wrap_sfTimeSpan_offset_get_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0) {
+sfTime *_wrap_sfTimeSpan_offset_get_audio_4a33675c87ed0ff7(sfTimeSpan *_swig_go_0) {
   sfTimeSpan *arg1 = (sfTimeSpan *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -440,7 +440,7 @@ sfTime *_wrap_sfTimeSpan_offset_get_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_
 }
 
 
-void _wrap_sfTimeSpan_length_set_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfTimeSpan_length_set_audio_4a33675c87ed0ff7(sfTimeSpan *_swig_go_0, sfTime *_swig_go_1) {
   sfTimeSpan *arg1 = (sfTimeSpan *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -459,7 +459,7 @@ void _wrap_sfTimeSpan_length_set_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0, 
 }
 
 
-sfTime *_wrap_sfTimeSpan_length_get_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0) {
+sfTime *_wrap_sfTimeSpan_length_get_audio_4a33675c87ed0ff7(sfTimeSpan *_swig_go_0) {
   sfTimeSpan *arg1 = (sfTimeSpan *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -472,7 +472,7 @@ sfTime *_wrap_sfTimeSpan_length_get_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_
 }
 
 
-sfTimeSpan *_wrap_new_sfTimeSpan_audio_e67fa8ec1da7dec2() {
+sfTimeSpan *_wrap_new_sfTimeSpan_audio_4a33675c87ed0ff7() {
   sfTimeSpan *result = 0 ;
   sfTimeSpan *_swig_go_result;
   
@@ -483,7 +483,7 @@ sfTimeSpan *_wrap_new_sfTimeSpan_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_delete_sfTimeSpan_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0) {
+void _wrap_delete_sfTimeSpan_audio_4a33675c87ed0ff7(sfTimeSpan *_swig_go_0) {
   sfTimeSpan *arg1 = (sfTimeSpan *) 0 ;
   
   arg1 = *(sfTimeSpan **)&_swig_go_0; 
@@ -493,7 +493,7 @@ void _wrap_delete_sfTimeSpan_audio_e67fa8ec1da7dec2(sfTimeSpan *_swig_go_0) {
 }
 
 
-sfMusic *_wrap_sfMusic_createFromFile_audio_e67fa8ec1da7dec2(_gostring_ _swig_go_0) {
+sfMusic *_wrap_sfMusic_createFromFile_audio_4a33675c87ed0ff7(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   sfMusic *result = 0 ;
   sfMusic *_swig_go_result;
@@ -511,7 +511,7 @@ sfMusic *_wrap_sfMusic_createFromFile_audio_e67fa8ec1da7dec2(_gostring_ _swig_go
 }
 
 
-sfMusic *_wrap_sfMusic_createFromMemory_audio_e67fa8ec1da7dec2(void *_swig_go_0, long long _swig_go_1) {
+sfMusic *_wrap_sfMusic_createFromMemory_audio_4a33675c87ed0ff7(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfMusic *result = 0 ;
@@ -526,7 +526,7 @@ sfMusic *_wrap_sfMusic_createFromMemory_audio_e67fa8ec1da7dec2(void *_swig_go_0,
 }
 
 
-sfMusic *_wrap_sfMusic_createFromStream_audio_e67fa8ec1da7dec2(sfInputStream *_swig_go_0) {
+sfMusic *_wrap_sfMusic_createFromStream_audio_4a33675c87ed0ff7(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfMusic *result = 0 ;
   sfMusic *_swig_go_result;
@@ -539,7 +539,7 @@ sfMusic *_wrap_sfMusic_createFromStream_audio_e67fa8ec1da7dec2(sfInputStream *_s
 }
 
 
-void _wrap_sfMusic_destroy_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+void _wrap_sfMusic_destroy_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   
   arg1 = *(sfMusic **)&_swig_go_0; 
@@ -549,7 +549,7 @@ void _wrap_sfMusic_destroy_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-void _wrap_sfMusic_setLoop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfMusic_setLoop_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, intgo _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfBool arg2 ;
   
@@ -561,7 +561,7 @@ void _wrap_sfMusic_setLoop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, intgo _sw
 }
 
 
-intgo _wrap_sfMusic_getLoop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+intgo _wrap_sfMusic_getLoop_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -574,7 +574,7 @@ intgo _wrap_sfMusic_getLoop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-sfTime *_wrap_sfMusic_getDuration_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+sfTime *_wrap_sfMusic_getDuration_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -587,7 +587,7 @@ sfTime *_wrap_sfMusic_getDuration_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-sfTimeSpan *_wrap_sfMusic_getLoopPoints_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+sfTimeSpan *_wrap_sfMusic_getLoopPoints_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfTimeSpan result;
   sfTimeSpan *_swig_go_result;
@@ -600,7 +600,7 @@ sfTimeSpan *_wrap_sfMusic_getLoopPoints_audio_e67fa8ec1da7dec2(sfMusic *_swig_go
 }
 
 
-void _wrap_sfMusic_setLoopPoints_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, sfTimeSpan *_swig_go_1) {
+void _wrap_sfMusic_setLoopPoints_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, sfTimeSpan *_swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfTimeSpan arg2 ;
   sfTimeSpan *argp2 ;
@@ -619,7 +619,7 @@ void _wrap_sfMusic_setLoopPoints_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, sfT
 }
 
 
-void _wrap_sfMusic_play_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+void _wrap_sfMusic_play_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   
   arg1 = *(sfMusic **)&_swig_go_0; 
@@ -629,7 +629,7 @@ void _wrap_sfMusic_play_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-void _wrap_sfMusic_pause_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+void _wrap_sfMusic_pause_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   
   arg1 = *(sfMusic **)&_swig_go_0; 
@@ -639,7 +639,7 @@ void _wrap_sfMusic_pause_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-void _wrap_sfMusic_stop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+void _wrap_sfMusic_stop_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   
   arg1 = *(sfMusic **)&_swig_go_0; 
@@ -649,7 +649,7 @@ void _wrap_sfMusic_stop_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-intgo _wrap_sfMusic_getChannelCount_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+intgo _wrap_sfMusic_getChannelCount_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -662,7 +662,7 @@ intgo _wrap_sfMusic_getChannelCount_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) 
 }
 
 
-intgo _wrap_sfMusic_getSampleRate_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+intgo _wrap_sfMusic_getSampleRate_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -675,7 +675,7 @@ intgo _wrap_sfMusic_getSampleRate_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-intgo _wrap_sfMusic_getStatus_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+intgo _wrap_sfMusic_getStatus_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfSoundStatus result;
   intgo _swig_go_result;
@@ -688,7 +688,7 @@ intgo _wrap_sfMusic_getStatus_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-sfTime *_wrap_sfMusic_getPlayingOffset_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+sfTime *_wrap_sfMusic_getPlayingOffset_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -701,7 +701,7 @@ sfTime *_wrap_sfMusic_getPlayingOffset_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_
 }
 
 
-void _wrap_sfMusic_setPitch_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _swig_go_1) {
+void _wrap_sfMusic_setPitch_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, float _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float arg2 ;
   
@@ -713,7 +713,7 @@ void _wrap_sfMusic_setPitch_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _s
 }
 
 
-void _wrap_sfMusic_setVolume_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _swig_go_1) {
+void _wrap_sfMusic_setVolume_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, float _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float arg2 ;
   
@@ -725,7 +725,7 @@ void _wrap_sfMusic_setVolume_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _
 }
 
 
-void _wrap_sfMusic_setPosition_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, sfVector3f *_swig_go_1) {
+void _wrap_sfMusic_setPosition_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, sfVector3f *_swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfVector3f arg2 ;
   sfVector3f *argp2 ;
@@ -744,7 +744,7 @@ void _wrap_sfMusic_setPosition_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, sfVec
 }
 
 
-void _wrap_sfMusic_setRelativeToListener_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfMusic_setRelativeToListener_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, intgo _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfBool arg2 ;
   
@@ -756,7 +756,7 @@ void _wrap_sfMusic_setRelativeToListener_audio_e67fa8ec1da7dec2(sfMusic *_swig_g
 }
 
 
-void _wrap_sfMusic_setMinDistance_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _swig_go_1) {
+void _wrap_sfMusic_setMinDistance_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, float _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float arg2 ;
   
@@ -768,7 +768,7 @@ void _wrap_sfMusic_setMinDistance_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, fl
 }
 
 
-void _wrap_sfMusic_setAttenuation_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, float _swig_go_1) {
+void _wrap_sfMusic_setAttenuation_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, float _swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float arg2 ;
   
@@ -780,7 +780,7 @@ void _wrap_sfMusic_setAttenuation_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, fl
 }
 
 
-void _wrap_sfMusic_setPlayingOffset_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfMusic_setPlayingOffset_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0, sfTime *_swig_go_1) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -799,7 +799,7 @@ void _wrap_sfMusic_setPlayingOffset_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0, 
 }
 
 
-float _wrap_sfMusic_getPitch_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+float _wrap_sfMusic_getPitch_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float result;
   float _swig_go_result;
@@ -812,7 +812,7 @@ float _wrap_sfMusic_getPitch_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-float _wrap_sfMusic_getVolume_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+float _wrap_sfMusic_getVolume_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float result;
   float _swig_go_result;
@@ -825,7 +825,7 @@ float _wrap_sfMusic_getVolume_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-sfVector3f *_wrap_sfMusic_getPosition_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+sfVector3f *_wrap_sfMusic_getPosition_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfVector3f result;
   sfVector3f *_swig_go_result;
@@ -838,7 +838,7 @@ sfVector3f *_wrap_sfMusic_getPosition_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0
 }
 
 
-intgo _wrap_sfMusic_isRelativeToListener_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+intgo _wrap_sfMusic_isRelativeToListener_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -851,7 +851,7 @@ intgo _wrap_sfMusic_isRelativeToListener_audio_e67fa8ec1da7dec2(sfMusic *_swig_g
 }
 
 
-float _wrap_sfMusic_getMinDistance_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+float _wrap_sfMusic_getMinDistance_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float result;
   float _swig_go_result;
@@ -864,7 +864,7 @@ float _wrap_sfMusic_getMinDistance_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-float _wrap_sfMusic_getAttenuation_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
+float _wrap_sfMusic_getAttenuation_audio_4a33675c87ed0ff7(sfMusic *_swig_go_0) {
   sfMusic *arg1 = (sfMusic *) 0 ;
   float result;
   float _swig_go_result;
@@ -877,7 +877,7 @@ float _wrap_sfMusic_getAttenuation_audio_e67fa8ec1da7dec2(sfMusic *_swig_go_0) {
 }
 
 
-sfSound *_wrap_sfSound_create_audio_e67fa8ec1da7dec2() {
+sfSound *_wrap_sfSound_create_audio_4a33675c87ed0ff7() {
   sfSound *result = 0 ;
   sfSound *_swig_go_result;
   
@@ -888,7 +888,7 @@ sfSound *_wrap_sfSound_create_audio_e67fa8ec1da7dec2() {
 }
 
 
-sfSound *_wrap_sfSound_copy_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+sfSound *_wrap_sfSound_copy_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfSound *result = 0 ;
   sfSound *_swig_go_result;
@@ -901,7 +901,7 @@ sfSound *_wrap_sfSound_copy_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_destroy_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+void _wrap_sfSound_destroy_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   
   arg1 = *(sfSound **)&_swig_go_0; 
@@ -911,7 +911,7 @@ void _wrap_sfSound_destroy_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_play_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+void _wrap_sfSound_play_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   
   arg1 = *(sfSound **)&_swig_go_0; 
@@ -921,7 +921,7 @@ void _wrap_sfSound_play_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_pause_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+void _wrap_sfSound_pause_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   
   arg1 = *(sfSound **)&_swig_go_0; 
@@ -931,7 +931,7 @@ void _wrap_sfSound_pause_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_stop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+void _wrap_sfSound_stop_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   
   arg1 = *(sfSound **)&_swig_go_0; 
@@ -941,7 +941,7 @@ void _wrap_sfSound_stop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_setBuffer_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, sfSoundBuffer *_swig_go_1) {
+void _wrap_sfSound_setBuffer_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, sfSoundBuffer *_swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfSoundBuffer *arg2 = (sfSoundBuffer *) 0 ;
   
@@ -953,7 +953,7 @@ void _wrap_sfSound_setBuffer_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, sfSound
 }
 
 
-sfSoundBuffer *_wrap_sfSound_getBuffer_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+sfSoundBuffer *_wrap_sfSound_getBuffer_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfSoundBuffer *result = 0 ;
   sfSoundBuffer *_swig_go_result;
@@ -966,7 +966,7 @@ sfSoundBuffer *_wrap_sfSound_getBuffer_audio_e67fa8ec1da7dec2(sfSound *_swig_go_
 }
 
 
-void _wrap_sfSound_setLoop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSound_setLoop_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, intgo _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfBool arg2 ;
   
@@ -978,7 +978,7 @@ void _wrap_sfSound_setLoop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, intgo _sw
 }
 
 
-intgo _wrap_sfSound_getLoop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+intgo _wrap_sfSound_getLoop_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -991,7 +991,7 @@ intgo _wrap_sfSound_getLoop_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-intgo _wrap_sfSound_getStatus_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+intgo _wrap_sfSound_getStatus_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfSoundStatus result;
   intgo _swig_go_result;
@@ -1004,7 +1004,7 @@ intgo _wrap_sfSound_getStatus_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-void _wrap_sfSound_setPitch_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSound_setPitch_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, float _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   float arg2 ;
   
@@ -1016,7 +1016,7 @@ void _wrap_sfSound_setPitch_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _s
 }
 
 
-void _wrap_sfSound_setVolume_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSound_setVolume_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, float _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   float arg2 ;
   
@@ -1028,7 +1028,7 @@ void _wrap_sfSound_setVolume_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _
 }
 
 
-void _wrap_sfSound_setPosition_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, sfVector3f *_swig_go_1) {
+void _wrap_sfSound_setPosition_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, sfVector3f *_swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfVector3f arg2 ;
   sfVector3f *argp2 ;
@@ -1047,7 +1047,7 @@ void _wrap_sfSound_setPosition_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, sfVec
 }
 
 
-void _wrap_sfSound_setRelativeToListener_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSound_setRelativeToListener_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, intgo _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfBool arg2 ;
   
@@ -1059,7 +1059,7 @@ void _wrap_sfSound_setRelativeToListener_audio_e67fa8ec1da7dec2(sfSound *_swig_g
 }
 
 
-void _wrap_sfSound_setMinDistance_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSound_setMinDistance_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, float _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   float arg2 ;
   
@@ -1071,7 +1071,7 @@ void _wrap_sfSound_setMinDistance_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, fl
 }
 
 
-void _wrap_sfSound_setAttenuation_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSound_setAttenuation_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, float _swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   float arg2 ;
   
@@ -1083,7 +1083,7 @@ void _wrap_sfSound_setAttenuation_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, fl
 }
 
 
-void _wrap_sfSound_setPlayingOffset_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfSound_setPlayingOffset_audio_4a33675c87ed0ff7(sfSound *_swig_go_0, sfTime *_swig_go_1) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -1102,7 +1102,7 @@ void _wrap_sfSound_setPlayingOffset_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0, 
 }
 
 
-float _wrap_sfSound_getPitch_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+float _wrap_sfSound_getPitch_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   float result;
   float _swig_go_result;
@@ -1115,7 +1115,7 @@ float _wrap_sfSound_getPitch_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-float _wrap_sfSound_getVolume_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+float _wrap_sfSound_getVolume_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   float result;
   float _swig_go_result;
@@ -1128,7 +1128,7 @@ float _wrap_sfSound_getVolume_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-sfVector3f *_wrap_sfSound_getPosition_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+sfVector3f *_wrap_sfSound_getPosition_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfVector3f result;
   sfVector3f *_swig_go_result;
@@ -1141,7 +1141,7 @@ sfVector3f *_wrap_sfSound_getPosition_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0
 }
 
 
-intgo _wrap_sfSound_isRelativeToListener_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+intgo _wrap_sfSound_isRelativeToListener_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -1154,7 +1154,7 @@ intgo _wrap_sfSound_isRelativeToListener_audio_e67fa8ec1da7dec2(sfSound *_swig_g
 }
 
 
-float _wrap_sfSound_getMinDistance_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+float _wrap_sfSound_getMinDistance_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   float result;
   float _swig_go_result;
@@ -1167,7 +1167,7 @@ float _wrap_sfSound_getMinDistance_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-float _wrap_sfSound_getAttenuation_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+float _wrap_sfSound_getAttenuation_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   float result;
   float _swig_go_result;
@@ -1180,7 +1180,7 @@ float _wrap_sfSound_getAttenuation_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
 }
 
 
-sfTime *_wrap_sfSound_getPlayingOffset_audio_e67fa8ec1da7dec2(sfSound *_swig_go_0) {
+sfTime *_wrap_sfSound_getPlayingOffset_audio_4a33675c87ed0ff7(sfSound *_swig_go_0) {
   sfSound *arg1 = (sfSound *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -1193,7 +1193,7 @@ sfTime *_wrap_sfSound_getPlayingOffset_audio_e67fa8ec1da7dec2(sfSound *_swig_go_
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBuffer_createFromFile_audio_e67fa8ec1da7dec2(_gostring_ _swig_go_0) {
+sfSoundBuffer *_wrap_sfSoundBuffer_createFromFile_audio_4a33675c87ed0ff7(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   sfSoundBuffer *result = 0 ;
   sfSoundBuffer *_swig_go_result;
@@ -1211,7 +1211,7 @@ sfSoundBuffer *_wrap_sfSoundBuffer_createFromFile_audio_e67fa8ec1da7dec2(_gostri
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBuffer_createFromMemory_audio_e67fa8ec1da7dec2(void *_swig_go_0, long long _swig_go_1) {
+sfSoundBuffer *_wrap_sfSoundBuffer_createFromMemory_audio_4a33675c87ed0ff7(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfSoundBuffer *result = 0 ;
@@ -1226,7 +1226,7 @@ sfSoundBuffer *_wrap_sfSoundBuffer_createFromMemory_audio_e67fa8ec1da7dec2(void 
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBuffer_createFromStream_audio_e67fa8ec1da7dec2(sfInputStream *_swig_go_0) {
+sfSoundBuffer *_wrap_sfSoundBuffer_createFromStream_audio_4a33675c87ed0ff7(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfSoundBuffer *result = 0 ;
   sfSoundBuffer *_swig_go_result;
@@ -1239,7 +1239,7 @@ sfSoundBuffer *_wrap_sfSoundBuffer_createFromStream_audio_e67fa8ec1da7dec2(sfInp
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBuffer_createFromSamples_audio_e67fa8ec1da7dec2(short *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+sfSoundBuffer *_wrap_sfSoundBuffer_createFromSamples_audio_4a33675c87ed0ff7(short *_swig_go_0, long long _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfInt16 *arg1 = (sfInt16 *) 0 ;
   sfUint64 arg2 ;
   unsigned int arg3 ;
@@ -1258,7 +1258,7 @@ sfSoundBuffer *_wrap_sfSoundBuffer_createFromSamples_audio_e67fa8ec1da7dec2(shor
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBuffer_copy_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+sfSoundBuffer *_wrap_sfSoundBuffer_copy_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   sfSoundBuffer *result = 0 ;
   sfSoundBuffer *_swig_go_result;
@@ -1271,7 +1271,7 @@ sfSoundBuffer *_wrap_sfSoundBuffer_copy_audio_e67fa8ec1da7dec2(sfSoundBuffer *_s
 }
 
 
-void _wrap_sfSoundBuffer_destroy_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+void _wrap_sfSoundBuffer_destroy_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   
   arg1 = *(sfSoundBuffer **)&_swig_go_0; 
@@ -1281,7 +1281,7 @@ void _wrap_sfSoundBuffer_destroy_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_
 }
 
 
-intgo _wrap_sfSoundBuffer_saveToFile_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_sfSoundBuffer_saveToFile_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0, _gostring_ _swig_go_1) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   char *arg2 = (char *) 0 ;
   sfBool result;
@@ -1301,7 +1301,7 @@ intgo _wrap_sfSoundBuffer_saveToFile_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig
 }
 
 
-short *_wrap_sfSoundBuffer_getSamples_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+short *_wrap_sfSoundBuffer_getSamples_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   sfInt16 *result = 0 ;
   short *_swig_go_result;
@@ -1314,7 +1314,7 @@ short *_wrap_sfSoundBuffer_getSamples_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swi
 }
 
 
-long long _wrap_sfSoundBuffer_getSampleCount_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+long long _wrap_sfSoundBuffer_getSampleCount_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   sfUint64 result;
   long long _swig_go_result;
@@ -1327,7 +1327,7 @@ long long _wrap_sfSoundBuffer_getSampleCount_audio_e67fa8ec1da7dec2(sfSoundBuffe
 }
 
 
-intgo _wrap_sfSoundBuffer_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+intgo _wrap_sfSoundBuffer_getSampleRate_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1340,7 +1340,7 @@ intgo _wrap_sfSoundBuffer_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundBuffer *_s
 }
 
 
-intgo _wrap_sfSoundBuffer_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+intgo _wrap_sfSoundBuffer_getChannelCount_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1353,7 +1353,7 @@ intgo _wrap_sfSoundBuffer_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundBuffer *
 }
 
 
-sfTime *_wrap_sfSoundBuffer_getDuration_audio_e67fa8ec1da7dec2(sfSoundBuffer *_swig_go_0) {
+sfTime *_wrap_sfSoundBuffer_getDuration_audio_4a33675c87ed0ff7(sfSoundBuffer *_swig_go_0) {
   sfSoundBuffer *arg1 = (sfSoundBuffer *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -1366,7 +1366,7 @@ sfTime *_wrap_sfSoundBuffer_getDuration_audio_e67fa8ec1da7dec2(sfSoundBuffer *_s
 }
 
 
-sfSoundBufferRecorder *_wrap_sfSoundBufferRecorder_create_audio_e67fa8ec1da7dec2() {
+sfSoundBufferRecorder *_wrap_sfSoundBufferRecorder_create_audio_4a33675c87ed0ff7() {
   sfSoundBufferRecorder *result = 0 ;
   sfSoundBufferRecorder *_swig_go_result;
   
@@ -1377,7 +1377,7 @@ sfSoundBufferRecorder *_wrap_sfSoundBufferRecorder_create_audio_e67fa8ec1da7dec2
 }
 
 
-void _wrap_sfSoundBufferRecorder_destroy_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0) {
+void _wrap_sfSoundBufferRecorder_destroy_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   
   arg1 = *(sfSoundBufferRecorder **)&_swig_go_0; 
@@ -1387,7 +1387,7 @@ void _wrap_sfSoundBufferRecorder_destroy_audio_e67fa8ec1da7dec2(sfSoundBufferRec
 }
 
 
-intgo _wrap_sfSoundBufferRecorder_start_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_sfSoundBufferRecorder_start_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0, intgo _swig_go_1) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   unsigned int arg2 ;
   sfBool result;
@@ -1402,7 +1402,7 @@ intgo _wrap_sfSoundBufferRecorder_start_audio_e67fa8ec1da7dec2(sfSoundBufferReco
 }
 
 
-void _wrap_sfSoundBufferRecorder_stop_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0) {
+void _wrap_sfSoundBufferRecorder_stop_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   
   arg1 = *(sfSoundBufferRecorder **)&_swig_go_0; 
@@ -1412,7 +1412,7 @@ void _wrap_sfSoundBufferRecorder_stop_audio_e67fa8ec1da7dec2(sfSoundBufferRecord
 }
 
 
-intgo _wrap_sfSoundBufferRecorder_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0) {
+intgo _wrap_sfSoundBufferRecorder_getSampleRate_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1425,7 +1425,7 @@ intgo _wrap_sfSoundBufferRecorder_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundBu
 }
 
 
-sfSoundBuffer *_wrap_sfSoundBufferRecorder_getBuffer_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0) {
+sfSoundBuffer *_wrap_sfSoundBufferRecorder_getBuffer_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   sfSoundBuffer *result = 0 ;
   sfSoundBuffer *_swig_go_result;
@@ -1438,7 +1438,7 @@ sfSoundBuffer *_wrap_sfSoundBufferRecorder_getBuffer_audio_e67fa8ec1da7dec2(sfSo
 }
 
 
-intgo _wrap_sfSoundBufferRecorder_setDevice_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_sfSoundBufferRecorder_setDevice_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0, _gostring_ _swig_go_1) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   char *arg2 = (char *) 0 ;
   sfBool result;
@@ -1458,7 +1458,7 @@ intgo _wrap_sfSoundBufferRecorder_setDevice_audio_e67fa8ec1da7dec2(sfSoundBuffer
 }
 
 
-_gostring_ _wrap_sfSoundBufferRecorder_getDevice_audio_e67fa8ec1da7dec2(sfSoundBufferRecorder *_swig_go_0) {
+_gostring_ _wrap_sfSoundBufferRecorder_getDevice_audio_4a33675c87ed0ff7(sfSoundBufferRecorder *_swig_go_0) {
   sfSoundBufferRecorder *arg1 = (sfSoundBufferRecorder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1471,7 +1471,7 @@ _gostring_ _wrap_sfSoundBufferRecorder_getDevice_audio_e67fa8ec1da7dec2(sfSoundB
 }
 
 
-sfSoundRecorder *_wrap_sfSoundRecorder_create_audio_e67fa8ec1da7dec2(void* _swig_go_0, void* _swig_go_1, void* _swig_go_2, void *_swig_go_3) {
+sfSoundRecorder *_wrap_sfSoundRecorder_create_audio_4a33675c87ed0ff7(void* _swig_go_0, void* _swig_go_1, void* _swig_go_2, void *_swig_go_3) {
   sfSoundRecorderStartCallback arg1 = (sfSoundRecorderStartCallback) 0 ;
   sfSoundRecorderProcessCallback arg2 = (sfSoundRecorderProcessCallback) 0 ;
   sfSoundRecorderStopCallback arg3 = (sfSoundRecorderStopCallback) 0 ;
@@ -1490,7 +1490,7 @@ sfSoundRecorder *_wrap_sfSoundRecorder_create_audio_e67fa8ec1da7dec2(void* _swig
 }
 
 
-void _wrap_sfSoundRecorder_destroy_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0) {
+void _wrap_sfSoundRecorder_destroy_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   
   arg1 = *(sfSoundRecorder **)&_swig_go_0; 
@@ -1500,7 +1500,7 @@ void _wrap_sfSoundRecorder_destroy_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig
 }
 
 
-intgo _wrap_sfSoundRecorder_start_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_sfSoundRecorder_start_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0, intgo _swig_go_1) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   unsigned int arg2 ;
   sfBool result;
@@ -1515,7 +1515,7 @@ intgo _wrap_sfSoundRecorder_start_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_
 }
 
 
-void _wrap_sfSoundRecorder_stop_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0) {
+void _wrap_sfSoundRecorder_stop_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   
   arg1 = *(sfSoundRecorder **)&_swig_go_0; 
@@ -1525,7 +1525,7 @@ void _wrap_sfSoundRecorder_stop_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go
 }
 
 
-intgo _wrap_sfSoundRecorder_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0) {
+intgo _wrap_sfSoundRecorder_getSampleRate_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1538,7 +1538,7 @@ intgo _wrap_sfSoundRecorder_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundRecorder
 }
 
 
-intgo _wrap_sfSoundRecorder_isAvailable_audio_e67fa8ec1da7dec2() {
+intgo _wrap_sfSoundRecorder_isAvailable_audio_4a33675c87ed0ff7() {
   sfBool result;
   intgo _swig_go_result;
   
@@ -1549,7 +1549,7 @@ intgo _wrap_sfSoundRecorder_isAvailable_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfSoundRecorder_setProcessingInterval_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfSoundRecorder_setProcessingInterval_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0, sfTime *_swig_go_1) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -1568,7 +1568,7 @@ void _wrap_sfSoundRecorder_setProcessingInterval_audio_e67fa8ec1da7dec2(sfSoundR
 }
 
 
-_gostring_* _wrap_sfSoundRecorder_getAvailableDevices_audio_e67fa8ec1da7dec2(long long *_swig_go_0) {
+_gostring_* _wrap_sfSoundRecorder_getAvailableDevices_audio_4a33675c87ed0ff7(long long *_swig_go_0) {
   size_t *arg1 = (size_t *) 0 ;
   char **result = 0 ;
   _gostring_* _swig_go_result;
@@ -1581,7 +1581,7 @@ _gostring_* _wrap_sfSoundRecorder_getAvailableDevices_audio_e67fa8ec1da7dec2(lon
 }
 
 
-_gostring_ _wrap_sfSoundRecorder_getDefaultDevice_audio_e67fa8ec1da7dec2() {
+_gostring_ _wrap_sfSoundRecorder_getDefaultDevice_audio_4a33675c87ed0ff7() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -1592,7 +1592,7 @@ _gostring_ _wrap_sfSoundRecorder_getDefaultDevice_audio_e67fa8ec1da7dec2() {
 }
 
 
-intgo _wrap_sfSoundRecorder_setDevice_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_sfSoundRecorder_setDevice_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0, _gostring_ _swig_go_1) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   char *arg2 = (char *) 0 ;
   sfBool result;
@@ -1612,7 +1612,7 @@ intgo _wrap_sfSoundRecorder_setDevice_audio_e67fa8ec1da7dec2(sfSoundRecorder *_s
 }
 
 
-_gostring_ _wrap_sfSoundRecorder_getDevice_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0) {
+_gostring_ _wrap_sfSoundRecorder_getDevice_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1625,7 +1625,7 @@ _gostring_ _wrap_sfSoundRecorder_getDevice_audio_e67fa8ec1da7dec2(sfSoundRecorde
 }
 
 
-void _wrap_sfSoundRecorder_setChannelCount_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSoundRecorder_setChannelCount_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0, intgo _swig_go_1) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   unsigned int arg2 ;
   
@@ -1637,7 +1637,7 @@ void _wrap_sfSoundRecorder_setChannelCount_audio_e67fa8ec1da7dec2(sfSoundRecorde
 }
 
 
-intgo _wrap_sfSoundRecorder_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundRecorder *_swig_go_0) {
+intgo _wrap_sfSoundRecorder_getChannelCount_audio_4a33675c87ed0ff7(sfSoundRecorder *_swig_go_0) {
   sfSoundRecorder *arg1 = (sfSoundRecorder *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1650,7 +1650,7 @@ intgo _wrap_sfSoundRecorder_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundRecord
 }
 
 
-intgo _wrap_sfStopped_audio_e67fa8ec1da7dec2() {
+intgo _wrap_sfStopped_audio_4a33675c87ed0ff7() {
   int result;
   intgo _swig_go_result;
   
@@ -1662,7 +1662,7 @@ intgo _wrap_sfStopped_audio_e67fa8ec1da7dec2() {
 }
 
 
-intgo _wrap_sfPaused_audio_e67fa8ec1da7dec2() {
+intgo _wrap_sfPaused_audio_4a33675c87ed0ff7() {
   int result;
   intgo _swig_go_result;
   
@@ -1674,7 +1674,7 @@ intgo _wrap_sfPaused_audio_e67fa8ec1da7dec2() {
 }
 
 
-intgo _wrap_sfPlaying_audio_e67fa8ec1da7dec2() {
+intgo _wrap_sfPlaying_audio_4a33675c87ed0ff7() {
   int result;
   intgo _swig_go_result;
   
@@ -1686,7 +1686,7 @@ intgo _wrap_sfPlaying_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_sfSoundStreamChunk_samples_set_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *_swig_go_0, short *_swig_go_1) {
+void _wrap_sfSoundStreamChunk_samples_set_audio_4a33675c87ed0ff7(sfSoundStreamChunk *_swig_go_0, short *_swig_go_1) {
   sfSoundStreamChunk *arg1 = (sfSoundStreamChunk *) 0 ;
   sfInt16 *arg2 = (sfInt16 *) 0 ;
   
@@ -1698,7 +1698,7 @@ void _wrap_sfSoundStreamChunk_samples_set_audio_e67fa8ec1da7dec2(sfSoundStreamCh
 }
 
 
-short *_wrap_sfSoundStreamChunk_samples_get_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *_swig_go_0) {
+short *_wrap_sfSoundStreamChunk_samples_get_audio_4a33675c87ed0ff7(sfSoundStreamChunk *_swig_go_0) {
   sfSoundStreamChunk *arg1 = (sfSoundStreamChunk *) 0 ;
   sfInt16 *result = 0 ;
   short *_swig_go_result;
@@ -1711,7 +1711,7 @@ short *_wrap_sfSoundStreamChunk_samples_get_audio_e67fa8ec1da7dec2(sfSoundStream
 }
 
 
-void _wrap_sfSoundStreamChunk_sampleCount_set_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSoundStreamChunk_sampleCount_set_audio_4a33675c87ed0ff7(sfSoundStreamChunk *_swig_go_0, intgo _swig_go_1) {
   sfSoundStreamChunk *arg1 = (sfSoundStreamChunk *) 0 ;
   unsigned int arg2 ;
   
@@ -1723,7 +1723,7 @@ void _wrap_sfSoundStreamChunk_sampleCount_set_audio_e67fa8ec1da7dec2(sfSoundStre
 }
 
 
-intgo _wrap_sfSoundStreamChunk_sampleCount_get_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *_swig_go_0) {
+intgo _wrap_sfSoundStreamChunk_sampleCount_get_audio_4a33675c87ed0ff7(sfSoundStreamChunk *_swig_go_0) {
   sfSoundStreamChunk *arg1 = (sfSoundStreamChunk *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1736,7 +1736,7 @@ intgo _wrap_sfSoundStreamChunk_sampleCount_get_audio_e67fa8ec1da7dec2(sfSoundStr
 }
 
 
-sfSoundStreamChunk *_wrap_new_sfSoundStreamChunk_audio_e67fa8ec1da7dec2() {
+sfSoundStreamChunk *_wrap_new_sfSoundStreamChunk_audio_4a33675c87ed0ff7() {
   sfSoundStreamChunk *result = 0 ;
   sfSoundStreamChunk *_swig_go_result;
   
@@ -1747,7 +1747,7 @@ sfSoundStreamChunk *_wrap_new_sfSoundStreamChunk_audio_e67fa8ec1da7dec2() {
 }
 
 
-void _wrap_delete_sfSoundStreamChunk_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *_swig_go_0) {
+void _wrap_delete_sfSoundStreamChunk_audio_4a33675c87ed0ff7(sfSoundStreamChunk *_swig_go_0) {
   sfSoundStreamChunk *arg1 = (sfSoundStreamChunk *) 0 ;
   
   arg1 = *(sfSoundStreamChunk **)&_swig_go_0; 
@@ -1757,7 +1757,7 @@ void _wrap_delete_sfSoundStreamChunk_audio_e67fa8ec1da7dec2(sfSoundStreamChunk *
 }
 
 
-sfSoundStream *_wrap_sfSoundStream_create_audio_e67fa8ec1da7dec2(void* _swig_go_0, void* _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, void *_swig_go_4) {
+sfSoundStream *_wrap_sfSoundStream_create_audio_4a33675c87ed0ff7(void* _swig_go_0, void* _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, void *_swig_go_4) {
   sfSoundStreamGetDataCallback arg1 = (sfSoundStreamGetDataCallback) 0 ;
   sfSoundStreamSeekCallback arg2 = (sfSoundStreamSeekCallback) 0 ;
   unsigned int arg3 ;
@@ -1778,7 +1778,7 @@ sfSoundStream *_wrap_sfSoundStream_create_audio_e67fa8ec1da7dec2(void* _swig_go_
 }
 
 
-void _wrap_sfSoundStream_destroy_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+void _wrap_sfSoundStream_destroy_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   
   arg1 = *(sfSoundStream **)&_swig_go_0; 
@@ -1788,7 +1788,7 @@ void _wrap_sfSoundStream_destroy_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_
 }
 
 
-void _wrap_sfSoundStream_play_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+void _wrap_sfSoundStream_play_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   
   arg1 = *(sfSoundStream **)&_swig_go_0; 
@@ -1798,7 +1798,7 @@ void _wrap_sfSoundStream_play_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) 
 }
 
 
-void _wrap_sfSoundStream_pause_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+void _wrap_sfSoundStream_pause_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   
   arg1 = *(sfSoundStream **)&_swig_go_0; 
@@ -1808,7 +1808,7 @@ void _wrap_sfSoundStream_pause_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0)
 }
 
 
-void _wrap_sfSoundStream_stop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+void _wrap_sfSoundStream_stop_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   
   arg1 = *(sfSoundStream **)&_swig_go_0; 
@@ -1818,7 +1818,7 @@ void _wrap_sfSoundStream_stop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) 
 }
 
 
-intgo _wrap_sfSoundStream_getStatus_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+intgo _wrap_sfSoundStream_getStatus_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfSoundStatus result;
   intgo _swig_go_result;
@@ -1831,7 +1831,7 @@ intgo _wrap_sfSoundStream_getStatus_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_
 }
 
 
-intgo _wrap_sfSoundStream_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+intgo _wrap_sfSoundStream_getChannelCount_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1844,7 +1844,7 @@ intgo _wrap_sfSoundStream_getChannelCount_audio_e67fa8ec1da7dec2(sfSoundStream *
 }
 
 
-intgo _wrap_sfSoundStream_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+intgo _wrap_sfSoundStream_getSampleRate_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -1857,7 +1857,7 @@ intgo _wrap_sfSoundStream_getSampleRate_audio_e67fa8ec1da7dec2(sfSoundStream *_s
 }
 
 
-void _wrap_sfSoundStream_setPitch_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSoundStream_setPitch_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, float _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float arg2 ;
   
@@ -1869,7 +1869,7 @@ void _wrap_sfSoundStream_setPitch_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go
 }
 
 
-void _wrap_sfSoundStream_setVolume_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSoundStream_setVolume_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, float _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float arg2 ;
   
@@ -1881,7 +1881,7 @@ void _wrap_sfSoundStream_setVolume_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_g
 }
 
 
-void _wrap_sfSoundStream_setPosition_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, sfVector3f *_swig_go_1) {
+void _wrap_sfSoundStream_setPosition_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, sfVector3f *_swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfVector3f arg2 ;
   sfVector3f *argp2 ;
@@ -1900,7 +1900,7 @@ void _wrap_sfSoundStream_setPosition_audio_e67fa8ec1da7dec2(sfSoundStream *_swig
 }
 
 
-void _wrap_sfSoundStream_setRelativeToListener_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSoundStream_setRelativeToListener_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, intgo _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfBool arg2 ;
   
@@ -1912,7 +1912,7 @@ void _wrap_sfSoundStream_setRelativeToListener_audio_e67fa8ec1da7dec2(sfSoundStr
 }
 
 
-void _wrap_sfSoundStream_setMinDistance_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSoundStream_setMinDistance_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, float _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float arg2 ;
   
@@ -1924,7 +1924,7 @@ void _wrap_sfSoundStream_setMinDistance_audio_e67fa8ec1da7dec2(sfSoundStream *_s
 }
 
 
-void _wrap_sfSoundStream_setAttenuation_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSoundStream_setAttenuation_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, float _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float arg2 ;
   
@@ -1936,7 +1936,7 @@ void _wrap_sfSoundStream_setAttenuation_audio_e67fa8ec1da7dec2(sfSoundStream *_s
 }
 
 
-void _wrap_sfSoundStream_setPlayingOffset_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, sfTime *_swig_go_1) {
+void _wrap_sfSoundStream_setPlayingOffset_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, sfTime *_swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfTime arg2 ;
   sfTime *argp2 ;
@@ -1955,7 +1955,7 @@ void _wrap_sfSoundStream_setPlayingOffset_audio_e67fa8ec1da7dec2(sfSoundStream *
 }
 
 
-void _wrap_sfSoundStream_setLoop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfSoundStream_setLoop_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0, intgo _swig_go_1) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfBool arg2 ;
   
@@ -1967,7 +1967,7 @@ void _wrap_sfSoundStream_setLoop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_
 }
 
 
-float _wrap_sfSoundStream_getPitch_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+float _wrap_sfSoundStream_getPitch_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float result;
   float _swig_go_result;
@@ -1980,7 +1980,7 @@ float _wrap_sfSoundStream_getPitch_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_g
 }
 
 
-float _wrap_sfSoundStream_getVolume_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+float _wrap_sfSoundStream_getVolume_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float result;
   float _swig_go_result;
@@ -1993,7 +1993,7 @@ float _wrap_sfSoundStream_getVolume_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_
 }
 
 
-sfVector3f *_wrap_sfSoundStream_getPosition_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+sfVector3f *_wrap_sfSoundStream_getPosition_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfVector3f result;
   sfVector3f *_swig_go_result;
@@ -2006,7 +2006,7 @@ sfVector3f *_wrap_sfSoundStream_getPosition_audio_e67fa8ec1da7dec2(sfSoundStream
 }
 
 
-intgo _wrap_sfSoundStream_isRelativeToListener_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+intgo _wrap_sfSoundStream_isRelativeToListener_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2019,7 +2019,7 @@ intgo _wrap_sfSoundStream_isRelativeToListener_audio_e67fa8ec1da7dec2(sfSoundStr
 }
 
 
-float _wrap_sfSoundStream_getMinDistance_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+float _wrap_sfSoundStream_getMinDistance_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float result;
   float _swig_go_result;
@@ -2032,7 +2032,7 @@ float _wrap_sfSoundStream_getMinDistance_audio_e67fa8ec1da7dec2(sfSoundStream *_
 }
 
 
-float _wrap_sfSoundStream_getAttenuation_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+float _wrap_sfSoundStream_getAttenuation_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   float result;
   float _swig_go_result;
@@ -2045,7 +2045,7 @@ float _wrap_sfSoundStream_getAttenuation_audio_e67fa8ec1da7dec2(sfSoundStream *_
 }
 
 
-intgo _wrap_sfSoundStream_getLoop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+intgo _wrap_sfSoundStream_getLoop_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2058,7 +2058,7 @@ intgo _wrap_sfSoundStream_getLoop_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go
 }
 
 
-sfTime *_wrap_sfSoundStream_getPlayingOffset_audio_e67fa8ec1da7dec2(sfSoundStream *_swig_go_0) {
+sfTime *_wrap_sfSoundStream_getPlayingOffset_audio_4a33675c87ed0ff7(sfSoundStream *_swig_go_0) {
   sfSoundStream *arg1 = (sfSoundStream *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;

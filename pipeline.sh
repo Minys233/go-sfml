@@ -19,7 +19,9 @@ download_src() {
 }
 
 # 1. download SFML relase
-download_src SFML
+if [ ! -d $DST/SFML-$VER ]; then
+    download_src SFML
+fi
 SFML_BASE=$(readlink -f $DST/SFML-$VER)
 SFML_INSTALL=$SFML_BASE/build
 echo $SFML_BASE
@@ -52,7 +54,9 @@ cd $current_dir
 
 
 #3. build CSFML
-# download_src CSFML
+if [ ! -d $DST/CSFML-$VER ]; then
+    download_src CSFML
+fi
 CSFML_BASE=$(readlink -f $DST/CSFML-$VER)
 CSFML_INSTALL=$CSFML_BASE/build
 CSFML="CSFML"
@@ -83,24 +87,21 @@ cd $current_dir
 SFML_MODULES=(Audio Graphics System Window)
 
 for Module in "${SFML_MODULES[@]}"; do
-	module=$(echo $m | tr '[:upper:]' '[:lower:]')
+	module=$(echo $Module | tr '[:upper:]' '[:lower:]')
     echo $Module-$module
     swig -go -cgo -c++ -intgosize 64 -cpperraswarn "-I$CSFML_INSTALL/include" ./interfaces/${Module}.i
-    mv ./interfaces/ ./interfaces/${Module}_wrap.c ./${module}/
-    GO111MODULE=off CGO_LDFLAGS="-L$CSFML_INSTALL/lib -lcsfml-$mm" CGO_CXXFLAGS="-I$CSFML_INSTALL/include" go install "./$mm"
-    exit 0
+    mv ./interfaces/${module}.go ./interfaces/${Module}_wrap.cxx ./${module}/
+    GO111MODULE=off CGO_LDFLAGS="-L$CSFML_INSTALL/lib -lcsfml-$module" CGO_CXXFLAGS="-I$CSFML_INSTALL/include" go install "./$module"
+    # exit 0
 done
 
 
 
 
-# set CGO_FLAGS="-I/Users/yaosenmin/workspace/CSFML-macOS-clang-arm64/include"
-# set CGO_LDFLAGS="-L/Users/yaosenmin/workspace/CSFML-macOS-clang-arm64/lib"
-# CSFML_PATH="/Users/yaosenmin/workspace/CSFML-macOS-clang-arm64" CGO_FLAGS="-I$CSFML_PATH/include" CGO_LDFLAGS="-L$CSFML_PATH/lib" 
-# export CSFML_PATH="/Users/yaosenmin/workspace/CSFML-2.5.1-macOS-clang"
 # export CGO_CFLAGS="-I$CSFML_PATH/include"
 # export CGO_CPPFLAGS="-I$CSFML_PATH/include"
 # export CGO_CXXFLAGS="-I$CSFML_INSTALL/include"
 # export CGO_LDFLAGS="-L$CSFML_INSTALL/lib"
 
 
+# CGO_CXXFLAGS="-I$CSFML_INSTALL/include" CGO_LDFLAGS="-L$CSFML_INSTALL/lib -Wl,-rpath,/Users/yaosenmin/workspace/CSFML-2.6.1/build/lib -Wl,-rpath,/Users/yaosenmin/workspace/SFML-2.6.1/build/lib -lcsfml-audio -lcsfml-graphics -lcsfml-system -lcsfml-window" go run .

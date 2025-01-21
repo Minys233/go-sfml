@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/telroshan/go-sfml/v2/audio"
-	"github.com/telroshan/go-sfml/v2/graphics"
-	"github.com/telroshan/go-sfml/v2/window"
+	"github.com/minys233/go-sfml/audio"
+	"github.com/minys233/go-sfml/graphics"
+	"github.com/minys233/go-sfml/window"
 )
 
 const cTrue = 1

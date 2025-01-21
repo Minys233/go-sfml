@@ -112,676 +112,676 @@ typedef long long swig_type_82;
 typedef long long swig_type_83;
 typedef long long swig_type_84;
 typedef long long swig_type_85;
-extern void _wrap_Swig_free_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_graphics_a3b77f1faf9b9057(swig_intgo arg1);
-extern swig_intgo _wrap_sfBlendFactorZero_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorOne_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorSrcColor_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorOneMinusSrcColor_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorDstColor_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorOneMinusDstColor_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorSrcAlpha_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorOneMinusSrcAlpha_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorDstAlpha_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendFactorOneMinusDstAlpha_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendEquationAdd_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendEquationSubtract_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendEquationReverseSubtract_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendEquationMin_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfBlendEquationMax_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfBlendMode_colorSrcFactor_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_colorSrcFactor_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlendMode_colorDstFactor_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_colorDstFactor_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlendMode_colorEquation_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_colorEquation_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlendMode_alphaSrcFactor_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_alphaSrcFactor_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlendMode_alphaDstFactor_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_alphaDstFactor_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlendMode_alphaEquation_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfBlendMode_alphaEquation_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfBlendMode_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfBlendMode_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfBlendAlpha_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfBlendAdd_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfBlendMultiply_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfBlendMin_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfBlendMax_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfBlendNone_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfCircleShape_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfCircleShape_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfCircleShape_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfCircleShape_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfCircleShape_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfCircleShape_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfCircleShape_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfCircleShape_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfCircleShape_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfCircleShape_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfCircleShape_setTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_sfCircleShape_setTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_setFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_setOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfCircleShape_setOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_sfCircleShape_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfCircleShape_getOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_type_1 _wrap_sfCircleShape_getPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_2 arg2);
-extern void _wrap_sfCircleShape_setRadius_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfCircleShape_getRadius_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfCircleShape_setPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_3 arg2);
-extern uintptr_t _wrap_sfCircleShape_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCircleShape_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfColor_r_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, char arg2);
-extern char _wrap_sfColor_r_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfColor_g_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, char arg2);
-extern char _wrap_sfColor_g_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfColor_b_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, char arg2);
-extern char _wrap_sfColor_b_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfColor_a_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, char arg2);
-extern char _wrap_sfColor_a_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfColor_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfBlack_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfBlack_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfWhite_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfWhite_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfRed_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRed_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfGreen_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfGreen_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfBlue_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfBlue_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfYellow_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfYellow_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfMagenta_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfMagenta_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfCyan_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfCyan_get_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfTransparent_set_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransparent_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfColor_fromRGB_graphics_a3b77f1faf9b9057(char arg1, char arg2, char arg3);
-extern uintptr_t _wrap_sfColor_fromRGBA_graphics_a3b77f1faf9b9057(char arg1, char arg2, char arg3, char arg4);
-extern uintptr_t _wrap_sfColor_fromInteger_graphics_a3b77f1faf9b9057(swig_intgo arg1);
-extern swig_intgo _wrap_sfColor_toInteger_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfColor_add_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfColor_subtract_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfColor_modulate_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfConvexShape_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfConvexShape_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfConvexShape_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfConvexShape_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfConvexShape_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfConvexShape_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfConvexShape_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfConvexShape_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfConvexShape_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfConvexShape_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfConvexShape_setTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_sfConvexShape_setTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_setFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_setOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfConvexShape_setOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_sfConvexShape_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfConvexShape_getOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_type_4 _wrap_sfConvexShape_getPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_5 arg2);
-extern void _wrap_sfConvexShape_setPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_6 arg2);
-extern void _wrap_sfConvexShape_setPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_7 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfConvexShape_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfConvexShape_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfFont_createFromFile_graphics_a3b77f1faf9b9057(swig_type_8 arg1);
-extern uintptr_t _wrap_sfFont_createFromMemory_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_9 arg2);
-extern uintptr_t _wrap_sfFont_createFromStream_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfFont_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfFont_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfFont_getGlyph_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4, float arg5);
-extern swig_intgo _wrap_sfFont_hasGlyph_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_sfFont_getKerning_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
-extern float _wrap_sfFont_getBoldKerning_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
-extern float _wrap_sfFont_getLineSpacing_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_sfFont_getUnderlinePosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_sfFont_getUnderlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_sfFont_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfFont_setSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfFont_isSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfFont_getInfo_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfFontInfo_family_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_10 arg2);
-extern swig_type_11 _wrap_sfFontInfo_family_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfFontInfo_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfFontInfo_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec2_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec2_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec2_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec2_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslBvec2_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslBvec2_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec3_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec3_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec3_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec3_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec3_z_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec3_z_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslIvec3_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslIvec3_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec3_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec3_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec3_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec3_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec3_z_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec3_z_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslBvec3_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslBvec3_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslVec4_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfGlslVec4_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslVec4_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfGlslVec4_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslVec4_z_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfGlslVec4_z_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslVec4_w_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfGlslVec4_w_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslVec4_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslVec4_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec4_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec4_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec4_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec4_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec4_z_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec4_z_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslIvec4_w_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslIvec4_w_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslIvec4_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslIvec4_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec4_x_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec4_x_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec4_y_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec4_y_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec4_z_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec4_z_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslBvec4_w_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfGlslBvec4_w_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslBvec4_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslBvec4_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslMat3_array_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_sfGlslMat3_array_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslMat3_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslMat3_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlslMat4_array_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_sfGlslMat4_array_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlslMat4_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlslMat4_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlyph_advance_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfGlyph_advance_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlyph_bounds_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfGlyph_bounds_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfGlyph_textureRect_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfGlyph_textureRect_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfGlyph_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfGlyph_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfImage_create_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2);
-extern uintptr_t _wrap_sfImage_createFromColor_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfImage_createFromPixels_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2, swig_voidp arg3);
-extern uintptr_t _wrap_sfImage_createFromFile_graphics_a3b77f1faf9b9057(swig_type_12 arg1);
-extern uintptr_t _wrap_sfImage_createFromMemory_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_13 arg2);
-extern uintptr_t _wrap_sfImage_createFromStream_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfImage_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfImage_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfImage_saveToFile_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_14 arg2);
-extern swig_intgo _wrap_sfImage_saveToMemory_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_type_15 arg3);
-extern uintptr_t _wrap_sfImage_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfImage_createMaskFromColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, char arg3);
-extern void _wrap_sfImage_copyImage_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4, uintptr_t arg5, swig_intgo arg6);
-extern void _wrap_sfImage_setPixel_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, uintptr_t arg4);
-extern uintptr_t _wrap_sfImage_getPixel_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_voidp _wrap_sfImage_getPixelsPtr_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfImage_flipHorizontally_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfImage_flipVertically_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfPoints_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfLines_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfLineStrip_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTriangles_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTriangleStrip_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTriangleFan_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfQuads_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfLinesStrip_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTrianglesStrip_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTrianglesFan_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfFloatRect_left_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfFloatRect_left_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfFloatRect_top_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfFloatRect_top_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfFloatRect_width_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfFloatRect_width_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfFloatRect_height_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern float _wrap_sfFloatRect_height_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfFloatRect_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfFloatRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfIntRect_left_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfIntRect_left_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfIntRect_top_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfIntRect_top_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfIntRect_width_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfIntRect_width_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfIntRect_height_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfIntRect_height_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfIntRect_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfIntRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfFloatRect_contains_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2, float arg3);
-extern swig_intgo _wrap_sfIntRect_contains_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
-extern swig_intgo _wrap_sfFloatRect_intersects_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern swig_intgo _wrap_sfIntRect_intersects_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfFloatRect_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfIntRect_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfFloatRect_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfIntRect_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfRectangleShape_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRectangleShape_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRectangleShape_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfRectangleShape_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRectangleShape_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfRectangleShape_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRectangleShape_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfRectangleShape_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRectangleShape_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRectangleShape_setTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_sfRectangleShape_setTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_setFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_setOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRectangleShape_setOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_sfRectangleShape_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfRectangleShape_getOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_type_16 _wrap_sfRectangleShape_getPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_17 arg2);
-extern void _wrap_sfRectangleShape_setSize_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRectangleShape_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRectangleShape_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderStates_blendMode_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderStates_blendMode_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderStates_transform_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderStates_transform_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderStates_texture_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderStates_texture_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderStates_shader_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderStates_shader_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfRenderStates_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfRenderStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderStates_default_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfRenderTexture_create_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_sfRenderTexture_createWithSettings_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderTexture_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderTexture_isSrgb_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderTexture_setActive_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderTexture_display_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderTexture_clear_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRenderTexture_setView_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderTexture_getView_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderTexture_getDefaultView_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderTexture_getViewport_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderTexture_mapPixelToCoords_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfRenderTexture_mapCoordsToPixel_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawSprite_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawText_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawCircleShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawConvexShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawRectangleShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawVertexArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawVertexBuffer_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderTexture_drawVertexBufferRange_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_type_18 arg3, swig_type_19 arg4, uintptr_t arg5);
-extern void _wrap_sfRenderTexture_drawPrimitives_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_type_20 arg3, swig_intgo arg4, uintptr_t arg5);
-extern void _wrap_sfRenderTexture_pushGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderTexture_popGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderTexture_resetGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderTexture_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfRenderTexture_setSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfRenderTexture_isSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderTexture_setRepeated_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfRenderTexture_isRepeated_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderTexture_generateMipmap_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_create_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_21 arg2, swig_intgo arg3, uintptr_t arg4);
-extern uintptr_t _wrap_sfRenderWindow_createUnicode_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, uintptr_t arg4);
-extern uintptr_t _wrap_sfRenderWindow_createFromHandle_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRenderWindow_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_close_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderWindow_isOpen_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_getSettings_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderWindow_pollEvent_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_sfRenderWindow_waitEvent_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderWindow_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderWindow_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderWindow_isSrgb_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_setSize_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRenderWindow_setTitle_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_22 arg2);
-extern void _wrap_sfRenderWindow_setUnicodeTitle_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_sfRenderWindow_setIcon_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_voidp arg4);
-extern void _wrap_sfRenderWindow_setVisible_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setMouseCursorVisible_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setMouseCursor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setFramerateLimit_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_setJoystickThreshold_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern swig_intgo _wrap_sfRenderWindow_setActive_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfRenderWindow_requestFocus_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfRenderWindow_hasFocus_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_display_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_getSystemHandle_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_clear_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfRenderWindow_setView_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderWindow_getView_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_getDefaultView_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_getViewport_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfRenderWindow_mapPixelToCoords_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfRenderWindow_mapCoordsToPixel_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawSprite_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawText_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawCircleShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawConvexShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawRectangleShape_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawVertexArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawVertexBuffer_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfRenderWindow_drawVertexBufferRange_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_type_23 arg3, swig_type_24 arg4, uintptr_t arg5);
-extern void _wrap_sfRenderWindow_drawPrimitives_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_type_25 arg3, swig_intgo arg4, uintptr_t arg5);
-extern void _wrap_sfRenderWindow_pushGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_popGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfRenderWindow_resetGLStates_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfRenderWindow_capture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfMouse_getPositionRenderWindow_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfMouse_setPositionRenderWindow_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTouch_getPositionRenderWindow_graphics_a3b77f1faf9b9057(swig_intgo arg1, uintptr_t arg2);
-extern swig_intgo _wrap_sfRenderWindow_createVulkanSurface_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
-extern uintptr_t _wrap_sfShader_createFromFile_graphics_a3b77f1faf9b9057(swig_type_26 arg1, swig_type_27 arg2, swig_type_28 arg3);
-extern uintptr_t _wrap_sfShader_createFromMemory_graphics_a3b77f1faf9b9057(swig_type_29 arg1, swig_type_30 arg2, swig_type_31 arg3);
-extern uintptr_t _wrap_sfShader_createFromStream_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
-extern void _wrap_sfShader_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShader_setFloatUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_32 arg2, float arg3);
-extern void _wrap_sfShader_setVec2Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_33 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setVec3Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_34 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setVec4Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_35 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setColorUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_36 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setIntUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_37 arg2, swig_intgo arg3);
-extern void _wrap_sfShader_setIvec2Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_38 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setIvec3Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_39 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setIvec4Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_40 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setIntColorUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_41 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setBoolUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_42 arg2, swig_intgo arg3);
-extern void _wrap_sfShader_setBvec2Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_43 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setBvec3Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_44 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setBvec4Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_45 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setMat3Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_46 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setMat4Uniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_47 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setTextureUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_48 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setCurrentTextureUniform_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_49 arg2);
-extern void _wrap_sfShader_setFloatUniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_50 arg2, swig_voidp arg3, swig_type_51 arg4);
-extern void _wrap_sfShader_setVec2UniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_52 arg2, uintptr_t arg3, swig_type_53 arg4);
-extern void _wrap_sfShader_setVec3UniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_54 arg2, uintptr_t arg3, swig_type_55 arg4);
-extern void _wrap_sfShader_setVec4UniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_56 arg2, uintptr_t arg3, swig_type_57 arg4);
-extern void _wrap_sfShader_setMat3UniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_58 arg2, uintptr_t arg3, swig_type_59 arg4);
-extern void _wrap_sfShader_setMat4UniformArray_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_60 arg2, uintptr_t arg3, swig_type_61 arg4);
-extern void _wrap_sfShader_setFloatParameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_62 arg2, float arg3);
-extern void _wrap_sfShader_setFloat2Parameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_63 arg2, float arg3, float arg4);
-extern void _wrap_sfShader_setFloat3Parameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_64 arg2, float arg3, float arg4, float arg5);
-extern void _wrap_sfShader_setFloat4Parameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_65 arg2, float arg3, float arg4, float arg5, float arg6);
-extern void _wrap_sfShader_setVector2Parameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_66 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setVector3Parameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_67 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setColorParameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_68 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setTransformParameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_69 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setTextureParameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_70 arg2, uintptr_t arg3);
-extern void _wrap_sfShader_setCurrentTextureParameter_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_71 arg2);
-extern swig_intgo _wrap_sfShader_getNativeHandle_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShader_bind_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfShader_isAvailable_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfShader_isGeometryAvailable_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfShape_create_graphics_a3b77f1faf9b9057(swig_type_72 arg1, swig_type_73 arg2, uintptr_t arg3);
-extern void _wrap_sfShape_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShape_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfShape_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfShape_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfShape_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShape_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfShape_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfShape_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShape_setTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_sfShape_setTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_setFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_setOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfShape_setOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern uintptr_t _wrap_sfShape_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfShape_getOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_type_74 _wrap_sfShape_getPointCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_75 arg2);
-extern uintptr_t _wrap_sfShape_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfShape_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfShape_update_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfSprite_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfSprite_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfSprite_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSprite_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfSprite_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSprite_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfSprite_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfSprite_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfSprite_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSprite_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfSprite_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfSprite_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfSprite_setTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
-extern void _wrap_sfSprite_setTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSprite_setColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfSprite_getTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getTextureRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfSprite_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfTextRegular_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTextBold_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTextItalic_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTextUnderlined_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTextStrikeThrough_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfText_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfText_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfText_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfText_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfText_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfText_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfText_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfText_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfText_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfText_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfText_setString_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_76 arg2);
-extern void _wrap_sfText_setUnicodeString_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern void _wrap_sfText_setFont_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setCharacterSize_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfText_setLineSpacing_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfText_setLetterSpacing_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfText_setStyle_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfText_setColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfText_setOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern swig_type_77 _wrap_sfText_getString_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_voidp _wrap_sfText_getUnicodeString_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getFont_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfText_getCharacterSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfText_getLetterSpacing_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfText_getLineSpacing_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfText_getStyle_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getFillColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getOutlineColor_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfText_getOutlineThickness_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_findCharacterPos_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_78 arg2);
-extern uintptr_t _wrap_sfText_getLocalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfText_getGlobalBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfTextureNormalized_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfTexturePixels_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfTexture_create_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2);
-extern uintptr_t _wrap_sfTexture_createFromFile_graphics_a3b77f1faf9b9057(swig_type_79 arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_createSrgbFromFile_graphics_a3b77f1faf9b9057(swig_type_80 arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_createFromMemory_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_81 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfTexture_createSrgbFromMemory_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_82 arg2, uintptr_t arg3);
-extern uintptr_t _wrap_sfTexture_createFromStream_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_createSrgbFromStream_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_createFromImage_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_createSrgbFromImage_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTexture_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTexture_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTexture_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTexture_copyToImage_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTexture_updateFromPixels_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_intgo arg5, swig_intgo arg6);
-extern void _wrap_sfTexture_updateFromTexture_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_sfTexture_updateFromImage_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_sfTexture_updateFromWindow_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_sfTexture_updateFromRenderWindow_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
-extern void _wrap_sfTexture_setSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfTexture_isSmooth_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfTexture_isSrgb_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTexture_setRepeated_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfTexture_isRepeated_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfTexture_generateMipmap_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTexture_swap_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_sfTexture_getNativeHandle_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTexture_bind_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfTexture_getMaximumSize_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_sfTransform_matrix_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_sfTransform_matrix_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfTransform_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransform_Identity_get_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfTransform_fromMatrix_graphics_a3b77f1faf9b9057(float arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, float arg8, float arg9);
-extern void _wrap_sfTransform_getMatrix_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_voidp arg2);
-extern uintptr_t _wrap_sfTransform_getInverse_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransform_transformPoint_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTransform_transformRect_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfTransform_combine_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfTransform_translate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2, float arg3);
-extern void _wrap_sfTransform_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfTransform_rotateWithCenter_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2, float arg3, float arg4);
-extern void _wrap_sfTransform_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2, float arg3);
-extern void _wrap_sfTransform_scaleWithCenter_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
-extern swig_intgo _wrap_sfTransform_equal_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTransformable_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfTransformable_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTransformable_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTransformable_setPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfTransformable_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfTransformable_setScale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfTransformable_setOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTransformable_getPosition_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfTransformable_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransformable_getScale_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransformable_getOrigin_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfTransformable_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfTransformable_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfTransformable_scale_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTransformable_getTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfTransformable_getInverseTransform_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertex_position_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfVertex_position_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertex_color_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfVertex_color_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertex_texCoords_set_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfVertex_texCoords_get_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfVertex_graphics_a3b77f1faf9b9057(void);
-extern void _wrap_delete_sfVertex_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfVertexArray_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfVertexArray_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexArray_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_type_83 _wrap_sfVertexArray_getVertexCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfVertexArray_getVertex_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_84 arg2);
-extern void _wrap_sfVertexArray_clear_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexArray_resize_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_type_85 arg2);
-extern void _wrap_sfVertexArray_append_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfVertexArray_setPrimitiveType_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVertexArray_getPrimitiveType_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfVertexArray_getBounds_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfVertexBufferStream_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfVertexBufferDynamic_graphics_a3b77f1faf9b9057(void);
-extern swig_intgo _wrap_sfVertexBufferStatic_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfVertexBuffer_create_graphics_a3b77f1faf9b9057(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
-extern uintptr_t _wrap_sfVertexBuffer_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexBuffer_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfVertexBuffer_getVertexCount_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfVertexBuffer_update_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
-extern swig_intgo _wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfVertexBuffer_swap_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_sfVertexBuffer_getNativeHandle_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexBuffer_setPrimitiveType_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVertexBuffer_getPrimitiveType_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexBuffer_setUsage_graphics_a3b77f1faf9b9057(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVertexBuffer_getUsage_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfVertexBuffer_bind_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern swig_intgo _wrap_sfVertexBuffer_isAvailable_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfView_create_graphics_a3b77f1faf9b9057(void);
-extern uintptr_t _wrap_sfView_createFromRect_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfView_copy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfView_destroy_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfView_setCenter_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfView_setSize_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfView_setRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfView_setViewport_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfView_reset_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfView_getCenter_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfView_getSize_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern float _wrap_sfView_getRotation_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern uintptr_t _wrap_sfView_getViewport_graphics_a3b77f1faf9b9057(uintptr_t arg1);
-extern void _wrap_sfView_move_graphics_a3b77f1faf9b9057(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfView_rotate_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
-extern void _wrap_sfView_zoom_graphics_a3b77f1faf9b9057(uintptr_t arg1, float arg2);
+extern void _wrap_Swig_free_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_graphics_b889a472290cd9f0(swig_intgo arg1);
+extern swig_intgo _wrap_sfBlendFactorZero_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorOne_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorSrcColor_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorOneMinusSrcColor_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorDstColor_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorOneMinusDstColor_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorSrcAlpha_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorOneMinusSrcAlpha_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorDstAlpha_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendFactorOneMinusDstAlpha_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendEquationAdd_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendEquationSubtract_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendEquationReverseSubtract_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendEquationMin_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfBlendEquationMax_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfBlendMode_colorSrcFactor_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_colorSrcFactor_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlendMode_colorDstFactor_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_colorDstFactor_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlendMode_colorEquation_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_colorEquation_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlendMode_alphaSrcFactor_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_alphaSrcFactor_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlendMode_alphaDstFactor_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_alphaDstFactor_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlendMode_alphaEquation_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfBlendMode_alphaEquation_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfBlendMode_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfBlendMode_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfBlendAlpha_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfBlendAdd_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfBlendMultiply_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfBlendMin_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfBlendMax_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfBlendNone_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfCircleShape_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfCircleShape_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfCircleShape_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfCircleShape_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfCircleShape_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfCircleShape_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfCircleShape_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfCircleShape_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfCircleShape_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfCircleShape_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfCircleShape_setTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern void _wrap_sfCircleShape_setTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_setFillColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_setOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfCircleShape_setOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_sfCircleShape_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getFillColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfCircleShape_getOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_type_1 _wrap_sfCircleShape_getPointCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getPoint_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_2 arg2);
+extern void _wrap_sfCircleShape_setRadius_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfCircleShape_getRadius_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfCircleShape_setPointCount_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_3 arg2);
+extern uintptr_t _wrap_sfCircleShape_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCircleShape_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfColor_r_set_graphics_b889a472290cd9f0(uintptr_t arg1, char arg2);
+extern char _wrap_sfColor_r_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfColor_g_set_graphics_b889a472290cd9f0(uintptr_t arg1, char arg2);
+extern char _wrap_sfColor_g_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfColor_b_set_graphics_b889a472290cd9f0(uintptr_t arg1, char arg2);
+extern char _wrap_sfColor_b_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfColor_a_set_graphics_b889a472290cd9f0(uintptr_t arg1, char arg2);
+extern char _wrap_sfColor_a_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfColor_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfBlack_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfBlack_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfWhite_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfWhite_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfRed_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRed_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfGreen_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfGreen_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfBlue_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfBlue_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfYellow_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfYellow_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfMagenta_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfMagenta_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfCyan_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfCyan_get_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfTransparent_set_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransparent_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfColor_fromRGB_graphics_b889a472290cd9f0(char arg1, char arg2, char arg3);
+extern uintptr_t _wrap_sfColor_fromRGBA_graphics_b889a472290cd9f0(char arg1, char arg2, char arg3, char arg4);
+extern uintptr_t _wrap_sfColor_fromInteger_graphics_b889a472290cd9f0(swig_intgo arg1);
+extern swig_intgo _wrap_sfColor_toInteger_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfColor_add_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfColor_subtract_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfColor_modulate_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfConvexShape_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfConvexShape_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfConvexShape_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfConvexShape_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfConvexShape_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfConvexShape_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfConvexShape_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfConvexShape_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfConvexShape_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfConvexShape_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfConvexShape_setTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern void _wrap_sfConvexShape_setTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_setFillColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_setOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfConvexShape_setOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_sfConvexShape_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getFillColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfConvexShape_getOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_type_4 _wrap_sfConvexShape_getPointCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getPoint_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_5 arg2);
+extern void _wrap_sfConvexShape_setPointCount_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_6 arg2);
+extern void _wrap_sfConvexShape_setPoint_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_7 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfConvexShape_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfConvexShape_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfFont_createFromFile_graphics_b889a472290cd9f0(swig_type_8 arg1);
+extern uintptr_t _wrap_sfFont_createFromMemory_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_9 arg2);
+extern uintptr_t _wrap_sfFont_createFromStream_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfFont_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfFont_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfFont_getGlyph_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4, float arg5);
+extern swig_intgo _wrap_sfFont_hasGlyph_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_sfFont_getKerning_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern float _wrap_sfFont_getBoldKerning_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_intgo arg4);
+extern float _wrap_sfFont_getLineSpacing_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_sfFont_getUnderlinePosition_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_sfFont_getUnderlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern uintptr_t _wrap_sfFont_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfFont_setSmooth_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfFont_isSmooth_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfFont_getInfo_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfFontInfo_family_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_10 arg2);
+extern swig_type_11 _wrap_sfFontInfo_family_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfFontInfo_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfFontInfo_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec2_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec2_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec2_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec2_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslBvec2_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslBvec2_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec3_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec3_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec3_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec3_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec3_z_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec3_z_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslIvec3_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslIvec3_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec3_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec3_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec3_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec3_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec3_z_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec3_z_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslBvec3_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslBvec3_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslVec4_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfGlslVec4_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslVec4_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfGlslVec4_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslVec4_z_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfGlslVec4_z_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslVec4_w_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfGlslVec4_w_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslVec4_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslVec4_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec4_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec4_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec4_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec4_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec4_z_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec4_z_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslIvec4_w_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslIvec4_w_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslIvec4_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslIvec4_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec4_x_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec4_x_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec4_y_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec4_y_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec4_z_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec4_z_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslBvec4_w_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfGlslBvec4_w_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslBvec4_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslBvec4_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslMat3_array_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_sfGlslMat3_array_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslMat3_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslMat3_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlslMat4_array_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_sfGlslMat4_array_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlslMat4_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlslMat4_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlyph_advance_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfGlyph_advance_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlyph_bounds_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfGlyph_bounds_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfGlyph_textureRect_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfGlyph_textureRect_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfGlyph_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfGlyph_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfImage_create_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2);
+extern uintptr_t _wrap_sfImage_createFromColor_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfImage_createFromPixels_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2, swig_voidp arg3);
+extern uintptr_t _wrap_sfImage_createFromFile_graphics_b889a472290cd9f0(swig_type_12 arg1);
+extern uintptr_t _wrap_sfImage_createFromMemory_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_13 arg2);
+extern uintptr_t _wrap_sfImage_createFromStream_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfImage_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfImage_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfImage_saveToFile_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_14 arg2);
+extern swig_intgo _wrap_sfImage_saveToMemory_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_type_15 arg3);
+extern uintptr_t _wrap_sfImage_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfImage_createMaskFromColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, char arg3);
+extern void _wrap_sfImage_copyImage_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4, uintptr_t arg5, swig_intgo arg6);
+extern void _wrap_sfImage_setPixel_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, uintptr_t arg4);
+extern uintptr_t _wrap_sfImage_getPixel_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_voidp _wrap_sfImage_getPixelsPtr_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfImage_flipHorizontally_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfImage_flipVertically_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfPoints_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfLines_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfLineStrip_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTriangles_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTriangleStrip_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTriangleFan_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfQuads_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfLinesStrip_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTrianglesStrip_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTrianglesFan_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfFloatRect_left_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfFloatRect_left_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfFloatRect_top_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfFloatRect_top_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfFloatRect_width_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfFloatRect_width_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfFloatRect_height_set_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern float _wrap_sfFloatRect_height_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfFloatRect_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfFloatRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfIntRect_left_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfIntRect_left_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfIntRect_top_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfIntRect_top_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfIntRect_width_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfIntRect_width_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfIntRect_height_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfIntRect_height_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfIntRect_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfIntRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfFloatRect_contains_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2, float arg3);
+extern swig_intgo _wrap_sfIntRect_contains_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3);
+extern swig_intgo _wrap_sfFloatRect_intersects_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern swig_intgo _wrap_sfIntRect_intersects_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfFloatRect_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfIntRect_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfFloatRect_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfIntRect_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfRectangleShape_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRectangleShape_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRectangleShape_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfRectangleShape_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRectangleShape_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfRectangleShape_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRectangleShape_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfRectangleShape_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRectangleShape_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRectangleShape_setTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern void _wrap_sfRectangleShape_setTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_setFillColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_setOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRectangleShape_setOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_sfRectangleShape_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getFillColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfRectangleShape_getOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_type_16 _wrap_sfRectangleShape_getPointCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getPoint_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_17 arg2);
+extern void _wrap_sfRectangleShape_setSize_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRectangleShape_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRectangleShape_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderStates_blendMode_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderStates_blendMode_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderStates_transform_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderStates_transform_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderStates_texture_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderStates_texture_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderStates_shader_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderStates_shader_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfRenderStates_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfRenderStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderStates_default_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfRenderTexture_create_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_sfRenderTexture_createWithSettings_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderTexture_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderTexture_isSrgb_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderTexture_setActive_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderTexture_display_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderTexture_clear_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRenderTexture_setView_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderTexture_getView_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderTexture_getDefaultView_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderTexture_getViewport_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderTexture_mapPixelToCoords_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfRenderTexture_mapCoordsToPixel_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawSprite_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawText_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawCircleShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawConvexShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawRectangleShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawVertexArray_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawVertexBuffer_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderTexture_drawVertexBufferRange_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_type_18 arg3, swig_type_19 arg4, uintptr_t arg5);
+extern void _wrap_sfRenderTexture_drawPrimitives_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_type_20 arg3, swig_intgo arg4, uintptr_t arg5);
+extern void _wrap_sfRenderTexture_pushGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderTexture_popGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderTexture_resetGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderTexture_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfRenderTexture_setSmooth_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfRenderTexture_isSmooth_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderTexture_setRepeated_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfRenderTexture_isRepeated_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderTexture_generateMipmap_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_create_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_21 arg2, swig_intgo arg3, uintptr_t arg4);
+extern uintptr_t _wrap_sfRenderWindow_createUnicode_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, uintptr_t arg4);
+extern uintptr_t _wrap_sfRenderWindow_createFromHandle_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRenderWindow_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_close_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderWindow_isOpen_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_getSettings_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderWindow_pollEvent_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_sfRenderWindow_waitEvent_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderWindow_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderWindow_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderWindow_isSrgb_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_setSize_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRenderWindow_setTitle_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_22 arg2);
+extern void _wrap_sfRenderWindow_setUnicodeTitle_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_sfRenderWindow_setIcon_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2, swig_intgo arg3, swig_voidp arg4);
+extern void _wrap_sfRenderWindow_setVisible_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setMouseCursorVisible_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setMouseCursor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setFramerateLimit_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_setJoystickThreshold_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern swig_intgo _wrap_sfRenderWindow_setActive_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfRenderWindow_requestFocus_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfRenderWindow_hasFocus_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_display_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_getSystemHandle_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_clear_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfRenderWindow_setView_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderWindow_getView_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_getDefaultView_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_getViewport_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfRenderWindow_mapPixelToCoords_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfRenderWindow_mapCoordsToPixel_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawSprite_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawText_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawCircleShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawConvexShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawRectangleShape_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawVertexArray_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawVertexBuffer_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfRenderWindow_drawVertexBufferRange_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_type_23 arg3, swig_type_24 arg4, uintptr_t arg5);
+extern void _wrap_sfRenderWindow_drawPrimitives_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_type_25 arg3, swig_intgo arg4, uintptr_t arg5);
+extern void _wrap_sfRenderWindow_pushGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_popGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfRenderWindow_resetGLStates_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfRenderWindow_capture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfMouse_getPositionRenderWindow_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfMouse_setPositionRenderWindow_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTouch_getPositionRenderWindow_graphics_b889a472290cd9f0(swig_intgo arg1, uintptr_t arg2);
+extern swig_intgo _wrap_sfRenderWindow_createVulkanSurface_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3, uintptr_t arg4);
+extern uintptr_t _wrap_sfShader_createFromFile_graphics_b889a472290cd9f0(swig_type_26 arg1, swig_type_27 arg2, swig_type_28 arg3);
+extern uintptr_t _wrap_sfShader_createFromMemory_graphics_b889a472290cd9f0(swig_type_29 arg1, swig_type_30 arg2, swig_type_31 arg3);
+extern uintptr_t _wrap_sfShader_createFromStream_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, uintptr_t arg3);
+extern void _wrap_sfShader_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShader_setFloatUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_32 arg2, float arg3);
+extern void _wrap_sfShader_setVec2Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_33 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setVec3Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_34 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setVec4Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_35 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setColorUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_36 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setIntUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_37 arg2, swig_intgo arg3);
+extern void _wrap_sfShader_setIvec2Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_38 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setIvec3Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_39 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setIvec4Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_40 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setIntColorUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_41 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setBoolUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_42 arg2, swig_intgo arg3);
+extern void _wrap_sfShader_setBvec2Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_43 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setBvec3Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_44 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setBvec4Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_45 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setMat3Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_46 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setMat4Uniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_47 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setTextureUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_48 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setCurrentTextureUniform_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_49 arg2);
+extern void _wrap_sfShader_setFloatUniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_50 arg2, swig_voidp arg3, swig_type_51 arg4);
+extern void _wrap_sfShader_setVec2UniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_52 arg2, uintptr_t arg3, swig_type_53 arg4);
+extern void _wrap_sfShader_setVec3UniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_54 arg2, uintptr_t arg3, swig_type_55 arg4);
+extern void _wrap_sfShader_setVec4UniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_56 arg2, uintptr_t arg3, swig_type_57 arg4);
+extern void _wrap_sfShader_setMat3UniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_58 arg2, uintptr_t arg3, swig_type_59 arg4);
+extern void _wrap_sfShader_setMat4UniformArray_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_60 arg2, uintptr_t arg3, swig_type_61 arg4);
+extern void _wrap_sfShader_setFloatParameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_62 arg2, float arg3);
+extern void _wrap_sfShader_setFloat2Parameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_63 arg2, float arg3, float arg4);
+extern void _wrap_sfShader_setFloat3Parameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_64 arg2, float arg3, float arg4, float arg5);
+extern void _wrap_sfShader_setFloat4Parameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_65 arg2, float arg3, float arg4, float arg5, float arg6);
+extern void _wrap_sfShader_setVector2Parameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_66 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setVector3Parameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_67 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setColorParameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_68 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setTransformParameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_69 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setTextureParameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_70 arg2, uintptr_t arg3);
+extern void _wrap_sfShader_setCurrentTextureParameter_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_71 arg2);
+extern swig_intgo _wrap_sfShader_getNativeHandle_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShader_bind_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfShader_isAvailable_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfShader_isGeometryAvailable_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfShape_create_graphics_b889a472290cd9f0(swig_type_72 arg1, swig_type_73 arg2, uintptr_t arg3);
+extern void _wrap_sfShape_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShape_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfShape_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfShape_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfShape_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShape_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfShape_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfShape_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShape_setTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern void _wrap_sfShape_setTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_setFillColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_setOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfShape_setOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern uintptr_t _wrap_sfShape_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getFillColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfShape_getOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_type_74 _wrap_sfShape_getPointCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getPoint_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_75 arg2);
+extern uintptr_t _wrap_sfShape_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfShape_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfShape_update_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfSprite_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfSprite_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfSprite_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSprite_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfSprite_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSprite_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfSprite_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfSprite_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfSprite_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSprite_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfSprite_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfSprite_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfSprite_setTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3);
+extern void _wrap_sfSprite_setTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSprite_setColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfSprite_getTexture_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getTextureRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfSprite_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfTextRegular_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTextBold_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTextItalic_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTextUnderlined_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTextStrikeThrough_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfText_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfText_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfText_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfText_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfText_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfText_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfText_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfText_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfText_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfText_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfText_setString_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_76 arg2);
+extern void _wrap_sfText_setUnicodeString_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern void _wrap_sfText_setFont_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setCharacterSize_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfText_setLineSpacing_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfText_setLetterSpacing_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfText_setStyle_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfText_setColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setFillColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfText_setOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern swig_type_77 _wrap_sfText_getString_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_voidp _wrap_sfText_getUnicodeString_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getFont_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfText_getCharacterSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfText_getLetterSpacing_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfText_getLineSpacing_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfText_getStyle_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getFillColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getOutlineColor_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfText_getOutlineThickness_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_findCharacterPos_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_78 arg2);
+extern uintptr_t _wrap_sfText_getLocalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfText_getGlobalBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfTextureNormalized_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfTexturePixels_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfTexture_create_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2);
+extern uintptr_t _wrap_sfTexture_createFromFile_graphics_b889a472290cd9f0(swig_type_79 arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_createSrgbFromFile_graphics_b889a472290cd9f0(swig_type_80 arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_createFromMemory_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_81 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfTexture_createSrgbFromMemory_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_82 arg2, uintptr_t arg3);
+extern uintptr_t _wrap_sfTexture_createFromStream_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_createSrgbFromStream_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_createFromImage_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_createSrgbFromImage_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTexture_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTexture_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTexture_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTexture_copyToImage_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTexture_updateFromPixels_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2, swig_intgo arg3, swig_intgo arg4, swig_intgo arg5, swig_intgo arg6);
+extern void _wrap_sfTexture_updateFromTexture_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_sfTexture_updateFromImage_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_sfTexture_updateFromWindow_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_sfTexture_updateFromRenderWindow_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
+extern void _wrap_sfTexture_setSmooth_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfTexture_isSmooth_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfTexture_isSrgb_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTexture_setRepeated_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfTexture_isRepeated_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfTexture_generateMipmap_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTexture_swap_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_sfTexture_getNativeHandle_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTexture_bind_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfTexture_getMaximumSize_graphics_b889a472290cd9f0(void);
+extern void _wrap_sfTransform_matrix_set_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_sfTransform_matrix_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfTransform_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransform_Identity_get_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfTransform_fromMatrix_graphics_b889a472290cd9f0(float arg1, float arg2, float arg3, float arg4, float arg5, float arg6, float arg7, float arg8, float arg9);
+extern void _wrap_sfTransform_getMatrix_graphics_b889a472290cd9f0(uintptr_t arg1, swig_voidp arg2);
+extern uintptr_t _wrap_sfTransform_getInverse_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransform_transformPoint_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTransform_transformRect_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfTransform_combine_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfTransform_translate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2, float arg3);
+extern void _wrap_sfTransform_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfTransform_rotateWithCenter_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2, float arg3, float arg4);
+extern void _wrap_sfTransform_scale_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2, float arg3);
+extern void _wrap_sfTransform_scaleWithCenter_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2, float arg3, float arg4, float arg5);
+extern swig_intgo _wrap_sfTransform_equal_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTransformable_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfTransformable_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTransformable_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTransformable_setPosition_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfTransformable_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfTransformable_setScale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfTransformable_setOrigin_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTransformable_getPosition_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfTransformable_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransformable_getScale_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransformable_getOrigin_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfTransformable_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfTransformable_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfTransformable_scale_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTransformable_getTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfTransformable_getInverseTransform_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertex_position_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfVertex_position_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertex_color_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfVertex_color_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertex_texCoords_set_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfVertex_texCoords_get_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfVertex_graphics_b889a472290cd9f0(void);
+extern void _wrap_delete_sfVertex_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfVertexArray_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfVertexArray_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexArray_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_type_83 _wrap_sfVertexArray_getVertexCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfVertexArray_getVertex_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_84 arg2);
+extern void _wrap_sfVertexArray_clear_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexArray_resize_graphics_b889a472290cd9f0(uintptr_t arg1, swig_type_85 arg2);
+extern void _wrap_sfVertexArray_append_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfVertexArray_setPrimitiveType_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVertexArray_getPrimitiveType_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfVertexArray_getBounds_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfVertexBufferStream_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfVertexBufferDynamic_graphics_b889a472290cd9f0(void);
+extern swig_intgo _wrap_sfVertexBufferStatic_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfVertexBuffer_create_graphics_b889a472290cd9f0(swig_intgo arg1, swig_intgo arg2, swig_intgo arg3);
+extern uintptr_t _wrap_sfVertexBuffer_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexBuffer_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfVertexBuffer_getVertexCount_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfVertexBuffer_update_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2, swig_intgo arg3, swig_intgo arg4);
+extern swig_intgo _wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfVertexBuffer_swap_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern swig_intgo _wrap_sfVertexBuffer_getNativeHandle_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexBuffer_setPrimitiveType_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVertexBuffer_getPrimitiveType_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexBuffer_setUsage_graphics_b889a472290cd9f0(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVertexBuffer_getUsage_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfVertexBuffer_bind_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern swig_intgo _wrap_sfVertexBuffer_isAvailable_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfView_create_graphics_b889a472290cd9f0(void);
+extern uintptr_t _wrap_sfView_createFromRect_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfView_copy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfView_destroy_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfView_setCenter_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfView_setSize_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfView_setRotation_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfView_setViewport_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfView_reset_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfView_getCenter_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfView_getSize_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern float _wrap_sfView_getRotation_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern uintptr_t _wrap_sfView_getViewport_graphics_b889a472290cd9f0(uintptr_t arg1);
+extern void _wrap_sfView_move_graphics_b889a472290cd9f0(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfView_rotate_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
+extern void _wrap_sfView_zoom_graphics_b889a472290cd9f0(uintptr_t arg1, float arg2);
 #undef intgo
 */
 import "C"
@@ -813,8 +813,8 @@ func getSwigcptr(v interface { Swigcptr() uintptr }) uintptr {
 
 type _ sync.Mutex
 
-//export cgo_panic__graphics_a3b77f1faf9b9057
-func cgo_panic__graphics_a3b77f1faf9b9057(p *byte) {
+//export cgo_panic__graphics_b889a472290cd9f0
+func cgo_panic__graphics_b889a472290cd9f0(p *byte) {
 	s := (*[1024]byte)(unsafe.Pointer(p))[:]
 	for i, b := range s {
 		if b == 0 {
@@ -835,13 +835,13 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -853,70 +853,70 @@ const SfTrue int = 1
 type SfBlendFactor int
 func _swig_getsfBlendFactorZero() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorZero_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorZero_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorZero int = _swig_getsfBlendFactorZero()
 func _swig_getsfBlendFactorOne() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorOne_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorOne_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorOne int = _swig_getsfBlendFactorOne()
 func _swig_getsfBlendFactorSrcColor() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorSrcColor_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorSrcColor_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorSrcColor int = _swig_getsfBlendFactorSrcColor()
 func _swig_getsfBlendFactorOneMinusSrcColor() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorOneMinusSrcColor_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorOneMinusSrcColor_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorOneMinusSrcColor int = _swig_getsfBlendFactorOneMinusSrcColor()
 func _swig_getsfBlendFactorDstColor() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorDstColor_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorDstColor_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorDstColor int = _swig_getsfBlendFactorDstColor()
 func _swig_getsfBlendFactorOneMinusDstColor() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorOneMinusDstColor_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorOneMinusDstColor_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorOneMinusDstColor int = _swig_getsfBlendFactorOneMinusDstColor()
 func _swig_getsfBlendFactorSrcAlpha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorSrcAlpha_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorSrcAlpha_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorSrcAlpha int = _swig_getsfBlendFactorSrcAlpha()
 func _swig_getsfBlendFactorOneMinusSrcAlpha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorOneMinusSrcAlpha_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorOneMinusSrcAlpha_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorOneMinusSrcAlpha int = _swig_getsfBlendFactorOneMinusSrcAlpha()
 func _swig_getsfBlendFactorDstAlpha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorDstAlpha_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorDstAlpha_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendFactorDstAlpha int = _swig_getsfBlendFactorDstAlpha()
 func _swig_getsfBlendFactorOneMinusDstAlpha() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendFactorOneMinusDstAlpha_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendFactorOneMinusDstAlpha_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -924,35 +924,35 @@ var SfBlendFactorOneMinusDstAlpha int = _swig_getsfBlendFactorOneMinusDstAlpha()
 type SfBlendEquation int
 func _swig_getsfBlendEquationAdd() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendEquationAdd_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendEquationAdd_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendEquationAdd int = _swig_getsfBlendEquationAdd()
 func _swig_getsfBlendEquationSubtract() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendEquationSubtract_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendEquationSubtract_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendEquationSubtract int = _swig_getsfBlendEquationSubtract()
 func _swig_getsfBlendEquationReverseSubtract() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendEquationReverseSubtract_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendEquationReverseSubtract_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendEquationReverseSubtract int = _swig_getsfBlendEquationReverseSubtract()
 func _swig_getsfBlendEquationMin() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendEquationMin_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendEquationMin_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfBlendEquationMin int = _swig_getsfBlendEquationMin()
 func _swig_getsfBlendEquationMax() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfBlendEquationMax_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfBlendEquationMax_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -969,90 +969,90 @@ func (p SwigcptrSfBlendMode) SwigIsSfBlendMode() {
 func (arg1 SwigcptrSfBlendMode) SetColorSrcFactor(arg2 SfBlendFactor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_colorSrcFactor_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_colorSrcFactor_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetColorSrcFactor() (_swig_ret SfBlendFactor) {
 	var swig_r SfBlendFactor
 	_swig_i_0 := arg1
-	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_colorSrcFactor_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_colorSrcFactor_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfBlendMode) SetColorDstFactor(arg2 SfBlendFactor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_colorDstFactor_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_colorDstFactor_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetColorDstFactor() (_swig_ret SfBlendFactor) {
 	var swig_r SfBlendFactor
 	_swig_i_0 := arg1
-	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_colorDstFactor_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_colorDstFactor_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfBlendMode) SetColorEquation(arg2 SfBlendEquation) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_colorEquation_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_colorEquation_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetColorEquation() (_swig_ret SfBlendEquation) {
 	var swig_r SfBlendEquation
 	_swig_i_0 := arg1
-	swig_r = (SfBlendEquation)(C._wrap_sfBlendMode_colorEquation_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendEquation)(C._wrap_sfBlendMode_colorEquation_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfBlendMode) SetAlphaSrcFactor(arg2 SfBlendFactor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_alphaSrcFactor_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_alphaSrcFactor_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetAlphaSrcFactor() (_swig_ret SfBlendFactor) {
 	var swig_r SfBlendFactor
 	_swig_i_0 := arg1
-	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_alphaSrcFactor_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_alphaSrcFactor_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfBlendMode) SetAlphaDstFactor(arg2 SfBlendFactor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_alphaDstFactor_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_alphaDstFactor_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetAlphaDstFactor() (_swig_ret SfBlendFactor) {
 	var swig_r SfBlendFactor
 	_swig_i_0 := arg1
-	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_alphaDstFactor_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendFactor)(C._wrap_sfBlendMode_alphaDstFactor_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfBlendMode) SetAlphaEquation(arg2 SfBlendEquation) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfBlendMode_alphaEquation_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfBlendMode_alphaEquation_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfBlendMode) GetAlphaEquation() (_swig_ret SfBlendEquation) {
 	var swig_r SfBlendEquation
 	_swig_i_0 := arg1
-	swig_r = (SfBlendEquation)(C._wrap_sfBlendMode_alphaEquation_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfBlendEquation)(C._wrap_sfBlendMode_alphaEquation_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfBlendMode() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_new_sfBlendMode_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_new_sfBlendMode_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfBlendMode(arg1 SfBlendMode) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfBlendMode_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfBlendMode_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfBlendMode interface {
@@ -1074,139 +1074,139 @@ type SfBlendMode interface {
 
 func GetSfBlendAlpha() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendAlpha_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendAlpha_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func GetSfBlendAdd() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendAdd_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendAdd_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func GetSfBlendMultiply() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMultiply_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMultiply_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func GetSfBlendMin() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMin_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMin_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func GetSfBlendMax() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMax_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendMax_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func GetSfBlendNone() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendNone_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfBlendNone_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfCircleShape_create() (_swig_ret SfCircleShape) {
 	var swig_r SfCircleShape
-	swig_r = (SfCircleShape)(SwigcptrSfCircleShape(C._wrap_sfCircleShape_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfCircleShape)(SwigcptrSfCircleShape(C._wrap_sfCircleShape_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfCircleShape_copy(arg1 SfCircleShape) (_swig_ret SfCircleShape) {
 	var swig_r SfCircleShape
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfCircleShape)(SwigcptrSfCircleShape(C._wrap_sfCircleShape_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfCircleShape)(SwigcptrSfCircleShape(C._wrap_sfCircleShape_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_destroy(arg1 SfCircleShape) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfCircleShape_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfCircleShape_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfCircleShape_setPosition(arg1 SfCircleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_setRotation(arg1 SfCircleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfCircleShape_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfCircleShape_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfCircleShape_setScale(arg1 SfCircleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_setOrigin(arg1 SfCircleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_getPosition(arg1 SfCircleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getRotation(arg1 SfCircleShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfCircleShape_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfCircleShape_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfCircleShape_getScale(arg1 SfCircleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getOrigin(arg1 SfCircleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_move(arg1 SfCircleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_rotate(arg1 SfCircleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfCircleShape_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfCircleShape_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfCircleShape_scale(arg1 SfCircleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_getTransform(arg1 SfCircleShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfCircleShape_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfCircleShape_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getInverseTransform(arg1 SfCircleShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfCircleShape_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfCircleShape_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1214,72 +1214,72 @@ func SfCircleShape_setTexture(arg1 SfCircleShape, arg2 SfTexture, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfCircleShape_setTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_sfCircleShape_setTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func SfCircleShape_setTextureRect(arg1 SfCircleShape, arg2 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_setFillColor(arg1 SfCircleShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_setOutlineColor(arg1 SfCircleShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfCircleShape_setOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfCircleShape_setOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfCircleShape_setOutlineThickness(arg1 SfCircleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfCircleShape_setOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfCircleShape_setOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfCircleShape_getTexture(arg1 SfCircleShape) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfCircleShape_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfCircleShape_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getTextureRect(arg1 SfCircleShape) (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfCircleShape_getTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfCircleShape_getTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getFillColor(arg1 SfCircleShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCircleShape_getFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCircleShape_getFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getOutlineColor(arg1 SfCircleShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCircleShape_getOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCircleShape_getOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getOutlineThickness(arg1 SfCircleShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfCircleShape_getOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfCircleShape_getOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfCircleShape_getPointCount(arg1 SfCircleShape) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfCircleShape_getPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfCircleShape_getPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1287,40 +1287,40 @@ func SfCircleShape_getPoint(arg1 SfCircleShape, arg2 int64) (_swig_ret SfVector2
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfCircleShape_getPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))))
 	return swig_r
 }
 
 func SfCircleShape_setRadius(arg1 SfCircleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfCircleShape_setRadius_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfCircleShape_setRadius_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfCircleShape_getRadius(arg1 SfCircleShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfCircleShape_getRadius_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfCircleShape_getRadius_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfCircleShape_setPointCount(arg1 SfCircleShape, arg2 int64) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfCircleShape_setPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_3(_swig_i_1))
+	C._wrap_sfCircleShape_setPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_3(_swig_i_1))
 }
 
 func SfCircleShape_getLocalBounds(arg1 SfCircleShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfCircleShape_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfCircleShape_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfCircleShape_getGlobalBounds(arg1 SfCircleShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfCircleShape_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfCircleShape_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1336,64 +1336,64 @@ func (p SwigcptrSfColor) SwigIsSfColor() {
 func (arg1 SwigcptrSfColor) SetR(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfColor_r_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_sfColor_r_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfColor) GetR() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_sfColor_r_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_sfColor_r_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfColor) SetG(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfColor_g_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_sfColor_g_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfColor) GetG() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_sfColor_g_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_sfColor_g_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfColor) SetB(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfColor_b_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_sfColor_b_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfColor) GetB() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_sfColor_b_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_sfColor_b_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfColor) SetA(arg2 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfColor_a_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
+	C._wrap_sfColor_a_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.char(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfColor) GetA() (_swig_ret byte) {
 	var swig_r byte
 	_swig_i_0 := arg1
-	swig_r = (byte)(C._wrap_sfColor_a_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (byte)(C._wrap_sfColor_a_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfColor() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_new_sfColor_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_new_sfColor_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfColor(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfColor interface {
@@ -1411,100 +1411,100 @@ type SfColor interface {
 
 func SetSfBlack(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfBlack_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfBlack_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfBlack() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfBlack_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfBlack_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfWhite(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfWhite_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfWhite_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfWhite() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfWhite_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfWhite_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfRed(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRed_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRed_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfRed() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRed_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRed_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfGreen(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfGreen_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfGreen_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfGreen() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfGreen_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfGreen_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfBlue(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfBlue_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfBlue_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfBlue() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfBlue_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfBlue_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfYellow(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfYellow_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfYellow_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfYellow() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfYellow_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfYellow_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfMagenta(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMagenta_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMagenta_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfMagenta() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfMagenta_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfMagenta_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfCyan(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfCyan_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfCyan_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfCyan() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCyan_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfCyan_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SetSfTransparent(arg1 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfTransparent_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfTransparent_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfTransparent() (_swig_ret SfColor) {
 	var swig_r SfColor
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfTransparent_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfTransparent_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
@@ -1513,7 +1513,7 @@ func SfColor_fromRGB(arg1 byte, arg2 byte, arg3 byte) (_swig_ret SfColor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromRGB_graphics_a3b77f1faf9b9057(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromRGB_graphics_b889a472290cd9f0(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2))))
 	return swig_r
 }
 
@@ -1523,21 +1523,21 @@ func SfColor_fromRGBA(arg1 byte, arg2 byte, arg3 byte, arg4 byte) (_swig_ret SfC
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromRGBA_graphics_a3b77f1faf9b9057(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2), C.char(_swig_i_3))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromRGBA_graphics_b889a472290cd9f0(C.char(_swig_i_0), C.char(_swig_i_1), C.char(_swig_i_2), C.char(_swig_i_3))))
 	return swig_r
 }
 
 func SfColor_fromInteger(arg1 uint) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := arg1
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromInteger_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_fromInteger_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func SfColor_toInteger(arg1 SfColor) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfColor_toInteger_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfColor_toInteger_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1545,7 +1545,7 @@ func SfColor_add(arg1 SfColor, arg2 SfColor) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_add_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_add_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1553,7 +1553,7 @@ func SfColor_subtract(arg1 SfColor, arg2 SfColor) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_subtract_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_subtract_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -1561,109 +1561,109 @@ func SfColor_modulate(arg1 SfColor, arg2 SfColor) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_modulate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfColor_modulate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func SfConvexShape_create() (_swig_ret SfConvexShape) {
 	var swig_r SfConvexShape
-	swig_r = (SfConvexShape)(SwigcptrSfConvexShape(C._wrap_sfConvexShape_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfConvexShape)(SwigcptrSfConvexShape(C._wrap_sfConvexShape_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfConvexShape_copy(arg1 SfConvexShape) (_swig_ret SfConvexShape) {
 	var swig_r SfConvexShape
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfConvexShape)(SwigcptrSfConvexShape(C._wrap_sfConvexShape_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfConvexShape)(SwigcptrSfConvexShape(C._wrap_sfConvexShape_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_destroy(arg1 SfConvexShape) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfConvexShape_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfConvexShape_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfConvexShape_setPosition(arg1 SfConvexShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_setRotation(arg1 SfConvexShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfConvexShape_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfConvexShape_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfConvexShape_setScale(arg1 SfConvexShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_setOrigin(arg1 SfConvexShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_getPosition(arg1 SfConvexShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getRotation(arg1 SfConvexShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfConvexShape_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfConvexShape_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfConvexShape_getScale(arg1 SfConvexShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getOrigin(arg1 SfConvexShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_move(arg1 SfConvexShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_rotate(arg1 SfConvexShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfConvexShape_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfConvexShape_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfConvexShape_scale(arg1 SfConvexShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_getTransform(arg1 SfConvexShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfConvexShape_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfConvexShape_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getInverseTransform(arg1 SfConvexShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfConvexShape_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfConvexShape_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1671,72 +1671,72 @@ func SfConvexShape_setTexture(arg1 SfConvexShape, arg2 SfTexture, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfConvexShape_setTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_sfConvexShape_setTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func SfConvexShape_setTextureRect(arg1 SfConvexShape, arg2 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_setFillColor(arg1 SfConvexShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_setOutlineColor(arg1 SfConvexShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfConvexShape_setOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfConvexShape_setOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfConvexShape_setOutlineThickness(arg1 SfConvexShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfConvexShape_setOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfConvexShape_setOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfConvexShape_getTexture(arg1 SfConvexShape) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfConvexShape_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfConvexShape_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getTextureRect(arg1 SfConvexShape) (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfConvexShape_getTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfConvexShape_getTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getFillColor(arg1 SfConvexShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfConvexShape_getFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfConvexShape_getFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getOutlineColor(arg1 SfConvexShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfConvexShape_getOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfConvexShape_getOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getOutlineThickness(arg1 SfConvexShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfConvexShape_getOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfConvexShape_getOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfConvexShape_getPointCount(arg1 SfConvexShape) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfConvexShape_getPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfConvexShape_getPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -1744,41 +1744,41 @@ func SfConvexShape_getPoint(arg1 SfConvexShape, arg2 int64) (_swig_ret SfVector2
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_5(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfConvexShape_getPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_5(_swig_i_1))))
 	return swig_r
 }
 
 func SfConvexShape_setPointCount(arg1 SfConvexShape, arg2 int64) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfConvexShape_setPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
+	C._wrap_sfConvexShape_setPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
 }
 
 func SfConvexShape_setPoint(arg1 SfConvexShape, arg2 int64, arg3 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfConvexShape_setPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_7(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfConvexShape_setPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_7(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfConvexShape_getLocalBounds(arg1 SfConvexShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfConvexShape_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfConvexShape_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfConvexShape_getGlobalBounds(arg1 SfConvexShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfConvexShape_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfConvexShape_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfFont_createFromFile(arg1 string) (_swig_ret SfFont) {
 	var swig_r SfFont
 	_swig_i_0 := arg1
-	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromFile_graphics_a3b77f1faf9b9057(*(*C.swig_type_8)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromFile_graphics_b889a472290cd9f0(*(*C.swig_type_8)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -1789,27 +1789,27 @@ func SfFont_createFromMemory(arg1 uintptr, arg2 int64) (_swig_ret SfFont) {
 	var swig_r SfFont
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromMemory_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))))
+	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromMemory_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_9(_swig_i_1))))
 	return swig_r
 }
 
 func SfFont_createFromStream(arg1 SfInputStream) (_swig_ret SfFont) {
 	var swig_r SfFont
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromStream_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_createFromStream_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfFont_copy(arg1 SfFont) (_swig_ret SfFont) {
 	var swig_r SfFont
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfFont_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfFont_destroy(arg1 SfFont) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfFont_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfFont_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfFont_getGlyph(arg1 SfFont, arg2 uint, arg3 uint, arg4 int, arg5 float32) (_swig_ret SfGlyph) {
@@ -1819,7 +1819,7 @@ func SfFont_getGlyph(arg1 SfFont, arg2 uint, arg3 uint, arg4 int, arg5 float32) 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (SfGlyph)(SwigcptrSfGlyph(C._wrap_sfFont_getGlyph_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.float(_swig_i_4))))
+	swig_r = (SfGlyph)(SwigcptrSfGlyph(C._wrap_sfFont_getGlyph_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.float(_swig_i_4))))
 	return swig_r
 }
 
@@ -1827,7 +1827,7 @@ func SfFont_hasGlyph(arg1 SfFont, arg2 uint) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfFont_hasGlyph_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfFont_hasGlyph_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1837,7 +1837,7 @@ func SfFont_getKerning(arg1 SfFont, arg2 uint, arg3 uint, arg4 uint) (_swig_ret 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (float32)(C._wrap_sfFont_getKerning_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (float32)(C._wrap_sfFont_getKerning_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
@@ -1847,7 +1847,7 @@ func SfFont_getBoldKerning(arg1 SfFont, arg2 uint, arg3 uint, arg4 uint) (_swig_
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (float32)(C._wrap_sfFont_getBoldKerning_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (float32)(C._wrap_sfFont_getBoldKerning_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
@@ -1855,7 +1855,7 @@ func SfFont_getLineSpacing(arg1 SfFont, arg2 uint) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_sfFont_getLineSpacing_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_sfFont_getLineSpacing_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1863,7 +1863,7 @@ func SfFont_getUnderlinePosition(arg1 SfFont, arg2 uint) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_sfFont_getUnderlinePosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_sfFont_getUnderlinePosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1871,7 +1871,7 @@ func SfFont_getUnderlineThickness(arg1 SfFont, arg2 uint) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (float32)(C._wrap_sfFont_getUnderlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (float32)(C._wrap_sfFont_getUnderlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
@@ -1879,27 +1879,27 @@ func SfFont_getTexture(arg1 SfFont, arg2 uint) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfFont_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfFont_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
 func SfFont_setSmooth(arg1 SfFont, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfFont_setSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfFont_setSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfFont_isSmooth(arg1 SfFont) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfFont_isSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfFont_isSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfFont_getInfo(arg1 SfFont) (_swig_ret SfFontInfo) {
 	var swig_r SfFontInfo
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFontInfo)(SwigcptrSfFontInfo(C._wrap_sfFont_getInfo_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFontInfo)(SwigcptrSfFontInfo(C._wrap_sfFont_getInfo_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -1915,7 +1915,7 @@ func (p SwigcptrSfFontInfo) SwigIsSfFontInfo() {
 func (arg1 SwigcptrSfFontInfo) SetFamily(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfFontInfo_family_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_sfFontInfo_family_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_10)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -1924,7 +1924,7 @@ func (arg1 SwigcptrSfFontInfo) SetFamily(arg2 string) {
 func (arg1 SwigcptrSfFontInfo) GetFamily() (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_sfFontInfo_family_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_sfFontInfo_family_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -1933,13 +1933,13 @@ func (arg1 SwigcptrSfFontInfo) GetFamily() (_swig_ret string) {
 
 func NewSfFontInfo() (_swig_ret SfFontInfo) {
 	var swig_r SfFontInfo
-	swig_r = (SfFontInfo)(SwigcptrSfFontInfo(C._wrap_new_sfFontInfo_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfFontInfo)(SwigcptrSfFontInfo(C._wrap_new_sfFontInfo_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfFontInfo(arg1 SfFontInfo) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfFontInfo_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfFontInfo_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfFontInfo interface {
@@ -1961,38 +1961,38 @@ func (p SwigcptrSfGlslBvec2) SwigIsSfGlslBvec2() {
 func (arg1 SwigcptrSfGlslBvec2) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec2_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec2_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec2) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec2_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec2_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec2) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec2_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec2_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec2) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec2_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec2_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslBvec2() (_swig_ret SfGlslBvec2) {
 	var swig_r SfGlslBvec2
-	swig_r = (SfGlslBvec2)(SwigcptrSfGlslBvec2(C._wrap_new_sfGlslBvec2_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslBvec2)(SwigcptrSfGlslBvec2(C._wrap_new_sfGlslBvec2_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslBvec2(arg1 SfGlslBvec2) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslBvec2_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslBvec2_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslBvec2 interface {
@@ -2016,51 +2016,51 @@ func (p SwigcptrSfGlslIvec3) SwigIsSfGlslIvec3() {
 func (arg1 SwigcptrSfGlslIvec3) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec3_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec3_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec3) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec3_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec3_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslIvec3) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec3_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec3_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec3) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec3_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec3_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslIvec3) SetZ(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec3_z_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec3_z_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec3) GetZ() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec3_z_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec3_z_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslIvec3() (_swig_ret SfGlslIvec3) {
 	var swig_r SfGlslIvec3
-	swig_r = (SfGlslIvec3)(SwigcptrSfGlslIvec3(C._wrap_new_sfGlslIvec3_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslIvec3)(SwigcptrSfGlslIvec3(C._wrap_new_sfGlslIvec3_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslIvec3(arg1 SfGlslIvec3) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslIvec3_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslIvec3_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslIvec3 interface {
@@ -2086,51 +2086,51 @@ func (p SwigcptrSfGlslBvec3) SwigIsSfGlslBvec3() {
 func (arg1 SwigcptrSfGlslBvec3) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec3_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec3_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec3) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec3_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec3_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec3) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec3_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec3_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec3) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec3_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec3_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec3) SetZ(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec3_z_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec3_z_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec3) GetZ() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec3_z_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec3_z_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslBvec3() (_swig_ret SfGlslBvec3) {
 	var swig_r SfGlslBvec3
-	swig_r = (SfGlslBvec3)(SwigcptrSfGlslBvec3(C._wrap_new_sfGlslBvec3_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslBvec3)(SwigcptrSfGlslBvec3(C._wrap_new_sfGlslBvec3_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslBvec3(arg1 SfGlslBvec3) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslBvec3_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslBvec3_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslBvec3 interface {
@@ -2156,64 +2156,64 @@ func (p SwigcptrSfGlslVec4) SwigIsSfGlslVec4() {
 func (arg1 SwigcptrSfGlslVec4) SetX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslVec4_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfGlslVec4_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslVec4) GetX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfGlslVec4_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfGlslVec4_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslVec4) SetY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslVec4_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfGlslVec4_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslVec4) GetY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfGlslVec4_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfGlslVec4_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslVec4) SetZ(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslVec4_z_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfGlslVec4_z_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslVec4) GetZ() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfGlslVec4_z_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfGlslVec4_z_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslVec4) SetW(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslVec4_w_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfGlslVec4_w_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslVec4) GetW() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfGlslVec4_w_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfGlslVec4_w_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslVec4() (_swig_ret SfGlslVec4) {
 	var swig_r SfGlslVec4
-	swig_r = (SfGlslVec4)(SwigcptrSfGlslVec4(C._wrap_new_sfGlslVec4_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslVec4)(SwigcptrSfGlslVec4(C._wrap_new_sfGlslVec4_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslVec4(arg1 SfGlslVec4) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslVec4_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslVec4_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslVec4 interface {
@@ -2241,64 +2241,64 @@ func (p SwigcptrSfGlslIvec4) SwigIsSfGlslIvec4() {
 func (arg1 SwigcptrSfGlslIvec4) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec4_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec4_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec4) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec4_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec4_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslIvec4) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec4_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec4_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec4) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec4_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec4_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslIvec4) SetZ(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec4_z_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec4_z_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec4) GetZ() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec4_z_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec4_z_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslIvec4) SetW(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslIvec4_w_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslIvec4_w_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslIvec4) GetW() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslIvec4_w_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslIvec4_w_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslIvec4() (_swig_ret SfGlslIvec4) {
 	var swig_r SfGlslIvec4
-	swig_r = (SfGlslIvec4)(SwigcptrSfGlslIvec4(C._wrap_new_sfGlslIvec4_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslIvec4)(SwigcptrSfGlslIvec4(C._wrap_new_sfGlslIvec4_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslIvec4(arg1 SfGlslIvec4) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslIvec4_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslIvec4_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslIvec4 interface {
@@ -2326,64 +2326,64 @@ func (p SwigcptrSfGlslBvec4) SwigIsSfGlslBvec4() {
 func (arg1 SwigcptrSfGlslBvec4) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec4_x_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec4_x_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec4) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec4_x_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec4_x_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec4) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec4_y_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec4_y_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec4) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec4_y_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec4_y_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec4) SetZ(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec4_z_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec4_z_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec4) GetZ() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec4_z_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec4_z_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlslBvec4) SetW(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslBvec4_w_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfGlslBvec4_w_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslBvec4) GetW() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfGlslBvec4_w_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfGlslBvec4_w_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslBvec4() (_swig_ret SfGlslBvec4) {
 	var swig_r SfGlslBvec4
-	swig_r = (SfGlslBvec4)(SwigcptrSfGlslBvec4(C._wrap_new_sfGlslBvec4_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslBvec4)(SwigcptrSfGlslBvec4(C._wrap_new_sfGlslBvec4_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslBvec4(arg1 SfGlslBvec4) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslBvec4_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslBvec4_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslBvec4 interface {
@@ -2411,25 +2411,25 @@ func (p SwigcptrSfGlslMat3) SwigIsSfGlslMat3() {
 func (arg1 SwigcptrSfGlslMat3) SetArray(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslMat3_array_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfGlslMat3_array_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslMat3) GetArray() (_swig_ret *float32) {
 	var swig_r *float32
 	_swig_i_0 := arg1
-	swig_r = (*float32)(C._wrap_sfGlslMat3_array_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (*float32)(C._wrap_sfGlslMat3_array_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslMat3() (_swig_ret SfGlslMat3) {
 	var swig_r SfGlslMat3
-	swig_r = (SfGlslMat3)(SwigcptrSfGlslMat3(C._wrap_new_sfGlslMat3_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslMat3)(SwigcptrSfGlslMat3(C._wrap_new_sfGlslMat3_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslMat3(arg1 SfGlslMat3) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslMat3_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslMat3_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslMat3 interface {
@@ -2451,25 +2451,25 @@ func (p SwigcptrSfGlslMat4) SwigIsSfGlslMat4() {
 func (arg1 SwigcptrSfGlslMat4) SetArray(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlslMat4_array_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfGlslMat4_array_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlslMat4) GetArray() (_swig_ret *float32) {
 	var swig_r *float32
 	_swig_i_0 := arg1
-	swig_r = (*float32)(C._wrap_sfGlslMat4_array_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (*float32)(C._wrap_sfGlslMat4_array_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfGlslMat4() (_swig_ret SfGlslMat4) {
 	var swig_r SfGlslMat4
-	swig_r = (SfGlslMat4)(SwigcptrSfGlslMat4(C._wrap_new_sfGlslMat4_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlslMat4)(SwigcptrSfGlslMat4(C._wrap_new_sfGlslMat4_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlslMat4(arg1 SfGlslMat4) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlslMat4_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlslMat4_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlslMat4 interface {
@@ -2491,51 +2491,51 @@ func (p SwigcptrSfGlyph) SwigIsSfGlyph() {
 func (arg1 SwigcptrSfGlyph) SetAdvance(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfGlyph_advance_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfGlyph_advance_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlyph) GetAdvance() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfGlyph_advance_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfGlyph_advance_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlyph) SetBounds(arg2 SfFloatRect) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfGlyph_bounds_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfGlyph_bounds_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlyph) GetBounds() (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := arg1
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfGlyph_bounds_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfGlyph_bounds_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfGlyph) SetTextureRect(arg2 SfIntRect) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfGlyph_textureRect_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfGlyph_textureRect_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfGlyph) GetTextureRect() (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := arg1
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfGlyph_textureRect_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfGlyph_textureRect_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSfGlyph() (_swig_ret SfGlyph) {
 	var swig_r SfGlyph
-	swig_r = (SfGlyph)(SwigcptrSfGlyph(C._wrap_new_sfGlyph_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfGlyph)(SwigcptrSfGlyph(C._wrap_new_sfGlyph_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfGlyph(arg1 SfGlyph) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfGlyph_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfGlyph_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfGlyph interface {
@@ -2553,7 +2553,7 @@ func SfImage_create(arg1 uint, arg2 uint) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_create_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_create_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -2562,7 +2562,7 @@ func SfImage_createFromColor(arg1 uint, arg2 uint, arg3 SfColor) (_swig_ret SfIm
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromColor_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromColor_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -2571,14 +2571,14 @@ func SfImage_createFromPixels(arg1 uint, arg2 uint, arg3 *byte) (_swig_ret SfIma
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromPixels_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromPixels_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_voidp(_swig_i_2))))
 	return swig_r
 }
 
 func SfImage_createFromFile(arg1 string) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := arg1
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromFile_graphics_a3b77f1faf9b9057(*(*C.swig_type_12)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromFile_graphics_b889a472290cd9f0(*(*C.swig_type_12)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -2589,34 +2589,34 @@ func SfImage_createFromMemory(arg1 uintptr, arg2 int64) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromMemory_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_13(_swig_i_1))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromMemory_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_13(_swig_i_1))))
 	return swig_r
 }
 
 func SfImage_createFromStream(arg1 SfInputStream) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromStream_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_createFromStream_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfImage_copy(arg1 SfImage) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfImage_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfImage_destroy(arg1 SfImage) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfImage_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfImage_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfImage_saveToFile(arg1 SfImage, arg2 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfImage_saveToFile_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_sfImage_saveToFile_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -2628,7 +2628,7 @@ func SfImage_saveToMemory(arg1 SfImage, arg2 SfBuffer, arg3 string) (_swig_ret i
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_sfImage_saveToMemory_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_2))))
+	swig_r = (int)(C._wrap_sfImage_saveToMemory_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), *(*C.swig_type_15)(unsafe.Pointer(&_swig_i_2))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -2638,7 +2638,7 @@ func SfImage_saveToMemory(arg1 SfImage, arg2 SfBuffer, arg3 string) (_swig_ret i
 func SfImage_getSize(arg1 SfImage) (_swig_ret SfVector2u) {
 	var swig_r SfVector2u
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfImage_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfImage_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -2646,7 +2646,7 @@ func SfImage_createMaskFromColor(arg1 SfImage, arg2 SfColor, arg3 byte) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfImage_createMaskFromColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.char(_swig_i_2))
+	C._wrap_sfImage_createMaskFromColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.char(_swig_i_2))
 }
 
 func SfImage_copyImage(arg1 SfImage, arg2 SfImage, arg3 uint, arg4 uint, arg5 SfIntRect, arg6 int) {
@@ -2656,7 +2656,7 @@ func SfImage_copyImage(arg1 SfImage, arg2 SfImage, arg3 uint, arg4 uint, arg5 Sf
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
 	_swig_i_5 := arg6
-	C._wrap_sfImage_copyImage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5))
+	C._wrap_sfImage_copyImage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4), C.swig_intgo(_swig_i_5))
 }
 
 func SfImage_setPixel(arg1 SfImage, arg2 uint, arg3 uint, arg4 SfColor) {
@@ -2664,7 +2664,7 @@ func SfImage_setPixel(arg1 SfImage, arg2 uint, arg3 uint, arg4 SfColor) {
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	C._wrap_sfImage_setPixel_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))
+	C._wrap_sfImage_setPixel_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))
 }
 
 func SfImage_getPixel(arg1 SfImage, arg2 uint, arg3 uint) (_swig_ret SfColor) {
@@ -2672,94 +2672,94 @@ func SfImage_getPixel(arg1 SfImage, arg2 uint, arg3 uint) (_swig_ret SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfImage_getPixel_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfImage_getPixel_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
 func SfImage_getPixelsPtr(arg1 SfImage) (_swig_ret *byte) {
 	var swig_r *byte
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (*byte)(C._wrap_sfImage_getPixelsPtr_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (*byte)(C._wrap_sfImage_getPixelsPtr_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfImage_flipHorizontally(arg1 SfImage) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfImage_flipHorizontally_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfImage_flipHorizontally_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfImage_flipVertically(arg1 SfImage) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfImage_flipVertically_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfImage_flipVertically_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfPrimitiveType int
 func _swig_getsfPoints() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfPoints_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfPoints_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfPoints int = _swig_getsfPoints()
 func _swig_getsfLines() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfLines_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfLines_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfLines int = _swig_getsfLines()
 func _swig_getsfLineStrip() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfLineStrip_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfLineStrip_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfLineStrip int = _swig_getsfLineStrip()
 func _swig_getsfTriangles() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTriangles_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTriangles_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTriangles int = _swig_getsfTriangles()
 func _swig_getsfTriangleStrip() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTriangleStrip_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTriangleStrip_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTriangleStrip int = _swig_getsfTriangleStrip()
 func _swig_getsfTriangleFan() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTriangleFan_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTriangleFan_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTriangleFan int = _swig_getsfTriangleFan()
 func _swig_getsfQuads() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfQuads_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfQuads_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfQuads int = _swig_getsfQuads()
 func _swig_getsfLinesStrip() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfLinesStrip_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfLinesStrip_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfLinesStrip int = _swig_getsfLinesStrip()
 func _swig_getsfTrianglesStrip() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTrianglesStrip_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTrianglesStrip_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTrianglesStrip int = _swig_getsfTrianglesStrip()
 func _swig_getsfTrianglesFan() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTrianglesFan_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTrianglesFan_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -2776,64 +2776,64 @@ func (p SwigcptrSfFloatRect) SwigIsSfFloatRect() {
 func (arg1 SwigcptrSfFloatRect) SetLeft(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfFloatRect_left_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfFloatRect_left_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfFloatRect) GetLeft() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfFloatRect_left_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfFloatRect_left_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfFloatRect) SetTop(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfFloatRect_top_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfFloatRect_top_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfFloatRect) GetTop() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfFloatRect_top_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfFloatRect_top_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfFloatRect) SetWidth(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfFloatRect_width_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfFloatRect_width_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfFloatRect) GetWidth() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfFloatRect_width_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfFloatRect_width_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfFloatRect) SetHeight(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfFloatRect_height_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfFloatRect_height_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfFloatRect) GetHeight() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfFloatRect_height_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfFloatRect_height_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfFloatRect() (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_new_sfFloatRect_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_new_sfFloatRect_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfFloatRect(arg1 SfFloatRect) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfFloatRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfFloatRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfFloatRect interface {
@@ -2861,64 +2861,64 @@ func (p SwigcptrSfIntRect) SwigIsSfIntRect() {
 func (arg1 SwigcptrSfIntRect) SetLeft(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfIntRect_left_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfIntRect_left_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfIntRect) GetLeft() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfIntRect_left_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfIntRect_left_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfIntRect) SetTop(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfIntRect_top_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfIntRect_top_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfIntRect) GetTop() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfIntRect_top_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfIntRect_top_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfIntRect) SetWidth(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfIntRect_width_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfIntRect_width_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfIntRect) GetWidth() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfIntRect_width_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfIntRect_width_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfIntRect) SetHeight(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfIntRect_height_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfIntRect_height_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfIntRect) GetHeight() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfIntRect_height_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfIntRect_height_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfIntRect() (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_new_sfIntRect_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_new_sfIntRect_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfIntRect(arg1 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfIntRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfIntRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfIntRect interface {
@@ -2939,7 +2939,7 @@ func SfFloatRect_contains(arg1 SfFloatRect, arg2 float32, arg3 float32) (_swig_r
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_sfFloatRect_contains_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
+	swig_r = (int)(C._wrap_sfFloatRect_contains_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2)))
 	return swig_r
 }
 
@@ -2948,7 +2948,7 @@ func SfIntRect_contains(arg1 SfIntRect, arg2 int, arg3 int) (_swig_ret int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (int)(C._wrap_sfIntRect_contains_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
+	swig_r = (int)(C._wrap_sfIntRect_contains_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2)))
 	return swig_r
 }
 
@@ -2957,7 +2957,7 @@ func SfFloatRect_intersects(arg1 SfFloatRect, arg2 SfFloatRect, arg3 SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (int)(C._wrap_sfFloatRect_intersects_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (int)(C._wrap_sfFloatRect_intersects_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
@@ -2966,137 +2966,137 @@ func SfIntRect_intersects(arg1 SfIntRect, arg2 SfIntRect, arg3 SfIntRect) (_swig
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (int)(C._wrap_sfIntRect_intersects_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
+	swig_r = (int)(C._wrap_sfIntRect_intersects_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2)))
 	return swig_r
 }
 
 func SfFloatRect_getPosition(arg1 SfFloatRect) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfFloatRect_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfFloatRect_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfIntRect_getPosition(arg1 SfIntRect) (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfIntRect_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfIntRect_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfFloatRect_getSize(arg1 SfFloatRect) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfFloatRect_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfFloatRect_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfIntRect_getSize(arg1 SfIntRect) (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfIntRect_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfIntRect_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_create() (_swig_ret SfRectangleShape) {
 	var swig_r SfRectangleShape
-	swig_r = (SfRectangleShape)(SwigcptrSfRectangleShape(C._wrap_sfRectangleShape_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfRectangleShape)(SwigcptrSfRectangleShape(C._wrap_sfRectangleShape_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfRectangleShape_copy(arg1 SfRectangleShape) (_swig_ret SfRectangleShape) {
 	var swig_r SfRectangleShape
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfRectangleShape)(SwigcptrSfRectangleShape(C._wrap_sfRectangleShape_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfRectangleShape)(SwigcptrSfRectangleShape(C._wrap_sfRectangleShape_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_destroy(arg1 SfRectangleShape) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRectangleShape_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRectangleShape_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRectangleShape_setPosition(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_setRotation(arg1 SfRectangleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRectangleShape_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfRectangleShape_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfRectangleShape_setScale(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_setOrigin(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_getPosition(arg1 SfRectangleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getRotation(arg1 SfRectangleShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfRectangleShape_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfRectangleShape_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRectangleShape_getScale(arg1 SfRectangleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getOrigin(arg1 SfRectangleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_move(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_rotate(arg1 SfRectangleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRectangleShape_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfRectangleShape_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfRectangleShape_scale(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_getTransform(arg1 SfRectangleShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRectangleShape_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRectangleShape_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getInverseTransform(arg1 SfRectangleShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRectangleShape_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRectangleShape_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3104,72 +3104,72 @@ func SfRectangleShape_setTexture(arg1 SfRectangleShape, arg2 SfTexture, arg3 int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfRectangleShape_setTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_sfRectangleShape_setTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func SfRectangleShape_setTextureRect(arg1 SfRectangleShape, arg2 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_setFillColor(arg1 SfRectangleShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_setOutlineColor(arg1 SfRectangleShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_setOutlineThickness(arg1 SfRectangleShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRectangleShape_setOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfRectangleShape_setOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfRectangleShape_getTexture(arg1 SfRectangleShape) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRectangleShape_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRectangleShape_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getTextureRect(arg1 SfRectangleShape) (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRectangleShape_getTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRectangleShape_getTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getFillColor(arg1 SfRectangleShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRectangleShape_getFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRectangleShape_getFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getOutlineColor(arg1 SfRectangleShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRectangleShape_getOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfRectangleShape_getOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getOutlineThickness(arg1 SfRectangleShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfRectangleShape_getOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfRectangleShape_getOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRectangleShape_getPointCount(arg1 SfRectangleShape) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfRectangleShape_getPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfRectangleShape_getPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3177,34 +3177,34 @@ func SfRectangleShape_getPoint(arg1 SfRectangleShape, arg2 int64) (_swig_ret SfV
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_17(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_17(_swig_i_1))))
 	return swig_r
 }
 
 func SfRectangleShape_setSize(arg1 SfRectangleShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRectangleShape_setSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRectangleShape_setSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRectangleShape_getSize(arg1 SfRectangleShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRectangleShape_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getLocalBounds(arg1 SfRectangleShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfRectangleShape_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfRectangleShape_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRectangleShape_getGlobalBounds(arg1 SfRectangleShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfRectangleShape_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfRectangleShape_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3220,64 +3220,64 @@ func (p SwigcptrSfRenderStates) SwigIsSfRenderStates() {
 func (arg1 SwigcptrSfRenderStates) SetBlendMode(arg2 SfBlendMode) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderStates_blendMode_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderStates_blendMode_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfRenderStates) GetBlendMode() (_swig_ret SfBlendMode) {
 	var swig_r SfBlendMode
 	_swig_i_0 := arg1
-	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfRenderStates_blendMode_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfBlendMode)(SwigcptrSfBlendMode(C._wrap_sfRenderStates_blendMode_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfRenderStates) SetTransform(arg2 SfTransform) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderStates_transform_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderStates_transform_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfRenderStates) GetTransform() (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := arg1
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRenderStates_transform_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfRenderStates_transform_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfRenderStates) SetTexture(arg2 SfTexture) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderStates_texture_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderStates_texture_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfRenderStates) GetTexture() (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := arg1
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRenderStates_texture_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRenderStates_texture_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfRenderStates) SetShader(arg2 SfShader) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderStates_shader_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderStates_shader_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfRenderStates) GetShader() (_swig_ret SfShader) {
 	var swig_r SfShader
 	_swig_i_0 := arg1
-	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfRenderStates_shader_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfRenderStates_shader_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSfRenderStates() (_swig_ret SfRenderStates) {
 	var swig_r SfRenderStates
-	swig_r = (SfRenderStates)(SwigcptrSfRenderStates(C._wrap_new_sfRenderStates_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfRenderStates)(SwigcptrSfRenderStates(C._wrap_new_sfRenderStates_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfRenderStates(arg1 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfRenderStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfRenderStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfRenderStates interface {
@@ -3295,7 +3295,7 @@ type SfRenderStates interface {
 
 func SfRenderStates_default() (_swig_ret SfRenderStates) {
 	var swig_r SfRenderStates
-	swig_r = (SfRenderStates)(SwigcptrSfRenderStates(C._wrap_sfRenderStates_default_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfRenderStates)(SwigcptrSfRenderStates(C._wrap_sfRenderStates_default_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
@@ -3304,7 +3304,7 @@ func SfRenderTexture_create(arg1 uint, arg2 uint, arg3 int) (_swig_ret SfRenderT
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfRenderTexture)(SwigcptrSfRenderTexture(C._wrap_sfRenderTexture_create_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (SfRenderTexture)(SwigcptrSfRenderTexture(C._wrap_sfRenderTexture_create_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
@@ -3313,26 +3313,26 @@ func SfRenderTexture_createWithSettings(arg1 uint, arg2 uint, arg3 SfContextSett
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfRenderTexture)(SwigcptrSfRenderTexture(C._wrap_sfRenderTexture_createWithSettings_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfRenderTexture)(SwigcptrSfRenderTexture(C._wrap_sfRenderTexture_createWithSettings_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func SfRenderTexture_destroy(arg1 SfRenderTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderTexture_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderTexture_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderTexture_getSize(arg1 SfRenderTexture) (_swig_ret SfVector2u) {
 	var swig_r SfVector2u
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfRenderTexture_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfRenderTexture_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderTexture_isSrgb(arg1 SfRenderTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderTexture_isSrgb_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderTexture_isSrgb_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3340,38 +3340,38 @@ func SfRenderTexture_setActive(arg1 SfRenderTexture, arg2 int) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfRenderTexture_setActive_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfRenderTexture_setActive_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func SfRenderTexture_display(arg1 SfRenderTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderTexture_display_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderTexture_display_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderTexture_clear(arg1 SfRenderTexture, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderTexture_clear_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderTexture_clear_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderTexture_setView(arg1 SfRenderTexture, arg2 SfView) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderTexture_setView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderTexture_setView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderTexture_getView(arg1 SfRenderTexture) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderTexture_getView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderTexture_getView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderTexture_getDefaultView(arg1 SfRenderTexture) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderTexture_getDefaultView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderTexture_getDefaultView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3379,7 +3379,7 @@ func SfRenderTexture_getViewport(arg1 SfRenderTexture, arg2 SfView) (_swig_ret S
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRenderTexture_getViewport_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRenderTexture_getViewport_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3388,7 +3388,7 @@ func SfRenderTexture_mapPixelToCoords(arg1 SfRenderTexture, arg2 SfVector2i, arg
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRenderTexture_mapPixelToCoords_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRenderTexture_mapPixelToCoords_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3397,7 +3397,7 @@ func SfRenderTexture_mapCoordsToPixel(arg1 SfRenderTexture, arg2 SfVector2f, arg
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderTexture_mapCoordsToPixel_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderTexture_mapCoordsToPixel_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3405,56 +3405,56 @@ func SfRenderTexture_drawSprite(arg1 SfRenderTexture, arg2 SfSprite, arg3 SfRend
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawSprite_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawSprite_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawText(arg1 SfRenderTexture, arg2 SfText, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawText_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawText_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawShape(arg1 SfRenderTexture, arg2 SfShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawCircleShape(arg1 SfRenderTexture, arg2 SfCircleShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawCircleShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawCircleShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawConvexShape(arg1 SfRenderTexture, arg2 SfConvexShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawConvexShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawConvexShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawRectangleShape(arg1 SfRenderTexture, arg2 SfRectangleShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawRectangleShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawRectangleShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawVertexArray(arg1 SfRenderTexture, arg2 SfVertexArray, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawVertexArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawVertexArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawVertexBuffer(arg1 SfRenderTexture, arg2 SfVertexBuffer, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderTexture_drawVertexBuffer_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderTexture_drawVertexBuffer_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderTexture_drawVertexBufferRange(arg1 SfRenderTexture, arg2 SfVertexBuffer, arg3 int64, arg4 int64, arg5 SfRenderStates) {
@@ -3463,7 +3463,7 @@ func SfRenderTexture_drawVertexBufferRange(arg1 SfRenderTexture, arg2 SfVertexBu
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
-	C._wrap_sfRenderTexture_drawVertexBufferRange_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_18(_swig_i_2), C.swig_type_19(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_sfRenderTexture_drawVertexBufferRange_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_18(_swig_i_2), C.swig_type_19(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func SfRenderTexture_drawPrimitives(arg1 SfRenderTexture, arg2 SfVertex, arg3 int64, arg4 SfPrimitiveType, arg5 SfRenderStates) {
@@ -3472,67 +3472,67 @@ func SfRenderTexture_drawPrimitives(arg1 SfRenderTexture, arg2 SfVertex, arg3 in
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
-	C._wrap_sfRenderTexture_drawPrimitives_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_20(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_sfRenderTexture_drawPrimitives_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_20(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func SfRenderTexture_pushGLStates(arg1 SfRenderTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderTexture_pushGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderTexture_pushGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderTexture_popGLStates(arg1 SfRenderTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderTexture_popGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderTexture_popGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderTexture_resetGLStates(arg1 SfRenderTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderTexture_resetGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderTexture_resetGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderTexture_getTexture(arg1 SfRenderTexture) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRenderTexture_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfRenderTexture_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderTexture_getMaximumAntialiasingLevel() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_a3b77f1faf9b9057())
+	swig_r = (uint)(C._wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 func SfRenderTexture_setSmooth(arg1 SfRenderTexture, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderTexture_setSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderTexture_setSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderTexture_isSmooth(arg1 SfRenderTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderTexture_isSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderTexture_isSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRenderTexture_setRepeated(arg1 SfRenderTexture, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderTexture_setRepeated_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderTexture_setRepeated_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderTexture_isRepeated(arg1 SfRenderTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderTexture_isRepeated_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderTexture_isRepeated_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRenderTexture_generateMipmap(arg1 SfRenderTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderTexture_generateMipmap_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderTexture_generateMipmap_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -3542,7 +3542,7 @@ func SfRenderWindow_create(arg1 SfVideoMode, arg2 string, arg3 uint, arg4 SfCont
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_create_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_create_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_21)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -3555,7 +3555,7 @@ func SfRenderWindow_createUnicode(arg1 SfVideoMode, arg2 *uint, arg3 uint, arg4 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := getSwigcptr(arg4)
-	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_createUnicode_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_createUnicode_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
@@ -3563,31 +3563,31 @@ func SfRenderWindow_createFromHandle(arg1 SfWindowHandle, arg2 SfContextSettings
 	var swig_r SfRenderWindow
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_createFromHandle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfRenderWindow)(SwigcptrSfRenderWindow(C._wrap_sfRenderWindow_createFromHandle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func SfRenderWindow_destroy(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_close(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_close_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_close_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_isOpen(arg1 SfRenderWindow) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderWindow_isOpen_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderWindow_isOpen_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRenderWindow_getSettings(arg1 SfRenderWindow) (_swig_ret SfContextSettings) {
 	var swig_r SfContextSettings
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfContextSettings)(SwigcptrSfContextSettings(C._wrap_sfRenderWindow_getSettings_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfContextSettings)(SwigcptrSfContextSettings(C._wrap_sfRenderWindow_getSettings_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3595,7 +3595,7 @@ func SfRenderWindow_pollEvent(arg1 SfRenderWindow, arg2 SfEvent) (_swig_ret int)
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_sfRenderWindow_pollEvent_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfRenderWindow_pollEvent_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
@@ -3603,47 +3603,47 @@ func SfRenderWindow_waitEvent(arg1 SfRenderWindow, arg2 SfEvent) (_swig_ret int)
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_sfRenderWindow_waitEvent_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfRenderWindow_waitEvent_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func SfRenderWindow_getPosition(arg1 SfRenderWindow) (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderWindow_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderWindow_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderWindow_setPosition(arg1 SfRenderWindow, arg2 SfVector2i) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderWindow_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderWindow_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderWindow_getSize(arg1 SfRenderWindow) (_swig_ret SfVector2u) {
 	var swig_r SfVector2u
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfRenderWindow_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfRenderWindow_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderWindow_isSrgb(arg1 SfRenderWindow) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderWindow_isSrgb_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderWindow_isSrgb_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRenderWindow_setSize(arg1 SfRenderWindow, arg2 SfVector2u) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderWindow_setSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderWindow_setSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderWindow_setTitle(arg1 SfRenderWindow, arg2 string) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setTitle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_sfRenderWindow_setTitle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_22)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -3652,7 +3652,7 @@ func SfRenderWindow_setTitle(arg1 SfRenderWindow, arg2 string) {
 func SfRenderWindow_setUnicodeTitle(arg1 SfRenderWindow, arg2 *uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setUnicodeTitle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfRenderWindow_setUnicodeTitle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func SfRenderWindow_setIcon(arg1 SfRenderWindow, arg2 uint, arg3 uint, arg4 *byte) {
@@ -3660,112 +3660,112 @@ func SfRenderWindow_setIcon(arg1 SfRenderWindow, arg2 uint, arg3 uint, arg4 *byt
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfRenderWindow_setIcon_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3))
+	C._wrap_sfRenderWindow_setIcon_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_voidp(_swig_i_3))
 }
 
 func SfRenderWindow_setVisible(arg1 SfRenderWindow, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setVisible_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setVisible_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setVerticalSyncEnabled(arg1 SfRenderWindow, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setMouseCursorVisible(arg1 SfRenderWindow, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setMouseCursorVisible_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setMouseCursorVisible_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setMouseCursorGrabbed(arg1 SfRenderWindow, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setMouseCursor(arg1 SfRenderWindow, arg2 SfCursor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderWindow_setMouseCursor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderWindow_setMouseCursor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderWindow_setKeyRepeatEnabled(arg1 SfRenderWindow, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setFramerateLimit(arg1 SfRenderWindow, arg2 uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setFramerateLimit_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfRenderWindow_setFramerateLimit_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfRenderWindow_setJoystickThreshold(arg1 SfRenderWindow, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfRenderWindow_setJoystickThreshold_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfRenderWindow_setJoystickThreshold_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfRenderWindow_setActive(arg1 SfRenderWindow, arg2 int) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfRenderWindow_setActive_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfRenderWindow_setActive_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func SfRenderWindow_requestFocus(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_requestFocus_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_requestFocus_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_hasFocus(arg1 SfRenderWindow) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfRenderWindow_hasFocus_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfRenderWindow_hasFocus_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfRenderWindow_display(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_display_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_display_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_getSystemHandle(arg1 SfRenderWindow) (_swig_ret SfWindowHandle) {
 	var swig_r SfWindowHandle
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfWindowHandle)(SwigcptrSfWindowHandle(C._wrap_sfRenderWindow_getSystemHandle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfWindowHandle)(SwigcptrSfWindowHandle(C._wrap_sfRenderWindow_getSystemHandle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderWindow_clear(arg1 SfRenderWindow, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderWindow_clear_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderWindow_clear_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderWindow_setView(arg1 SfRenderWindow, arg2 SfView) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfRenderWindow_setView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfRenderWindow_setView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfRenderWindow_getView(arg1 SfRenderWindow) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderWindow_getView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderWindow_getView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfRenderWindow_getDefaultView(arg1 SfRenderWindow) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderWindow_getDefaultView_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfRenderWindow_getDefaultView_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -3773,7 +3773,7 @@ func SfRenderWindow_getViewport(arg1 SfRenderWindow, arg2 SfView) (_swig_ret SfI
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRenderWindow_getViewport_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfRenderWindow_getViewport_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3782,7 +3782,7 @@ func SfRenderWindow_mapPixelToCoords(arg1 SfRenderWindow, arg2 SfVector2i, arg3 
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRenderWindow_mapPixelToCoords_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfRenderWindow_mapPixelToCoords_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3791,7 +3791,7 @@ func SfRenderWindow_mapCoordsToPixel(arg1 SfRenderWindow, arg2 SfVector2f, arg3 
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderWindow_mapCoordsToPixel_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfRenderWindow_mapCoordsToPixel_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -3799,56 +3799,56 @@ func SfRenderWindow_drawSprite(arg1 SfRenderWindow, arg2 SfSprite, arg3 SfRender
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawSprite_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawSprite_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawText(arg1 SfRenderWindow, arg2 SfText, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawText_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawText_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawShape(arg1 SfRenderWindow, arg2 SfShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawCircleShape(arg1 SfRenderWindow, arg2 SfCircleShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawCircleShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawCircleShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawConvexShape(arg1 SfRenderWindow, arg2 SfConvexShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawConvexShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawConvexShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawRectangleShape(arg1 SfRenderWindow, arg2 SfRectangleShape, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawRectangleShape_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawRectangleShape_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawVertexArray(arg1 SfRenderWindow, arg2 SfVertexArray, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawVertexArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawVertexArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawVertexBuffer(arg1 SfRenderWindow, arg2 SfVertexBuffer, arg3 SfRenderStates) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfRenderWindow_drawVertexBuffer_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
+	C._wrap_sfRenderWindow_drawVertexBuffer_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))
 }
 
 func SfRenderWindow_drawVertexBufferRange(arg1 SfRenderWindow, arg2 SfVertexBuffer, arg3 int64, arg4 int64, arg5 SfRenderStates) {
@@ -3857,7 +3857,7 @@ func SfRenderWindow_drawVertexBufferRange(arg1 SfRenderWindow, arg2 SfVertexBuff
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
-	C._wrap_sfRenderWindow_drawVertexBufferRange_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_23(_swig_i_2), C.swig_type_24(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_sfRenderWindow_drawVertexBufferRange_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_23(_swig_i_2), C.swig_type_24(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func SfRenderWindow_drawPrimitives(arg1 SfRenderWindow, arg2 SfVertex, arg3 int64, arg4 SfPrimitiveType, arg5 SfRenderStates) {
@@ -3866,49 +3866,49 @@ func SfRenderWindow_drawPrimitives(arg1 SfRenderWindow, arg2 SfVertex, arg3 int6
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := getSwigcptr(arg5)
-	C._wrap_sfRenderWindow_drawPrimitives_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_25(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))
+	C._wrap_sfRenderWindow_drawPrimitives_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_25(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))
 }
 
 func SfRenderWindow_pushGLStates(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_pushGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_pushGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_popGLStates(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_popGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_popGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_resetGLStates(arg1 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfRenderWindow_resetGLStates_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfRenderWindow_resetGLStates_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfRenderWindow_capture(arg1 SfRenderWindow) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfRenderWindow_capture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfRenderWindow_capture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMouse_getPositionRenderWindow(arg1 SfRenderWindow) (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfMouse_getPositionRenderWindow_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfMouse_getPositionRenderWindow_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMouse_setPositionRenderWindow(arg1 SfVector2i, arg2 SfRenderWindow) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfMouse_setPositionRenderWindow_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfMouse_setPositionRenderWindow_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTouch_getPositionRenderWindow(arg1 uint, arg2 SfRenderWindow) (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfTouch_getPositionRenderWindow_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_sfTouch_getPositionRenderWindow_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -3918,7 +3918,7 @@ func SfRenderWindow_createVulkanSurface(arg1 SfRenderWindow, arg2 VkInstance, ar
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := getSwigcptr(arg4)
-	swig_r = (int)(C._wrap_sfRenderWindow_createVulkanSurface_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
+	swig_r = (int)(C._wrap_sfRenderWindow_createVulkanSurface_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2), C.uintptr_t(_swig_i_3)))
 	return swig_r
 }
 
@@ -3927,7 +3927,7 @@ func SfShader_createFromFile(arg1 string, arg2 string, arg3 string) (_swig_ret S
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromFile_graphics_a3b77f1faf9b9057(*(*C.swig_type_26)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromFile_graphics_b889a472290cd9f0(*(*C.swig_type_26)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_27)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_28)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3945,7 +3945,7 @@ func SfShader_createFromMemory(arg1 string, arg2 string, arg3 string) (_swig_ret
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromMemory_graphics_a3b77f1faf9b9057(*(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_2)))))
+	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromMemory_graphics_b889a472290cd9f0(*(*C.swig_type_29)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_30)(unsafe.Pointer(&_swig_i_1)), *(*C.swig_type_31)(unsafe.Pointer(&_swig_i_2)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -3963,20 +3963,20 @@ func SfShader_createFromStream(arg1 SfInputStream, arg2 SfInputStream, arg3 SfIn
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromStream_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfShader)(SwigcptrSfShader(C._wrap_sfShader_createFromStream_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func SfShader_destroy(arg1 SfShader) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfShader_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfShader_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfShader_setFloatUniform(arg1 SfShader, arg2 string, arg3 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfShader_setFloatUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))
+	C._wrap_sfShader_setFloatUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_32)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -3986,7 +3986,7 @@ func SfShader_setVec2Uniform(arg1 SfShader, arg2 string, arg3 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setVec2Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setVec2Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_33)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -3996,7 +3996,7 @@ func SfShader_setVec3Uniform(arg1 SfShader, arg2 string, arg3 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setVec3Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setVec3Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_34)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4006,7 +4006,7 @@ func SfShader_setVec4Uniform(arg1 SfShader, arg2 string, arg3 SfGlslVec4) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setVec4Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_35)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setVec4Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_35)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4016,7 +4016,7 @@ func SfShader_setColorUniform(arg1 SfShader, arg2 string, arg3 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setColorUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setColorUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_36)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4026,7 +4026,7 @@ func SfShader_setIntUniform(arg1 SfShader, arg2 string, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfShader_setIntUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	C._wrap_sfShader_setIntUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_37)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4036,7 +4036,7 @@ func SfShader_setIvec2Uniform(arg1 SfShader, arg2 string, arg3 SfVector2i) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setIvec2Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setIvec2Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_38)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4046,7 +4046,7 @@ func SfShader_setIvec3Uniform(arg1 SfShader, arg2 string, arg3 SfGlslIvec3) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setIvec3Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setIvec3Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_39)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4056,7 +4056,7 @@ func SfShader_setIvec4Uniform(arg1 SfShader, arg2 string, arg3 SfGlslIvec4) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setIvec4Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setIvec4Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_40)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4066,7 +4066,7 @@ func SfShader_setIntColorUniform(arg1 SfShader, arg2 string, arg3 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setIntColorUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setIntColorUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_41)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4076,7 +4076,7 @@ func SfShader_setBoolUniform(arg1 SfShader, arg2 string, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfShader_setBoolUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
+	C._wrap_sfShader_setBoolUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_42)(unsafe.Pointer(&_swig_i_1)), C.swig_intgo(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4086,7 +4086,7 @@ func SfShader_setBvec2Uniform(arg1 SfShader, arg2 string, arg3 SfGlslBvec2) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setBvec2Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_43)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setBvec2Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_43)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4096,7 +4096,7 @@ func SfShader_setBvec3Uniform(arg1 SfShader, arg2 string, arg3 SfGlslBvec3) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setBvec3Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_44)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setBvec3Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_44)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4106,7 +4106,7 @@ func SfShader_setBvec4Uniform(arg1 SfShader, arg2 string, arg3 SfGlslBvec4) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setBvec4Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_45)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setBvec4Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_45)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4116,7 +4116,7 @@ func SfShader_setMat3Uniform(arg1 SfShader, arg2 string, arg3 SfGlslMat3) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setMat3Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_46)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setMat3Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_46)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4126,7 +4126,7 @@ func SfShader_setMat4Uniform(arg1 SfShader, arg2 string, arg3 SfGlslMat4) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setMat4Uniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_47)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setMat4Uniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_47)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4136,7 +4136,7 @@ func SfShader_setTextureUniform(arg1 SfShader, arg2 string, arg3 SfTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setTextureUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_48)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setTextureUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_48)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4145,7 +4145,7 @@ func SfShader_setTextureUniform(arg1 SfShader, arg2 string, arg3 SfTexture) {
 func SfShader_setCurrentTextureUniform(arg1 SfShader, arg2 string) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfShader_setCurrentTextureUniform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_49)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_sfShader_setCurrentTextureUniform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_49)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4156,7 +4156,7 @@ func SfShader_setFloatUniformArray(arg1 SfShader, arg2 string, arg3 *float32, ar
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setFloatUniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_50)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C.swig_type_51(_swig_i_3))
+	C._wrap_sfShader_setFloatUniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_50)(unsafe.Pointer(&_swig_i_1)), C.swig_voidp(_swig_i_2), C.swig_type_51(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4167,7 +4167,7 @@ func SfShader_setVec2UniformArray(arg1 SfShader, arg2 string, arg3 SfVector2f, a
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setVec2UniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_52)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_53(_swig_i_3))
+	C._wrap_sfShader_setVec2UniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_52)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_53(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4178,7 +4178,7 @@ func SfShader_setVec3UniformArray(arg1 SfShader, arg2 string, arg3 SfVector3f, a
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setVec3UniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_55(_swig_i_3))
+	C._wrap_sfShader_setVec3UniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_54)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_55(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4189,7 +4189,7 @@ func SfShader_setVec4UniformArray(arg1 SfShader, arg2 string, arg3 SfGlslVec4, a
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setVec4UniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_56)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_57(_swig_i_3))
+	C._wrap_sfShader_setVec4UniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_56)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_57(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4200,7 +4200,7 @@ func SfShader_setMat3UniformArray(arg1 SfShader, arg2 string, arg3 SfGlslMat3, a
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setMat3UniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_59(_swig_i_3))
+	C._wrap_sfShader_setMat3UniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_58)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_59(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4211,7 +4211,7 @@ func SfShader_setMat4UniformArray(arg1 SfShader, arg2 string, arg3 SfGlslMat4, a
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setMat4UniformArray_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_60)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_61(_swig_i_3))
+	C._wrap_sfShader_setMat4UniformArray_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_60)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2), C.swig_type_61(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4221,7 +4221,7 @@ func SfShader_setFloatParameter(arg1 SfShader, arg2 string, arg3 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfShader_setFloatParameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_62)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))
+	C._wrap_sfShader_setFloatParameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_62)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4232,7 +4232,7 @@ func SfShader_setFloat2Parameter(arg1 SfShader, arg2 string, arg3 float32, arg4 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfShader_setFloat2Parameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_63)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3))
+	C._wrap_sfShader_setFloat2Parameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_63)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4244,7 +4244,7 @@ func SfShader_setFloat3Parameter(arg1 SfShader, arg2 string, arg3 float32, arg4 
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_sfShader_setFloat3Parameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_64)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))
+	C._wrap_sfShader_setFloat3Parameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_64)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4257,7 +4257,7 @@ func SfShader_setFloat4Parameter(arg1 SfShader, arg2 string, arg3 float32, arg4 
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_sfShader_setFloat4Parameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_65)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.float(_swig_i_5))
+	C._wrap_sfShader_setFloat4Parameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_65)(unsafe.Pointer(&_swig_i_1)), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.float(_swig_i_5))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4267,7 +4267,7 @@ func SfShader_setVector2Parameter(arg1 SfShader, arg2 string, arg3 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setVector2Parameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_66)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setVector2Parameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_66)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4277,7 +4277,7 @@ func SfShader_setVector3Parameter(arg1 SfShader, arg2 string, arg3 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setVector3Parameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_67)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setVector3Parameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_67)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4287,7 +4287,7 @@ func SfShader_setColorParameter(arg1 SfShader, arg2 string, arg3 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setColorParameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setColorParameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_68)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4297,7 +4297,7 @@ func SfShader_setTransformParameter(arg1 SfShader, arg2 string, arg3 SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setTransformParameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_69)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setTransformParameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_69)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4307,7 +4307,7 @@ func SfShader_setTextureParameter(arg1 SfShader, arg2 string, arg3 SfTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	C._wrap_sfShader_setTextureParameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_70)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_sfShader_setTextureParameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_70)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4316,7 +4316,7 @@ func SfShader_setTextureParameter(arg1 SfShader, arg2 string, arg3 SfTexture) {
 func SfShader_setCurrentTextureParameter(arg1 SfShader, arg2 string) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfShader_setCurrentTextureParameter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_71)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_sfShader_setCurrentTextureParameter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_71)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4325,24 +4325,24 @@ func SfShader_setCurrentTextureParameter(arg1 SfShader, arg2 string) {
 func SfShader_getNativeHandle(arg1 SfShader) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfShader_getNativeHandle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfShader_getNativeHandle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfShader_bind(arg1 SfShader) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfShader_bind_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfShader_bind_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfShader_isAvailable() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfShader_isAvailable_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfShader_isAvailable_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 func SfShader_isGeometryAvailable() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfShader_isGeometryAvailable_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfShader_isGeometryAvailable_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -4351,96 +4351,96 @@ func SfShape_create(arg1 _swig_fnptr, arg2 _swig_fnptr, arg3 uintptr) (_swig_ret
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfShape)(SwigcptrSfShape(C._wrap_sfShape_create_graphics_a3b77f1faf9b9057(C.swig_type_72(_swig_i_0), C.swig_type_73(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfShape)(SwigcptrSfShape(C._wrap_sfShape_create_graphics_b889a472290cd9f0(C.swig_type_72(_swig_i_0), C.swig_type_73(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
 func SfShape_destroy(arg1 SfShape) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfShape_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfShape_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfShape_setPosition(arg1 SfShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_setRotation(arg1 SfShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfShape_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfShape_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfShape_setScale(arg1 SfShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_setOrigin(arg1 SfShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_getPosition(arg1 SfShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getRotation(arg1 SfShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfShape_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfShape_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfShape_getScale(arg1 SfShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getOrigin(arg1 SfShape) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_move(arg1 SfShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_rotate(arg1 SfShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfShape_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfShape_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfShape_scale(arg1 SfShape, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_getTransform(arg1 SfShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfShape_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfShape_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getInverseTransform(arg1 SfShape) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfShape_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfShape_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4448,72 +4448,72 @@ func SfShape_setTexture(arg1 SfShape, arg2 SfTexture, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfShape_setTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_sfShape_setTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func SfShape_setTextureRect(arg1 SfShape, arg2 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_setFillColor(arg1 SfShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_setOutlineColor(arg1 SfShape, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfShape_setOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfShape_setOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfShape_setOutlineThickness(arg1 SfShape, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfShape_setOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfShape_setOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfShape_getTexture(arg1 SfShape) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfShape_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfShape_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getTextureRect(arg1 SfShape) (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfShape_getTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfShape_getTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getFillColor(arg1 SfShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfShape_getFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfShape_getFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getOutlineColor(arg1 SfShape) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfShape_getOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfShape_getOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getOutlineThickness(arg1 SfShape) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfShape_getOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfShape_getOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfShape_getPointCount(arg1 SfShape) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfShape_getPointCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfShape_getPointCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -4521,128 +4521,128 @@ func SfShape_getPoint(arg1 SfShape, arg2 int64) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_75(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfShape_getPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_75(_swig_i_1))))
 	return swig_r
 }
 
 func SfShape_getLocalBounds(arg1 SfShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfShape_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfShape_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_getGlobalBounds(arg1 SfShape) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfShape_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfShape_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfShape_update(arg1 SfShape) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfShape_update_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfShape_update_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfSprite_create() (_swig_ret SfSprite) {
 	var swig_r SfSprite
-	swig_r = (SfSprite)(SwigcptrSfSprite(C._wrap_sfSprite_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfSprite)(SwigcptrSfSprite(C._wrap_sfSprite_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfSprite_copy(arg1 SfSprite) (_swig_ret SfSprite) {
 	var swig_r SfSprite
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSprite)(SwigcptrSfSprite(C._wrap_sfSprite_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSprite)(SwigcptrSfSprite(C._wrap_sfSprite_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_destroy(arg1 SfSprite) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSprite_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSprite_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfSprite_setPosition(arg1 SfSprite, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_setRotation(arg1 SfSprite, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSprite_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSprite_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSprite_setScale(arg1 SfSprite, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_setOrigin(arg1 SfSprite, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_getPosition(arg1 SfSprite) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getRotation(arg1 SfSprite) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSprite_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSprite_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSprite_getScale(arg1 SfSprite) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getOrigin(arg1 SfSprite) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfSprite_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_move(arg1 SfSprite, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_rotate(arg1 SfSprite, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSprite_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSprite_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSprite_scale(arg1 SfSprite, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_getTransform(arg1 SfSprite) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfSprite_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfSprite_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getInverseTransform(arg1 SfSprite) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfSprite_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfSprite_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -4650,198 +4650,198 @@ func SfSprite_setTexture(arg1 SfSprite, arg2 SfTexture, arg3 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
-	C._wrap_sfSprite_setTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
+	C._wrap_sfSprite_setTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2))
 }
 
 func SfSprite_setTextureRect(arg1 SfSprite, arg2 SfIntRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_setTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_setTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_setColor(arg1 SfSprite, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSprite_setColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSprite_setColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSprite_getTexture(arg1 SfSprite) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfSprite_getTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfSprite_getTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getTextureRect(arg1 SfSprite) (_swig_ret SfIntRect) {
 	var swig_r SfIntRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfSprite_getTextureRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfIntRect)(SwigcptrSfIntRect(C._wrap_sfSprite_getTextureRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getColor(arg1 SfSprite) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfSprite_getColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfSprite_getColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getLocalBounds(arg1 SfSprite) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfSprite_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfSprite_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSprite_getGlobalBounds(arg1 SfSprite) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfSprite_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfSprite_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 type SfTextStyle int
 func _swig_getsfTextRegular() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextRegular_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextRegular_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextRegular int = _swig_getsfTextRegular()
 func _swig_getsfTextBold() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextBold_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextBold_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextBold int = _swig_getsfTextBold()
 func _swig_getsfTextItalic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextItalic_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextItalic_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextItalic int = _swig_getsfTextItalic()
 func _swig_getsfTextUnderlined() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextUnderlined_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextUnderlined_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextUnderlined int = _swig_getsfTextUnderlined()
 func _swig_getsfTextStrikeThrough() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextStrikeThrough_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextStrikeThrough_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextStrikeThrough int = _swig_getsfTextStrikeThrough()
 func SfText_create() (_swig_ret SfText) {
 	var swig_r SfText
-	swig_r = (SfText)(SwigcptrSfText(C._wrap_sfText_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfText)(SwigcptrSfText(C._wrap_sfText_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfText_copy(arg1 SfText) (_swig_ret SfText) {
 	var swig_r SfText
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfText)(SwigcptrSfText(C._wrap_sfText_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfText)(SwigcptrSfText(C._wrap_sfText_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_destroy(arg1 SfText) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfText_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfText_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfText_setPosition(arg1 SfText, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setRotation(arg1 SfText, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfText_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfText_setScale(arg1 SfText, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setOrigin(arg1 SfText, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_getPosition(arg1 SfText) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getRotation(arg1 SfText) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfText_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfText_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getScale(arg1 SfText) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getOrigin(arg1 SfText) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_move(arg1 SfText, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_rotate(arg1 SfText, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfText_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfText_scale(arg1 SfText, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_getTransform(arg1 SfText) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfText_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfText_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getInverseTransform(arg1 SfText) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfText_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfText_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_setString(arg1 SfText, arg2 string) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setString_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), *(*C.swig_type_76)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_sfText_setString_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), *(*C.swig_type_76)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -4850,67 +4850,67 @@ func SfText_setString(arg1 SfText, arg2 string) {
 func SfText_setUnicodeString(arg1 SfText, arg2 *uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setUnicodeString_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfText_setUnicodeString_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func SfText_setFont(arg1 SfText, arg2 SfFont) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setFont_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setFont_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setCharacterSize(arg1 SfText, arg2 uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setCharacterSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfText_setCharacterSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfText_setLineSpacing(arg1 SfText, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setLineSpacing_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfText_setLineSpacing_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfText_setLetterSpacing(arg1 SfText, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setLetterSpacing_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfText_setLetterSpacing_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfText_setStyle(arg1 SfText, arg2 uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setStyle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfText_setStyle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfText_setColor(arg1 SfText, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setFillColor(arg1 SfText, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setOutlineColor(arg1 SfText, arg2 SfColor) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfText_setOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfText_setOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfText_setOutlineThickness(arg1 SfText, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfText_setOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfText_setOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfText_getString(arg1 SfText) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r_p := C._wrap_sfText_getString_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_sfText_getString_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -4920,70 +4920,70 @@ func SfText_getString(arg1 SfText) (_swig_ret string) {
 func SfText_getUnicodeString(arg1 SfText) (_swig_ret *uint) {
 	var swig_r *uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (*uint)(C._wrap_sfText_getUnicodeString_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (*uint)(C._wrap_sfText_getUnicodeString_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getFont(arg1 SfText) (_swig_ret SfFont) {
 	var swig_r SfFont
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfText_getFont_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFont)(SwigcptrSfFont(C._wrap_sfText_getFont_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getCharacterSize(arg1 SfText) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfText_getCharacterSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfText_getCharacterSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getLetterSpacing(arg1 SfText) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfText_getLetterSpacing_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfText_getLetterSpacing_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getLineSpacing(arg1 SfText) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfText_getLineSpacing_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfText_getLineSpacing_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getStyle(arg1 SfText) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfText_getStyle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfText_getStyle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfText_getColor(arg1 SfText) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getFillColor(arg1 SfText) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getFillColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getFillColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getOutlineColor(arg1 SfText) (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getOutlineColor_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfText_getOutlineColor_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getOutlineThickness(arg1 SfText) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfText_getOutlineThickness_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfText_getOutlineThickness_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -4991,35 +4991,35 @@ func SfText_findCharacterPos(arg1 SfText, arg2 int64) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_findCharacterPos_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_78(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfText_findCharacterPos_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_78(_swig_i_1))))
 	return swig_r
 }
 
 func SfText_getLocalBounds(arg1 SfText) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfText_getLocalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfText_getLocalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfText_getGlobalBounds(arg1 SfText) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfText_getGlobalBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfText_getGlobalBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 type SfTextureCoordinateType int
 func _swig_getsfTextureNormalized() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTextureNormalized_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTextureNormalized_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfTextureNormalized int = _swig_getsfTextureNormalized()
 func _swig_getsfTexturePixels() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfTexturePixels_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfTexturePixels_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -5028,7 +5028,7 @@ func SfTexture_create(arg1 uint, arg2 uint) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_create_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_create_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1))))
 	return swig_r
 }
 
@@ -5036,7 +5036,7 @@ func SfTexture_createFromFile(arg1 string, arg2 SfIntRect) (_swig_ret SfTexture)
 	var swig_r SfTexture
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromFile_graphics_a3b77f1faf9b9057(*(*C.swig_type_79)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromFile_graphics_b889a472290cd9f0(*(*C.swig_type_79)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5047,7 +5047,7 @@ func SfTexture_createSrgbFromFile(arg1 string, arg2 SfIntRect) (_swig_ret SfText
 	var swig_r SfTexture
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromFile_graphics_a3b77f1faf9b9057(*(*C.swig_type_80)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromFile_graphics_b889a472290cd9f0(*(*C.swig_type_80)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -5059,7 +5059,7 @@ func SfTexture_createFromMemory(arg1 uintptr, arg2 int64, arg3 SfIntRect) (_swig
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromMemory_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_81(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromMemory_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_81(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -5068,7 +5068,7 @@ func SfTexture_createSrgbFromMemory(arg1 uintptr, arg2 int64, arg3 SfIntRect) (_
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := getSwigcptr(arg3)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromMemory_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_82(_swig_i_1), C.uintptr_t(_swig_i_2))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromMemory_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_82(_swig_i_1), C.uintptr_t(_swig_i_2))))
 	return swig_r
 }
 
@@ -5076,7 +5076,7 @@ func SfTexture_createFromStream(arg1 SfInputStream, arg2 SfIntRect) (_swig_ret S
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromStream_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromStream_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5084,7 +5084,7 @@ func SfTexture_createSrgbFromStream(arg1 SfInputStream, arg2 SfIntRect) (_swig_r
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromStream_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromStream_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5092,7 +5092,7 @@ func SfTexture_createFromImage(arg1 SfImage, arg2 SfIntRect) (_swig_ret SfTextur
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromImage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createFromImage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5100,33 +5100,33 @@ func SfTexture_createSrgbFromImage(arg1 SfImage, arg2 SfIntRect) (_swig_ret SfTe
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromImage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_createSrgbFromImage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func SfTexture_copy(arg1 SfTexture) (_swig_ret SfTexture) {
 	var swig_r SfTexture
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTexture)(SwigcptrSfTexture(C._wrap_sfTexture_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTexture_destroy(arg1 SfTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfTexture_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfTexture_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfTexture_getSize(arg1 SfTexture) (_swig_ret SfVector2u) {
 	var swig_r SfVector2u
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfTexture_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_sfTexture_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTexture_copyToImage(arg1 SfTexture) (_swig_ret SfImage) {
 	var swig_r SfImage
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfTexture_copyToImage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfImage)(SwigcptrSfImage(C._wrap_sfTexture_copyToImage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5137,7 +5137,7 @@ func SfTexture_updateFromPixels(arg1 SfTexture, arg2 *byte, arg3 uint, arg4 uint
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_sfTexture_updateFromPixels_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_intgo(_swig_i_5))
+	C._wrap_sfTexture_updateFromPixels_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.swig_intgo(_swig_i_4), C.swig_intgo(_swig_i_5))
 }
 
 func SfTexture_updateFromTexture(arg1 SfTexture, arg2 SfTexture, arg3 uint, arg4 uint) {
@@ -5145,7 +5145,7 @@ func SfTexture_updateFromTexture(arg1 SfTexture, arg2 SfTexture, arg3 uint, arg4
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfTexture_updateFromTexture_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_sfTexture_updateFromTexture_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func SfTexture_updateFromImage(arg1 SfTexture, arg2 SfImage, arg3 uint, arg4 uint) {
@@ -5153,7 +5153,7 @@ func SfTexture_updateFromImage(arg1 SfTexture, arg2 SfImage, arg3 uint, arg4 uin
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfTexture_updateFromImage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_sfTexture_updateFromImage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func SfTexture_updateFromWindow(arg1 SfTexture, arg2 SfWindow, arg3 uint, arg4 uint) {
@@ -5161,7 +5161,7 @@ func SfTexture_updateFromWindow(arg1 SfTexture, arg2 SfWindow, arg3 uint, arg4 u
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfTexture_updateFromWindow_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_sfTexture_updateFromWindow_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func SfTexture_updateFromRenderWindow(arg1 SfTexture, arg2 SfRenderWindow, arg3 uint, arg4 uint) {
@@ -5169,71 +5169,71 @@ func SfTexture_updateFromRenderWindow(arg1 SfTexture, arg2 SfRenderWindow, arg3 
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfTexture_updateFromRenderWindow_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
+	C._wrap_sfTexture_updateFromRenderWindow_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))
 }
 
 func SfTexture_setSmooth(arg1 SfTexture, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTexture_setSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfTexture_setSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfTexture_isSmooth(arg1 SfTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfTexture_isSmooth_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfTexture_isSmooth_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTexture_isSrgb(arg1 SfTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfTexture_isSrgb_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfTexture_isSrgb_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTexture_setRepeated(arg1 SfTexture, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTexture_setRepeated_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfTexture_setRepeated_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfTexture_isRepeated(arg1 SfTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfTexture_isRepeated_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfTexture_isRepeated_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTexture_generateMipmap(arg1 SfTexture) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfTexture_generateMipmap_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfTexture_generateMipmap_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTexture_swap(arg1 SfTexture, arg2 SfTexture) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTexture_swap_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTexture_swap_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTexture_getNativeHandle(arg1 SfTexture) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfTexture_getNativeHandle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfTexture_getNativeHandle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTexture_bind(arg1 SfTexture, arg2 SfTextureCoordinateType) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTexture_bind_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfTexture_bind_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfTexture_getMaximumSize() (_swig_ret uint) {
 	var swig_r uint
-	swig_r = (uint)(C._wrap_sfTexture_getMaximumSize_graphics_a3b77f1faf9b9057())
+	swig_r = (uint)(C._wrap_sfTexture_getMaximumSize_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -5249,25 +5249,25 @@ func (p SwigcptrSfTransform) SwigIsSfTransform() {
 func (arg1 SwigcptrSfTransform) SetMatrix(arg2 *float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfTransform_matrix_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfTransform_matrix_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfTransform) GetMatrix() (_swig_ret *float32) {
 	var swig_r *float32
 	_swig_i_0 := arg1
-	swig_r = (*float32)(C._wrap_sfTransform_matrix_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (*float32)(C._wrap_sfTransform_matrix_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfTransform() (_swig_ret SfTransform) {
 	var swig_r SfTransform
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_new_sfTransform_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_new_sfTransform_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfTransform(arg1 SfTransform) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfTransform interface {
@@ -5279,7 +5279,7 @@ type SfTransform interface {
 
 func GetSfTransform_Identity() (_swig_ret SfTransform) {
 	var swig_r SfTransform
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_Identity_get_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_Identity_get_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
@@ -5294,20 +5294,20 @@ func SfTransform_fromMatrix(arg1 float32, arg2 float32, arg3 float32, arg4 float
 	_swig_i_6 := arg7
 	_swig_i_7 := arg8
 	_swig_i_8 := arg9
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_fromMatrix_graphics_a3b77f1faf9b9057(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.float(_swig_i_5), C.float(_swig_i_6), C.float(_swig_i_7), C.float(_swig_i_8))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_fromMatrix_graphics_b889a472290cd9f0(C.float(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4), C.float(_swig_i_5), C.float(_swig_i_6), C.float(_swig_i_7), C.float(_swig_i_8))))
 	return swig_r
 }
 
 func SfTransform_getMatrix(arg1 SfTransform, arg2 *float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTransform_getMatrix_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfTransform_getMatrix_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func SfTransform_getInverse(arg1 SfTransform) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_getInverse_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransform_getInverse_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5315,7 +5315,7 @@ func SfTransform_transformPoint(arg1 SfTransform, arg2 SfVector2f) (_swig_ret Sf
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransform_transformPoint_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransform_transformPoint_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
@@ -5323,27 +5323,27 @@ func SfTransform_transformRect(arg1 SfTransform, arg2 SfFloatRect) (_swig_ret Sf
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfTransform_transformRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfTransform_transformRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func SfTransform_combine(arg1 SfTransform, arg2 SfTransform) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransform_combine_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransform_combine_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransform_translate(arg1 SfTransform, arg2 float32, arg3 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfTransform_translate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_sfTransform_translate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))
 }
 
 func SfTransform_rotate(arg1 SfTransform, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTransform_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfTransform_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfTransform_rotateWithCenter(arg1 SfTransform, arg2 float32, arg3 float32, arg4 float32) {
@@ -5351,14 +5351,14 @@ func SfTransform_rotateWithCenter(arg1 SfTransform, arg2 float32, arg3 float32, 
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_sfTransform_rotateWithCenter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))
+	C._wrap_sfTransform_rotateWithCenter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3))
 }
 
 func SfTransform_scale(arg1 SfTransform, arg2 float32, arg3 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_sfTransform_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))
+	C._wrap_sfTransform_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2))
 }
 
 func SfTransform_scaleWithCenter(arg1 SfTransform, arg2 float32, arg3 float32, arg4 float32, arg5 float32) {
@@ -5367,116 +5367,116 @@ func SfTransform_scaleWithCenter(arg1 SfTransform, arg2 float32, arg3 float32, a
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	C._wrap_sfTransform_scaleWithCenter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))
+	C._wrap_sfTransform_scaleWithCenter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1), C.float(_swig_i_2), C.float(_swig_i_3), C.float(_swig_i_4))
 }
 
 func SfTransform_equal(arg1 SfTransform, arg2 SfTransform) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_sfTransform_equal_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfTransform_equal_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func SfTransformable_create() (_swig_ret SfTransformable) {
 	var swig_r SfTransformable
-	swig_r = (SfTransformable)(SwigcptrSfTransformable(C._wrap_sfTransformable_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfTransformable)(SwigcptrSfTransformable(C._wrap_sfTransformable_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfTransformable_copy(arg1 SfTransformable) (_swig_ret SfTransformable) {
 	var swig_r SfTransformable
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransformable)(SwigcptrSfTransformable(C._wrap_sfTransformable_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransformable)(SwigcptrSfTransformable(C._wrap_sfTransformable_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTransformable_destroy(arg1 SfTransformable) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfTransformable_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfTransformable_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfTransformable_setPosition(arg1 SfTransformable, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransformable_setPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransformable_setPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransformable_setRotation(arg1 SfTransformable, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTransformable_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfTransformable_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfTransformable_setScale(arg1 SfTransformable, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransformable_setScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransformable_setScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransformable_setOrigin(arg1 SfTransformable, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransformable_setOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransformable_setOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransformable_getPosition(arg1 SfTransformable) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getPosition_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getPosition_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTransformable_getRotation(arg1 SfTransformable) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfTransformable_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfTransformable_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTransformable_getScale(arg1 SfTransformable) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getScale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getScale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTransformable_getOrigin(arg1 SfTransformable) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getOrigin_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfTransformable_getOrigin_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTransformable_move(arg1 SfTransformable, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransformable_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransformable_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransformable_rotate(arg1 SfTransformable, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfTransformable_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfTransformable_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfTransformable_scale(arg1 SfTransformable, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTransformable_scale_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTransformable_scale_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfTransformable_getTransform(arg1 SfTransformable) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransformable_getTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransformable_getTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfTransformable_getInverseTransform(arg1 SfTransformable) (_swig_ret SfTransform) {
 	var swig_r SfTransform
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransformable_getInverseTransform_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTransform)(SwigcptrSfTransform(C._wrap_sfTransformable_getInverseTransform_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -5492,51 +5492,51 @@ func (p SwigcptrSfVertex) SwigIsSfVertex() {
 func (arg1 SwigcptrSfVertex) SetPosition(arg2 SfVector2f) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfVertex_position_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfVertex_position_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVertex) GetPosition() (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := arg1
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfVertex_position_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfVertex_position_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVertex) SetColor(arg2 SfColor) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfVertex_color_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfVertex_color_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVertex) GetColor() (_swig_ret SfColor) {
 	var swig_r SfColor
 	_swig_i_0 := arg1
-	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfVertex_color_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfColor)(SwigcptrSfColor(C._wrap_sfVertex_color_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVertex) SetTexCoords(arg2 SfVector2f) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfVertex_texCoords_set_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfVertex_texCoords_set_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVertex) GetTexCoords() (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := arg1
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfVertex_texCoords_get_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfVertex_texCoords_get_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSfVertex() (_swig_ret SfVertex) {
 	var swig_r SfVertex
-	swig_r = (SfVertex)(SwigcptrSfVertex(C._wrap_new_sfVertex_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfVertex)(SwigcptrSfVertex(C._wrap_new_sfVertex_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func DeleteSfVertex(arg1 SfVertex) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfVertex_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfVertex_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 type SfVertex interface {
@@ -5552,26 +5552,26 @@ type SfVertex interface {
 
 func SfVertexArray_create() (_swig_ret SfVertexArray) {
 	var swig_r SfVertexArray
-	swig_r = (SfVertexArray)(SwigcptrSfVertexArray(C._wrap_sfVertexArray_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfVertexArray)(SwigcptrSfVertexArray(C._wrap_sfVertexArray_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfVertexArray_copy(arg1 SfVertexArray) (_swig_ret SfVertexArray) {
 	var swig_r SfVertexArray
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVertexArray)(SwigcptrSfVertexArray(C._wrap_sfVertexArray_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVertexArray)(SwigcptrSfVertexArray(C._wrap_sfVertexArray_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfVertexArray_destroy(arg1 SfVertexArray) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfVertexArray_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfVertexArray_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfVertexArray_getVertexCount(arg1 SfVertexArray) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfVertexArray_getVertexCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfVertexArray_getVertexCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5579,65 +5579,65 @@ func SfVertexArray_getVertex(arg1 SfVertexArray, arg2 int64) (_swig_ret SfVertex
 	var swig_r SfVertex
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (SfVertex)(SwigcptrSfVertex(C._wrap_sfVertexArray_getVertex_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_84(_swig_i_1))))
+	swig_r = (SfVertex)(SwigcptrSfVertex(C._wrap_sfVertexArray_getVertex_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_84(_swig_i_1))))
 	return swig_r
 }
 
 func SfVertexArray_clear(arg1 SfVertexArray) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfVertexArray_clear_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfVertexArray_clear_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfVertexArray_resize(arg1 SfVertexArray, arg2 int64) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfVertexArray_resize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_type_85(_swig_i_1))
+	C._wrap_sfVertexArray_resize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_type_85(_swig_i_1))
 }
 
 func SfVertexArray_append(arg1 SfVertexArray, arg2 SfVertex) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfVertexArray_append_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfVertexArray_append_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfVertexArray_setPrimitiveType(arg1 SfVertexArray, arg2 SfPrimitiveType) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfVertexArray_setPrimitiveType_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVertexArray_setPrimitiveType_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfVertexArray_getPrimitiveType(arg1 SfVertexArray) (_swig_ret SfPrimitiveType) {
 	var swig_r SfPrimitiveType
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfPrimitiveType)(C._wrap_sfVertexArray_getPrimitiveType_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfPrimitiveType)(C._wrap_sfVertexArray_getPrimitiveType_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfVertexArray_getBounds(arg1 SfVertexArray) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfVertexArray_getBounds_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfVertexArray_getBounds_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 type SfVertexBufferUsage int
 func _swig_getsfVertexBufferStream() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfVertexBufferStream_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfVertexBufferStream_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfVertexBufferStream int = _swig_getsfVertexBufferStream()
 func _swig_getsfVertexBufferDynamic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfVertexBufferDynamic_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfVertexBufferDynamic_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 var SfVertexBufferDynamic int = _swig_getsfVertexBufferDynamic()
 func _swig_getsfVertexBufferStatic() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfVertexBufferStatic_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfVertexBufferStatic_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
@@ -5647,26 +5647,26 @@ func SfVertexBuffer_create(arg1 uint, arg2 SfPrimitiveType, arg3 SfVertexBufferU
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	swig_r = (SfVertexBuffer)(SwigcptrSfVertexBuffer(C._wrap_sfVertexBuffer_create_graphics_a3b77f1faf9b9057(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
+	swig_r = (SfVertexBuffer)(SwigcptrSfVertexBuffer(C._wrap_sfVertexBuffer_create_graphics_b889a472290cd9f0(C.swig_intgo(_swig_i_0), C.swig_intgo(_swig_i_1), C.swig_intgo(_swig_i_2))))
 	return swig_r
 }
 
 func SfVertexBuffer_copy(arg1 SfVertexBuffer) (_swig_ret SfVertexBuffer) {
 	var swig_r SfVertexBuffer
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVertexBuffer)(SwigcptrSfVertexBuffer(C._wrap_sfVertexBuffer_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVertexBuffer)(SwigcptrSfVertexBuffer(C._wrap_sfVertexBuffer_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfVertexBuffer_destroy(arg1 SfVertexBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfVertexBuffer_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfVertexBuffer_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfVertexBuffer_getVertexCount(arg1 SfVertexBuffer) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfVertexBuffer_getVertexCount_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfVertexBuffer_getVertexCount_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
@@ -5676,7 +5676,7 @@ func SfVertexBuffer_update(arg1 SfVertexBuffer, arg2 SfVertex, arg3 uint, arg4 u
 	_swig_i_1 := getSwigcptr(arg2)
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (int)(C._wrap_sfVertexBuffer_update_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
+	swig_r = (int)(C._wrap_sfVertexBuffer_update_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3)))
 	return swig_r
 }
 
@@ -5684,159 +5684,159 @@ func SfVertexBuffer_updateFromVertexBuffer(arg1 SfVertexBuffer, arg2 SfVertexBuf
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	swig_r = (int)(C._wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1)))
 	return swig_r
 }
 
 func SfVertexBuffer_swap(arg1 SfVertexBuffer, arg2 SfVertexBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfVertexBuffer_swap_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfVertexBuffer_swap_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfVertexBuffer_getNativeHandle(arg1 SfVertexBuffer) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfVertexBuffer_getNativeHandle_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfVertexBuffer_getNativeHandle_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfVertexBuffer_setPrimitiveType(arg1 SfVertexBuffer, arg2 SfPrimitiveType) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfVertexBuffer_setPrimitiveType_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVertexBuffer_setPrimitiveType_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfVertexBuffer_getPrimitiveType(arg1 SfVertexBuffer) (_swig_ret SfPrimitiveType) {
 	var swig_r SfPrimitiveType
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfPrimitiveType)(C._wrap_sfVertexBuffer_getPrimitiveType_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfPrimitiveType)(C._wrap_sfVertexBuffer_getPrimitiveType_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfVertexBuffer_setUsage(arg1 SfVertexBuffer, arg2 SfVertexBufferUsage) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfVertexBuffer_setUsage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVertexBuffer_setUsage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfVertexBuffer_getUsage(arg1 SfVertexBuffer) (_swig_ret SfVertexBufferUsage) {
 	var swig_r SfVertexBufferUsage
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVertexBufferUsage)(C._wrap_sfVertexBuffer_getUsage_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfVertexBufferUsage)(C._wrap_sfVertexBuffer_getUsage_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfVertexBuffer_bind(arg1 SfVertexBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfVertexBuffer_bind_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfVertexBuffer_bind_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfVertexBuffer_isAvailable() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfVertexBuffer_isAvailable_graphics_a3b77f1faf9b9057())
+	swig_r = (int)(C._wrap_sfVertexBuffer_isAvailable_graphics_b889a472290cd9f0())
 	return swig_r
 }
 
 func SfView_create() (_swig_ret SfView) {
 	var swig_r SfView
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_create_graphics_a3b77f1faf9b9057()))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_create_graphics_b889a472290cd9f0()))
 	return swig_r
 }
 
 func SfView_createFromRect(arg1 SfFloatRect) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_createFromRect_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_createFromRect_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfView_copy(arg1 SfView) (_swig_ret SfView) {
 	var swig_r SfView
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_copy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfView)(SwigcptrSfView(C._wrap_sfView_copy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfView_destroy(arg1 SfView) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfView_destroy_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))
+	C._wrap_sfView_destroy_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))
 }
 
 func SfView_setCenter(arg1 SfView, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfView_setCenter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfView_setCenter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfView_setSize(arg1 SfView, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfView_setSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfView_setSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfView_setRotation(arg1 SfView, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfView_setRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfView_setRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfView_setViewport(arg1 SfView, arg2 SfFloatRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfView_setViewport_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfView_setViewport_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfView_reset(arg1 SfView, arg2 SfFloatRect) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfView_reset_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfView_reset_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfView_getCenter(arg1 SfView) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfView_getCenter_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfView_getCenter_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfView_getSize(arg1 SfView) (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfView_getSize_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_sfView_getSize_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfView_getRotation(arg1 SfView) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfView_getRotation_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfView_getRotation_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfView_getViewport(arg1 SfView) (_swig_ret SfFloatRect) {
 	var swig_r SfFloatRect
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfView_getViewport_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfFloatRect)(SwigcptrSfFloatRect(C._wrap_sfView_getViewport_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfView_move(arg1 SfView, arg2 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfView_move_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfView_move_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfView_rotate(arg1 SfView, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfView_rotate_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfView_rotate_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfView_zoom(arg1 SfView, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfView_zoom_graphics_a3b77f1faf9b9057(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfView_zoom_graphics_b889a472290cd9f0(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 

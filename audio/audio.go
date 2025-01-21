@@ -44,142 +44,142 @@ typedef _gostring_ swig_type_14;
 typedef _gostring_ swig_type_15;
 typedef void* swig_type_16;
 typedef void* swig_type_17;
-extern void _wrap_Swig_free_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_audio_e67fa8ec1da7dec2(swig_intgo arg1);
-extern void _wrap_sfListener_setGlobalVolume_audio_e67fa8ec1da7dec2(float arg1);
-extern float _wrap_sfListener_getGlobalVolume_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfListener_setPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfListener_getPosition_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfListener_setDirection_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfListener_getDirection_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfListener_setUpVector_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfListener_getUpVector_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfTimeSpan_offset_set_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTimeSpan_offset_get_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfTimeSpan_length_set_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfTimeSpan_length_get_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfTimeSpan_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_delete_sfTimeSpan_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfMusic_createFromFile_audio_e67fa8ec1da7dec2(swig_type_1 arg1);
-extern uintptr_t _wrap_sfMusic_createFromMemory_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_type_2 arg2);
-extern uintptr_t _wrap_sfMusic_createFromStream_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_setLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfMusic_getLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfMusic_getDuration_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfMusic_getLoopPoints_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_setLoopPoints_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfMusic_play_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_pause_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_stop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfMusic_getChannelCount_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfMusic_getSampleRate_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfMusic_getStatus_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfMusic_getPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfMusic_setPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfMusic_setVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfMusic_setPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfMusic_setRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfMusic_setMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfMusic_setAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfMusic_setPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern float _wrap_sfMusic_getPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfMusic_getVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfMusic_getPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfMusic_isRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfMusic_getMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfMusic_getAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSound_create_audio_e67fa8ec1da7dec2(void);
-extern uintptr_t _wrap_sfSound_copy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_play_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_pause_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_stop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_setBuffer_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfSound_getBuffer_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_setLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfSound_getLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSound_getStatus_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSound_setPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSound_setVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSound_setPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSound_setRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfSound_setMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSound_setAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSound_setPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern float _wrap_sfSound_getPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSound_getVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSound_getPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSound_isRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSound_getMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSound_getAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSound_getPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundBuffer_createFromFile_audio_e67fa8ec1da7dec2(swig_type_3 arg1);
-extern uintptr_t _wrap_sfSoundBuffer_createFromMemory_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_type_4 arg2);
-extern uintptr_t _wrap_sfSoundBuffer_createFromStream_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundBuffer_createFromSamples_audio_e67fa8ec1da7dec2(swig_voidp arg1, swig_type_5 arg2, swig_intgo arg3, swig_intgo arg4);
-extern uintptr_t _wrap_sfSoundBuffer_copy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundBuffer_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBuffer_saveToFile_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_type_6 arg2);
-extern swig_voidp _wrap_sfSoundBuffer_getSamples_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_type_7 _wrap_sfSoundBuffer_getSampleCount_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBuffer_getSampleRate_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBuffer_getChannelCount_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundBuffer_getDuration_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundBufferRecorder_create_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfSoundBufferRecorder_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBufferRecorder_start_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfSoundBufferRecorder_stop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBufferRecorder_getSampleRate_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundBufferRecorder_getBuffer_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundBufferRecorder_setDevice_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_type_8 arg2);
-extern swig_type_9 _wrap_sfSoundBufferRecorder_getDevice_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundRecorder_create_audio_e67fa8ec1da7dec2(swig_type_10 arg1, swig_type_11 arg2, swig_type_12 arg3, uintptr_t arg4);
-extern void _wrap_sfSoundRecorder_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundRecorder_start_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfSoundRecorder_stop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundRecorder_getSampleRate_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundRecorder_isAvailable_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfSoundRecorder_setProcessingInterval_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern swig_voidp _wrap_sfSoundRecorder_getAvailableDevices_audio_e67fa8ec1da7dec2(swig_voidp arg1);
-extern swig_type_13 _wrap_sfSoundRecorder_getDefaultDevice_audio_e67fa8ec1da7dec2(void);
-extern swig_intgo _wrap_sfSoundRecorder_setDevice_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_type_14 arg2);
-extern swig_type_15 _wrap_sfSoundRecorder_getDevice_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundRecorder_setChannelCount_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfSoundRecorder_getChannelCount_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfStopped_audio_e67fa8ec1da7dec2(void);
-extern swig_intgo _wrap_sfPaused_audio_e67fa8ec1da7dec2(void);
-extern swig_intgo _wrap_sfPlaying_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_sfSoundStreamChunk_samples_set_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_voidp arg2);
-extern swig_voidp _wrap_sfSoundStreamChunk_samples_get_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundStreamChunk_sampleCount_set_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfSoundStreamChunk_sampleCount_get_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfSoundStreamChunk_audio_e67fa8ec1da7dec2(void);
-extern void _wrap_delete_sfSoundStreamChunk_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundStream_create_audio_e67fa8ec1da7dec2(swig_type_16 arg1, swig_type_17 arg2, swig_intgo arg3, swig_intgo arg4, uintptr_t arg5);
-extern void _wrap_sfSoundStream_destroy_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundStream_play_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundStream_pause_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundStream_stop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundStream_getStatus_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundStream_getChannelCount_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundStream_getSampleRate_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern void _wrap_sfSoundStream_setPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSoundStream_setVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSoundStream_setPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSoundStream_setRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_sfSoundStream_setMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSoundStream_setAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1, float arg2);
-extern void _wrap_sfSoundStream_setPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_sfSoundStream_setLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1, swig_intgo arg2);
-extern float _wrap_sfSoundStream_getPitch_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSoundStream_getVolume_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundStream_getPosition_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundStream_isRelativeToListener_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSoundStream_getMinDistance_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern float _wrap_sfSoundStream_getAttenuation_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern swig_intgo _wrap_sfSoundStream_getLoop_audio_e67fa8ec1da7dec2(uintptr_t arg1);
-extern uintptr_t _wrap_sfSoundStream_getPlayingOffset_audio_e67fa8ec1da7dec2(uintptr_t arg1);
+extern void _wrap_Swig_free_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_audio_4a33675c87ed0ff7(swig_intgo arg1);
+extern void _wrap_sfListener_setGlobalVolume_audio_4a33675c87ed0ff7(float arg1);
+extern float _wrap_sfListener_getGlobalVolume_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfListener_setPosition_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfListener_getPosition_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfListener_setDirection_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfListener_getDirection_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfListener_setUpVector_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfListener_getUpVector_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfTimeSpan_offset_set_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTimeSpan_offset_get_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfTimeSpan_length_set_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfTimeSpan_length_get_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfTimeSpan_audio_4a33675c87ed0ff7(void);
+extern void _wrap_delete_sfTimeSpan_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfMusic_createFromFile_audio_4a33675c87ed0ff7(swig_type_1 arg1);
+extern uintptr_t _wrap_sfMusic_createFromMemory_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_type_2 arg2);
+extern uintptr_t _wrap_sfMusic_createFromStream_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_setLoop_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfMusic_getLoop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfMusic_getDuration_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfMusic_getLoopPoints_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_setLoopPoints_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfMusic_play_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_pause_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_stop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfMusic_getChannelCount_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfMusic_getSampleRate_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfMusic_getStatus_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfMusic_getPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfMusic_setPitch_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfMusic_setVolume_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfMusic_setPosition_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfMusic_setRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfMusic_setMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfMusic_setAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfMusic_setPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern float _wrap_sfMusic_getPitch_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfMusic_getVolume_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfMusic_getPosition_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfMusic_isRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfMusic_getMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfMusic_getAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSound_create_audio_4a33675c87ed0ff7(void);
+extern uintptr_t _wrap_sfSound_copy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_play_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_pause_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_stop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_setBuffer_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfSound_getBuffer_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_setLoop_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfSound_getLoop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSound_getStatus_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSound_setPitch_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSound_setVolume_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSound_setPosition_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSound_setRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfSound_setMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSound_setAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSound_setPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern float _wrap_sfSound_getPitch_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSound_getVolume_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSound_getPosition_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSound_isRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSound_getMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSound_getAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSound_getPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundBuffer_createFromFile_audio_4a33675c87ed0ff7(swig_type_3 arg1);
+extern uintptr_t _wrap_sfSoundBuffer_createFromMemory_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_type_4 arg2);
+extern uintptr_t _wrap_sfSoundBuffer_createFromStream_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundBuffer_createFromSamples_audio_4a33675c87ed0ff7(swig_voidp arg1, swig_type_5 arg2, swig_intgo arg3, swig_intgo arg4);
+extern uintptr_t _wrap_sfSoundBuffer_copy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundBuffer_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBuffer_saveToFile_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_type_6 arg2);
+extern swig_voidp _wrap_sfSoundBuffer_getSamples_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_type_7 _wrap_sfSoundBuffer_getSampleCount_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBuffer_getSampleRate_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBuffer_getChannelCount_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundBuffer_getDuration_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundBufferRecorder_create_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfSoundBufferRecorder_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBufferRecorder_start_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfSoundBufferRecorder_stop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBufferRecorder_getSampleRate_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundBufferRecorder_getBuffer_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundBufferRecorder_setDevice_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_type_8 arg2);
+extern swig_type_9 _wrap_sfSoundBufferRecorder_getDevice_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundRecorder_create_audio_4a33675c87ed0ff7(swig_type_10 arg1, swig_type_11 arg2, swig_type_12 arg3, uintptr_t arg4);
+extern void _wrap_sfSoundRecorder_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundRecorder_start_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfSoundRecorder_stop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundRecorder_getSampleRate_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundRecorder_isAvailable_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfSoundRecorder_setProcessingInterval_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern swig_voidp _wrap_sfSoundRecorder_getAvailableDevices_audio_4a33675c87ed0ff7(swig_voidp arg1);
+extern swig_type_13 _wrap_sfSoundRecorder_getDefaultDevice_audio_4a33675c87ed0ff7(void);
+extern swig_intgo _wrap_sfSoundRecorder_setDevice_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_type_14 arg2);
+extern swig_type_15 _wrap_sfSoundRecorder_getDevice_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundRecorder_setChannelCount_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfSoundRecorder_getChannelCount_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfStopped_audio_4a33675c87ed0ff7(void);
+extern swig_intgo _wrap_sfPaused_audio_4a33675c87ed0ff7(void);
+extern swig_intgo _wrap_sfPlaying_audio_4a33675c87ed0ff7(void);
+extern void _wrap_sfSoundStreamChunk_samples_set_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_voidp arg2);
+extern swig_voidp _wrap_sfSoundStreamChunk_samples_get_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundStreamChunk_sampleCount_set_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfSoundStreamChunk_sampleCount_get_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfSoundStreamChunk_audio_4a33675c87ed0ff7(void);
+extern void _wrap_delete_sfSoundStreamChunk_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundStream_create_audio_4a33675c87ed0ff7(swig_type_16 arg1, swig_type_17 arg2, swig_intgo arg3, swig_intgo arg4, uintptr_t arg5);
+extern void _wrap_sfSoundStream_destroy_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundStream_play_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundStream_pause_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundStream_stop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundStream_getStatus_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundStream_getChannelCount_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundStream_getSampleRate_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern void _wrap_sfSoundStream_setPitch_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSoundStream_setVolume_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSoundStream_setPosition_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSoundStream_setRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_sfSoundStream_setMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSoundStream_setAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1, float arg2);
+extern void _wrap_sfSoundStream_setPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1, uintptr_t arg2);
+extern void _wrap_sfSoundStream_setLoop_audio_4a33675c87ed0ff7(uintptr_t arg1, swig_intgo arg2);
+extern float _wrap_sfSoundStream_getPitch_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSoundStream_getVolume_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundStream_getPosition_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundStream_isRelativeToListener_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSoundStream_getMinDistance_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern float _wrap_sfSoundStream_getAttenuation_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern swig_intgo _wrap_sfSoundStream_getLoop_audio_4a33675c87ed0ff7(uintptr_t arg1);
+extern uintptr_t _wrap_sfSoundStream_getPlayingOffset_audio_4a33675c87ed0ff7(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -211,8 +211,8 @@ func getSwigcptr(v interface { Swigcptr() uintptr }) uintptr {
 
 type _ sync.Mutex
 
-//export cgo_panic__audio_e67fa8ec1da7dec2
-func cgo_panic__audio_e67fa8ec1da7dec2(p *byte) {
+//export cgo_panic__audio_4a33675c87ed0ff7
+func cgo_panic__audio_4a33675c87ed0ff7(p *byte) {
 	s := (*[1024]byte)(unsafe.Pointer(p))[:]
 	for i, b := range s {
 		if b == 0 {
@@ -233,13 +233,13 @@ func swigCopyString(s string) string {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_audio_e67fa8ec1da7dec2(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_audio_4a33675c87ed0ff7(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -250,45 +250,45 @@ const SfFalse int = 0
 const SfTrue int = 1
 func SfListener_setGlobalVolume(arg1 float32) {
 	_swig_i_0 := arg1
-	C._wrap_sfListener_setGlobalVolume_audio_e67fa8ec1da7dec2(C.float(_swig_i_0))
+	C._wrap_sfListener_setGlobalVolume_audio_4a33675c87ed0ff7(C.float(_swig_i_0))
 }
 
 func SfListener_getGlobalVolume() (_swig_ret float32) {
 	var swig_r float32
-	swig_r = (float32)(C._wrap_sfListener_getGlobalVolume_audio_e67fa8ec1da7dec2())
+	swig_r = (float32)(C._wrap_sfListener_getGlobalVolume_audio_4a33675c87ed0ff7())
 	return swig_r
 }
 
 func SfListener_setPosition(arg1 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfListener_setPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfListener_setPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfListener_getPosition() (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getPosition_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getPosition_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func SfListener_setDirection(arg1 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfListener_setDirection_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfListener_setDirection_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfListener_getDirection() (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getDirection_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getDirection_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func SfListener_setUpVector(arg1 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfListener_setUpVector_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfListener_setUpVector_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfListener_getUpVector() (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getUpVector_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfListener_getUpVector_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
@@ -304,38 +304,38 @@ func (p SwigcptrSfTimeSpan) SwigIsSfTimeSpan() {
 func (arg1 SwigcptrSfTimeSpan) SetOffset(arg2 SfTime) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTimeSpan_offset_set_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTimeSpan_offset_set_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfTimeSpan) GetOffset() (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := arg1
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTimeSpan_offset_get_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTimeSpan_offset_get_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfTimeSpan) SetLength(arg2 SfTime) {
 	_swig_i_0 := arg1
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfTimeSpan_length_set_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfTimeSpan_length_set_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfTimeSpan) GetLength() (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := arg1
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTimeSpan_length_get_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTimeSpan_length_get_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func NewSfTimeSpan() (_swig_ret SfTimeSpan) {
 	var swig_r SfTimeSpan
-	swig_r = (SfTimeSpan)(SwigcptrSfTimeSpan(C._wrap_new_sfTimeSpan_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfTimeSpan)(SwigcptrSfTimeSpan(C._wrap_new_sfTimeSpan_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func DeleteSfTimeSpan(arg1 SfTimeSpan) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfTimeSpan_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfTimeSpan_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 type SfTimeSpan interface {
@@ -350,7 +350,7 @@ type SfTimeSpan interface {
 func SfMusic_createFromFile(arg1 string) (_swig_ret SfMusic) {
 	var swig_r SfMusic
 	_swig_i_0 := arg1
-	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromFile_audio_e67fa8ec1da7dec2(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromFile_audio_4a33675c87ed0ff7(*(*C.swig_type_1)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -361,343 +361,343 @@ func SfMusic_createFromMemory(arg1 uintptr, arg2 int64) (_swig_ret SfMusic) {
 	var swig_r SfMusic
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromMemory_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))))
+	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromMemory_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))))
 	return swig_r
 }
 
 func SfMusic_createFromStream(arg1 SfInputStream) (_swig_ret SfMusic) {
 	var swig_r SfMusic
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromStream_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfMusic)(SwigcptrSfMusic(C._wrap_sfMusic_createFromStream_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMusic_destroy(arg1 SfMusic) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMusic_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMusic_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfMusic_setLoop(arg1 SfMusic, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfMusic_setLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfMusic_getLoop(arg1 SfMusic) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfMusic_getLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfMusic_getLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getDuration(arg1 SfMusic) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMusic_getDuration_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMusic_getDuration_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMusic_getLoopPoints(arg1 SfMusic) (_swig_ret SfTimeSpan) {
 	var swig_r SfTimeSpan
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTimeSpan)(SwigcptrSfTimeSpan(C._wrap_sfMusic_getLoopPoints_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTimeSpan)(SwigcptrSfTimeSpan(C._wrap_sfMusic_getLoopPoints_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMusic_setLoopPoints(arg1 SfMusic, arg2 SfTimeSpan) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfMusic_setLoopPoints_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfMusic_setLoopPoints_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfMusic_play(arg1 SfMusic) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMusic_play_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMusic_play_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfMusic_pause(arg1 SfMusic) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMusic_pause_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMusic_pause_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfMusic_stop(arg1 SfMusic) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMusic_stop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMusic_stop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfMusic_getChannelCount(arg1 SfMusic) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfMusic_getChannelCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfMusic_getChannelCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getSampleRate(arg1 SfMusic) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfMusic_getSampleRate_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfMusic_getSampleRate_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getStatus(arg1 SfMusic) (_swig_ret SfSoundStatus) {
 	var swig_r SfSoundStatus
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundStatus)(C._wrap_sfMusic_getStatus_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfSoundStatus)(C._wrap_sfMusic_getStatus_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getPlayingOffset(arg1 SfMusic) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMusic_getPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMusic_getPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMusic_setPitch(arg1 SfMusic, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfMusic_setPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfMusic_setVolume(arg1 SfMusic, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfMusic_setVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfMusic_setPosition(arg1 SfMusic, arg2 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfMusic_setPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfMusic_setPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfMusic_setRelativeToListener(arg1 SfMusic, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfMusic_setRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfMusic_setMinDistance(arg1 SfMusic, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfMusic_setMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfMusic_setAttenuation(arg1 SfMusic, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfMusic_setAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfMusic_setAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfMusic_setPlayingOffset(arg1 SfMusic, arg2 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfMusic_setPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfMusic_setPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfMusic_getPitch(arg1 SfMusic) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfMusic_getPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfMusic_getPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getVolume(arg1 SfMusic) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfMusic_getVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfMusic_getVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getPosition(arg1 SfMusic) (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfMusic_getPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfMusic_getPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfMusic_isRelativeToListener(arg1 SfMusic) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfMusic_isRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfMusic_isRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getMinDistance(arg1 SfMusic) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfMusic_getMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfMusic_getMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfMusic_getAttenuation(arg1 SfMusic) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfMusic_getAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfMusic_getAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_create() (_swig_ret SfSound) {
 	var swig_r SfSound
-	swig_r = (SfSound)(SwigcptrSfSound(C._wrap_sfSound_create_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfSound)(SwigcptrSfSound(C._wrap_sfSound_create_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func SfSound_copy(arg1 SfSound) (_swig_ret SfSound) {
 	var swig_r SfSound
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSound)(SwigcptrSfSound(C._wrap_sfSound_copy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSound)(SwigcptrSfSound(C._wrap_sfSound_copy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSound_destroy(arg1 SfSound) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSound_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSound_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSound_play(arg1 SfSound) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSound_play_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSound_play_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSound_pause(arg1 SfSound) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSound_pause_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSound_pause_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSound_stop(arg1 SfSound) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSound_stop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSound_stop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSound_setBuffer(arg1 SfSound, arg2 SfSoundBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSound_setBuffer_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSound_setBuffer_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSound_getBuffer(arg1 SfSound) (_swig_ret SfSoundBuffer) {
 	var swig_r SfSoundBuffer
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSound_getBuffer_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSound_getBuffer_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSound_setLoop(arg1 SfSound, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSound_setLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfSound_getLoop(arg1 SfSound) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfSound_getLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfSound_getLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getStatus(arg1 SfSound) (_swig_ret SfSoundStatus) {
 	var swig_r SfSoundStatus
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundStatus)(C._wrap_sfSound_getStatus_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfSoundStatus)(C._wrap_sfSound_getStatus_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_setPitch(arg1 SfSound, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSound_setPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSound_setVolume(arg1 SfSound, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSound_setVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSound_setPosition(arg1 SfSound, arg2 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSound_setPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSound_setPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSound_setRelativeToListener(arg1 SfSound, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSound_setRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfSound_setMinDistance(arg1 SfSound, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSound_setMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSound_setAttenuation(arg1 SfSound, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSound_setAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSound_setAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSound_setPlayingOffset(arg1 SfSound, arg2 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSound_setPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSound_setPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSound_getPitch(arg1 SfSound) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSound_getPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSound_getPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getVolume(arg1 SfSound) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSound_getVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSound_getVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getPosition(arg1 SfSound) (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfSound_getPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfSound_getPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSound_isRelativeToListener(arg1 SfSound) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfSound_isRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfSound_isRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getMinDistance(arg1 SfSound) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSound_getMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSound_getMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getAttenuation(arg1 SfSound) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSound_getAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSound_getAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSound_getPlayingOffset(arg1 SfSound) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSound_getPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSound_getPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSoundBuffer_createFromFile(arg1 string) (_swig_ret SfSoundBuffer) {
 	var swig_r SfSoundBuffer
 	_swig_i_0 := arg1
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromFile_audio_e67fa8ec1da7dec2(*(*C.swig_type_3)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromFile_audio_4a33675c87ed0ff7(*(*C.swig_type_3)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -708,14 +708,14 @@ func SfSoundBuffer_createFromMemory(arg1 uintptr, arg2 int64) (_swig_ret SfSound
 	var swig_r SfSoundBuffer
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromMemory_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromMemory_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))))
 	return swig_r
 }
 
 func SfSoundBuffer_createFromStream(arg1 SfInputStream) (_swig_ret SfSoundBuffer) {
 	var swig_r SfSoundBuffer
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromStream_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromStream_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -725,27 +725,27 @@ func SfSoundBuffer_createFromSamples(arg1 *int16, arg2 uint64, arg3 uint, arg4 u
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromSamples_audio_e67fa8ec1da7dec2(C.swig_voidp(_swig_i_0), C.swig_type_5(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_createFromSamples_audio_4a33675c87ed0ff7(C.swig_voidp(_swig_i_0), C.swig_type_5(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3))))
 	return swig_r
 }
 
 func SfSoundBuffer_copy(arg1 SfSoundBuffer) (_swig_ret SfSoundBuffer) {
 	var swig_r SfSoundBuffer
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_copy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBuffer_copy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSoundBuffer_destroy(arg1 SfSoundBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundBuffer_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundBuffer_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundBuffer_saveToFile(arg1 SfSoundBuffer, arg2 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfSoundBuffer_saveToFile_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), *(*C.swig_type_6)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_sfSoundBuffer_saveToFile_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), *(*C.swig_type_6)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -755,73 +755,73 @@ func SfSoundBuffer_saveToFile(arg1 SfSoundBuffer, arg2 string) (_swig_ret int) {
 func SfSoundBuffer_getSamples(arg1 SfSoundBuffer) (_swig_ret *int16) {
 	var swig_r *int16
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (*int16)(C._wrap_sfSoundBuffer_getSamples_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int16)(C._wrap_sfSoundBuffer_getSamples_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundBuffer_getSampleCount(arg1 SfSoundBuffer) (_swig_ret uint64) {
 	var swig_r uint64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint64)(C._wrap_sfSoundBuffer_getSampleCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint64)(C._wrap_sfSoundBuffer_getSampleCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundBuffer_getSampleRate(arg1 SfSoundBuffer) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundBuffer_getSampleRate_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundBuffer_getSampleRate_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundBuffer_getChannelCount(arg1 SfSoundBuffer) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundBuffer_getChannelCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundBuffer_getChannelCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundBuffer_getDuration(arg1 SfSoundBuffer) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSoundBuffer_getDuration_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSoundBuffer_getDuration_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSoundBufferRecorder_create() (_swig_ret SfSoundBufferRecorder) {
 	var swig_r SfSoundBufferRecorder
-	swig_r = (SfSoundBufferRecorder)(SwigcptrSfSoundBufferRecorder(C._wrap_sfSoundBufferRecorder_create_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfSoundBufferRecorder)(SwigcptrSfSoundBufferRecorder(C._wrap_sfSoundBufferRecorder_create_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func SfSoundBufferRecorder_destroy(arg1 SfSoundBufferRecorder) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundBufferRecorder_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundBufferRecorder_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundBufferRecorder_start(arg1 SfSoundBufferRecorder, arg2 uint) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfSoundBufferRecorder_start_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfSoundBufferRecorder_start_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func SfSoundBufferRecorder_stop(arg1 SfSoundBufferRecorder) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundBufferRecorder_stop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundBufferRecorder_stop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundBufferRecorder_getSampleRate(arg1 SfSoundBufferRecorder) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundBufferRecorder_getSampleRate_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundBufferRecorder_getSampleRate_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundBufferRecorder_getBuffer(arg1 SfSoundBufferRecorder) (_swig_ret SfSoundBuffer) {
 	var swig_r SfSoundBuffer
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBufferRecorder_getBuffer_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfSoundBuffer)(SwigcptrSfSoundBuffer(C._wrap_sfSoundBufferRecorder_getBuffer_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -829,7 +829,7 @@ func SfSoundBufferRecorder_setDevice(arg1 SfSoundBufferRecorder, arg2 string) (_
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfSoundBufferRecorder_setDevice_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), *(*C.swig_type_8)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_sfSoundBufferRecorder_setDevice_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), *(*C.swig_type_8)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -839,7 +839,7 @@ func SfSoundBufferRecorder_setDevice(arg1 SfSoundBufferRecorder, arg2 string) (_
 func SfSoundBufferRecorder_getDevice(arg1 SfSoundBufferRecorder) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r_p := C._wrap_sfSoundBufferRecorder_getDevice_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_sfSoundBufferRecorder_getDevice_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -852,57 +852,57 @@ func SfSoundRecorder_create(arg1 _swig_fnptr, arg2 _swig_fnptr, arg3 _swig_fnptr
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	swig_r = (SfSoundRecorder)(SwigcptrSfSoundRecorder(C._wrap_sfSoundRecorder_create_audio_e67fa8ec1da7dec2(C.swig_type_10(_swig_i_0), C.swig_type_11(_swig_i_1), C.swig_type_12(_swig_i_2), C.uintptr_t(_swig_i_3))))
+	swig_r = (SfSoundRecorder)(SwigcptrSfSoundRecorder(C._wrap_sfSoundRecorder_create_audio_4a33675c87ed0ff7(C.swig_type_10(_swig_i_0), C.swig_type_11(_swig_i_1), C.swig_type_12(_swig_i_2), C.uintptr_t(_swig_i_3))))
 	return swig_r
 }
 
 func SfSoundRecorder_destroy(arg1 SfSoundRecorder) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundRecorder_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundRecorder_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundRecorder_start(arg1 SfSoundRecorder, arg2 uint) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfSoundRecorder_start_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
+	swig_r = (int)(C._wrap_sfSoundRecorder_start_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1)))
 	return swig_r
 }
 
 func SfSoundRecorder_stop(arg1 SfSoundRecorder) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundRecorder_stop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundRecorder_stop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundRecorder_getSampleRate(arg1 SfSoundRecorder) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundRecorder_getSampleRate_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundRecorder_getSampleRate_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundRecorder_isAvailable() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfSoundRecorder_isAvailable_audio_e67fa8ec1da7dec2())
+	swig_r = (int)(C._wrap_sfSoundRecorder_isAvailable_audio_4a33675c87ed0ff7())
 	return swig_r
 }
 
 func SfSoundRecorder_setProcessingInterval(arg1 SfSoundRecorder, arg2 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSoundRecorder_setProcessingInterval_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSoundRecorder_setProcessingInterval_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSoundRecorder_getAvailableDevices(arg1 *int64) (_swig_ret *string) {
 	var swig_r *string
 	_swig_i_0 := arg1
-	swig_r = (*string)(C._wrap_sfSoundRecorder_getAvailableDevices_audio_e67fa8ec1da7dec2(C.swig_voidp(_swig_i_0)))
+	swig_r = (*string)(C._wrap_sfSoundRecorder_getAvailableDevices_audio_4a33675c87ed0ff7(C.swig_voidp(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundRecorder_getDefaultDevice() (_swig_ret string) {
 	var swig_r string
-	swig_r_p := C._wrap_sfSoundRecorder_getDefaultDevice_audio_e67fa8ec1da7dec2()
+	swig_r_p := C._wrap_sfSoundRecorder_getDefaultDevice_audio_4a33675c87ed0ff7()
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -913,7 +913,7 @@ func SfSoundRecorder_setDevice(arg1 SfSoundRecorder, arg2 string) (_swig_ret int
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_sfSoundRecorder_setDevice_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_sfSoundRecorder_setDevice_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), *(*C.swig_type_14)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -923,7 +923,7 @@ func SfSoundRecorder_setDevice(arg1 SfSoundRecorder, arg2 string) (_swig_ret int
 func SfSoundRecorder_getDevice(arg1 SfSoundRecorder) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r_p := C._wrap_sfSoundRecorder_getDevice_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	swig_r_p := C._wrap_sfSoundRecorder_getDevice_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
  swig_r_1 = swigCopyString(swig_r) 
@@ -933,34 +933,34 @@ func SfSoundRecorder_getDevice(arg1 SfSoundRecorder) (_swig_ret string) {
 func SfSoundRecorder_setChannelCount(arg1 SfSoundRecorder, arg2 uint) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundRecorder_setChannelCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSoundRecorder_setChannelCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfSoundRecorder_getChannelCount(arg1 SfSoundRecorder) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundRecorder_getChannelCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundRecorder_getChannelCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 type SfSoundStatus int
 func _swig_getsfStopped() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfStopped_audio_e67fa8ec1da7dec2())
+	swig_r = (int)(C._wrap_sfStopped_audio_4a33675c87ed0ff7())
 	return swig_r
 }
 
 var SfStopped int = _swig_getsfStopped()
 func _swig_getsfPaused() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfPaused_audio_e67fa8ec1da7dec2())
+	swig_r = (int)(C._wrap_sfPaused_audio_4a33675c87ed0ff7())
 	return swig_r
 }
 
 var SfPaused int = _swig_getsfPaused()
 func _swig_getsfPlaying() (_swig_ret int) {
 	var swig_r int
-	swig_r = (int)(C._wrap_sfPlaying_audio_e67fa8ec1da7dec2())
+	swig_r = (int)(C._wrap_sfPlaying_audio_4a33675c87ed0ff7())
 	return swig_r
 }
 
@@ -977,38 +977,38 @@ func (p SwigcptrSfSoundStreamChunk) SwigIsSfSoundStreamChunk() {
 func (arg1 SwigcptrSfSoundStreamChunk) SetSamples(arg2 *int16) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStreamChunk_samples_set_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
+	C._wrap_sfSoundStreamChunk_samples_set_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_voidp(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfSoundStreamChunk) GetSamples() (_swig_ret *int16) {
 	var swig_r *int16
 	_swig_i_0 := arg1
-	swig_r = (*int16)(C._wrap_sfSoundStreamChunk_samples_get_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (*int16)(C._wrap_sfSoundStreamChunk_samples_get_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfSoundStreamChunk) SetSampleCount(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStreamChunk_sampleCount_set_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSoundStreamChunk_sampleCount_set_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfSoundStreamChunk) GetSampleCount() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_sfSoundStreamChunk_sampleCount_get_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundStreamChunk_sampleCount_get_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfSoundStreamChunk() (_swig_ret SfSoundStreamChunk) {
 	var swig_r SfSoundStreamChunk
-	swig_r = (SfSoundStreamChunk)(SwigcptrSfSoundStreamChunk(C._wrap_new_sfSoundStreamChunk_audio_e67fa8ec1da7dec2()))
+	swig_r = (SfSoundStreamChunk)(SwigcptrSfSoundStreamChunk(C._wrap_new_sfSoundStreamChunk_audio_4a33675c87ed0ff7()))
 	return swig_r
 }
 
 func DeleteSfSoundStreamChunk(arg1 SfSoundStreamChunk) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfSoundStreamChunk_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfSoundStreamChunk_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 type SfSoundStreamChunk interface {
@@ -1027,152 +1027,152 @@ func SfSoundStream_create(arg1 _swig_fnptr, arg2 _swig_fnptr, arg3 uint, arg4 ui
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
-	swig_r = (SfSoundStream)(SwigcptrSfSoundStream(C._wrap_sfSoundStream_create_audio_e67fa8ec1da7dec2(C.swig_type_16(_swig_i_0), C.swig_type_17(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))))
+	swig_r = (SfSoundStream)(SwigcptrSfSoundStream(C._wrap_sfSoundStream_create_audio_4a33675c87ed0ff7(C.swig_type_16(_swig_i_0), C.swig_type_17(_swig_i_1), C.swig_intgo(_swig_i_2), C.swig_intgo(_swig_i_3), C.uintptr_t(_swig_i_4))))
 	return swig_r
 }
 
 func SfSoundStream_destroy(arg1 SfSoundStream) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundStream_destroy_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundStream_destroy_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundStream_play(arg1 SfSoundStream) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundStream_play_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundStream_play_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundStream_pause(arg1 SfSoundStream) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundStream_pause_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundStream_pause_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundStream_stop(arg1 SfSoundStream) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSoundStream_stop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSoundStream_stop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))
 }
 
 func SfSoundStream_getStatus(arg1 SfSoundStream) (_swig_ret SfSoundStatus) {
 	var swig_r SfSoundStatus
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfSoundStatus)(C._wrap_sfSoundStream_getStatus_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (SfSoundStatus)(C._wrap_sfSoundStream_getStatus_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getChannelCount(arg1 SfSoundStream) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundStream_getChannelCount_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundStream_getChannelCount_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getSampleRate(arg1 SfSoundStream) (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (uint)(C._wrap_sfSoundStream_getSampleRate_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfSoundStream_getSampleRate_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_setPitch(arg1 SfSoundStream, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSoundStream_setPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSoundStream_setVolume(arg1 SfSoundStream, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSoundStream_setVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSoundStream_setPosition(arg1 SfSoundStream, arg2 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSoundStream_setPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSoundStream_setPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSoundStream_setRelativeToListener(arg1 SfSoundStream, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSoundStream_setRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfSoundStream_setMinDistance(arg1 SfSoundStream, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSoundStream_setMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSoundStream_setAttenuation(arg1 SfSoundStream, arg2 float32) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfSoundStream_setAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func SfSoundStream_setPlayingOffset(arg1 SfSoundStream, arg2 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := getSwigcptr(arg2)
-	C._wrap_sfSoundStream_setPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfSoundStream_setPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func SfSoundStream_setLoop(arg1 SfSoundStream, arg2 int) {
 	_swig_i_0 := getSwigcptr(arg1)
 	_swig_i_1 := arg2
-	C._wrap_sfSoundStream_setLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfSoundStream_setLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func SfSoundStream_getPitch(arg1 SfSoundStream) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSoundStream_getPitch_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSoundStream_getPitch_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getVolume(arg1 SfSoundStream) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSoundStream_getVolume_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSoundStream_getVolume_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getPosition(arg1 SfSoundStream) (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfSoundStream_getPosition_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_sfSoundStream_getPosition_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfSoundStream_isRelativeToListener(arg1 SfSoundStream) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfSoundStream_isRelativeToListener_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfSoundStream_isRelativeToListener_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getMinDistance(arg1 SfSoundStream) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSoundStream_getMinDistance_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSoundStream_getMinDistance_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getAttenuation(arg1 SfSoundStream) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfSoundStream_getAttenuation_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfSoundStream_getAttenuation_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getLoop(arg1 SfSoundStream) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfSoundStream_getLoop_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfSoundStream_getLoop_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSoundStream_getPlayingOffset(arg1 SfSoundStream) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSoundStream_getPlayingOffset_audio_e67fa8ec1da7dec2(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSoundStream_getPlayingOffset_audio_4a33675c87ed0ff7(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 

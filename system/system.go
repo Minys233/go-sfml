@@ -41,78 +41,78 @@ typedef long long swig_type_11;
 typedef long long swig_type_12;
 typedef long long swig_type_13;
 typedef long long swig_type_14;
-extern void _wrap_Swig_free_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_Swig_malloc_system_8b0a7550bf7a9c3c(swig_intgo arg1);
-extern void _wrap_sfFree_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfBuffer_create_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_sfBuffer_destroy_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern swig_type_1 _wrap_sfBuffer_getSize_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern swig_voidp _wrap_sfBuffer_getData_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfClock_create_system_8b0a7550bf7a9c3c(void);
-extern uintptr_t _wrap_sfClock_copy_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfClock_destroy_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfClock_getElapsedTime_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfClock_restart_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfInputStream_read_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_type_2 arg2);
-extern swig_type_3 _wrap_sfInputStream_read_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfInputStream_seek_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_type_4 arg2);
-extern swig_type_5 _wrap_sfInputStream_seek_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfInputStream_tell_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_type_6 arg2);
-extern swig_type_7 _wrap_sfInputStream_tell_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfInputStream_getSize_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_type_8 arg2);
-extern swig_type_9 _wrap_sfInputStream_getSize_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfInputStream_userData_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, uintptr_t arg2);
-extern uintptr_t _wrap_sfInputStream_userData_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfInputStream_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfInputStream_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfMutex_create_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_sfMutex_destroy_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfMutex_lock_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfMutex_unlock_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfSleep_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfThread_create_system_8b0a7550bf7a9c3c(swig_type_10 arg1, uintptr_t arg2);
-extern void _wrap_sfThread_destroy_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfThread_launch_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfThread_wait_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfThread_terminate_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfTime_microseconds_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_type_11 arg2);
-extern swig_type_12 _wrap_sfTime_microseconds_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfTime_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfTime_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfTime_Zero_set_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfTime_Zero_get_system_8b0a7550bf7a9c3c(void);
-extern float _wrap_sfTime_asSeconds_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern swig_intgo _wrap_sfTime_asMilliseconds_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern swig_type_13 _wrap_sfTime_asMicroseconds_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_sfSeconds_system_8b0a7550bf7a9c3c(float arg1);
-extern uintptr_t _wrap_sfMilliseconds_system_8b0a7550bf7a9c3c(swig_intgo arg1);
-extern uintptr_t _wrap_sfMicroseconds_system_8b0a7550bf7a9c3c(swig_type_14 arg1);
-extern void _wrap_sfVector2i_x_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVector2i_x_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector2i_y_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVector2i_y_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfVector2i_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfVector2i_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector2u_x_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVector2u_x_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector2u_y_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, swig_intgo arg2);
-extern swig_intgo _wrap_sfVector2u_y_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfVector2u_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfVector2u_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector2f_x_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, float arg2);
-extern float _wrap_sfVector2f_x_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector2f_y_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, float arg2);
-extern float _wrap_sfVector2f_y_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfVector2f_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfVector2f_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector3f_x_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, float arg2);
-extern float _wrap_sfVector3f_x_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector3f_y_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, float arg2);
-extern float _wrap_sfVector3f_y_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern void _wrap_sfVector3f_z_set_system_8b0a7550bf7a9c3c(uintptr_t arg1, float arg2);
-extern float _wrap_sfVector3f_z_get_system_8b0a7550bf7a9c3c(uintptr_t arg1);
-extern uintptr_t _wrap_new_sfVector3f_system_8b0a7550bf7a9c3c(void);
-extern void _wrap_delete_sfVector3f_system_8b0a7550bf7a9c3c(uintptr_t arg1);
+extern void _wrap_Swig_free_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_Swig_malloc_system_01e8c9090dade920(swig_intgo arg1);
+extern void _wrap_sfFree_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfBuffer_create_system_01e8c9090dade920(void);
+extern void _wrap_sfBuffer_destroy_system_01e8c9090dade920(uintptr_t arg1);
+extern swig_type_1 _wrap_sfBuffer_getSize_system_01e8c9090dade920(uintptr_t arg1);
+extern swig_voidp _wrap_sfBuffer_getData_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfClock_create_system_01e8c9090dade920(void);
+extern uintptr_t _wrap_sfClock_copy_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfClock_destroy_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfClock_getElapsedTime_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfClock_restart_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfInputStream_read_set_system_01e8c9090dade920(uintptr_t arg1, swig_type_2 arg2);
+extern swig_type_3 _wrap_sfInputStream_read_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfInputStream_seek_set_system_01e8c9090dade920(uintptr_t arg1, swig_type_4 arg2);
+extern swig_type_5 _wrap_sfInputStream_seek_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfInputStream_tell_set_system_01e8c9090dade920(uintptr_t arg1, swig_type_6 arg2);
+extern swig_type_7 _wrap_sfInputStream_tell_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfInputStream_getSize_set_system_01e8c9090dade920(uintptr_t arg1, swig_type_8 arg2);
+extern swig_type_9 _wrap_sfInputStream_getSize_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfInputStream_userData_set_system_01e8c9090dade920(uintptr_t arg1, uintptr_t arg2);
+extern uintptr_t _wrap_sfInputStream_userData_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfInputStream_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfInputStream_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfMutex_create_system_01e8c9090dade920(void);
+extern void _wrap_sfMutex_destroy_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfMutex_lock_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfMutex_unlock_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfSleep_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfThread_create_system_01e8c9090dade920(swig_type_10 arg1, uintptr_t arg2);
+extern void _wrap_sfThread_destroy_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfThread_launch_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfThread_wait_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfThread_terminate_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfTime_microseconds_set_system_01e8c9090dade920(uintptr_t arg1, swig_type_11 arg2);
+extern swig_type_12 _wrap_sfTime_microseconds_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfTime_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfTime_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfTime_Zero_set_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfTime_Zero_get_system_01e8c9090dade920(void);
+extern float _wrap_sfTime_asSeconds_system_01e8c9090dade920(uintptr_t arg1);
+extern swig_intgo _wrap_sfTime_asMilliseconds_system_01e8c9090dade920(uintptr_t arg1);
+extern swig_type_13 _wrap_sfTime_asMicroseconds_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_sfSeconds_system_01e8c9090dade920(float arg1);
+extern uintptr_t _wrap_sfMilliseconds_system_01e8c9090dade920(swig_intgo arg1);
+extern uintptr_t _wrap_sfMicroseconds_system_01e8c9090dade920(swig_type_14 arg1);
+extern void _wrap_sfVector2i_x_set_system_01e8c9090dade920(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVector2i_x_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector2i_y_set_system_01e8c9090dade920(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVector2i_y_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfVector2i_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfVector2i_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector2u_x_set_system_01e8c9090dade920(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVector2u_x_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector2u_y_set_system_01e8c9090dade920(uintptr_t arg1, swig_intgo arg2);
+extern swig_intgo _wrap_sfVector2u_y_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfVector2u_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfVector2u_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector2f_x_set_system_01e8c9090dade920(uintptr_t arg1, float arg2);
+extern float _wrap_sfVector2f_x_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector2f_y_set_system_01e8c9090dade920(uintptr_t arg1, float arg2);
+extern float _wrap_sfVector2f_y_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfVector2f_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfVector2f_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector3f_x_set_system_01e8c9090dade920(uintptr_t arg1, float arg2);
+extern float _wrap_sfVector3f_x_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector3f_y_set_system_01e8c9090dade920(uintptr_t arg1, float arg2);
+extern float _wrap_sfVector3f_y_get_system_01e8c9090dade920(uintptr_t arg1);
+extern void _wrap_sfVector3f_z_set_system_01e8c9090dade920(uintptr_t arg1, float arg2);
+extern float _wrap_sfVector3f_z_get_system_01e8c9090dade920(uintptr_t arg1);
+extern uintptr_t _wrap_new_sfVector3f_system_01e8c9090dade920(void);
+extern void _wrap_delete_sfVector3f_system_01e8c9090dade920(uintptr_t arg1);
 #undef intgo
 */
 import "C"
@@ -144,8 +144,8 @@ func getSwigcptr(v interface { Swigcptr() uintptr }) uintptr {
 
 type _ sync.Mutex
 
-//export cgo_panic__system_8b0a7550bf7a9c3c
-func cgo_panic__system_8b0a7550bf7a9c3c(p *byte) {
+//export cgo_panic__system_01e8c9090dade920
+func cgo_panic__system_01e8c9090dade920(p *byte) {
 	s := (*[1024]byte)(unsafe.Pointer(p))[:]
 	for i, b := range s {
 		if b == 0 {
@@ -157,13 +157,13 @@ func cgo_panic__system_8b0a7550bf7a9c3c(p *byte) {
 
 func Swig_free(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_Swig_free_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_Swig_free_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func Swig_malloc(arg1 int) (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_Swig_malloc_system_8b0a7550bf7a9c3c(C.swig_intgo(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_Swig_malloc_system_01e8c9090dade920(C.swig_intgo(_swig_i_0)))
 	return swig_r
 }
 
@@ -174,63 +174,63 @@ const SfFalse int = 0
 const SfTrue int = 1
 func SfFree(arg1 uintptr) {
 	_swig_i_0 := arg1
-	C._wrap_sfFree_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfFree_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfBuffer_create() (_swig_ret SfBuffer) {
 	var swig_r SfBuffer
-	swig_r = (SfBuffer)(SwigcptrSfBuffer(C._wrap_sfBuffer_create_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfBuffer)(SwigcptrSfBuffer(C._wrap_sfBuffer_create_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func SfBuffer_destroy(arg1 SfBuffer) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfBuffer_destroy_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfBuffer_destroy_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfBuffer_getSize(arg1 SfBuffer) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfBuffer_getSize_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfBuffer_getSize_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfBuffer_getData(arg1 SfBuffer) (_swig_ret *byte) {
 	var swig_r *byte
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (*byte)(C._wrap_sfBuffer_getData_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (*byte)(C._wrap_sfBuffer_getData_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfClock_create() (_swig_ret SfClock) {
 	var swig_r SfClock
-	swig_r = (SfClock)(SwigcptrSfClock(C._wrap_sfClock_create_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfClock)(SwigcptrSfClock(C._wrap_sfClock_create_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func SfClock_copy(arg1 SfClock) (_swig_ret SfClock) {
 	var swig_r SfClock
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfClock)(SwigcptrSfClock(C._wrap_sfClock_copy_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfClock)(SwigcptrSfClock(C._wrap_sfClock_copy_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfClock_destroy(arg1 SfClock) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfClock_destroy_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfClock_destroy_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfClock_getElapsedTime(arg1 SfClock) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfClock_getElapsedTime_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfClock_getElapsedTime_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
 func SfClock_restart(arg1 SfClock) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfClock_restart_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfClock_restart_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))))
 	return swig_r
 }
 
@@ -246,77 +246,77 @@ func (p SwigcptrSfInputStream) SwigIsSfInputStream() {
 func (arg1 SwigcptrSfInputStream) SetRead(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfInputStream_read_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))
+	C._wrap_sfInputStream_read_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_type_2(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfInputStream) GetRead() (_swig_ret _swig_fnptr) {
 	var swig_r _swig_fnptr
 	_swig_i_0 := arg1
-	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_read_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_read_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfInputStream) SetSeek(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfInputStream_seek_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
+	C._wrap_sfInputStream_seek_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_type_4(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfInputStream) GetSeek() (_swig_ret _swig_fnptr) {
 	var swig_r _swig_fnptr
 	_swig_i_0 := arg1
-	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_seek_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_seek_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfInputStream) SetTell(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfInputStream_tell_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
+	C._wrap_sfInputStream_tell_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_type_6(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfInputStream) GetTell() (_swig_ret _swig_fnptr) {
 	var swig_r _swig_fnptr
 	_swig_i_0 := arg1
-	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_tell_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_tell_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfInputStream) SetGetSize(arg2 _swig_fnptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfInputStream_getSize_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
+	C._wrap_sfInputStream_getSize_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_type_8(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfInputStream) GetGetSize() (_swig_ret _swig_fnptr) {
 	var swig_r _swig_fnptr
 	_swig_i_0 := arg1
-	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_getSize_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (_swig_fnptr)(C._wrap_sfInputStream_getSize_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfInputStream) SetUserData(arg2 uintptr) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfInputStream_userData_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
+	C._wrap_sfInputStream_userData_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfInputStream) GetUserData() (_swig_ret uintptr) {
 	var swig_r uintptr
 	_swig_i_0 := arg1
-	swig_r = (uintptr)(C._wrap_sfInputStream_userData_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (uintptr)(C._wrap_sfInputStream_userData_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfInputStream() (_swig_ret SfInputStream) {
 	var swig_r SfInputStream
-	swig_r = (SfInputStream)(SwigcptrSfInputStream(C._wrap_new_sfInputStream_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfInputStream)(SwigcptrSfInputStream(C._wrap_new_sfInputStream_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfInputStream(arg1 SfInputStream) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfInputStream_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfInputStream_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfInputStream interface {
@@ -336,56 +336,56 @@ type SfInputStream interface {
 
 func SfMutex_create() (_swig_ret SfMutex) {
 	var swig_r SfMutex
-	swig_r = (SfMutex)(SwigcptrSfMutex(C._wrap_sfMutex_create_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfMutex)(SwigcptrSfMutex(C._wrap_sfMutex_create_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func SfMutex_destroy(arg1 SfMutex) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMutex_destroy_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMutex_destroy_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfMutex_lock(arg1 SfMutex) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMutex_lock_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMutex_lock_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfMutex_unlock(arg1 SfMutex) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfMutex_unlock_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfMutex_unlock_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfSleep(arg1 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfSleep_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfSleep_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfThread_create(arg1 _swig_fnptr, arg2 uintptr) (_swig_ret SfThread) {
 	var swig_r SfThread
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (SfThread)(SwigcptrSfThread(C._wrap_sfThread_create_system_8b0a7550bf7a9c3c(C.swig_type_10(_swig_i_0), C.uintptr_t(_swig_i_1))))
+	swig_r = (SfThread)(SwigcptrSfThread(C._wrap_sfThread_create_system_01e8c9090dade920(C.swig_type_10(_swig_i_0), C.uintptr_t(_swig_i_1))))
 	return swig_r
 }
 
 func SfThread_destroy(arg1 SfThread) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfThread_destroy_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfThread_destroy_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfThread_launch(arg1 SfThread) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfThread_launch_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfThread_launch_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfThread_wait(arg1 SfThread) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfThread_wait_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfThread_wait_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func SfThread_terminate(arg1 SfThread) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfThread_terminate_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfThread_terminate_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SwigcptrSfTime uintptr
@@ -400,25 +400,25 @@ func (p SwigcptrSfTime) SwigIsSfTime() {
 func (arg1 SwigcptrSfTime) SetMicroseconds(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfTime_microseconds_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_type_11(_swig_i_1))
+	C._wrap_sfTime_microseconds_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_type_11(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfTime) GetMicroseconds() (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := arg1
-	swig_r = (int64)(C._wrap_sfTime_microseconds_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfTime_microseconds_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfTime() (_swig_ret SfTime) {
 	var swig_r SfTime
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_new_sfTime_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_new_sfTime_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfTime(arg1 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfTime_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfTime_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfTime interface {
@@ -430,54 +430,54 @@ type SfTime interface {
 
 func SetSfTime_Zero(arg1 SfTime) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_sfTime_Zero_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_sfTime_Zero_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 func GetSfTime_Zero() (_swig_ret SfTime) {
 	var swig_r SfTime
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTime_Zero_get_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfTime_Zero_get_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func SfTime_asSeconds(arg1 SfTime) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (float32)(C._wrap_sfTime_asSeconds_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfTime_asSeconds_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTime_asMilliseconds(arg1 SfTime) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int)(C._wrap_sfTime_asMilliseconds_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfTime_asMilliseconds_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfTime_asMicroseconds(arg1 SfTime) (_swig_ret int64) {
 	var swig_r int64
 	_swig_i_0 := getSwigcptr(arg1)
-	swig_r = (int64)(C._wrap_sfTime_asMicroseconds_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int64)(C._wrap_sfTime_asMicroseconds_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func SfSeconds(arg1 float32) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := arg1
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSeconds_system_8b0a7550bf7a9c3c(C.float(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfSeconds_system_01e8c9090dade920(C.float(_swig_i_0))))
 	return swig_r
 }
 
 func SfMilliseconds(arg1 int) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := arg1
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMilliseconds_system_8b0a7550bf7a9c3c(C.swig_intgo(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMilliseconds_system_01e8c9090dade920(C.swig_intgo(_swig_i_0))))
 	return swig_r
 }
 
 func SfMicroseconds(arg1 int64) (_swig_ret SfTime) {
 	var swig_r SfTime
 	_swig_i_0 := arg1
-	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMicroseconds_system_8b0a7550bf7a9c3c(C.swig_type_14(_swig_i_0))))
+	swig_r = (SfTime)(SwigcptrSfTime(C._wrap_sfMicroseconds_system_01e8c9090dade920(C.swig_type_14(_swig_i_0))))
 	return swig_r
 }
 
@@ -493,38 +493,38 @@ func (p SwigcptrSfVector2i) SwigIsSfVector2i() {
 func (arg1 SwigcptrSfVector2i) SetX(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2i_x_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVector2i_x_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2i) GetX() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfVector2i_x_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfVector2i_x_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVector2i) SetY(arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2i_y_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVector2i_y_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2i) GetY() (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_sfVector2i_y_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (int)(C._wrap_sfVector2i_y_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfVector2i() (_swig_ret SfVector2i) {
 	var swig_r SfVector2i
-	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_new_sfVector2i_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfVector2i)(SwigcptrSfVector2i(C._wrap_new_sfVector2i_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfVector2i(arg1 SfVector2i) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfVector2i_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfVector2i_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfVector2i interface {
@@ -548,38 +548,38 @@ func (p SwigcptrSfVector2u) SwigIsSfVector2u() {
 func (arg1 SwigcptrSfVector2u) SetX(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2u_x_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVector2u_x_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2u) GetX() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_sfVector2u_x_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfVector2u_x_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVector2u) SetY(arg2 uint) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2u_y_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
+	C._wrap_sfVector2u_y_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2u) GetY() (_swig_ret uint) {
 	var swig_r uint
 	_swig_i_0 := arg1
-	swig_r = (uint)(C._wrap_sfVector2u_y_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (uint)(C._wrap_sfVector2u_y_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfVector2u() (_swig_ret SfVector2u) {
 	var swig_r SfVector2u
-	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_new_sfVector2u_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfVector2u)(SwigcptrSfVector2u(C._wrap_new_sfVector2u_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfVector2u(arg1 SfVector2u) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfVector2u_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfVector2u_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfVector2u interface {
@@ -603,38 +603,38 @@ func (p SwigcptrSfVector2f) SwigIsSfVector2f() {
 func (arg1 SwigcptrSfVector2f) SetX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2f_x_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfVector2f_x_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2f) GetX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfVector2f_x_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfVector2f_x_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVector2f) SetY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector2f_y_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfVector2f_y_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector2f) GetY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfVector2f_y_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfVector2f_y_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfVector2f() (_swig_ret SfVector2f) {
 	var swig_r SfVector2f
-	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_new_sfVector2f_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfVector2f)(SwigcptrSfVector2f(C._wrap_new_sfVector2f_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfVector2f(arg1 SfVector2f) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfVector2f_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfVector2f_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfVector2f interface {
@@ -658,51 +658,51 @@ func (p SwigcptrSfVector3f) SwigIsSfVector3f() {
 func (arg1 SwigcptrSfVector3f) SetX(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector3f_x_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfVector3f_x_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector3f) GetX() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfVector3f_x_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfVector3f_x_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVector3f) SetY(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector3f_y_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfVector3f_y_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector3f) GetY() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfVector3f_y_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfVector3f_y_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func (arg1 SwigcptrSfVector3f) SetZ(arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_sfVector3f_z_set_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
+	C._wrap_sfVector3f_z_set_system_01e8c9090dade920(C.uintptr_t(_swig_i_0), C.float(_swig_i_1))
 }
 
 func (arg1 SwigcptrSfVector3f) GetZ() (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_sfVector3f_z_get_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0)))
+	swig_r = (float32)(C._wrap_sfVector3f_z_get_system_01e8c9090dade920(C.uintptr_t(_swig_i_0)))
 	return swig_r
 }
 
 func NewSfVector3f() (_swig_ret SfVector3f) {
 	var swig_r SfVector3f
-	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_new_sfVector3f_system_8b0a7550bf7a9c3c()))
+	swig_r = (SfVector3f)(SwigcptrSfVector3f(C._wrap_new_sfVector3f_system_01e8c9090dade920()))
 	return swig_r
 }
 
 func DeleteSfVector3f(arg1 SfVector3f) {
 	_swig_i_0 := getSwigcptr(arg1)
-	C._wrap_delete_sfVector3f_system_8b0a7550bf7a9c3c(C.uintptr_t(_swig_i_0))
+	C._wrap_delete_sfVector3f_system_01e8c9090dade920(C.uintptr_t(_swig_i_0))
 }
 
 type SfVector3f interface {
