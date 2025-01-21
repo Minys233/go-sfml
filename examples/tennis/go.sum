@@ -4,3 +4,5 @@ github.com/minys233/go-sfml v0.0.2 h1:GJM328I/802AFgN0N6eXZJpcI/1Wp+VLcTbmXykS1D
 github.com/minys233/go-sfml v0.0.2/go.mod h1:lFYpZjSrRxo73qOHCpEUx9JCbubW65RlMuVcuY0rgyM=
 github.com/minys233/go-sfml v0.0.3 h1:5ajzX4guF5yCt8vtm3n1Ecz1z3N0C6BPIf58AUyc30c=
 github.com/minys233/go-sfml v0.0.3/go.mod h1:lFYpZjSrRxo73qOHCpEUx9JCbubW65RlMuVcuY0rgyM=
+github.com/minys233/go-sfml v0.0.4 h1:yKuJw4Zrpz8UeZ0qq/GpIQeQMG5ji/+c7K5O96LXz88=
+github.com/minys233/go-sfml v0.0.4/go.mod h1:lFYpZjSrRxo73qOHCpEUx9JCbubW65RlMuVcuY0rgyM=

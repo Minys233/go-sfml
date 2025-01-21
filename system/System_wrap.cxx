@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__system_c839fceadd2276b1(const char*);
+  void cgo_panic__system_4aa0fea406fcc502(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__system_c839fceadd2276b1(p);
+  cgo_panic__system_4aa0fea406fcc502(p);
 }
 
 
@@ -272,7 +272,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_system_c839fceadd2276b1(void *_swig_go_0) {
+void _wrap_Swig_free_system_4aa0fea406fcc502(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -282,7 +282,7 @@ void _wrap_Swig_free_system_c839fceadd2276b1(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_system_c839fceadd2276b1(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_system_4aa0fea406fcc502(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -295,7 +295,17 @@ void *_wrap_Swig_malloc_system_c839fceadd2276b1(intgo _swig_go_0) {
 }
 
 
-sfBuffer *_wrap_sfBuffer_create_system_c839fceadd2276b1() {
+void _wrap_sfFree_system_4aa0fea406fcc502(void *_swig_go_0) {
+  void *arg1 = (void *) 0 ;
+  
+  arg1 = *(void **)&_swig_go_0; 
+  
+  sfFree(arg1);
+  
+}
+
+
+sfBuffer *_wrap_sfBuffer_create_system_4aa0fea406fcc502() {
   sfBuffer *result = 0 ;
   sfBuffer *_swig_go_result;
   
@@ -306,7 +316,7 @@ sfBuffer *_wrap_sfBuffer_create_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_sfBuffer_destroy_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
+void _wrap_sfBuffer_destroy_system_4aa0fea406fcc502(sfBuffer *_swig_go_0) {
   sfBuffer *arg1 = (sfBuffer *) 0 ;
   
   arg1 = *(sfBuffer **)&_swig_go_0; 
@@ -316,7 +326,7 @@ void _wrap_sfBuffer_destroy_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
 }
 
 
-long long _wrap_sfBuffer_getSize_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
+long long _wrap_sfBuffer_getSize_system_4aa0fea406fcc502(sfBuffer *_swig_go_0) {
   sfBuffer *arg1 = (sfBuffer *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -329,7 +339,7 @@ long long _wrap_sfBuffer_getSize_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
 }
 
 
-char *_wrap_sfBuffer_getData_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
+char *_wrap_sfBuffer_getData_system_4aa0fea406fcc502(sfBuffer *_swig_go_0) {
   sfBuffer *arg1 = (sfBuffer *) 0 ;
   sfUint8 *result = 0 ;
   char *_swig_go_result;
@@ -342,7 +352,7 @@ char *_wrap_sfBuffer_getData_system_c839fceadd2276b1(sfBuffer *_swig_go_0) {
 }
 
 
-sfClock *_wrap_sfClock_create_system_c839fceadd2276b1() {
+sfClock *_wrap_sfClock_create_system_4aa0fea406fcc502() {
   sfClock *result = 0 ;
   sfClock *_swig_go_result;
   
@@ -353,7 +363,7 @@ sfClock *_wrap_sfClock_create_system_c839fceadd2276b1() {
 }
 
 
-sfClock *_wrap_sfClock_copy_system_c839fceadd2276b1(sfClock *_swig_go_0) {
+sfClock *_wrap_sfClock_copy_system_4aa0fea406fcc502(sfClock *_swig_go_0) {
   sfClock *arg1 = (sfClock *) 0 ;
   sfClock *result = 0 ;
   sfClock *_swig_go_result;
@@ -366,7 +376,7 @@ sfClock *_wrap_sfClock_copy_system_c839fceadd2276b1(sfClock *_swig_go_0) {
 }
 
 
-void _wrap_sfClock_destroy_system_c839fceadd2276b1(sfClock *_swig_go_0) {
+void _wrap_sfClock_destroy_system_4aa0fea406fcc502(sfClock *_swig_go_0) {
   sfClock *arg1 = (sfClock *) 0 ;
   
   arg1 = *(sfClock **)&_swig_go_0; 
@@ -376,7 +386,7 @@ void _wrap_sfClock_destroy_system_c839fceadd2276b1(sfClock *_swig_go_0) {
 }
 
 
-sfTime *_wrap_sfClock_getElapsedTime_system_c839fceadd2276b1(sfClock *_swig_go_0) {
+sfTime *_wrap_sfClock_getElapsedTime_system_4aa0fea406fcc502(sfClock *_swig_go_0) {
   sfClock *arg1 = (sfClock *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -389,7 +399,7 @@ sfTime *_wrap_sfClock_getElapsedTime_system_c839fceadd2276b1(sfClock *_swig_go_0
 }
 
 
-sfTime *_wrap_sfClock_restart_system_c839fceadd2276b1(sfClock *_swig_go_0) {
+sfTime *_wrap_sfClock_restart_system_4aa0fea406fcc502(sfClock *_swig_go_0) {
   sfClock *arg1 = (sfClock *) 0 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -402,7 +412,7 @@ sfTime *_wrap_sfClock_restart_system_c839fceadd2276b1(sfClock *_swig_go_0) {
 }
 
 
-void _wrap_sfInputStream_read_set_system_c839fceadd2276b1(sfInputStream *_swig_go_0, void* _swig_go_1) {
+void _wrap_sfInputStream_read_set_system_4aa0fea406fcc502(sfInputStream *_swig_go_0, void* _swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamReadFunc arg2 = (sfInputStreamReadFunc) 0 ;
   
@@ -414,7 +424,7 @@ void _wrap_sfInputStream_read_set_system_c839fceadd2276b1(sfInputStream *_swig_g
 }
 
 
-void* _wrap_sfInputStream_read_get_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void* _wrap_sfInputStream_read_get_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamReadFunc result;
   void* _swig_go_result;
@@ -427,7 +437,7 @@ void* _wrap_sfInputStream_read_get_system_c839fceadd2276b1(sfInputStream *_swig_
 }
 
 
-void _wrap_sfInputStream_seek_set_system_c839fceadd2276b1(sfInputStream *_swig_go_0, void* _swig_go_1) {
+void _wrap_sfInputStream_seek_set_system_4aa0fea406fcc502(sfInputStream *_swig_go_0, void* _swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamSeekFunc arg2 = (sfInputStreamSeekFunc) 0 ;
   
@@ -439,7 +449,7 @@ void _wrap_sfInputStream_seek_set_system_c839fceadd2276b1(sfInputStream *_swig_g
 }
 
 
-void* _wrap_sfInputStream_seek_get_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void* _wrap_sfInputStream_seek_get_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamSeekFunc result;
   void* _swig_go_result;
@@ -452,7 +462,7 @@ void* _wrap_sfInputStream_seek_get_system_c839fceadd2276b1(sfInputStream *_swig_
 }
 
 
-void _wrap_sfInputStream_tell_set_system_c839fceadd2276b1(sfInputStream *_swig_go_0, void* _swig_go_1) {
+void _wrap_sfInputStream_tell_set_system_4aa0fea406fcc502(sfInputStream *_swig_go_0, void* _swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamTellFunc arg2 = (sfInputStreamTellFunc) 0 ;
   
@@ -464,7 +474,7 @@ void _wrap_sfInputStream_tell_set_system_c839fceadd2276b1(sfInputStream *_swig_g
 }
 
 
-void* _wrap_sfInputStream_tell_get_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void* _wrap_sfInputStream_tell_get_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamTellFunc result;
   void* _swig_go_result;
@@ -477,7 +487,7 @@ void* _wrap_sfInputStream_tell_get_system_c839fceadd2276b1(sfInputStream *_swig_
 }
 
 
-void _wrap_sfInputStream_getSize_set_system_c839fceadd2276b1(sfInputStream *_swig_go_0, void* _swig_go_1) {
+void _wrap_sfInputStream_getSize_set_system_4aa0fea406fcc502(sfInputStream *_swig_go_0, void* _swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamGetSizeFunc arg2 = (sfInputStreamGetSizeFunc) 0 ;
   
@@ -489,7 +499,7 @@ void _wrap_sfInputStream_getSize_set_system_c839fceadd2276b1(sfInputStream *_swi
 }
 
 
-void* _wrap_sfInputStream_getSize_get_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void* _wrap_sfInputStream_getSize_get_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStreamGetSizeFunc result;
   void* _swig_go_result;
@@ -502,7 +512,7 @@ void* _wrap_sfInputStream_getSize_get_system_c839fceadd2276b1(sfInputStream *_sw
 }
 
 
-void _wrap_sfInputStream_userData_set_system_c839fceadd2276b1(sfInputStream *_swig_go_0, void *_swig_go_1) {
+void _wrap_sfInputStream_userData_set_system_4aa0fea406fcc502(sfInputStream *_swig_go_0, void *_swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -514,7 +524,7 @@ void _wrap_sfInputStream_userData_set_system_c839fceadd2276b1(sfInputStream *_sw
 }
 
 
-void *_wrap_sfInputStream_userData_get_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void *_wrap_sfInputStream_userData_get_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -527,7 +537,7 @@ void *_wrap_sfInputStream_userData_get_system_c839fceadd2276b1(sfInputStream *_s
 }
 
 
-sfInputStream *_wrap_new_sfInputStream_system_c839fceadd2276b1() {
+sfInputStream *_wrap_new_sfInputStream_system_4aa0fea406fcc502() {
   sfInputStream *result = 0 ;
   sfInputStream *_swig_go_result;
   
@@ -538,7 +548,7 @@ sfInputStream *_wrap_new_sfInputStream_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfInputStream_system_c839fceadd2276b1(sfInputStream *_swig_go_0) {
+void _wrap_delete_sfInputStream_system_4aa0fea406fcc502(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   
   arg1 = *(sfInputStream **)&_swig_go_0; 
@@ -548,7 +558,7 @@ void _wrap_delete_sfInputStream_system_c839fceadd2276b1(sfInputStream *_swig_go_
 }
 
 
-sfMutex *_wrap_sfMutex_create_system_c839fceadd2276b1() {
+sfMutex *_wrap_sfMutex_create_system_4aa0fea406fcc502() {
   sfMutex *result = 0 ;
   sfMutex *_swig_go_result;
   
@@ -559,7 +569,7 @@ sfMutex *_wrap_sfMutex_create_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_sfMutex_destroy_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
+void _wrap_sfMutex_destroy_system_4aa0fea406fcc502(sfMutex *_swig_go_0) {
   sfMutex *arg1 = (sfMutex *) 0 ;
   
   arg1 = *(sfMutex **)&_swig_go_0; 
@@ -569,7 +579,7 @@ void _wrap_sfMutex_destroy_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
 }
 
 
-void _wrap_sfMutex_lock_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
+void _wrap_sfMutex_lock_system_4aa0fea406fcc502(sfMutex *_swig_go_0) {
   sfMutex *arg1 = (sfMutex *) 0 ;
   
   arg1 = *(sfMutex **)&_swig_go_0; 
@@ -579,7 +589,7 @@ void _wrap_sfMutex_lock_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
 }
 
 
-void _wrap_sfMutex_unlock_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
+void _wrap_sfMutex_unlock_system_4aa0fea406fcc502(sfMutex *_swig_go_0) {
   sfMutex *arg1 = (sfMutex *) 0 ;
   
   arg1 = *(sfMutex **)&_swig_go_0; 
@@ -589,7 +599,7 @@ void _wrap_sfMutex_unlock_system_c839fceadd2276b1(sfMutex *_swig_go_0) {
 }
 
 
-void _wrap_sfSleep_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+void _wrap_sfSleep_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime arg1 ;
   sfTime *argp1 ;
   
@@ -606,7 +616,7 @@ void _wrap_sfSleep_system_c839fceadd2276b1(sfTime *_swig_go_0) {
 }
 
 
-sfThread *_wrap_sfThread_create_system_c839fceadd2276b1(void* _swig_go_0, void *_swig_go_1) {
+sfThread *_wrap_sfThread_create_system_4aa0fea406fcc502(void* _swig_go_0, void *_swig_go_1) {
   void (*arg1)(void *) = (void (*)(void *)) 0 ;
   void *arg2 = (void *) 0 ;
   sfThread *result = 0 ;
@@ -621,7 +631,7 @@ sfThread *_wrap_sfThread_create_system_c839fceadd2276b1(void* _swig_go_0, void *
 }
 
 
-void _wrap_sfThread_destroy_system_c839fceadd2276b1(sfThread *_swig_go_0) {
+void _wrap_sfThread_destroy_system_4aa0fea406fcc502(sfThread *_swig_go_0) {
   sfThread *arg1 = (sfThread *) 0 ;
   
   arg1 = *(sfThread **)&_swig_go_0; 
@@ -631,7 +641,7 @@ void _wrap_sfThread_destroy_system_c839fceadd2276b1(sfThread *_swig_go_0) {
 }
 
 
-void _wrap_sfThread_launch_system_c839fceadd2276b1(sfThread *_swig_go_0) {
+void _wrap_sfThread_launch_system_4aa0fea406fcc502(sfThread *_swig_go_0) {
   sfThread *arg1 = (sfThread *) 0 ;
   
   arg1 = *(sfThread **)&_swig_go_0; 
@@ -641,7 +651,7 @@ void _wrap_sfThread_launch_system_c839fceadd2276b1(sfThread *_swig_go_0) {
 }
 
 
-void _wrap_sfThread_wait_system_c839fceadd2276b1(sfThread *_swig_go_0) {
+void _wrap_sfThread_wait_system_4aa0fea406fcc502(sfThread *_swig_go_0) {
   sfThread *arg1 = (sfThread *) 0 ;
   
   arg1 = *(sfThread **)&_swig_go_0; 
@@ -651,7 +661,7 @@ void _wrap_sfThread_wait_system_c839fceadd2276b1(sfThread *_swig_go_0) {
 }
 
 
-void _wrap_sfThread_terminate_system_c839fceadd2276b1(sfThread *_swig_go_0) {
+void _wrap_sfThread_terminate_system_4aa0fea406fcc502(sfThread *_swig_go_0) {
   sfThread *arg1 = (sfThread *) 0 ;
   
   arg1 = *(sfThread **)&_swig_go_0; 
@@ -661,7 +671,7 @@ void _wrap_sfThread_terminate_system_c839fceadd2276b1(sfThread *_swig_go_0) {
 }
 
 
-void _wrap_sfTime_microseconds_set_system_c839fceadd2276b1(sfTime *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfTime_microseconds_set_system_4aa0fea406fcc502(sfTime *_swig_go_0, long long _swig_go_1) {
   sfTime *arg1 = (sfTime *) 0 ;
   sfInt64 arg2 ;
   
@@ -673,7 +683,7 @@ void _wrap_sfTime_microseconds_set_system_c839fceadd2276b1(sfTime *_swig_go_0, l
 }
 
 
-long long _wrap_sfTime_microseconds_get_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+long long _wrap_sfTime_microseconds_get_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime *arg1 = (sfTime *) 0 ;
   sfInt64 result;
   long long _swig_go_result;
@@ -686,7 +696,7 @@ long long _wrap_sfTime_microseconds_get_system_c839fceadd2276b1(sfTime *_swig_go
 }
 
 
-sfTime *_wrap_new_sfTime_system_c839fceadd2276b1() {
+sfTime *_wrap_new_sfTime_system_4aa0fea406fcc502() {
   sfTime *result = 0 ;
   sfTime *_swig_go_result;
   
@@ -697,7 +707,7 @@ sfTime *_wrap_new_sfTime_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfTime_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+void _wrap_delete_sfTime_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime *arg1 = (sfTime *) 0 ;
   
   arg1 = *(sfTime **)&_swig_go_0; 
@@ -707,7 +717,7 @@ void _wrap_delete_sfTime_system_c839fceadd2276b1(sfTime *_swig_go_0) {
 }
 
 
-void _wrap_sfTime_Zero_set_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+void _wrap_sfTime_Zero_set_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime *arg1 = (sfTime *) 0 ;
   
   arg1 = *(sfTime **)&_swig_go_0; 
@@ -717,7 +727,7 @@ void _wrap_sfTime_Zero_set_system_c839fceadd2276b1(sfTime *_swig_go_0) {
 }
 
 
-sfTime *_wrap_sfTime_Zero_get_system_c839fceadd2276b1() {
+sfTime *_wrap_sfTime_Zero_get_system_4aa0fea406fcc502() {
   sfTime *result = 0 ;
   sfTime *_swig_go_result;
   
@@ -728,7 +738,7 @@ sfTime *_wrap_sfTime_Zero_get_system_c839fceadd2276b1() {
 }
 
 
-float _wrap_sfTime_asSeconds_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+float _wrap_sfTime_asSeconds_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime arg1 ;
   sfTime *argp1 ;
   float result;
@@ -748,7 +758,7 @@ float _wrap_sfTime_asSeconds_system_c839fceadd2276b1(sfTime *_swig_go_0) {
 }
 
 
-intgo _wrap_sfTime_asMilliseconds_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+intgo _wrap_sfTime_asMilliseconds_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime arg1 ;
   sfTime *argp1 ;
   sfInt32 result;
@@ -768,7 +778,7 @@ intgo _wrap_sfTime_asMilliseconds_system_c839fceadd2276b1(sfTime *_swig_go_0) {
 }
 
 
-long long _wrap_sfTime_asMicroseconds_system_c839fceadd2276b1(sfTime *_swig_go_0) {
+long long _wrap_sfTime_asMicroseconds_system_4aa0fea406fcc502(sfTime *_swig_go_0) {
   sfTime arg1 ;
   sfTime *argp1 ;
   sfInt64 result;
@@ -788,7 +798,7 @@ long long _wrap_sfTime_asMicroseconds_system_c839fceadd2276b1(sfTime *_swig_go_0
 }
 
 
-sfTime *_wrap_sfSeconds_system_c839fceadd2276b1(float _swig_go_0) {
+sfTime *_wrap_sfSeconds_system_4aa0fea406fcc502(float _swig_go_0) {
   float arg1 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -801,7 +811,7 @@ sfTime *_wrap_sfSeconds_system_c839fceadd2276b1(float _swig_go_0) {
 }
 
 
-sfTime *_wrap_sfMilliseconds_system_c839fceadd2276b1(intgo _swig_go_0) {
+sfTime *_wrap_sfMilliseconds_system_4aa0fea406fcc502(intgo _swig_go_0) {
   sfInt32 arg1 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -814,7 +824,7 @@ sfTime *_wrap_sfMilliseconds_system_c839fceadd2276b1(intgo _swig_go_0) {
 }
 
 
-sfTime *_wrap_sfMicroseconds_system_c839fceadd2276b1(long long _swig_go_0) {
+sfTime *_wrap_sfMicroseconds_system_4aa0fea406fcc502(long long _swig_go_0) {
   sfInt64 arg1 ;
   sfTime result;
   sfTime *_swig_go_result;
@@ -827,7 +837,7 @@ sfTime *_wrap_sfMicroseconds_system_c839fceadd2276b1(long long _swig_go_0) {
 }
 
 
-void _wrap_sfVector2i_x_set_system_c839fceadd2276b1(sfVector2i *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVector2i_x_set_system_4aa0fea406fcc502(sfVector2i *_swig_go_0, intgo _swig_go_1) {
   sfVector2i *arg1 = (sfVector2i *) 0 ;
   int arg2 ;
   
@@ -839,7 +849,7 @@ void _wrap_sfVector2i_x_set_system_c839fceadd2276b1(sfVector2i *_swig_go_0, intg
 }
 
 
-intgo _wrap_sfVector2i_x_get_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
+intgo _wrap_sfVector2i_x_get_system_4aa0fea406fcc502(sfVector2i *_swig_go_0) {
   sfVector2i *arg1 = (sfVector2i *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -852,7 +862,7 @@ intgo _wrap_sfVector2i_x_get_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
 }
 
 
-void _wrap_sfVector2i_y_set_system_c839fceadd2276b1(sfVector2i *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVector2i_y_set_system_4aa0fea406fcc502(sfVector2i *_swig_go_0, intgo _swig_go_1) {
   sfVector2i *arg1 = (sfVector2i *) 0 ;
   int arg2 ;
   
@@ -864,7 +874,7 @@ void _wrap_sfVector2i_y_set_system_c839fceadd2276b1(sfVector2i *_swig_go_0, intg
 }
 
 
-intgo _wrap_sfVector2i_y_get_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
+intgo _wrap_sfVector2i_y_get_system_4aa0fea406fcc502(sfVector2i *_swig_go_0) {
   sfVector2i *arg1 = (sfVector2i *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -877,7 +887,7 @@ intgo _wrap_sfVector2i_y_get_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
 }
 
 
-sfVector2i *_wrap_new_sfVector2i_system_c839fceadd2276b1() {
+sfVector2i *_wrap_new_sfVector2i_system_4aa0fea406fcc502() {
   sfVector2i *result = 0 ;
   sfVector2i *_swig_go_result;
   
@@ -888,7 +898,7 @@ sfVector2i *_wrap_new_sfVector2i_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfVector2i_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
+void _wrap_delete_sfVector2i_system_4aa0fea406fcc502(sfVector2i *_swig_go_0) {
   sfVector2i *arg1 = (sfVector2i *) 0 ;
   
   arg1 = *(sfVector2i **)&_swig_go_0; 
@@ -898,7 +908,7 @@ void _wrap_delete_sfVector2i_system_c839fceadd2276b1(sfVector2i *_swig_go_0) {
 }
 
 
-void _wrap_sfVector2u_x_set_system_c839fceadd2276b1(sfVector2u *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVector2u_x_set_system_4aa0fea406fcc502(sfVector2u *_swig_go_0, intgo _swig_go_1) {
   sfVector2u *arg1 = (sfVector2u *) 0 ;
   unsigned int arg2 ;
   
@@ -910,7 +920,7 @@ void _wrap_sfVector2u_x_set_system_c839fceadd2276b1(sfVector2u *_swig_go_0, intg
 }
 
 
-intgo _wrap_sfVector2u_x_get_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
+intgo _wrap_sfVector2u_x_get_system_4aa0fea406fcc502(sfVector2u *_swig_go_0) {
   sfVector2u *arg1 = (sfVector2u *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -923,7 +933,7 @@ intgo _wrap_sfVector2u_x_get_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
 }
 
 
-void _wrap_sfVector2u_y_set_system_c839fceadd2276b1(sfVector2u *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVector2u_y_set_system_4aa0fea406fcc502(sfVector2u *_swig_go_0, intgo _swig_go_1) {
   sfVector2u *arg1 = (sfVector2u *) 0 ;
   unsigned int arg2 ;
   
@@ -935,7 +945,7 @@ void _wrap_sfVector2u_y_set_system_c839fceadd2276b1(sfVector2u *_swig_go_0, intg
 }
 
 
-intgo _wrap_sfVector2u_y_get_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
+intgo _wrap_sfVector2u_y_get_system_4aa0fea406fcc502(sfVector2u *_swig_go_0) {
   sfVector2u *arg1 = (sfVector2u *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -948,7 +958,7 @@ intgo _wrap_sfVector2u_y_get_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
 }
 
 
-sfVector2u *_wrap_new_sfVector2u_system_c839fceadd2276b1() {
+sfVector2u *_wrap_new_sfVector2u_system_4aa0fea406fcc502() {
   sfVector2u *result = 0 ;
   sfVector2u *_swig_go_result;
   
@@ -959,7 +969,7 @@ sfVector2u *_wrap_new_sfVector2u_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfVector2u_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
+void _wrap_delete_sfVector2u_system_4aa0fea406fcc502(sfVector2u *_swig_go_0) {
   sfVector2u *arg1 = (sfVector2u *) 0 ;
   
   arg1 = *(sfVector2u **)&_swig_go_0; 
@@ -969,7 +979,7 @@ void _wrap_delete_sfVector2u_system_c839fceadd2276b1(sfVector2u *_swig_go_0) {
 }
 
 
-void _wrap_sfVector2f_x_set_system_c839fceadd2276b1(sfVector2f *_swig_go_0, float _swig_go_1) {
+void _wrap_sfVector2f_x_set_system_4aa0fea406fcc502(sfVector2f *_swig_go_0, float _swig_go_1) {
   sfVector2f *arg1 = (sfVector2f *) 0 ;
   float arg2 ;
   
@@ -981,7 +991,7 @@ void _wrap_sfVector2f_x_set_system_c839fceadd2276b1(sfVector2f *_swig_go_0, floa
 }
 
 
-float _wrap_sfVector2f_x_get_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
+float _wrap_sfVector2f_x_get_system_4aa0fea406fcc502(sfVector2f *_swig_go_0) {
   sfVector2f *arg1 = (sfVector2f *) 0 ;
   float result;
   float _swig_go_result;
@@ -994,7 +1004,7 @@ float _wrap_sfVector2f_x_get_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
 }
 
 
-void _wrap_sfVector2f_y_set_system_c839fceadd2276b1(sfVector2f *_swig_go_0, float _swig_go_1) {
+void _wrap_sfVector2f_y_set_system_4aa0fea406fcc502(sfVector2f *_swig_go_0, float _swig_go_1) {
   sfVector2f *arg1 = (sfVector2f *) 0 ;
   float arg2 ;
   
@@ -1006,7 +1016,7 @@ void _wrap_sfVector2f_y_set_system_c839fceadd2276b1(sfVector2f *_swig_go_0, floa
 }
 
 
-float _wrap_sfVector2f_y_get_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
+float _wrap_sfVector2f_y_get_system_4aa0fea406fcc502(sfVector2f *_swig_go_0) {
   sfVector2f *arg1 = (sfVector2f *) 0 ;
   float result;
   float _swig_go_result;
@@ -1019,7 +1029,7 @@ float _wrap_sfVector2f_y_get_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
 }
 
 
-sfVector2f *_wrap_new_sfVector2f_system_c839fceadd2276b1() {
+sfVector2f *_wrap_new_sfVector2f_system_4aa0fea406fcc502() {
   sfVector2f *result = 0 ;
   sfVector2f *_swig_go_result;
   
@@ -1030,7 +1040,7 @@ sfVector2f *_wrap_new_sfVector2f_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfVector2f_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
+void _wrap_delete_sfVector2f_system_4aa0fea406fcc502(sfVector2f *_swig_go_0) {
   sfVector2f *arg1 = (sfVector2f *) 0 ;
   
   arg1 = *(sfVector2f **)&_swig_go_0; 
@@ -1040,7 +1050,7 @@ void _wrap_delete_sfVector2f_system_c839fceadd2276b1(sfVector2f *_swig_go_0) {
 }
 
 
-void _wrap_sfVector3f_x_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, float _swig_go_1) {
+void _wrap_sfVector3f_x_set_system_4aa0fea406fcc502(sfVector3f *_swig_go_0, float _swig_go_1) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float arg2 ;
   
@@ -1052,7 +1062,7 @@ void _wrap_sfVector3f_x_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, floa
 }
 
 
-float _wrap_sfVector3f_x_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
+float _wrap_sfVector3f_x_get_system_4aa0fea406fcc502(sfVector3f *_swig_go_0) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float result;
   float _swig_go_result;
@@ -1065,7 +1075,7 @@ float _wrap_sfVector3f_x_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
 }
 
 
-void _wrap_sfVector3f_y_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, float _swig_go_1) {
+void _wrap_sfVector3f_y_set_system_4aa0fea406fcc502(sfVector3f *_swig_go_0, float _swig_go_1) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float arg2 ;
   
@@ -1077,7 +1087,7 @@ void _wrap_sfVector3f_y_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, floa
 }
 
 
-float _wrap_sfVector3f_y_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
+float _wrap_sfVector3f_y_get_system_4aa0fea406fcc502(sfVector3f *_swig_go_0) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float result;
   float _swig_go_result;
@@ -1090,7 +1100,7 @@ float _wrap_sfVector3f_y_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
 }
 
 
-void _wrap_sfVector3f_z_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, float _swig_go_1) {
+void _wrap_sfVector3f_z_set_system_4aa0fea406fcc502(sfVector3f *_swig_go_0, float _swig_go_1) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float arg2 ;
   
@@ -1102,7 +1112,7 @@ void _wrap_sfVector3f_z_set_system_c839fceadd2276b1(sfVector3f *_swig_go_0, floa
 }
 
 
-float _wrap_sfVector3f_z_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
+float _wrap_sfVector3f_z_get_system_4aa0fea406fcc502(sfVector3f *_swig_go_0) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   float result;
   float _swig_go_result;
@@ -1115,7 +1125,7 @@ float _wrap_sfVector3f_z_get_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
 }
 
 
-sfVector3f *_wrap_new_sfVector3f_system_c839fceadd2276b1() {
+sfVector3f *_wrap_new_sfVector3f_system_4aa0fea406fcc502() {
   sfVector3f *result = 0 ;
   sfVector3f *_swig_go_result;
   
@@ -1126,22 +1136,12 @@ sfVector3f *_wrap_new_sfVector3f_system_c839fceadd2276b1() {
 }
 
 
-void _wrap_delete_sfVector3f_system_c839fceadd2276b1(sfVector3f *_swig_go_0) {
+void _wrap_delete_sfVector3f_system_4aa0fea406fcc502(sfVector3f *_swig_go_0) {
   sfVector3f *arg1 = (sfVector3f *) 0 ;
   
   arg1 = *(sfVector3f **)&_swig_go_0; 
   
   delete arg1;
-  
-}
-
-
-void _wrap_sfFree_system_c839fceadd2276b1(void *_swig_go_0) {
-  void *arg1 = (void *) 0 ;
-  
-  arg1 = *(void **)&_swig_go_0; 
-  
-  sfFree(arg1);
   
 }
 

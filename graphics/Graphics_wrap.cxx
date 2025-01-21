@@ -13,9 +13,9 @@ extern
 #ifdef __cplusplus
   "C"
 #endif
-  void cgo_panic__graphics_cd286e83cc20e352(const char*);
+  void cgo_panic__graphics_c1a031043095f7b7(const char*);
 static void _swig_gopanic(const char *p) {
-  cgo_panic__graphics_cd286e83cc20e352(p);
+  cgo_panic__graphics_c1a031043095f7b7(p);
 }
 
 
@@ -274,8 +274,8 @@ static void* Swig_malloc(int c) {
 
 
  /* Includes the header in the wrapper code */
- #include <SFML/Graphics.h>
  #include <SFML/System.h>
+ #include <SFML/Graphics.h>
  
 
 #include <string.h>
@@ -284,7 +284,7 @@ static void* Swig_malloc(int c) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_graphics_cd286e83cc20e352(void *_swig_go_0) {
+void _wrap_Swig_free_graphics_c1a031043095f7b7(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -294,7 +294,7 @@ void _wrap_Swig_free_graphics_cd286e83cc20e352(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_graphics_cd286e83cc20e352(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_graphics_c1a031043095f7b7(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -307,7 +307,316 @@ void *_wrap_Swig_malloc_graphics_cd286e83cc20e352(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_sfBlendFactorZero_graphics_cd286e83cc20e352() {
+void _wrap_sfVector2i_x_set_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0, intgo _swig_go_1) {
+  sfVector2i *arg1 = (sfVector2i *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(sfVector2i **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->x = arg2;
+  
+}
+
+
+intgo _wrap_sfVector2i_x_get_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0) {
+  sfVector2i *arg1 = (sfVector2i *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(sfVector2i **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->x);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_sfVector2i_y_set_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0, intgo _swig_go_1) {
+  sfVector2i *arg1 = (sfVector2i *) 0 ;
+  int arg2 ;
+  
+  arg1 = *(sfVector2i **)&_swig_go_0; 
+  arg2 = (int)_swig_go_1; 
+  
+  if (arg1) (arg1)->y = arg2;
+  
+}
+
+
+intgo _wrap_sfVector2i_y_get_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0) {
+  sfVector2i *arg1 = (sfVector2i *) 0 ;
+  int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(sfVector2i **)&_swig_go_0; 
+  
+  result = (int) ((arg1)->y);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+sfVector2i *_wrap_new_sfVector2i_graphics_c1a031043095f7b7() {
+  sfVector2i *result = 0 ;
+  sfVector2i *_swig_go_result;
+  
+  
+  result = (sfVector2i *)new sfVector2i();
+  *(sfVector2i **)&_swig_go_result = (sfVector2i *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_sfVector2i_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0) {
+  sfVector2i *arg1 = (sfVector2i *) 0 ;
+  
+  arg1 = *(sfVector2i **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+void _wrap_sfVector2u_x_set_graphics_c1a031043095f7b7(sfVector2u *_swig_go_0, intgo _swig_go_1) {
+  sfVector2u *arg1 = (sfVector2u *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(sfVector2u **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->x = arg2;
+  
+}
+
+
+intgo _wrap_sfVector2u_x_get_graphics_c1a031043095f7b7(sfVector2u *_swig_go_0) {
+  sfVector2u *arg1 = (sfVector2u *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(sfVector2u **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->x);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_sfVector2u_y_set_graphics_c1a031043095f7b7(sfVector2u *_swig_go_0, intgo _swig_go_1) {
+  sfVector2u *arg1 = (sfVector2u *) 0 ;
+  unsigned int arg2 ;
+  
+  arg1 = *(sfVector2u **)&_swig_go_0; 
+  arg2 = (unsigned int)_swig_go_1; 
+  
+  if (arg1) (arg1)->y = arg2;
+  
+}
+
+
+intgo _wrap_sfVector2u_y_get_graphics_c1a031043095f7b7(sfVector2u *_swig_go_0) {
+  sfVector2u *arg1 = (sfVector2u *) 0 ;
+  unsigned int result;
+  intgo _swig_go_result;
+  
+  arg1 = *(sfVector2u **)&_swig_go_0; 
+  
+  result = (unsigned int) ((arg1)->y);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+sfVector2u *_wrap_new_sfVector2u_graphics_c1a031043095f7b7() {
+  sfVector2u *result = 0 ;
+  sfVector2u *_swig_go_result;
+  
+  
+  result = (sfVector2u *)new sfVector2u();
+  *(sfVector2u **)&_swig_go_result = (sfVector2u *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_sfVector2u_graphics_c1a031043095f7b7(sfVector2u *_swig_go_0) {
+  sfVector2u *arg1 = (sfVector2u *) 0 ;
+  
+  arg1 = *(sfVector2u **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+void _wrap_sfVector2f_x_set_graphics_c1a031043095f7b7(sfVector2f *_swig_go_0, float _swig_go_1) {
+  sfVector2f *arg1 = (sfVector2f *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(sfVector2f **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->x = arg2;
+  
+}
+
+
+float _wrap_sfVector2f_x_get_graphics_c1a031043095f7b7(sfVector2f *_swig_go_0) {
+  sfVector2f *arg1 = (sfVector2f *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(sfVector2f **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->x);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_sfVector2f_y_set_graphics_c1a031043095f7b7(sfVector2f *_swig_go_0, float _swig_go_1) {
+  sfVector2f *arg1 = (sfVector2f *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(sfVector2f **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->y = arg2;
+  
+}
+
+
+float _wrap_sfVector2f_y_get_graphics_c1a031043095f7b7(sfVector2f *_swig_go_0) {
+  sfVector2f *arg1 = (sfVector2f *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(sfVector2f **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->y);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+sfVector2f *_wrap_new_sfVector2f_graphics_c1a031043095f7b7() {
+  sfVector2f *result = 0 ;
+  sfVector2f *_swig_go_result;
+  
+  
+  result = (sfVector2f *)new sfVector2f();
+  *(sfVector2f **)&_swig_go_result = (sfVector2f *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_sfVector2f_graphics_c1a031043095f7b7(sfVector2f *_swig_go_0) {
+  sfVector2f *arg1 = (sfVector2f *) 0 ;
+  
+  arg1 = *(sfVector2f **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+void _wrap_sfVector3f_x_set_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0, float _swig_go_1) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->x = arg2;
+  
+}
+
+
+float _wrap_sfVector3f_x_get_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->x);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_sfVector3f_y_set_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0, float _swig_go_1) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->y = arg2;
+  
+}
+
+
+float _wrap_sfVector3f_y_get_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->y);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_sfVector3f_z_set_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0, float _swig_go_1) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float arg2 ;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  arg2 = (float)_swig_go_1; 
+  
+  if (arg1) (arg1)->z = arg2;
+  
+}
+
+
+float _wrap_sfVector3f_z_get_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  float result;
+  float _swig_go_result;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  
+  result = (float) ((arg1)->z);
+  _swig_go_result = result; 
+  return _swig_go_result;
+}
+
+
+sfVector3f *_wrap_new_sfVector3f_graphics_c1a031043095f7b7() {
+  sfVector3f *result = 0 ;
+  sfVector3f *_swig_go_result;
+  
+  
+  result = (sfVector3f *)new sfVector3f();
+  *(sfVector3f **)&_swig_go_result = (sfVector3f *)result; 
+  return _swig_go_result;
+}
+
+
+void _wrap_delete_sfVector3f_graphics_c1a031043095f7b7(sfVector3f *_swig_go_0) {
+  sfVector3f *arg1 = (sfVector3f *) 0 ;
+  
+  arg1 = *(sfVector3f **)&_swig_go_0; 
+  
+  delete arg1;
+  
+}
+
+
+intgo _wrap_sfBlendFactorZero_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -319,7 +628,7 @@ intgo _wrap_sfBlendFactorZero_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorOne_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorOne_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -331,7 +640,7 @@ intgo _wrap_sfBlendFactorOne_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorSrcColor_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorSrcColor_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -343,7 +652,7 @@ intgo _wrap_sfBlendFactorSrcColor_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorOneMinusSrcColor_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorOneMinusSrcColor_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -355,7 +664,7 @@ intgo _wrap_sfBlendFactorOneMinusSrcColor_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorDstColor_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorDstColor_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -367,7 +676,7 @@ intgo _wrap_sfBlendFactorDstColor_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorOneMinusDstColor_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorOneMinusDstColor_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -379,7 +688,7 @@ intgo _wrap_sfBlendFactorOneMinusDstColor_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorSrcAlpha_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorSrcAlpha_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -391,7 +700,7 @@ intgo _wrap_sfBlendFactorSrcAlpha_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorOneMinusSrcAlpha_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorOneMinusSrcAlpha_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -403,7 +712,7 @@ intgo _wrap_sfBlendFactorOneMinusSrcAlpha_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorDstAlpha_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorDstAlpha_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -415,7 +724,7 @@ intgo _wrap_sfBlendFactorDstAlpha_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendFactorOneMinusDstAlpha_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendFactorOneMinusDstAlpha_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -427,7 +736,7 @@ intgo _wrap_sfBlendFactorOneMinusDstAlpha_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendEquationAdd_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendEquationAdd_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -439,7 +748,7 @@ intgo _wrap_sfBlendEquationAdd_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendEquationSubtract_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendEquationSubtract_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -451,7 +760,7 @@ intgo _wrap_sfBlendEquationSubtract_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendEquationReverseSubtract_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendEquationReverseSubtract_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -463,7 +772,7 @@ intgo _wrap_sfBlendEquationReverseSubtract_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendEquationMin_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendEquationMin_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -475,7 +784,7 @@ intgo _wrap_sfBlendEquationMin_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfBlendEquationMax_graphics_cd286e83cc20e352() {
+intgo _wrap_sfBlendEquationMax_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -487,7 +796,7 @@ intgo _wrap_sfBlendEquationMax_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfBlendMode_colorSrcFactor_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_colorSrcFactor_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor arg2 ;
   
@@ -499,7 +808,7 @@ void _wrap_sfBlendMode_colorSrcFactor_set_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-intgo _wrap_sfBlendMode_colorSrcFactor_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_colorSrcFactor_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor result;
   intgo _swig_go_result;
@@ -512,7 +821,7 @@ intgo _wrap_sfBlendMode_colorSrcFactor_get_graphics_cd286e83cc20e352(sfBlendMode
 }
 
 
-void _wrap_sfBlendMode_colorDstFactor_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_colorDstFactor_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor arg2 ;
   
@@ -524,7 +833,7 @@ void _wrap_sfBlendMode_colorDstFactor_set_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-intgo _wrap_sfBlendMode_colorDstFactor_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_colorDstFactor_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor result;
   intgo _swig_go_result;
@@ -537,7 +846,7 @@ intgo _wrap_sfBlendMode_colorDstFactor_get_graphics_cd286e83cc20e352(sfBlendMode
 }
 
 
-void _wrap_sfBlendMode_colorEquation_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_colorEquation_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendEquation arg2 ;
   
@@ -549,7 +858,7 @@ void _wrap_sfBlendMode_colorEquation_set_graphics_cd286e83cc20e352(sfBlendMode *
 }
 
 
-intgo _wrap_sfBlendMode_colorEquation_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_colorEquation_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendEquation result;
   intgo _swig_go_result;
@@ -562,7 +871,7 @@ intgo _wrap_sfBlendMode_colorEquation_get_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-void _wrap_sfBlendMode_alphaSrcFactor_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_alphaSrcFactor_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor arg2 ;
   
@@ -574,7 +883,7 @@ void _wrap_sfBlendMode_alphaSrcFactor_set_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-intgo _wrap_sfBlendMode_alphaSrcFactor_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_alphaSrcFactor_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor result;
   intgo _swig_go_result;
@@ -587,7 +896,7 @@ intgo _wrap_sfBlendMode_alphaSrcFactor_get_graphics_cd286e83cc20e352(sfBlendMode
 }
 
 
-void _wrap_sfBlendMode_alphaDstFactor_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_alphaDstFactor_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor arg2 ;
   
@@ -599,7 +908,7 @@ void _wrap_sfBlendMode_alphaDstFactor_set_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-intgo _wrap_sfBlendMode_alphaDstFactor_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_alphaDstFactor_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendFactor result;
   intgo _swig_go_result;
@@ -612,7 +921,7 @@ intgo _wrap_sfBlendMode_alphaDstFactor_get_graphics_cd286e83cc20e352(sfBlendMode
 }
 
 
-void _wrap_sfBlendMode_alphaEquation_set_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfBlendMode_alphaEquation_set_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0, intgo _swig_go_1) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendEquation arg2 ;
   
@@ -624,7 +933,7 @@ void _wrap_sfBlendMode_alphaEquation_set_graphics_cd286e83cc20e352(sfBlendMode *
 }
 
 
-intgo _wrap_sfBlendMode_alphaEquation_get_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+intgo _wrap_sfBlendMode_alphaEquation_get_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   sfBlendEquation result;
   intgo _swig_go_result;
@@ -637,7 +946,7 @@ intgo _wrap_sfBlendMode_alphaEquation_get_graphics_cd286e83cc20e352(sfBlendMode 
 }
 
 
-sfBlendMode *_wrap_new_sfBlendMode_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_new_sfBlendMode_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -648,7 +957,7 @@ sfBlendMode *_wrap_new_sfBlendMode_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfBlendMode_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0) {
+void _wrap_delete_sfBlendMode_graphics_c1a031043095f7b7(sfBlendMode *_swig_go_0) {
   sfBlendMode *arg1 = (sfBlendMode *) 0 ;
   
   arg1 = *(sfBlendMode **)&_swig_go_0; 
@@ -658,7 +967,7 @@ void _wrap_delete_sfBlendMode_graphics_cd286e83cc20e352(sfBlendMode *_swig_go_0)
 }
 
 
-sfBlendMode *_wrap_sfBlendAlpha_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendAlpha_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -669,7 +978,7 @@ sfBlendMode *_wrap_sfBlendAlpha_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfBlendMode *_wrap_sfBlendAdd_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendAdd_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -680,7 +989,7 @@ sfBlendMode *_wrap_sfBlendAdd_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfBlendMode *_wrap_sfBlendMultiply_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendMultiply_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -691,7 +1000,7 @@ sfBlendMode *_wrap_sfBlendMultiply_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfBlendMode *_wrap_sfBlendMin_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendMin_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -702,7 +1011,7 @@ sfBlendMode *_wrap_sfBlendMin_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfBlendMode *_wrap_sfBlendMax_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendMax_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -713,7 +1022,7 @@ sfBlendMode *_wrap_sfBlendMax_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfBlendMode *_wrap_sfBlendNone_get_graphics_cd286e83cc20e352() {
+sfBlendMode *_wrap_sfBlendNone_get_graphics_c1a031043095f7b7() {
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
   
@@ -724,7 +1033,7 @@ sfBlendMode *_wrap_sfBlendNone_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfCircleShape *_wrap_sfCircleShape_create_graphics_cd286e83cc20e352() {
+sfCircleShape *_wrap_sfCircleShape_create_graphics_c1a031043095f7b7() {
   sfCircleShape *result = 0 ;
   sfCircleShape *_swig_go_result;
   
@@ -735,7 +1044,7 @@ sfCircleShape *_wrap_sfCircleShape_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfCircleShape *_wrap_sfCircleShape_copy_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfCircleShape *_wrap_sfCircleShape_copy_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfCircleShape *result = 0 ;
   sfCircleShape *_swig_go_result;
@@ -748,7 +1057,7 @@ sfCircleShape *_wrap_sfCircleShape_copy_graphics_cd286e83cc20e352(sfCircleShape 
 }
 
 
-void _wrap_sfCircleShape_destroy_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+void _wrap_sfCircleShape_destroy_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   
   arg1 = *(sfCircleShape **)&_swig_go_0; 
@@ -758,7 +1067,7 @@ void _wrap_sfCircleShape_destroy_graphics_cd286e83cc20e352(sfCircleShape *_swig_
 }
 
 
-void _wrap_sfCircleShape_setPosition_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfCircleShape_setPosition_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -777,7 +1086,7 @@ void _wrap_sfCircleShape_setPosition_graphics_cd286e83cc20e352(sfCircleShape *_s
 }
 
 
-void _wrap_sfCircleShape_setRotation_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfCircleShape_setRotation_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, float _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float arg2 ;
   
@@ -789,7 +1098,7 @@ void _wrap_sfCircleShape_setRotation_graphics_cd286e83cc20e352(sfCircleShape *_s
 }
 
 
-void _wrap_sfCircleShape_setScale_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfCircleShape_setScale_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -808,7 +1117,7 @@ void _wrap_sfCircleShape_setScale_graphics_cd286e83cc20e352(sfCircleShape *_swig
 }
 
 
-void _wrap_sfCircleShape_setOrigin_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfCircleShape_setOrigin_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -827,7 +1136,7 @@ void _wrap_sfCircleShape_setOrigin_graphics_cd286e83cc20e352(sfCircleShape *_swi
 }
 
 
-sfVector2f *_wrap_sfCircleShape_getPosition_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfVector2f *_wrap_sfCircleShape_getPosition_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -840,7 +1149,7 @@ sfVector2f *_wrap_sfCircleShape_getPosition_graphics_cd286e83cc20e352(sfCircleSh
 }
 
 
-float _wrap_sfCircleShape_getRotation_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+float _wrap_sfCircleShape_getRotation_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -853,7 +1162,7 @@ float _wrap_sfCircleShape_getRotation_graphics_cd286e83cc20e352(sfCircleShape *_
 }
 
 
-sfVector2f *_wrap_sfCircleShape_getScale_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfVector2f *_wrap_sfCircleShape_getScale_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -866,7 +1175,7 @@ sfVector2f *_wrap_sfCircleShape_getScale_graphics_cd286e83cc20e352(sfCircleShape
 }
 
 
-sfVector2f *_wrap_sfCircleShape_getOrigin_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfVector2f *_wrap_sfCircleShape_getOrigin_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -879,7 +1188,7 @@ sfVector2f *_wrap_sfCircleShape_getOrigin_graphics_cd286e83cc20e352(sfCircleShap
 }
 
 
-void _wrap_sfCircleShape_move_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfCircleShape_move_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -898,7 +1207,7 @@ void _wrap_sfCircleShape_move_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_
 }
 
 
-void _wrap_sfCircleShape_rotate_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfCircleShape_rotate_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, float _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float arg2 ;
   
@@ -910,7 +1219,7 @@ void _wrap_sfCircleShape_rotate_graphics_cd286e83cc20e352(sfCircleShape *_swig_g
 }
 
 
-void _wrap_sfCircleShape_scale_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfCircleShape_scale_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -929,7 +1238,7 @@ void _wrap_sfCircleShape_scale_graphics_cd286e83cc20e352(sfCircleShape *_swig_go
 }
 
 
-sfTransform *_wrap_sfCircleShape_getTransform_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfTransform *_wrap_sfCircleShape_getTransform_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -942,7 +1251,7 @@ sfTransform *_wrap_sfCircleShape_getTransform_graphics_cd286e83cc20e352(sfCircle
 }
 
 
-sfTransform *_wrap_sfCircleShape_getInverseTransform_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfTransform *_wrap_sfCircleShape_getInverseTransform_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -955,7 +1264,7 @@ sfTransform *_wrap_sfCircleShape_getInverseTransform_graphics_cd286e83cc20e352(s
 }
 
 
-void _wrap_sfCircleShape_setTexture_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
+void _wrap_sfCircleShape_setTexture_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   sfBool arg3 ;
@@ -969,7 +1278,7 @@ void _wrap_sfCircleShape_setTexture_graphics_cd286e83cc20e352(sfCircleShape *_sw
 }
 
 
-void _wrap_sfCircleShape_setTextureRect_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfCircleShape_setTextureRect_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfIntRect *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfIntRect arg2 ;
   sfIntRect *argp2 ;
@@ -988,7 +1297,7 @@ void _wrap_sfCircleShape_setTextureRect_graphics_cd286e83cc20e352(sfCircleShape 
 }
 
 
-void _wrap_sfCircleShape_setFillColor_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfCircleShape_setFillColor_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfColor *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -1007,7 +1316,7 @@ void _wrap_sfCircleShape_setFillColor_graphics_cd286e83cc20e352(sfCircleShape *_
 }
 
 
-void _wrap_sfCircleShape_setOutlineColor_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfCircleShape_setOutlineColor_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, sfColor *_swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -1026,7 +1335,7 @@ void _wrap_sfCircleShape_setOutlineColor_graphics_cd286e83cc20e352(sfCircleShape
 }
 
 
-void _wrap_sfCircleShape_setOutlineThickness_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfCircleShape_setOutlineThickness_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, float _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float arg2 ;
   
@@ -1038,7 +1347,7 @@ void _wrap_sfCircleShape_setOutlineThickness_graphics_cd286e83cc20e352(sfCircleS
 }
 
 
-sfTexture *_wrap_sfCircleShape_getTexture_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfTexture *_wrap_sfCircleShape_getTexture_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -1051,7 +1360,7 @@ sfTexture *_wrap_sfCircleShape_getTexture_graphics_cd286e83cc20e352(sfCircleShap
 }
 
 
-sfIntRect *_wrap_sfCircleShape_getTextureRect_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfIntRect *_wrap_sfCircleShape_getTextureRect_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfIntRect result;
   sfIntRect *_swig_go_result;
@@ -1064,7 +1373,7 @@ sfIntRect *_wrap_sfCircleShape_getTextureRect_graphics_cd286e83cc20e352(sfCircle
 }
 
 
-sfColor *_wrap_sfCircleShape_getFillColor_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfColor *_wrap_sfCircleShape_getFillColor_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -1077,7 +1386,7 @@ sfColor *_wrap_sfCircleShape_getFillColor_graphics_cd286e83cc20e352(sfCircleShap
 }
 
 
-sfColor *_wrap_sfCircleShape_getOutlineColor_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfColor *_wrap_sfCircleShape_getOutlineColor_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -1090,7 +1399,7 @@ sfColor *_wrap_sfCircleShape_getOutlineColor_graphics_cd286e83cc20e352(sfCircleS
 }
 
 
-float _wrap_sfCircleShape_getOutlineThickness_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+float _wrap_sfCircleShape_getOutlineThickness_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -1103,7 +1412,7 @@ float _wrap_sfCircleShape_getOutlineThickness_graphics_cd286e83cc20e352(sfCircle
 }
 
 
-long long _wrap_sfCircleShape_getPointCount_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+long long _wrap_sfCircleShape_getPointCount_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -1116,7 +1425,7 @@ long long _wrap_sfCircleShape_getPointCount_graphics_cd286e83cc20e352(sfCircleSh
 }
 
 
-sfVector2f *_wrap_sfCircleShape_getPoint_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, long long _swig_go_1) {
+sfVector2f *_wrap_sfCircleShape_getPoint_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, long long _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   size_t arg2 ;
   sfVector2f result;
@@ -1131,7 +1440,7 @@ sfVector2f *_wrap_sfCircleShape_getPoint_graphics_cd286e83cc20e352(sfCircleShape
 }
 
 
-void _wrap_sfCircleShape_setRadius_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfCircleShape_setRadius_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, float _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float arg2 ;
   
@@ -1143,7 +1452,7 @@ void _wrap_sfCircleShape_setRadius_graphics_cd286e83cc20e352(sfCircleShape *_swi
 }
 
 
-float _wrap_sfCircleShape_getRadius_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+float _wrap_sfCircleShape_getRadius_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -1156,7 +1465,7 @@ float _wrap_sfCircleShape_getRadius_graphics_cd286e83cc20e352(sfCircleShape *_sw
 }
 
 
-void _wrap_sfCircleShape_setPointCount_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfCircleShape_setPointCount_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0, long long _swig_go_1) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   size_t arg2 ;
   
@@ -1168,7 +1477,7 @@ void _wrap_sfCircleShape_setPointCount_graphics_cd286e83cc20e352(sfCircleShape *
 }
 
 
-sfFloatRect *_wrap_sfCircleShape_getLocalBounds_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfFloatRect *_wrap_sfCircleShape_getLocalBounds_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -1181,7 +1490,7 @@ sfFloatRect *_wrap_sfCircleShape_getLocalBounds_graphics_cd286e83cc20e352(sfCirc
 }
 
 
-sfFloatRect *_wrap_sfCircleShape_getGlobalBounds_graphics_cd286e83cc20e352(sfCircleShape *_swig_go_0) {
+sfFloatRect *_wrap_sfCircleShape_getGlobalBounds_graphics_c1a031043095f7b7(sfCircleShape *_swig_go_0) {
   sfCircleShape *arg1 = (sfCircleShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -1194,7 +1503,7 @@ sfFloatRect *_wrap_sfCircleShape_getGlobalBounds_graphics_cd286e83cc20e352(sfCir
 }
 
 
-void _wrap_sfColor_r_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _swig_go_1) {
+void _wrap_sfColor_r_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0, char _swig_go_1) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 arg2 ;
   
@@ -1206,7 +1515,7 @@ void _wrap_sfColor_r_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _sw
 }
 
 
-char _wrap_sfColor_r_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+char _wrap_sfColor_r_get_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 result;
   char _swig_go_result;
@@ -1219,7 +1528,7 @@ char _wrap_sfColor_r_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-void _wrap_sfColor_g_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _swig_go_1) {
+void _wrap_sfColor_g_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0, char _swig_go_1) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 arg2 ;
   
@@ -1231,7 +1540,7 @@ void _wrap_sfColor_g_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _sw
 }
 
 
-char _wrap_sfColor_g_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+char _wrap_sfColor_g_get_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 result;
   char _swig_go_result;
@@ -1244,7 +1553,7 @@ char _wrap_sfColor_g_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-void _wrap_sfColor_b_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _swig_go_1) {
+void _wrap_sfColor_b_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0, char _swig_go_1) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 arg2 ;
   
@@ -1256,7 +1565,7 @@ void _wrap_sfColor_b_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _sw
 }
 
 
-char _wrap_sfColor_b_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+char _wrap_sfColor_b_get_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 result;
   char _swig_go_result;
@@ -1269,7 +1578,7 @@ char _wrap_sfColor_b_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-void _wrap_sfColor_a_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _swig_go_1) {
+void _wrap_sfColor_a_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0, char _swig_go_1) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 arg2 ;
   
@@ -1281,7 +1590,7 @@ void _wrap_sfColor_a_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0, char _sw
 }
 
 
-char _wrap_sfColor_a_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+char _wrap_sfColor_a_get_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   sfUint8 result;
   char _swig_go_result;
@@ -1294,7 +1603,7 @@ char _wrap_sfColor_a_get_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_new_sfColor_graphics_cd286e83cc20e352() {
+sfColor *_wrap_new_sfColor_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1305,7 +1614,7 @@ sfColor *_wrap_new_sfColor_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfColor_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_delete_sfColor_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1315,7 +1624,7 @@ void _wrap_delete_sfColor_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-void _wrap_sfBlack_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfBlack_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1325,7 +1634,7 @@ void _wrap_sfBlack_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfBlack_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfBlack_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1336,7 +1645,7 @@ sfColor *_wrap_sfBlack_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfWhite_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfWhite_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1346,7 +1655,7 @@ void _wrap_sfWhite_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfWhite_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfWhite_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1357,7 +1666,7 @@ sfColor *_wrap_sfWhite_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfRed_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfRed_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1367,7 +1676,7 @@ void _wrap_sfRed_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfRed_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfRed_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1378,7 +1687,7 @@ sfColor *_wrap_sfRed_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfGreen_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfGreen_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1388,7 +1697,7 @@ void _wrap_sfGreen_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfGreen_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfGreen_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1399,7 +1708,7 @@ sfColor *_wrap_sfGreen_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfBlue_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfBlue_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1409,7 +1718,7 @@ void _wrap_sfBlue_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfBlue_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfBlue_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1420,7 +1729,7 @@ sfColor *_wrap_sfBlue_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfYellow_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfYellow_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1430,7 +1739,7 @@ void _wrap_sfYellow_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfYellow_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfYellow_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1441,7 +1750,7 @@ sfColor *_wrap_sfYellow_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfMagenta_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfMagenta_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1451,7 +1760,7 @@ void _wrap_sfMagenta_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfMagenta_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfMagenta_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1462,7 +1771,7 @@ sfColor *_wrap_sfMagenta_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfCyan_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfCyan_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1472,7 +1781,7 @@ void _wrap_sfCyan_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfCyan_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfCyan_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1483,7 +1792,7 @@ sfColor *_wrap_sfCyan_get_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfTransparent_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+void _wrap_sfTransparent_set_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor *arg1 = (sfColor *) 0 ;
   
   arg1 = *(sfColor **)&_swig_go_0; 
@@ -1493,7 +1802,7 @@ void _wrap_sfTransparent_set_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfTransparent_get_graphics_cd286e83cc20e352() {
+sfColor *_wrap_sfTransparent_get_graphics_c1a031043095f7b7() {
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
   
@@ -1504,7 +1813,7 @@ sfColor *_wrap_sfTransparent_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfColor *_wrap_sfColor_fromRGB_graphics_cd286e83cc20e352(char _swig_go_0, char _swig_go_1, char _swig_go_2) {
+sfColor *_wrap_sfColor_fromRGB_graphics_c1a031043095f7b7(char _swig_go_0, char _swig_go_1, char _swig_go_2) {
   sfUint8 arg1 ;
   sfUint8 arg2 ;
   sfUint8 arg3 ;
@@ -1521,7 +1830,7 @@ sfColor *_wrap_sfColor_fromRGB_graphics_cd286e83cc20e352(char _swig_go_0, char _
 }
 
 
-sfColor *_wrap_sfColor_fromRGBA_graphics_cd286e83cc20e352(char _swig_go_0, char _swig_go_1, char _swig_go_2, char _swig_go_3) {
+sfColor *_wrap_sfColor_fromRGBA_graphics_c1a031043095f7b7(char _swig_go_0, char _swig_go_1, char _swig_go_2, char _swig_go_3) {
   sfUint8 arg1 ;
   sfUint8 arg2 ;
   sfUint8 arg3 ;
@@ -1540,7 +1849,7 @@ sfColor *_wrap_sfColor_fromRGBA_graphics_cd286e83cc20e352(char _swig_go_0, char 
 }
 
 
-sfColor *_wrap_sfColor_fromInteger_graphics_cd286e83cc20e352(intgo _swig_go_0) {
+sfColor *_wrap_sfColor_fromInteger_graphics_c1a031043095f7b7(intgo _swig_go_0) {
   sfUint32 arg1 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -1553,7 +1862,7 @@ sfColor *_wrap_sfColor_fromInteger_graphics_cd286e83cc20e352(intgo _swig_go_0) {
 }
 
 
-intgo _wrap_sfColor_toInteger_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
+intgo _wrap_sfColor_toInteger_graphics_c1a031043095f7b7(sfColor *_swig_go_0) {
   sfColor arg1 ;
   sfColor *argp1 ;
   sfUint32 result;
@@ -1573,7 +1882,7 @@ intgo _wrap_sfColor_toInteger_graphics_cd286e83cc20e352(sfColor *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfColor_add_graphics_cd286e83cc20e352(sfColor *_swig_go_0, sfColor *_swig_go_1) {
+sfColor *_wrap_sfColor_add_graphics_c1a031043095f7b7(sfColor *_swig_go_0, sfColor *_swig_go_1) {
   sfColor arg1 ;
   sfColor arg2 ;
   sfColor *argp1 ;
@@ -1602,7 +1911,7 @@ sfColor *_wrap_sfColor_add_graphics_cd286e83cc20e352(sfColor *_swig_go_0, sfColo
 }
 
 
-sfColor *_wrap_sfColor_subtract_graphics_cd286e83cc20e352(sfColor *_swig_go_0, sfColor *_swig_go_1) {
+sfColor *_wrap_sfColor_subtract_graphics_c1a031043095f7b7(sfColor *_swig_go_0, sfColor *_swig_go_1) {
   sfColor arg1 ;
   sfColor arg2 ;
   sfColor *argp1 ;
@@ -1631,7 +1940,7 @@ sfColor *_wrap_sfColor_subtract_graphics_cd286e83cc20e352(sfColor *_swig_go_0, s
 }
 
 
-sfColor *_wrap_sfColor_modulate_graphics_cd286e83cc20e352(sfColor *_swig_go_0, sfColor *_swig_go_1) {
+sfColor *_wrap_sfColor_modulate_graphics_c1a031043095f7b7(sfColor *_swig_go_0, sfColor *_swig_go_1) {
   sfColor arg1 ;
   sfColor arg2 ;
   sfColor *argp1 ;
@@ -1660,7 +1969,7 @@ sfColor *_wrap_sfColor_modulate_graphics_cd286e83cc20e352(sfColor *_swig_go_0, s
 }
 
 
-sfConvexShape *_wrap_sfConvexShape_create_graphics_cd286e83cc20e352() {
+sfConvexShape *_wrap_sfConvexShape_create_graphics_c1a031043095f7b7() {
   sfConvexShape *result = 0 ;
   sfConvexShape *_swig_go_result;
   
@@ -1671,7 +1980,7 @@ sfConvexShape *_wrap_sfConvexShape_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfConvexShape *_wrap_sfConvexShape_copy_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfConvexShape *_wrap_sfConvexShape_copy_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfConvexShape *result = 0 ;
   sfConvexShape *_swig_go_result;
@@ -1684,7 +1993,7 @@ sfConvexShape *_wrap_sfConvexShape_copy_graphics_cd286e83cc20e352(sfConvexShape 
 }
 
 
-void _wrap_sfConvexShape_destroy_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+void _wrap_sfConvexShape_destroy_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   
   arg1 = *(sfConvexShape **)&_swig_go_0; 
@@ -1694,7 +2003,7 @@ void _wrap_sfConvexShape_destroy_graphics_cd286e83cc20e352(sfConvexShape *_swig_
 }
 
 
-void _wrap_sfConvexShape_setPosition_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfConvexShape_setPosition_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -1713,7 +2022,7 @@ void _wrap_sfConvexShape_setPosition_graphics_cd286e83cc20e352(sfConvexShape *_s
 }
 
 
-void _wrap_sfConvexShape_setRotation_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfConvexShape_setRotation_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, float _swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   float arg2 ;
   
@@ -1725,7 +2034,7 @@ void _wrap_sfConvexShape_setRotation_graphics_cd286e83cc20e352(sfConvexShape *_s
 }
 
 
-void _wrap_sfConvexShape_setScale_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfConvexShape_setScale_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -1744,7 +2053,7 @@ void _wrap_sfConvexShape_setScale_graphics_cd286e83cc20e352(sfConvexShape *_swig
 }
 
 
-void _wrap_sfConvexShape_setOrigin_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfConvexShape_setOrigin_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -1763,7 +2072,7 @@ void _wrap_sfConvexShape_setOrigin_graphics_cd286e83cc20e352(sfConvexShape *_swi
 }
 
 
-sfVector2f *_wrap_sfConvexShape_getPosition_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfVector2f *_wrap_sfConvexShape_getPosition_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -1776,7 +2085,7 @@ sfVector2f *_wrap_sfConvexShape_getPosition_graphics_cd286e83cc20e352(sfConvexSh
 }
 
 
-float _wrap_sfConvexShape_getRotation_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+float _wrap_sfConvexShape_getRotation_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -1789,7 +2098,7 @@ float _wrap_sfConvexShape_getRotation_graphics_cd286e83cc20e352(sfConvexShape *_
 }
 
 
-sfVector2f *_wrap_sfConvexShape_getScale_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfVector2f *_wrap_sfConvexShape_getScale_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -1802,7 +2111,7 @@ sfVector2f *_wrap_sfConvexShape_getScale_graphics_cd286e83cc20e352(sfConvexShape
 }
 
 
-sfVector2f *_wrap_sfConvexShape_getOrigin_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfVector2f *_wrap_sfConvexShape_getOrigin_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -1815,7 +2124,7 @@ sfVector2f *_wrap_sfConvexShape_getOrigin_graphics_cd286e83cc20e352(sfConvexShap
 }
 
 
-void _wrap_sfConvexShape_move_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfConvexShape_move_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -1834,7 +2143,7 @@ void _wrap_sfConvexShape_move_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_
 }
 
 
-void _wrap_sfConvexShape_rotate_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfConvexShape_rotate_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, float _swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   float arg2 ;
   
@@ -1846,7 +2155,7 @@ void _wrap_sfConvexShape_rotate_graphics_cd286e83cc20e352(sfConvexShape *_swig_g
 }
 
 
-void _wrap_sfConvexShape_scale_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfConvexShape_scale_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -1865,7 +2174,7 @@ void _wrap_sfConvexShape_scale_graphics_cd286e83cc20e352(sfConvexShape *_swig_go
 }
 
 
-sfTransform *_wrap_sfConvexShape_getTransform_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfTransform *_wrap_sfConvexShape_getTransform_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -1878,7 +2187,7 @@ sfTransform *_wrap_sfConvexShape_getTransform_graphics_cd286e83cc20e352(sfConvex
 }
 
 
-sfTransform *_wrap_sfConvexShape_getInverseTransform_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfTransform *_wrap_sfConvexShape_getInverseTransform_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -1891,7 +2200,7 @@ sfTransform *_wrap_sfConvexShape_getInverseTransform_graphics_cd286e83cc20e352(s
 }
 
 
-void _wrap_sfConvexShape_setTexture_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
+void _wrap_sfConvexShape_setTexture_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   sfBool arg3 ;
@@ -1905,7 +2214,7 @@ void _wrap_sfConvexShape_setTexture_graphics_cd286e83cc20e352(sfConvexShape *_sw
 }
 
 
-void _wrap_sfConvexShape_setTextureRect_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfConvexShape_setTextureRect_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfIntRect *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfIntRect arg2 ;
   sfIntRect *argp2 ;
@@ -1924,7 +2233,7 @@ void _wrap_sfConvexShape_setTextureRect_graphics_cd286e83cc20e352(sfConvexShape 
 }
 
 
-void _wrap_sfConvexShape_setFillColor_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfConvexShape_setFillColor_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfColor *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -1943,7 +2252,7 @@ void _wrap_sfConvexShape_setFillColor_graphics_cd286e83cc20e352(sfConvexShape *_
 }
 
 
-void _wrap_sfConvexShape_setOutlineColor_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfConvexShape_setOutlineColor_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, sfColor *_swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -1962,7 +2271,7 @@ void _wrap_sfConvexShape_setOutlineColor_graphics_cd286e83cc20e352(sfConvexShape
 }
 
 
-void _wrap_sfConvexShape_setOutlineThickness_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfConvexShape_setOutlineThickness_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, float _swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   float arg2 ;
   
@@ -1974,7 +2283,7 @@ void _wrap_sfConvexShape_setOutlineThickness_graphics_cd286e83cc20e352(sfConvexS
 }
 
 
-sfTexture *_wrap_sfConvexShape_getTexture_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfTexture *_wrap_sfConvexShape_getTexture_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -1987,7 +2296,7 @@ sfTexture *_wrap_sfConvexShape_getTexture_graphics_cd286e83cc20e352(sfConvexShap
 }
 
 
-sfIntRect *_wrap_sfConvexShape_getTextureRect_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfIntRect *_wrap_sfConvexShape_getTextureRect_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfIntRect result;
   sfIntRect *_swig_go_result;
@@ -2000,7 +2309,7 @@ sfIntRect *_wrap_sfConvexShape_getTextureRect_graphics_cd286e83cc20e352(sfConvex
 }
 
 
-sfColor *_wrap_sfConvexShape_getFillColor_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfColor *_wrap_sfConvexShape_getFillColor_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -2013,7 +2322,7 @@ sfColor *_wrap_sfConvexShape_getFillColor_graphics_cd286e83cc20e352(sfConvexShap
 }
 
 
-sfColor *_wrap_sfConvexShape_getOutlineColor_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfColor *_wrap_sfConvexShape_getOutlineColor_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -2026,7 +2335,7 @@ sfColor *_wrap_sfConvexShape_getOutlineColor_graphics_cd286e83cc20e352(sfConvexS
 }
 
 
-float _wrap_sfConvexShape_getOutlineThickness_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+float _wrap_sfConvexShape_getOutlineThickness_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -2039,7 +2348,7 @@ float _wrap_sfConvexShape_getOutlineThickness_graphics_cd286e83cc20e352(sfConvex
 }
 
 
-long long _wrap_sfConvexShape_getPointCount_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+long long _wrap_sfConvexShape_getPointCount_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -2052,7 +2361,7 @@ long long _wrap_sfConvexShape_getPointCount_graphics_cd286e83cc20e352(sfConvexSh
 }
 
 
-sfVector2f *_wrap_sfConvexShape_getPoint_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, long long _swig_go_1) {
+sfVector2f *_wrap_sfConvexShape_getPoint_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, long long _swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   size_t arg2 ;
   sfVector2f result;
@@ -2067,7 +2376,7 @@ sfVector2f *_wrap_sfConvexShape_getPoint_graphics_cd286e83cc20e352(sfConvexShape
 }
 
 
-void _wrap_sfConvexShape_setPointCount_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfConvexShape_setPointCount_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, long long _swig_go_1) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   size_t arg2 ;
   
@@ -2079,7 +2388,7 @@ void _wrap_sfConvexShape_setPointCount_graphics_cd286e83cc20e352(sfConvexShape *
 }
 
 
-void _wrap_sfConvexShape_setPoint_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0, long long _swig_go_1, sfVector2f *_swig_go_2) {
+void _wrap_sfConvexShape_setPoint_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0, long long _swig_go_1, sfVector2f *_swig_go_2) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   size_t arg2 ;
   sfVector2f arg3 ;
@@ -2100,7 +2409,7 @@ void _wrap_sfConvexShape_setPoint_graphics_cd286e83cc20e352(sfConvexShape *_swig
 }
 
 
-sfFloatRect *_wrap_sfConvexShape_getLocalBounds_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfFloatRect *_wrap_sfConvexShape_getLocalBounds_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -2113,7 +2422,7 @@ sfFloatRect *_wrap_sfConvexShape_getLocalBounds_graphics_cd286e83cc20e352(sfConv
 }
 
 
-sfFloatRect *_wrap_sfConvexShape_getGlobalBounds_graphics_cd286e83cc20e352(sfConvexShape *_swig_go_0) {
+sfFloatRect *_wrap_sfConvexShape_getGlobalBounds_graphics_c1a031043095f7b7(sfConvexShape *_swig_go_0) {
   sfConvexShape *arg1 = (sfConvexShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -2126,7 +2435,7 @@ sfFloatRect *_wrap_sfConvexShape_getGlobalBounds_graphics_cd286e83cc20e352(sfCon
 }
 
 
-sfFont *_wrap_sfFont_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_go_0) {
+sfFont *_wrap_sfFont_createFromFile_graphics_c1a031043095f7b7(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   sfFont *result = 0 ;
   sfFont *_swig_go_result;
@@ -2144,7 +2453,7 @@ sfFont *_wrap_sfFont_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_g
 }
 
 
-sfFont *_wrap_sfFont_createFromMemory_graphics_cd286e83cc20e352(void *_swig_go_0, long long _swig_go_1) {
+sfFont *_wrap_sfFont_createFromMemory_graphics_c1a031043095f7b7(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfFont *result = 0 ;
@@ -2159,7 +2468,7 @@ sfFont *_wrap_sfFont_createFromMemory_graphics_cd286e83cc20e352(void *_swig_go_0
 }
 
 
-sfFont *_wrap_sfFont_createFromStream_graphics_cd286e83cc20e352(sfInputStream *_swig_go_0) {
+sfFont *_wrap_sfFont_createFromStream_graphics_c1a031043095f7b7(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfFont *result = 0 ;
   sfFont *_swig_go_result;
@@ -2172,7 +2481,7 @@ sfFont *_wrap_sfFont_createFromStream_graphics_cd286e83cc20e352(sfInputStream *_
 }
 
 
-sfFont *_wrap_sfFont_copy_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
+sfFont *_wrap_sfFont_copy_graphics_c1a031043095f7b7(sfFont *_swig_go_0) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfFont *result = 0 ;
   sfFont *_swig_go_result;
@@ -2185,7 +2494,7 @@ sfFont *_wrap_sfFont_copy_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
 }
 
 
-void _wrap_sfFont_destroy_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
+void _wrap_sfFont_destroy_graphics_c1a031043095f7b7(sfFont *_swig_go_0) {
   sfFont *arg1 = (sfFont *) 0 ;
   
   arg1 = *(sfFont **)&_swig_go_0; 
@@ -2195,7 +2504,7 @@ void _wrap_sfFont_destroy_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
 }
 
 
-sfGlyph *_wrap_sfFont_getGlyph_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, float _swig_go_4) {
+sfGlyph *_wrap_sfFont_getGlyph_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, float _swig_go_4) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfUint32 arg2 ;
   unsigned int arg3 ;
@@ -2216,7 +2525,7 @@ sfGlyph *_wrap_sfFont_getGlyph_graphics_cd286e83cc20e352(sfFont *_swig_go_0, int
 }
 
 
-intgo _wrap_sfFont_hasGlyph_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_sfFont_hasGlyph_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfUint32 arg2 ;
   sfBool result;
@@ -2231,7 +2540,7 @@ intgo _wrap_sfFont_hasGlyph_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo 
 }
 
 
-float _wrap_sfFont_getKerning_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+float _wrap_sfFont_getKerning_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfUint32 arg2 ;
   sfUint32 arg3 ;
@@ -2250,7 +2559,7 @@ float _wrap_sfFont_getKerning_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intg
 }
 
 
-float _wrap_sfFont_getBoldKerning_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+float _wrap_sfFont_getBoldKerning_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfUint32 arg2 ;
   sfUint32 arg3 ;
@@ -2269,7 +2578,7 @@ float _wrap_sfFont_getBoldKerning_graphics_cd286e83cc20e352(sfFont *_swig_go_0, 
 }
 
 
-float _wrap_sfFont_getLineSpacing_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+float _wrap_sfFont_getLineSpacing_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   unsigned int arg2 ;
   float result;
@@ -2284,7 +2593,7 @@ float _wrap_sfFont_getLineSpacing_graphics_cd286e83cc20e352(sfFont *_swig_go_0, 
 }
 
 
-float _wrap_sfFont_getUnderlinePosition_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+float _wrap_sfFont_getUnderlinePosition_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   unsigned int arg2 ;
   float result;
@@ -2299,7 +2608,7 @@ float _wrap_sfFont_getUnderlinePosition_graphics_cd286e83cc20e352(sfFont *_swig_
 }
 
 
-float _wrap_sfFont_getUnderlineThickness_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+float _wrap_sfFont_getUnderlineThickness_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   unsigned int arg2 ;
   float result;
@@ -2314,7 +2623,7 @@ float _wrap_sfFont_getUnderlineThickness_graphics_cd286e83cc20e352(sfFont *_swig
 }
 
 
-sfTexture *_wrap_sfFont_getTexture_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+sfTexture *_wrap_sfFont_getTexture_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   unsigned int arg2 ;
   sfTexture *result = 0 ;
@@ -2329,7 +2638,7 @@ sfTexture *_wrap_sfFont_getTexture_graphics_cd286e83cc20e352(sfFont *_swig_go_0,
 }
 
 
-void _wrap_sfFont_setSmooth_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfFont_setSmooth_graphics_c1a031043095f7b7(sfFont *_swig_go_0, intgo _swig_go_1) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfBool arg2 ;
   
@@ -2341,7 +2650,7 @@ void _wrap_sfFont_setSmooth_graphics_cd286e83cc20e352(sfFont *_swig_go_0, intgo 
 }
 
 
-intgo _wrap_sfFont_isSmooth_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
+intgo _wrap_sfFont_isSmooth_graphics_c1a031043095f7b7(sfFont *_swig_go_0) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2354,7 +2663,7 @@ intgo _wrap_sfFont_isSmooth_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
 }
 
 
-sfFontInfo *_wrap_sfFont_getInfo_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
+sfFontInfo *_wrap_sfFont_getInfo_graphics_c1a031043095f7b7(sfFont *_swig_go_0) {
   sfFont *arg1 = (sfFont *) 0 ;
   sfFontInfo result;
   sfFontInfo *_swig_go_result;
@@ -2367,7 +2676,7 @@ sfFontInfo *_wrap_sfFont_getInfo_graphics_cd286e83cc20e352(sfFont *_swig_go_0) {
 }
 
 
-void _wrap_sfFontInfo_family_set_graphics_cd286e83cc20e352(sfFontInfo *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_sfFontInfo_family_set_graphics_c1a031043095f7b7(sfFontInfo *_swig_go_0, _gostring_ _swig_go_1) {
   sfFontInfo *arg1 = (sfFontInfo *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -2391,7 +2700,7 @@ void _wrap_sfFontInfo_family_set_graphics_cd286e83cc20e352(sfFontInfo *_swig_go_
 }
 
 
-_gostring_ _wrap_sfFontInfo_family_get_graphics_cd286e83cc20e352(sfFontInfo *_swig_go_0) {
+_gostring_ _wrap_sfFontInfo_family_get_graphics_c1a031043095f7b7(sfFontInfo *_swig_go_0) {
   sfFontInfo *arg1 = (sfFontInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2404,7 +2713,7 @@ _gostring_ _wrap_sfFontInfo_family_get_graphics_cd286e83cc20e352(sfFontInfo *_sw
 }
 
 
-sfFontInfo *_wrap_new_sfFontInfo_graphics_cd286e83cc20e352() {
+sfFontInfo *_wrap_new_sfFontInfo_graphics_c1a031043095f7b7() {
   sfFontInfo *result = 0 ;
   sfFontInfo *_swig_go_result;
   
@@ -2415,7 +2724,7 @@ sfFontInfo *_wrap_new_sfFontInfo_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfFontInfo_graphics_cd286e83cc20e352(sfFontInfo *_swig_go_0) {
+void _wrap_delete_sfFontInfo_graphics_c1a031043095f7b7(sfFontInfo *_swig_go_0) {
   sfFontInfo *arg1 = (sfFontInfo *) 0 ;
   
   arg1 = *(sfFontInfo **)&_swig_go_0; 
@@ -2425,7 +2734,7 @@ void _wrap_delete_sfFontInfo_graphics_cd286e83cc20e352(sfFontInfo *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslBvec2_x_set_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec2_x_set_graphics_c1a031043095f7b7(sfGlslBvec2 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec2 *arg1 = (sfGlslBvec2 *) 0 ;
   sfBool arg2 ;
   
@@ -2437,7 +2746,7 @@ void _wrap_sfGlslBvec2_x_set_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec2_x_get_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0) {
+intgo _wrap_sfGlslBvec2_x_get_graphics_c1a031043095f7b7(sfGlslBvec2 *_swig_go_0) {
   sfGlslBvec2 *arg1 = (sfGlslBvec2 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2450,7 +2759,7 @@ intgo _wrap_sfGlslBvec2_x_get_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec2_y_set_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec2_y_set_graphics_c1a031043095f7b7(sfGlslBvec2 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec2 *arg1 = (sfGlslBvec2 *) 0 ;
   sfBool arg2 ;
   
@@ -2462,7 +2771,7 @@ void _wrap_sfGlslBvec2_y_set_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec2_y_get_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0) {
+intgo _wrap_sfGlslBvec2_y_get_graphics_c1a031043095f7b7(sfGlslBvec2 *_swig_go_0) {
   sfGlslBvec2 *arg1 = (sfGlslBvec2 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2475,7 +2784,7 @@ intgo _wrap_sfGlslBvec2_y_get_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0)
 }
 
 
-sfGlslBvec2 *_wrap_new_sfGlslBvec2_graphics_cd286e83cc20e352() {
+sfGlslBvec2 *_wrap_new_sfGlslBvec2_graphics_c1a031043095f7b7() {
   sfGlslBvec2 *result = 0 ;
   sfGlslBvec2 *_swig_go_result;
   
@@ -2486,7 +2795,7 @@ sfGlslBvec2 *_wrap_new_sfGlslBvec2_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslBvec2_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0) {
+void _wrap_delete_sfGlslBvec2_graphics_c1a031043095f7b7(sfGlslBvec2 *_swig_go_0) {
   sfGlslBvec2 *arg1 = (sfGlslBvec2 *) 0 ;
   
   arg1 = *(sfGlslBvec2 **)&_swig_go_0; 
@@ -2496,7 +2805,7 @@ void _wrap_delete_sfGlslBvec2_graphics_cd286e83cc20e352(sfGlslBvec2 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec3_x_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec3_x_set_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int arg2 ;
   
@@ -2508,7 +2817,7 @@ void _wrap_sfGlslIvec3_x_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec3_x_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0) {
+intgo _wrap_sfGlslIvec3_x_get_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2521,7 +2830,7 @@ intgo _wrap_sfGlslIvec3_x_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec3_y_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec3_y_set_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int arg2 ;
   
@@ -2533,7 +2842,7 @@ void _wrap_sfGlslIvec3_y_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec3_y_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0) {
+intgo _wrap_sfGlslIvec3_y_get_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2546,7 +2855,7 @@ intgo _wrap_sfGlslIvec3_y_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec3_z_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec3_z_set_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int arg2 ;
   
@@ -2558,7 +2867,7 @@ void _wrap_sfGlslIvec3_z_set_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec3_z_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0) {
+intgo _wrap_sfGlslIvec3_z_get_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2571,7 +2880,7 @@ intgo _wrap_sfGlslIvec3_z_get_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0)
 }
 
 
-sfGlslIvec3 *_wrap_new_sfGlslIvec3_graphics_cd286e83cc20e352() {
+sfGlslIvec3 *_wrap_new_sfGlslIvec3_graphics_c1a031043095f7b7() {
   sfGlslIvec3 *result = 0 ;
   sfGlslIvec3 *_swig_go_result;
   
@@ -2582,7 +2891,7 @@ sfGlslIvec3 *_wrap_new_sfGlslIvec3_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslIvec3_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0) {
+void _wrap_delete_sfGlslIvec3_graphics_c1a031043095f7b7(sfGlslIvec3 *_swig_go_0) {
   sfGlslIvec3 *arg1 = (sfGlslIvec3 *) 0 ;
   
   arg1 = *(sfGlslIvec3 **)&_swig_go_0; 
@@ -2592,7 +2901,7 @@ void _wrap_delete_sfGlslIvec3_graphics_cd286e83cc20e352(sfGlslIvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec3_x_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec3_x_set_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool arg2 ;
   
@@ -2604,7 +2913,7 @@ void _wrap_sfGlslBvec3_x_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec3_x_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0) {
+intgo _wrap_sfGlslBvec3_x_get_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2617,7 +2926,7 @@ intgo _wrap_sfGlslBvec3_x_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec3_y_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec3_y_set_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool arg2 ;
   
@@ -2629,7 +2938,7 @@ void _wrap_sfGlslBvec3_y_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec3_y_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0) {
+intgo _wrap_sfGlslBvec3_y_get_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2642,7 +2951,7 @@ intgo _wrap_sfGlslBvec3_y_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec3_z_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec3_z_set_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool arg2 ;
   
@@ -2654,7 +2963,7 @@ void _wrap_sfGlslBvec3_z_set_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec3_z_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0) {
+intgo _wrap_sfGlslBvec3_z_get_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2667,7 +2976,7 @@ intgo _wrap_sfGlslBvec3_z_get_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0)
 }
 
 
-sfGlslBvec3 *_wrap_new_sfGlslBvec3_graphics_cd286e83cc20e352() {
+sfGlslBvec3 *_wrap_new_sfGlslBvec3_graphics_c1a031043095f7b7() {
   sfGlslBvec3 *result = 0 ;
   sfGlslBvec3 *_swig_go_result;
   
@@ -2678,7 +2987,7 @@ sfGlslBvec3 *_wrap_new_sfGlslBvec3_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslBvec3_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0) {
+void _wrap_delete_sfGlslBvec3_graphics_c1a031043095f7b7(sfGlslBvec3 *_swig_go_0) {
   sfGlslBvec3 *arg1 = (sfGlslBvec3 *) 0 ;
   
   arg1 = *(sfGlslBvec3 **)&_swig_go_0; 
@@ -2688,7 +2997,7 @@ void _wrap_delete_sfGlslBvec3_graphics_cd286e83cc20e352(sfGlslBvec3 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslVec4_x_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
+void _wrap_sfGlslVec4_x_set_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float arg2 ;
   
@@ -2700,7 +3009,7 @@ void _wrap_sfGlslVec4_x_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, fl
 }
 
 
-float _wrap_sfGlslVec4_x_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
+float _wrap_sfGlslVec4_x_get_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2713,7 +3022,7 @@ float _wrap_sfGlslVec4_x_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslVec4_y_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
+void _wrap_sfGlslVec4_y_set_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float arg2 ;
   
@@ -2725,7 +3034,7 @@ void _wrap_sfGlslVec4_y_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, fl
 }
 
 
-float _wrap_sfGlslVec4_y_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
+float _wrap_sfGlslVec4_y_get_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2738,7 +3047,7 @@ float _wrap_sfGlslVec4_y_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslVec4_z_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
+void _wrap_sfGlslVec4_z_set_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float arg2 ;
   
@@ -2750,7 +3059,7 @@ void _wrap_sfGlslVec4_z_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, fl
 }
 
 
-float _wrap_sfGlslVec4_z_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
+float _wrap_sfGlslVec4_z_get_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2763,7 +3072,7 @@ float _wrap_sfGlslVec4_z_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslVec4_w_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
+void _wrap_sfGlslVec4_w_set_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0, float _swig_go_1) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float arg2 ;
   
@@ -2775,7 +3084,7 @@ void _wrap_sfGlslVec4_w_set_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0, fl
 }
 
 
-float _wrap_sfGlslVec4_w_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
+float _wrap_sfGlslVec4_w_get_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   float result;
   float _swig_go_result;
@@ -2788,7 +3097,7 @@ float _wrap_sfGlslVec4_w_get_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
 }
 
 
-sfGlslVec4 *_wrap_new_sfGlslVec4_graphics_cd286e83cc20e352() {
+sfGlslVec4 *_wrap_new_sfGlslVec4_graphics_c1a031043095f7b7() {
   sfGlslVec4 *result = 0 ;
   sfGlslVec4 *_swig_go_result;
   
@@ -2799,7 +3108,7 @@ sfGlslVec4 *_wrap_new_sfGlslVec4_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslVec4_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
+void _wrap_delete_sfGlslVec4_graphics_c1a031043095f7b7(sfGlslVec4 *_swig_go_0) {
   sfGlslVec4 *arg1 = (sfGlslVec4 *) 0 ;
   
   arg1 = *(sfGlslVec4 **)&_swig_go_0; 
@@ -2809,7 +3118,7 @@ void _wrap_delete_sfGlslVec4_graphics_cd286e83cc20e352(sfGlslVec4 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslIvec4_x_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec4_x_set_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int arg2 ;
   
@@ -2821,7 +3130,7 @@ void _wrap_sfGlslIvec4_x_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec4_x_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0) {
+intgo _wrap_sfGlslIvec4_x_get_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2834,7 +3143,7 @@ intgo _wrap_sfGlslIvec4_x_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec4_y_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec4_y_set_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int arg2 ;
   
@@ -2846,7 +3155,7 @@ void _wrap_sfGlslIvec4_y_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec4_y_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0) {
+intgo _wrap_sfGlslIvec4_y_get_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2859,7 +3168,7 @@ intgo _wrap_sfGlslIvec4_y_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec4_z_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec4_z_set_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int arg2 ;
   
@@ -2871,7 +3180,7 @@ void _wrap_sfGlslIvec4_z_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec4_z_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0) {
+intgo _wrap_sfGlslIvec4_z_get_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2884,7 +3193,7 @@ intgo _wrap_sfGlslIvec4_z_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslIvec4_w_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslIvec4_w_set_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int arg2 ;
   
@@ -2896,7 +3205,7 @@ void _wrap_sfGlslIvec4_w_set_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslIvec4_w_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0) {
+intgo _wrap_sfGlslIvec4_w_get_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2909,7 +3218,7 @@ intgo _wrap_sfGlslIvec4_w_get_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0)
 }
 
 
-sfGlslIvec4 *_wrap_new_sfGlslIvec4_graphics_cd286e83cc20e352() {
+sfGlslIvec4 *_wrap_new_sfGlslIvec4_graphics_c1a031043095f7b7() {
   sfGlslIvec4 *result = 0 ;
   sfGlslIvec4 *_swig_go_result;
   
@@ -2920,7 +3229,7 @@ sfGlslIvec4 *_wrap_new_sfGlslIvec4_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslIvec4_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0) {
+void _wrap_delete_sfGlslIvec4_graphics_c1a031043095f7b7(sfGlslIvec4 *_swig_go_0) {
   sfGlslIvec4 *arg1 = (sfGlslIvec4 *) 0 ;
   
   arg1 = *(sfGlslIvec4 **)&_swig_go_0; 
@@ -2930,7 +3239,7 @@ void _wrap_delete_sfGlslIvec4_graphics_cd286e83cc20e352(sfGlslIvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec4_x_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec4_x_set_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool arg2 ;
   
@@ -2942,7 +3251,7 @@ void _wrap_sfGlslBvec4_x_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec4_x_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0) {
+intgo _wrap_sfGlslBvec4_x_get_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2955,7 +3264,7 @@ intgo _wrap_sfGlslBvec4_x_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec4_y_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec4_y_set_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool arg2 ;
   
@@ -2967,7 +3276,7 @@ void _wrap_sfGlslBvec4_y_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec4_y_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0) {
+intgo _wrap_sfGlslBvec4_y_get_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -2980,7 +3289,7 @@ intgo _wrap_sfGlslBvec4_y_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec4_z_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec4_z_set_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool arg2 ;
   
@@ -2992,7 +3301,7 @@ void _wrap_sfGlslBvec4_z_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec4_z_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0) {
+intgo _wrap_sfGlslBvec4_z_get_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -3005,7 +3314,7 @@ intgo _wrap_sfGlslBvec4_z_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslBvec4_w_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfGlslBvec4_w_set_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0, intgo _swig_go_1) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool arg2 ;
   
@@ -3017,7 +3326,7 @@ void _wrap_sfGlslBvec4_w_set_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0, 
 }
 
 
-intgo _wrap_sfGlslBvec4_w_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0) {
+intgo _wrap_sfGlslBvec4_w_get_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -3030,7 +3339,7 @@ intgo _wrap_sfGlslBvec4_w_get_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0)
 }
 
 
-sfGlslBvec4 *_wrap_new_sfGlslBvec4_graphics_cd286e83cc20e352() {
+sfGlslBvec4 *_wrap_new_sfGlslBvec4_graphics_c1a031043095f7b7() {
   sfGlslBvec4 *result = 0 ;
   sfGlslBvec4 *_swig_go_result;
   
@@ -3041,7 +3350,7 @@ sfGlslBvec4 *_wrap_new_sfGlslBvec4_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslBvec4_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0) {
+void _wrap_delete_sfGlslBvec4_graphics_c1a031043095f7b7(sfGlslBvec4 *_swig_go_0) {
   sfGlslBvec4 *arg1 = (sfGlslBvec4 *) 0 ;
   
   arg1 = *(sfGlslBvec4 **)&_swig_go_0; 
@@ -3051,7 +3360,7 @@ void _wrap_delete_sfGlslBvec4_graphics_cd286e83cc20e352(sfGlslBvec4 *_swig_go_0)
 }
 
 
-void _wrap_sfGlslMat3_array_set_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go_0, float *_swig_go_1) {
+void _wrap_sfGlslMat3_array_set_graphics_c1a031043095f7b7(sfGlslMat3 *_swig_go_0, float *_swig_go_1) {
   sfGlslMat3 *arg1 = (sfGlslMat3 *) 0 ;
   float *arg2 = (float *) (float *)0 ;
   
@@ -3067,7 +3376,7 @@ void _wrap_sfGlslMat3_array_set_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go_0
 }
 
 
-float *_wrap_sfGlslMat3_array_get_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go_0) {
+float *_wrap_sfGlslMat3_array_get_graphics_c1a031043095f7b7(sfGlslMat3 *_swig_go_0) {
   sfGlslMat3 *arg1 = (sfGlslMat3 *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
@@ -3080,7 +3389,7 @@ float *_wrap_sfGlslMat3_array_get_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go
 }
 
 
-sfGlslMat3 *_wrap_new_sfGlslMat3_graphics_cd286e83cc20e352() {
+sfGlslMat3 *_wrap_new_sfGlslMat3_graphics_c1a031043095f7b7() {
   sfGlslMat3 *result = 0 ;
   sfGlslMat3 *_swig_go_result;
   
@@ -3091,7 +3400,7 @@ sfGlslMat3 *_wrap_new_sfGlslMat3_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslMat3_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go_0) {
+void _wrap_delete_sfGlslMat3_graphics_c1a031043095f7b7(sfGlslMat3 *_swig_go_0) {
   sfGlslMat3 *arg1 = (sfGlslMat3 *) 0 ;
   
   arg1 = *(sfGlslMat3 **)&_swig_go_0; 
@@ -3101,7 +3410,7 @@ void _wrap_delete_sfGlslMat3_graphics_cd286e83cc20e352(sfGlslMat3 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlslMat4_array_set_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go_0, float *_swig_go_1) {
+void _wrap_sfGlslMat4_array_set_graphics_c1a031043095f7b7(sfGlslMat4 *_swig_go_0, float *_swig_go_1) {
   sfGlslMat4 *arg1 = (sfGlslMat4 *) 0 ;
   float *arg2 = (float *) (float *)0 ;
   
@@ -3117,7 +3426,7 @@ void _wrap_sfGlslMat4_array_set_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go_0
 }
 
 
-float *_wrap_sfGlslMat4_array_get_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go_0) {
+float *_wrap_sfGlslMat4_array_get_graphics_c1a031043095f7b7(sfGlslMat4 *_swig_go_0) {
   sfGlslMat4 *arg1 = (sfGlslMat4 *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
@@ -3130,7 +3439,7 @@ float *_wrap_sfGlslMat4_array_get_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go
 }
 
 
-sfGlslMat4 *_wrap_new_sfGlslMat4_graphics_cd286e83cc20e352() {
+sfGlslMat4 *_wrap_new_sfGlslMat4_graphics_c1a031043095f7b7() {
   sfGlslMat4 *result = 0 ;
   sfGlslMat4 *_swig_go_result;
   
@@ -3141,7 +3450,7 @@ sfGlslMat4 *_wrap_new_sfGlslMat4_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlslMat4_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go_0) {
+void _wrap_delete_sfGlslMat4_graphics_c1a031043095f7b7(sfGlslMat4 *_swig_go_0) {
   sfGlslMat4 *arg1 = (sfGlslMat4 *) 0 ;
   
   arg1 = *(sfGlslMat4 **)&_swig_go_0; 
@@ -3151,7 +3460,7 @@ void _wrap_delete_sfGlslMat4_graphics_cd286e83cc20e352(sfGlslMat4 *_swig_go_0) {
 }
 
 
-void _wrap_sfGlyph_advance_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0, float _swig_go_1) {
+void _wrap_sfGlyph_advance_set_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0, float _swig_go_1) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   float arg2 ;
   
@@ -3163,7 +3472,7 @@ void _wrap_sfGlyph_advance_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0, fl
 }
 
 
-float _wrap_sfGlyph_advance_get_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
+float _wrap_sfGlyph_advance_get_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   float result;
   float _swig_go_result;
@@ -3176,7 +3485,7 @@ float _wrap_sfGlyph_advance_get_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
 }
 
 
-void _wrap_sfGlyph_bounds_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0, sfFloatRect *_swig_go_1) {
+void _wrap_sfGlyph_bounds_set_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0, sfFloatRect *_swig_go_1) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   sfFloatRect *arg2 = (sfFloatRect *) 0 ;
   
@@ -3188,7 +3497,7 @@ void _wrap_sfGlyph_bounds_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0, sfF
 }
 
 
-sfFloatRect *_wrap_sfGlyph_bounds_get_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
+sfFloatRect *_wrap_sfGlyph_bounds_get_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   sfFloatRect *result = 0 ;
   sfFloatRect *_swig_go_result;
@@ -3201,7 +3510,7 @@ sfFloatRect *_wrap_sfGlyph_bounds_get_graphics_cd286e83cc20e352(sfGlyph *_swig_g
 }
 
 
-void _wrap_sfGlyph_textureRect_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfGlyph_textureRect_set_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0, sfIntRect *_swig_go_1) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   
@@ -3213,7 +3522,7 @@ void _wrap_sfGlyph_textureRect_set_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0
 }
 
 
-sfIntRect *_wrap_sfGlyph_textureRect_get_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
+sfIntRect *_wrap_sfGlyph_textureRect_get_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   sfIntRect *result = 0 ;
   sfIntRect *_swig_go_result;
@@ -3226,7 +3535,7 @@ sfIntRect *_wrap_sfGlyph_textureRect_get_graphics_cd286e83cc20e352(sfGlyph *_swi
 }
 
 
-sfGlyph *_wrap_new_sfGlyph_graphics_cd286e83cc20e352() {
+sfGlyph *_wrap_new_sfGlyph_graphics_c1a031043095f7b7() {
   sfGlyph *result = 0 ;
   sfGlyph *_swig_go_result;
   
@@ -3237,7 +3546,7 @@ sfGlyph *_wrap_new_sfGlyph_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfGlyph_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
+void _wrap_delete_sfGlyph_graphics_c1a031043095f7b7(sfGlyph *_swig_go_0) {
   sfGlyph *arg1 = (sfGlyph *) 0 ;
   
   arg1 = *(sfGlyph **)&_swig_go_0; 
@@ -3247,7 +3556,7 @@ void _wrap_delete_sfGlyph_graphics_cd286e83cc20e352(sfGlyph *_swig_go_0) {
 }
 
 
-sfImage *_wrap_sfImage_create_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1) {
+sfImage *_wrap_sfImage_create_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfImage *result = 0 ;
@@ -3262,7 +3571,7 @@ sfImage *_wrap_sfImage_create_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo 
 }
 
 
-sfImage *_wrap_sfImage_createFromColor_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1, sfColor *_swig_go_2) {
+sfImage *_wrap_sfImage_createFromColor_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1, sfColor *_swig_go_2) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfColor arg3 ;
@@ -3286,7 +3595,7 @@ sfImage *_wrap_sfImage_createFromColor_graphics_cd286e83cc20e352(intgo _swig_go_
 }
 
 
-sfImage *_wrap_sfImage_createFromPixels_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1, char *_swig_go_2) {
+sfImage *_wrap_sfImage_createFromPixels_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1, char *_swig_go_2) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfUint8 *arg3 = (sfUint8 *) 0 ;
@@ -3303,7 +3612,7 @@ sfImage *_wrap_sfImage_createFromPixels_graphics_cd286e83cc20e352(intgo _swig_go
 }
 
 
-sfImage *_wrap_sfImage_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_go_0) {
+sfImage *_wrap_sfImage_createFromFile_graphics_c1a031043095f7b7(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   sfImage *result = 0 ;
   sfImage *_swig_go_result;
@@ -3321,7 +3630,7 @@ sfImage *_wrap_sfImage_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig
 }
 
 
-sfImage *_wrap_sfImage_createFromMemory_graphics_cd286e83cc20e352(void *_swig_go_0, long long _swig_go_1) {
+sfImage *_wrap_sfImage_createFromMemory_graphics_c1a031043095f7b7(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfImage *result = 0 ;
@@ -3336,7 +3645,7 @@ sfImage *_wrap_sfImage_createFromMemory_graphics_cd286e83cc20e352(void *_swig_go
 }
 
 
-sfImage *_wrap_sfImage_createFromStream_graphics_cd286e83cc20e352(sfInputStream *_swig_go_0) {
+sfImage *_wrap_sfImage_createFromStream_graphics_c1a031043095f7b7(sfInputStream *_swig_go_0) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfImage *result = 0 ;
   sfImage *_swig_go_result;
@@ -3349,7 +3658,7 @@ sfImage *_wrap_sfImage_createFromStream_graphics_cd286e83cc20e352(sfInputStream 
 }
 
 
-sfImage *_wrap_sfImage_copy_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+sfImage *_wrap_sfImage_copy_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfImage *result = 0 ;
   sfImage *_swig_go_result;
@@ -3362,7 +3671,7 @@ sfImage *_wrap_sfImage_copy_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
 }
 
 
-void _wrap_sfImage_destroy_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+void _wrap_sfImage_destroy_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   
   arg1 = *(sfImage **)&_swig_go_0; 
@@ -3372,7 +3681,7 @@ void _wrap_sfImage_destroy_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
 }
 
 
-intgo _wrap_sfImage_saveToFile_graphics_cd286e83cc20e352(sfImage *_swig_go_0, _gostring_ _swig_go_1) {
+intgo _wrap_sfImage_saveToFile_graphics_c1a031043095f7b7(sfImage *_swig_go_0, _gostring_ _swig_go_1) {
   sfImage *arg1 = (sfImage *) 0 ;
   char *arg2 = (char *) 0 ;
   sfBool result;
@@ -3392,7 +3701,7 @@ intgo _wrap_sfImage_saveToFile_graphics_cd286e83cc20e352(sfImage *_swig_go_0, _g
 }
 
 
-intgo _wrap_sfImage_saveToMemory_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfBuffer *_swig_go_1, _gostring_ _swig_go_2) {
+intgo _wrap_sfImage_saveToMemory_graphics_c1a031043095f7b7(sfImage *_swig_go_0, sfBuffer *_swig_go_1, _gostring_ _swig_go_2) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfBuffer *arg2 = (sfBuffer *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -3414,7 +3723,7 @@ intgo _wrap_sfImage_saveToMemory_graphics_cd286e83cc20e352(sfImage *_swig_go_0, 
 }
 
 
-sfVector2u *_wrap_sfImage_getSize_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+sfVector2u *_wrap_sfImage_getSize_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfVector2u result;
   sfVector2u *_swig_go_result;
@@ -3427,7 +3736,7 @@ sfVector2u *_wrap_sfImage_getSize_graphics_cd286e83cc20e352(sfImage *_swig_go_0)
 }
 
 
-void _wrap_sfImage_createMaskFromColor_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfColor *_swig_go_1, char _swig_go_2) {
+void _wrap_sfImage_createMaskFromColor_graphics_c1a031043095f7b7(sfImage *_swig_go_0, sfColor *_swig_go_1, char _swig_go_2) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfColor arg2 ;
   sfUint8 arg3 ;
@@ -3448,7 +3757,7 @@ void _wrap_sfImage_createMaskFromColor_graphics_cd286e83cc20e352(sfImage *_swig_
 }
 
 
-void _wrap_sfImage_copyImage_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfImage *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, sfIntRect *_swig_go_4, intgo _swig_go_5) {
+void _wrap_sfImage_copyImage_graphics_c1a031043095f7b7(sfImage *_swig_go_0, sfImage *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, sfIntRect *_swig_go_4, intgo _swig_go_5) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfImage *arg2 = (sfImage *) 0 ;
   unsigned int arg3 ;
@@ -3475,7 +3784,7 @@ void _wrap_sfImage_copyImage_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfIm
 }
 
 
-void _wrap_sfImage_setPixel_graphics_cd286e83cc20e352(sfImage *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, sfColor *_swig_go_3) {
+void _wrap_sfImage_setPixel_graphics_c1a031043095f7b7(sfImage *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, sfColor *_swig_go_3) {
   sfImage *arg1 = (sfImage *) 0 ;
   unsigned int arg2 ;
   unsigned int arg3 ;
@@ -3498,7 +3807,7 @@ void _wrap_sfImage_setPixel_graphics_cd286e83cc20e352(sfImage *_swig_go_0, intgo
 }
 
 
-sfColor *_wrap_sfImage_getPixel_graphics_cd286e83cc20e352(sfImage *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+sfColor *_wrap_sfImage_getPixel_graphics_c1a031043095f7b7(sfImage *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   sfImage *arg1 = (sfImage *) 0 ;
   unsigned int arg2 ;
   unsigned int arg3 ;
@@ -3515,7 +3824,7 @@ sfColor *_wrap_sfImage_getPixel_graphics_cd286e83cc20e352(sfImage *_swig_go_0, i
 }
 
 
-char *_wrap_sfImage_getPixelsPtr_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+char *_wrap_sfImage_getPixelsPtr_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfUint8 *result = 0 ;
   char *_swig_go_result;
@@ -3528,7 +3837,7 @@ char *_wrap_sfImage_getPixelsPtr_graphics_cd286e83cc20e352(sfImage *_swig_go_0) 
 }
 
 
-void _wrap_sfImage_flipHorizontally_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+void _wrap_sfImage_flipHorizontally_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   
   arg1 = *(sfImage **)&_swig_go_0; 
@@ -3538,7 +3847,7 @@ void _wrap_sfImage_flipHorizontally_graphics_cd286e83cc20e352(sfImage *_swig_go_
 }
 
 
-void _wrap_sfImage_flipVertically_graphics_cd286e83cc20e352(sfImage *_swig_go_0) {
+void _wrap_sfImage_flipVertically_graphics_c1a031043095f7b7(sfImage *_swig_go_0) {
   sfImage *arg1 = (sfImage *) 0 ;
   
   arg1 = *(sfImage **)&_swig_go_0; 
@@ -3548,7 +3857,7 @@ void _wrap_sfImage_flipVertically_graphics_cd286e83cc20e352(sfImage *_swig_go_0)
 }
 
 
-intgo _wrap_sfPoints_graphics_cd286e83cc20e352() {
+intgo _wrap_sfPoints_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3560,7 +3869,7 @@ intgo _wrap_sfPoints_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfLines_graphics_cd286e83cc20e352() {
+intgo _wrap_sfLines_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3572,7 +3881,7 @@ intgo _wrap_sfLines_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfLineStrip_graphics_cd286e83cc20e352() {
+intgo _wrap_sfLineStrip_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3584,7 +3893,7 @@ intgo _wrap_sfLineStrip_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTriangles_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTriangles_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3596,7 +3905,7 @@ intgo _wrap_sfTriangles_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTriangleStrip_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTriangleStrip_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3608,7 +3917,7 @@ intgo _wrap_sfTriangleStrip_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTriangleFan_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTriangleFan_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3620,7 +3929,7 @@ intgo _wrap_sfTriangleFan_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfQuads_graphics_cd286e83cc20e352() {
+intgo _wrap_sfQuads_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3632,7 +3941,7 @@ intgo _wrap_sfQuads_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfLinesStrip_graphics_cd286e83cc20e352() {
+intgo _wrap_sfLinesStrip_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3644,7 +3953,7 @@ intgo _wrap_sfLinesStrip_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTrianglesStrip_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTrianglesStrip_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3656,7 +3965,7 @@ intgo _wrap_sfTrianglesStrip_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTrianglesFan_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTrianglesFan_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -3668,7 +3977,7 @@ intgo _wrap_sfTrianglesFan_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfFloatRect_left_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, float _swig_go_1) {
+void _wrap_sfFloatRect_left_set_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, float _swig_go_1) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float arg2 ;
   
@@ -3680,7 +3989,7 @@ void _wrap_sfFloatRect_left_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_
 }
 
 
-float _wrap_sfFloatRect_left_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+float _wrap_sfFloatRect_left_get_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float result;
   float _swig_go_result;
@@ -3693,7 +4002,7 @@ float _wrap_sfFloatRect_left_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go
 }
 
 
-void _wrap_sfFloatRect_top_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, float _swig_go_1) {
+void _wrap_sfFloatRect_top_set_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, float _swig_go_1) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float arg2 ;
   
@@ -3705,7 +4014,7 @@ void _wrap_sfFloatRect_top_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0
 }
 
 
-float _wrap_sfFloatRect_top_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+float _wrap_sfFloatRect_top_get_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float result;
   float _swig_go_result;
@@ -3718,7 +4027,7 @@ float _wrap_sfFloatRect_top_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_
 }
 
 
-void _wrap_sfFloatRect_width_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, float _swig_go_1) {
+void _wrap_sfFloatRect_width_set_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, float _swig_go_1) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float arg2 ;
   
@@ -3730,7 +4039,7 @@ void _wrap_sfFloatRect_width_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go
 }
 
 
-float _wrap_sfFloatRect_width_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+float _wrap_sfFloatRect_width_get_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float result;
   float _swig_go_result;
@@ -3743,7 +4052,7 @@ float _wrap_sfFloatRect_width_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_g
 }
 
 
-void _wrap_sfFloatRect_height_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, float _swig_go_1) {
+void _wrap_sfFloatRect_height_set_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, float _swig_go_1) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float arg2 ;
   
@@ -3755,7 +4064,7 @@ void _wrap_sfFloatRect_height_set_graphics_cd286e83cc20e352(sfFloatRect *_swig_g
 }
 
 
-float _wrap_sfFloatRect_height_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+float _wrap_sfFloatRect_height_get_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float result;
   float _swig_go_result;
@@ -3768,7 +4077,7 @@ float _wrap_sfFloatRect_height_get_graphics_cd286e83cc20e352(sfFloatRect *_swig_
 }
 
 
-sfFloatRect *_wrap_new_sfFloatRect_graphics_cd286e83cc20e352() {
+sfFloatRect *_wrap_new_sfFloatRect_graphics_c1a031043095f7b7() {
   sfFloatRect *result = 0 ;
   sfFloatRect *_swig_go_result;
   
@@ -3779,7 +4088,7 @@ sfFloatRect *_wrap_new_sfFloatRect_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfFloatRect_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+void _wrap_delete_sfFloatRect_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   
   arg1 = *(sfFloatRect **)&_swig_go_0; 
@@ -3789,7 +4098,7 @@ void _wrap_delete_sfFloatRect_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0)
 }
 
 
-void _wrap_sfIntRect_left_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfIntRect_left_set_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, intgo _swig_go_1) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int arg2 ;
   
@@ -3801,7 +4110,7 @@ void _wrap_sfIntRect_left_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, i
 }
 
 
-intgo _wrap_sfIntRect_left_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+intgo _wrap_sfIntRect_left_get_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3814,7 +4123,7 @@ intgo _wrap_sfIntRect_left_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) 
 }
 
 
-void _wrap_sfIntRect_top_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfIntRect_top_set_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, intgo _swig_go_1) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int arg2 ;
   
@@ -3826,7 +4135,7 @@ void _wrap_sfIntRect_top_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, in
 }
 
 
-intgo _wrap_sfIntRect_top_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+intgo _wrap_sfIntRect_top_get_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3839,7 +4148,7 @@ intgo _wrap_sfIntRect_top_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
 }
 
 
-void _wrap_sfIntRect_width_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfIntRect_width_set_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, intgo _swig_go_1) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int arg2 ;
   
@@ -3851,7 +4160,7 @@ void _wrap_sfIntRect_width_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, 
 }
 
 
-intgo _wrap_sfIntRect_width_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+intgo _wrap_sfIntRect_width_get_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3864,7 +4173,7 @@ intgo _wrap_sfIntRect_width_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0)
 }
 
 
-void _wrap_sfIntRect_height_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfIntRect_height_set_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, intgo _swig_go_1) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int arg2 ;
   
@@ -3876,7 +4185,7 @@ void _wrap_sfIntRect_height_set_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0,
 }
 
 
-intgo _wrap_sfIntRect_height_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+intgo _wrap_sfIntRect_height_get_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -3889,7 +4198,7 @@ intgo _wrap_sfIntRect_height_get_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0
 }
 
 
-sfIntRect *_wrap_new_sfIntRect_graphics_cd286e83cc20e352() {
+sfIntRect *_wrap_new_sfIntRect_graphics_c1a031043095f7b7() {
   sfIntRect *result = 0 ;
   sfIntRect *_swig_go_result;
   
@@ -3900,7 +4209,7 @@ sfIntRect *_wrap_new_sfIntRect_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfIntRect_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+void _wrap_delete_sfIntRect_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   
   arg1 = *(sfIntRect **)&_swig_go_0; 
@@ -3910,7 +4219,7 @@ void _wrap_delete_sfIntRect_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
 }
 
 
-intgo _wrap_sfFloatRect_contains_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+intgo _wrap_sfFloatRect_contains_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -3927,7 +4236,7 @@ intgo _wrap_sfFloatRect_contains_graphics_cd286e83cc20e352(sfFloatRect *_swig_go
 }
 
 
-intgo _wrap_sfIntRect_contains_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+intgo _wrap_sfIntRect_contains_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   int arg2 ;
   int arg3 ;
@@ -3944,7 +4253,7 @@ intgo _wrap_sfIntRect_contains_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, 
 }
 
 
-intgo _wrap_sfFloatRect_intersects_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0, sfFloatRect *_swig_go_1, sfFloatRect *_swig_go_2) {
+intgo _wrap_sfFloatRect_intersects_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0, sfFloatRect *_swig_go_1, sfFloatRect *_swig_go_2) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   sfFloatRect *arg2 = (sfFloatRect *) 0 ;
   sfFloatRect *arg3 = (sfFloatRect *) 0 ;
@@ -3961,7 +4270,7 @@ intgo _wrap_sfFloatRect_intersects_graphics_cd286e83cc20e352(sfFloatRect *_swig_
 }
 
 
-intgo _wrap_sfIntRect_intersects_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0, sfIntRect *_swig_go_1, sfIntRect *_swig_go_2) {
+intgo _wrap_sfIntRect_intersects_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0, sfIntRect *_swig_go_1, sfIntRect *_swig_go_2) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfIntRect *arg3 = (sfIntRect *) 0 ;
@@ -3978,7 +4287,7 @@ intgo _wrap_sfIntRect_intersects_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0
 }
 
 
-sfVector2f *_wrap_sfFloatRect_getPosition_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+sfVector2f *_wrap_sfFloatRect_getPosition_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -3991,7 +4300,7 @@ sfVector2f *_wrap_sfFloatRect_getPosition_graphics_cd286e83cc20e352(sfFloatRect 
 }
 
 
-sfVector2i *_wrap_sfIntRect_getPosition_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+sfVector2i *_wrap_sfIntRect_getPosition_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   sfVector2i result;
   sfVector2i *_swig_go_result;
@@ -4004,7 +4313,7 @@ sfVector2i *_wrap_sfIntRect_getPosition_graphics_cd286e83cc20e352(sfIntRect *_sw
 }
 
 
-sfVector2f *_wrap_sfFloatRect_getSize_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+sfVector2f *_wrap_sfFloatRect_getSize_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect *arg1 = (sfFloatRect *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -4017,7 +4326,7 @@ sfVector2f *_wrap_sfFloatRect_getSize_graphics_cd286e83cc20e352(sfFloatRect *_sw
 }
 
 
-sfVector2i *_wrap_sfIntRect_getSize_graphics_cd286e83cc20e352(sfIntRect *_swig_go_0) {
+sfVector2i *_wrap_sfIntRect_getSize_graphics_c1a031043095f7b7(sfIntRect *_swig_go_0) {
   sfIntRect *arg1 = (sfIntRect *) 0 ;
   sfVector2i result;
   sfVector2i *_swig_go_result;
@@ -4030,7 +4339,7 @@ sfVector2i *_wrap_sfIntRect_getSize_graphics_cd286e83cc20e352(sfIntRect *_swig_g
 }
 
 
-sfRectangleShape *_wrap_sfRectangleShape_create_graphics_cd286e83cc20e352() {
+sfRectangleShape *_wrap_sfRectangleShape_create_graphics_c1a031043095f7b7() {
   sfRectangleShape *result = 0 ;
   sfRectangleShape *_swig_go_result;
   
@@ -4041,7 +4350,7 @@ sfRectangleShape *_wrap_sfRectangleShape_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfRectangleShape *_wrap_sfRectangleShape_copy_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfRectangleShape *_wrap_sfRectangleShape_copy_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfRectangleShape *result = 0 ;
   sfRectangleShape *_swig_go_result;
@@ -4054,7 +4363,7 @@ sfRectangleShape *_wrap_sfRectangleShape_copy_graphics_cd286e83cc20e352(sfRectan
 }
 
 
-void _wrap_sfRectangleShape_destroy_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+void _wrap_sfRectangleShape_destroy_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   
   arg1 = *(sfRectangleShape **)&_swig_go_0; 
@@ -4064,7 +4373,7 @@ void _wrap_sfRectangleShape_destroy_graphics_cd286e83cc20e352(sfRectangleShape *
 }
 
 
-void _wrap_sfRectangleShape_setPosition_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_setPosition_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4083,7 +4392,7 @@ void _wrap_sfRectangleShape_setPosition_graphics_cd286e83cc20e352(sfRectangleSha
 }
 
 
-void _wrap_sfRectangleShape_setRotation_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfRectangleShape_setRotation_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, float _swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   float arg2 ;
   
@@ -4095,7 +4404,7 @@ void _wrap_sfRectangleShape_setRotation_graphics_cd286e83cc20e352(sfRectangleSha
 }
 
 
-void _wrap_sfRectangleShape_setScale_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_setScale_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4114,7 +4423,7 @@ void _wrap_sfRectangleShape_setScale_graphics_cd286e83cc20e352(sfRectangleShape 
 }
 
 
-void _wrap_sfRectangleShape_setOrigin_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_setOrigin_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4133,7 +4442,7 @@ void _wrap_sfRectangleShape_setOrigin_graphics_cd286e83cc20e352(sfRectangleShape
 }
 
 
-sfVector2f *_wrap_sfRectangleShape_getPosition_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfVector2f *_wrap_sfRectangleShape_getPosition_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -4146,7 +4455,7 @@ sfVector2f *_wrap_sfRectangleShape_getPosition_graphics_cd286e83cc20e352(sfRecta
 }
 
 
-float _wrap_sfRectangleShape_getRotation_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+float _wrap_sfRectangleShape_getRotation_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -4159,7 +4468,7 @@ float _wrap_sfRectangleShape_getRotation_graphics_cd286e83cc20e352(sfRectangleSh
 }
 
 
-sfVector2f *_wrap_sfRectangleShape_getScale_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfVector2f *_wrap_sfRectangleShape_getScale_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -4172,7 +4481,7 @@ sfVector2f *_wrap_sfRectangleShape_getScale_graphics_cd286e83cc20e352(sfRectangl
 }
 
 
-sfVector2f *_wrap_sfRectangleShape_getOrigin_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfVector2f *_wrap_sfRectangleShape_getOrigin_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -4185,7 +4494,7 @@ sfVector2f *_wrap_sfRectangleShape_getOrigin_graphics_cd286e83cc20e352(sfRectang
 }
 
 
-void _wrap_sfRectangleShape_move_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_move_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4204,7 +4513,7 @@ void _wrap_sfRectangleShape_move_graphics_cd286e83cc20e352(sfRectangleShape *_sw
 }
 
 
-void _wrap_sfRectangleShape_rotate_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfRectangleShape_rotate_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, float _swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   float arg2 ;
   
@@ -4216,7 +4525,7 @@ void _wrap_sfRectangleShape_rotate_graphics_cd286e83cc20e352(sfRectangleShape *_
 }
 
 
-void _wrap_sfRectangleShape_scale_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_scale_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4235,7 +4544,7 @@ void _wrap_sfRectangleShape_scale_graphics_cd286e83cc20e352(sfRectangleShape *_s
 }
 
 
-sfTransform *_wrap_sfRectangleShape_getTransform_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfTransform *_wrap_sfRectangleShape_getTransform_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -4248,7 +4557,7 @@ sfTransform *_wrap_sfRectangleShape_getTransform_graphics_cd286e83cc20e352(sfRec
 }
 
 
-sfTransform *_wrap_sfRectangleShape_getInverseTransform_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfTransform *_wrap_sfRectangleShape_getInverseTransform_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -4261,7 +4570,7 @@ sfTransform *_wrap_sfRectangleShape_getInverseTransform_graphics_cd286e83cc20e35
 }
 
 
-void _wrap_sfRectangleShape_setTexture_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
+void _wrap_sfRectangleShape_setTexture_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   sfBool arg3 ;
@@ -4275,7 +4584,7 @@ void _wrap_sfRectangleShape_setTexture_graphics_cd286e83cc20e352(sfRectangleShap
 }
 
 
-void _wrap_sfRectangleShape_setTextureRect_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfRectangleShape_setTextureRect_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfIntRect *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfIntRect arg2 ;
   sfIntRect *argp2 ;
@@ -4294,7 +4603,7 @@ void _wrap_sfRectangleShape_setTextureRect_graphics_cd286e83cc20e352(sfRectangle
 }
 
 
-void _wrap_sfRectangleShape_setFillColor_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfRectangleShape_setFillColor_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfColor *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -4313,7 +4622,7 @@ void _wrap_sfRectangleShape_setFillColor_graphics_cd286e83cc20e352(sfRectangleSh
 }
 
 
-void _wrap_sfRectangleShape_setOutlineColor_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfRectangleShape_setOutlineColor_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfColor *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -4332,7 +4641,7 @@ void _wrap_sfRectangleShape_setOutlineColor_graphics_cd286e83cc20e352(sfRectangl
 }
 
 
-void _wrap_sfRectangleShape_setOutlineThickness_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfRectangleShape_setOutlineThickness_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, float _swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   float arg2 ;
   
@@ -4344,7 +4653,7 @@ void _wrap_sfRectangleShape_setOutlineThickness_graphics_cd286e83cc20e352(sfRect
 }
 
 
-sfTexture *_wrap_sfRectangleShape_getTexture_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfTexture *_wrap_sfRectangleShape_getTexture_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -4357,7 +4666,7 @@ sfTexture *_wrap_sfRectangleShape_getTexture_graphics_cd286e83cc20e352(sfRectang
 }
 
 
-sfIntRect *_wrap_sfRectangleShape_getTextureRect_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfIntRect *_wrap_sfRectangleShape_getTextureRect_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfIntRect result;
   sfIntRect *_swig_go_result;
@@ -4370,7 +4679,7 @@ sfIntRect *_wrap_sfRectangleShape_getTextureRect_graphics_cd286e83cc20e352(sfRec
 }
 
 
-sfColor *_wrap_sfRectangleShape_getFillColor_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfColor *_wrap_sfRectangleShape_getFillColor_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -4383,7 +4692,7 @@ sfColor *_wrap_sfRectangleShape_getFillColor_graphics_cd286e83cc20e352(sfRectang
 }
 
 
-sfColor *_wrap_sfRectangleShape_getOutlineColor_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfColor *_wrap_sfRectangleShape_getOutlineColor_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -4396,7 +4705,7 @@ sfColor *_wrap_sfRectangleShape_getOutlineColor_graphics_cd286e83cc20e352(sfRect
 }
 
 
-float _wrap_sfRectangleShape_getOutlineThickness_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+float _wrap_sfRectangleShape_getOutlineThickness_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -4409,7 +4718,7 @@ float _wrap_sfRectangleShape_getOutlineThickness_graphics_cd286e83cc20e352(sfRec
 }
 
 
-long long _wrap_sfRectangleShape_getPointCount_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+long long _wrap_sfRectangleShape_getPointCount_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -4422,7 +4731,7 @@ long long _wrap_sfRectangleShape_getPointCount_graphics_cd286e83cc20e352(sfRecta
 }
 
 
-sfVector2f *_wrap_sfRectangleShape_getPoint_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, long long _swig_go_1) {
+sfVector2f *_wrap_sfRectangleShape_getPoint_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, long long _swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   size_t arg2 ;
   sfVector2f result;
@@ -4437,7 +4746,7 @@ sfVector2f *_wrap_sfRectangleShape_getPoint_graphics_cd286e83cc20e352(sfRectangl
 }
 
 
-void _wrap_sfRectangleShape_setSize_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfRectangleShape_setSize_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -4456,7 +4765,7 @@ void _wrap_sfRectangleShape_setSize_graphics_cd286e83cc20e352(sfRectangleShape *
 }
 
 
-sfVector2f *_wrap_sfRectangleShape_getSize_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfVector2f *_wrap_sfRectangleShape_getSize_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -4469,7 +4778,7 @@ sfVector2f *_wrap_sfRectangleShape_getSize_graphics_cd286e83cc20e352(sfRectangle
 }
 
 
-sfFloatRect *_wrap_sfRectangleShape_getLocalBounds_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfFloatRect *_wrap_sfRectangleShape_getLocalBounds_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -4482,7 +4791,7 @@ sfFloatRect *_wrap_sfRectangleShape_getLocalBounds_graphics_cd286e83cc20e352(sfR
 }
 
 
-sfFloatRect *_wrap_sfRectangleShape_getGlobalBounds_graphics_cd286e83cc20e352(sfRectangleShape *_swig_go_0) {
+sfFloatRect *_wrap_sfRectangleShape_getGlobalBounds_graphics_c1a031043095f7b7(sfRectangleShape *_swig_go_0) {
   sfRectangleShape *arg1 = (sfRectangleShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -4495,7 +4804,7 @@ sfFloatRect *_wrap_sfRectangleShape_getGlobalBounds_graphics_cd286e83cc20e352(sf
 }
 
 
-void _wrap_sfRenderStates_blendMode_set_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0, sfBlendMode *_swig_go_1) {
+void _wrap_sfRenderStates_blendMode_set_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0, sfBlendMode *_swig_go_1) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfBlendMode *arg2 = (sfBlendMode *) 0 ;
   
@@ -4507,7 +4816,7 @@ void _wrap_sfRenderStates_blendMode_set_graphics_cd286e83cc20e352(sfRenderStates
 }
 
 
-sfBlendMode *_wrap_sfRenderStates_blendMode_get_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0) {
+sfBlendMode *_wrap_sfRenderStates_blendMode_get_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfBlendMode *result = 0 ;
   sfBlendMode *_swig_go_result;
@@ -4520,7 +4829,7 @@ sfBlendMode *_wrap_sfRenderStates_blendMode_get_graphics_cd286e83cc20e352(sfRend
 }
 
 
-void _wrap_sfRenderStates_transform_set_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0, sfTransform *_swig_go_1) {
+void _wrap_sfRenderStates_transform_set_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0, sfTransform *_swig_go_1) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfTransform *arg2 = (sfTransform *) 0 ;
   
@@ -4532,7 +4841,7 @@ void _wrap_sfRenderStates_transform_set_graphics_cd286e83cc20e352(sfRenderStates
 }
 
 
-sfTransform *_wrap_sfRenderStates_transform_get_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0) {
+sfTransform *_wrap_sfRenderStates_transform_get_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfTransform *result = 0 ;
   sfTransform *_swig_go_result;
@@ -4545,7 +4854,7 @@ sfTransform *_wrap_sfRenderStates_transform_get_graphics_cd286e83cc20e352(sfRend
 }
 
 
-void _wrap_sfRenderStates_texture_set_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0, sfTexture *_swig_go_1) {
+void _wrap_sfRenderStates_texture_set_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0, sfTexture *_swig_go_1) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   
@@ -4557,7 +4866,7 @@ void _wrap_sfRenderStates_texture_set_graphics_cd286e83cc20e352(sfRenderStates *
 }
 
 
-sfTexture *_wrap_sfRenderStates_texture_get_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0) {
+sfTexture *_wrap_sfRenderStates_texture_get_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -4570,7 +4879,7 @@ sfTexture *_wrap_sfRenderStates_texture_get_graphics_cd286e83cc20e352(sfRenderSt
 }
 
 
-void _wrap_sfRenderStates_shader_set_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0, sfShader *_swig_go_1) {
+void _wrap_sfRenderStates_shader_set_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0, sfShader *_swig_go_1) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfShader *arg2 = (sfShader *) 0 ;
   
@@ -4582,7 +4891,7 @@ void _wrap_sfRenderStates_shader_set_graphics_cd286e83cc20e352(sfRenderStates *_
 }
 
 
-sfShader *_wrap_sfRenderStates_shader_get_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0) {
+sfShader *_wrap_sfRenderStates_shader_get_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   sfShader *result = 0 ;
   sfShader *_swig_go_result;
@@ -4595,7 +4904,7 @@ sfShader *_wrap_sfRenderStates_shader_get_graphics_cd286e83cc20e352(sfRenderStat
 }
 
 
-sfRenderStates *_wrap_new_sfRenderStates_graphics_cd286e83cc20e352() {
+sfRenderStates *_wrap_new_sfRenderStates_graphics_c1a031043095f7b7() {
   sfRenderStates *result = 0 ;
   sfRenderStates *_swig_go_result;
   
@@ -4606,7 +4915,7 @@ sfRenderStates *_wrap_new_sfRenderStates_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfRenderStates_graphics_cd286e83cc20e352(sfRenderStates *_swig_go_0) {
+void _wrap_delete_sfRenderStates_graphics_c1a031043095f7b7(sfRenderStates *_swig_go_0) {
   sfRenderStates *arg1 = (sfRenderStates *) 0 ;
   
   arg1 = *(sfRenderStates **)&_swig_go_0; 
@@ -4616,7 +4925,7 @@ void _wrap_delete_sfRenderStates_graphics_cd286e83cc20e352(sfRenderStates *_swig
 }
 
 
-sfRenderStates *_wrap_sfRenderStates_default_graphics_cd286e83cc20e352() {
+sfRenderStates *_wrap_sfRenderStates_default_graphics_c1a031043095f7b7() {
   sfRenderStates result;
   sfRenderStates *_swig_go_result;
   
@@ -4627,7 +4936,7 @@ sfRenderStates *_wrap_sfRenderStates_default_graphics_cd286e83cc20e352() {
 }
 
 
-sfRenderTexture *_wrap_sfRenderTexture_create_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+sfRenderTexture *_wrap_sfRenderTexture_create_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfBool arg3 ;
@@ -4644,7 +4953,7 @@ sfRenderTexture *_wrap_sfRenderTexture_create_graphics_cd286e83cc20e352(intgo _s
 }
 
 
-sfRenderTexture *_wrap_sfRenderTexture_createWithSettings_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1, sfContextSettings *_swig_go_2) {
+sfRenderTexture *_wrap_sfRenderTexture_createWithSettings_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1, sfContextSettings *_swig_go_2) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfContextSettings *arg3 = (sfContextSettings *) 0 ;
@@ -4661,7 +4970,7 @@ sfRenderTexture *_wrap_sfRenderTexture_createWithSettings_graphics_cd286e83cc20e
 }
 
 
-void _wrap_sfRenderTexture_destroy_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+void _wrap_sfRenderTexture_destroy_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   
   arg1 = *(sfRenderTexture **)&_swig_go_0; 
@@ -4671,7 +4980,7 @@ void _wrap_sfRenderTexture_destroy_graphics_cd286e83cc20e352(sfRenderTexture *_s
 }
 
 
-sfVector2u *_wrap_sfRenderTexture_getSize_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+sfVector2u *_wrap_sfRenderTexture_getSize_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVector2u result;
   sfVector2u *_swig_go_result;
@@ -4684,7 +4993,7 @@ sfVector2u *_wrap_sfRenderTexture_getSize_graphics_cd286e83cc20e352(sfRenderText
 }
 
 
-intgo _wrap_sfRenderTexture_isSrgb_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+intgo _wrap_sfRenderTexture_isSrgb_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -4697,7 +5006,7 @@ intgo _wrap_sfRenderTexture_isSrgb_graphics_cd286e83cc20e352(sfRenderTexture *_s
 }
 
 
-intgo _wrap_sfRenderTexture_setActive_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_sfRenderTexture_setActive_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool arg2 ;
   sfBool result;
@@ -4712,7 +5021,7 @@ intgo _wrap_sfRenderTexture_setActive_graphics_cd286e83cc20e352(sfRenderTexture 
 }
 
 
-void _wrap_sfRenderTexture_display_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+void _wrap_sfRenderTexture_display_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   
   arg1 = *(sfRenderTexture **)&_swig_go_0; 
@@ -4722,7 +5031,7 @@ void _wrap_sfRenderTexture_display_graphics_cd286e83cc20e352(sfRenderTexture *_s
 }
 
 
-void _wrap_sfRenderTexture_clear_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfRenderTexture_clear_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfColor *_swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -4741,7 +5050,7 @@ void _wrap_sfRenderTexture_clear_graphics_cd286e83cc20e352(sfRenderTexture *_swi
 }
 
 
-void _wrap_sfRenderTexture_setView_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfView *_swig_go_1) {
+void _wrap_sfRenderTexture_setView_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfView *_swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfView *arg2 = (sfView *) 0 ;
   
@@ -4753,7 +5062,7 @@ void _wrap_sfRenderTexture_setView_graphics_cd286e83cc20e352(sfRenderTexture *_s
 }
 
 
-sfView *_wrap_sfRenderTexture_getView_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+sfView *_wrap_sfRenderTexture_getView_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfView *result = 0 ;
   sfView *_swig_go_result;
@@ -4766,7 +5075,7 @@ sfView *_wrap_sfRenderTexture_getView_graphics_cd286e83cc20e352(sfRenderTexture 
 }
 
 
-sfView *_wrap_sfRenderTexture_getDefaultView_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+sfView *_wrap_sfRenderTexture_getDefaultView_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfView *result = 0 ;
   sfView *_swig_go_result;
@@ -4779,7 +5088,7 @@ sfView *_wrap_sfRenderTexture_getDefaultView_graphics_cd286e83cc20e352(sfRenderT
 }
 
 
-sfIntRect *_wrap_sfRenderTexture_getViewport_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfView *_swig_go_1) {
+sfIntRect *_wrap_sfRenderTexture_getViewport_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfView *_swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfView *arg2 = (sfView *) 0 ;
   sfIntRect result;
@@ -4794,7 +5103,7 @@ sfIntRect *_wrap_sfRenderTexture_getViewport_graphics_cd286e83cc20e352(sfRenderT
 }
 
 
-sfVector2f *_wrap_sfRenderTexture_mapPixelToCoords_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVector2i *_swig_go_1, sfView *_swig_go_2) {
+sfVector2f *_wrap_sfRenderTexture_mapPixelToCoords_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVector2i *_swig_go_1, sfView *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVector2i arg2 ;
   sfView *arg3 = (sfView *) 0 ;
@@ -4818,7 +5127,7 @@ sfVector2f *_wrap_sfRenderTexture_mapPixelToCoords_graphics_cd286e83cc20e352(sfR
 }
 
 
-sfVector2i *_wrap_sfRenderTexture_mapCoordsToPixel_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVector2f *_swig_go_1, sfView *_swig_go_2) {
+sfVector2i *_wrap_sfRenderTexture_mapCoordsToPixel_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVector2f *_swig_go_1, sfView *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVector2f arg2 ;
   sfView *arg3 = (sfView *) 0 ;
@@ -4842,7 +5151,7 @@ sfVector2i *_wrap_sfRenderTexture_mapCoordsToPixel_graphics_cd286e83cc20e352(sfR
 }
 
 
-void _wrap_sfRenderTexture_drawSprite_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfSprite *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawSprite_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfSprite *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfSprite *arg2 = (sfSprite *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4856,7 +5165,7 @@ void _wrap_sfRenderTexture_drawSprite_graphics_cd286e83cc20e352(sfRenderTexture 
 }
 
 
-void _wrap_sfRenderTexture_drawText_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfText *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawText_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfText *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfText *arg2 = (sfText *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4870,7 +5179,7 @@ void _wrap_sfRenderTexture_drawText_graphics_cd286e83cc20e352(sfRenderTexture *_
 }
 
 
-void _wrap_sfRenderTexture_drawShape_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawShape_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfShape *arg2 = (sfShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4884,7 +5193,7 @@ void _wrap_sfRenderTexture_drawShape_graphics_cd286e83cc20e352(sfRenderTexture *
 }
 
 
-void _wrap_sfRenderTexture_drawCircleShape_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfCircleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawCircleShape_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfCircleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfCircleShape *arg2 = (sfCircleShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4898,7 +5207,7 @@ void _wrap_sfRenderTexture_drawCircleShape_graphics_cd286e83cc20e352(sfRenderTex
 }
 
 
-void _wrap_sfRenderTexture_drawConvexShape_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfConvexShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawConvexShape_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfConvexShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfConvexShape *arg2 = (sfConvexShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4912,7 +5221,7 @@ void _wrap_sfRenderTexture_drawConvexShape_graphics_cd286e83cc20e352(sfRenderTex
 }
 
 
-void _wrap_sfRenderTexture_drawRectangleShape_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfRectangleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawRectangleShape_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfRectangleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfRectangleShape *arg2 = (sfRectangleShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4926,7 +5235,7 @@ void _wrap_sfRenderTexture_drawRectangleShape_graphics_cd286e83cc20e352(sfRender
 }
 
 
-void _wrap_sfRenderTexture_drawVertexArray_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVertexArray *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawVertexArray_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVertexArray *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVertexArray *arg2 = (sfVertexArray *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4940,7 +5249,7 @@ void _wrap_sfRenderTexture_drawVertexArray_graphics_cd286e83cc20e352(sfRenderTex
 }
 
 
-void _wrap_sfRenderTexture_drawVertexBuffer_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVertexBuffer *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderTexture_drawVertexBuffer_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVertexBuffer *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -4954,7 +5263,7 @@ void _wrap_sfRenderTexture_drawVertexBuffer_graphics_cd286e83cc20e352(sfRenderTe
 }
 
 
-void _wrap_sfRenderTexture_drawVertexBufferRange_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVertexBuffer *_swig_go_1, long long _swig_go_2, long long _swig_go_3, sfRenderStates *_swig_go_4) {
+void _wrap_sfRenderTexture_drawVertexBufferRange_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVertexBuffer *_swig_go_1, long long _swig_go_2, long long _swig_go_3, sfRenderStates *_swig_go_4) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   size_t arg3 ;
@@ -4972,7 +5281,7 @@ void _wrap_sfRenderTexture_drawVertexBufferRange_graphics_cd286e83cc20e352(sfRen
 }
 
 
-void _wrap_sfRenderTexture_drawPrimitives_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, sfVertex *_swig_go_1, long long _swig_go_2, intgo _swig_go_3, sfRenderStates *_swig_go_4) {
+void _wrap_sfRenderTexture_drawPrimitives_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, sfVertex *_swig_go_1, long long _swig_go_2, intgo _swig_go_3, sfRenderStates *_swig_go_4) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfVertex *arg2 = (sfVertex *) 0 ;
   size_t arg3 ;
@@ -4990,7 +5299,7 @@ void _wrap_sfRenderTexture_drawPrimitives_graphics_cd286e83cc20e352(sfRenderText
 }
 
 
-void _wrap_sfRenderTexture_pushGLStates_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+void _wrap_sfRenderTexture_pushGLStates_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   
   arg1 = *(sfRenderTexture **)&_swig_go_0; 
@@ -5000,7 +5309,7 @@ void _wrap_sfRenderTexture_pushGLStates_graphics_cd286e83cc20e352(sfRenderTextur
 }
 
 
-void _wrap_sfRenderTexture_popGLStates_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+void _wrap_sfRenderTexture_popGLStates_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   
   arg1 = *(sfRenderTexture **)&_swig_go_0; 
@@ -5010,7 +5319,7 @@ void _wrap_sfRenderTexture_popGLStates_graphics_cd286e83cc20e352(sfRenderTexture
 }
 
 
-void _wrap_sfRenderTexture_resetGLStates_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+void _wrap_sfRenderTexture_resetGLStates_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   
   arg1 = *(sfRenderTexture **)&_swig_go_0; 
@@ -5020,7 +5329,7 @@ void _wrap_sfRenderTexture_resetGLStates_graphics_cd286e83cc20e352(sfRenderTextu
 }
 
 
-sfTexture *_wrap_sfRenderTexture_getTexture_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+sfTexture *_wrap_sfRenderTexture_getTexture_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -5033,7 +5342,7 @@ sfTexture *_wrap_sfRenderTexture_getTexture_graphics_cd286e83cc20e352(sfRenderTe
 }
 
 
-intgo _wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_cd286e83cc20e352() {
+intgo _wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_c1a031043095f7b7() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -5044,7 +5353,7 @@ intgo _wrap_sfRenderTexture_getMaximumAntialiasingLevel_graphics_cd286e83cc20e35
 }
 
 
-void _wrap_sfRenderTexture_setSmooth_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderTexture_setSmooth_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool arg2 ;
   
@@ -5056,7 +5365,7 @@ void _wrap_sfRenderTexture_setSmooth_graphics_cd286e83cc20e352(sfRenderTexture *
 }
 
 
-intgo _wrap_sfRenderTexture_isSmooth_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+intgo _wrap_sfRenderTexture_isSmooth_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5069,7 +5378,7 @@ intgo _wrap_sfRenderTexture_isSmooth_graphics_cd286e83cc20e352(sfRenderTexture *
 }
 
 
-void _wrap_sfRenderTexture_setRepeated_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderTexture_setRepeated_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0, intgo _swig_go_1) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool arg2 ;
   
@@ -5081,7 +5390,7 @@ void _wrap_sfRenderTexture_setRepeated_graphics_cd286e83cc20e352(sfRenderTexture
 }
 
 
-intgo _wrap_sfRenderTexture_isRepeated_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+intgo _wrap_sfRenderTexture_isRepeated_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5094,7 +5403,7 @@ intgo _wrap_sfRenderTexture_isRepeated_graphics_cd286e83cc20e352(sfRenderTexture
 }
 
 
-intgo _wrap_sfRenderTexture_generateMipmap_graphics_cd286e83cc20e352(sfRenderTexture *_swig_go_0) {
+intgo _wrap_sfRenderTexture_generateMipmap_graphics_c1a031043095f7b7(sfRenderTexture *_swig_go_0) {
   sfRenderTexture *arg1 = (sfRenderTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5107,7 +5416,7 @@ intgo _wrap_sfRenderTexture_generateMipmap_graphics_cd286e83cc20e352(sfRenderTex
 }
 
 
-sfRenderWindow *_wrap_sfRenderWindow_create_graphics_cd286e83cc20e352(sfVideoMode *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, sfContextSettings *_swig_go_3) {
+sfRenderWindow *_wrap_sfRenderWindow_create_graphics_c1a031043095f7b7(sfVideoMode *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2, sfContextSettings *_swig_go_3) {
   sfVideoMode arg1 ;
   char *arg2 = (char *) 0 ;
   sfUint32 arg3 ;
@@ -5138,7 +5447,7 @@ sfRenderWindow *_wrap_sfRenderWindow_create_graphics_cd286e83cc20e352(sfVideoMod
 }
 
 
-sfRenderWindow *_wrap_sfRenderWindow_createUnicode_graphics_cd286e83cc20e352(sfVideoMode *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2, sfContextSettings *_swig_go_3) {
+sfRenderWindow *_wrap_sfRenderWindow_createUnicode_graphics_c1a031043095f7b7(sfVideoMode *_swig_go_0, intgo *_swig_go_1, intgo _swig_go_2, sfContextSettings *_swig_go_3) {
   sfVideoMode arg1 ;
   sfUint32 *arg2 = (sfUint32 *) 0 ;
   sfUint32 arg3 ;
@@ -5164,7 +5473,7 @@ sfRenderWindow *_wrap_sfRenderWindow_createUnicode_graphics_cd286e83cc20e352(sfV
 }
 
 
-sfRenderWindow *_wrap_sfRenderWindow_createFromHandle_graphics_cd286e83cc20e352(sfWindowHandle *_swig_go_0, sfContextSettings *_swig_go_1) {
+sfRenderWindow *_wrap_sfRenderWindow_createFromHandle_graphics_c1a031043095f7b7(sfWindowHandle *_swig_go_0, sfContextSettings *_swig_go_1) {
   sfWindowHandle arg1 ;
   sfContextSettings *arg2 = (sfContextSettings *) 0 ;
   sfWindowHandle *argp1 ;
@@ -5186,7 +5495,7 @@ sfRenderWindow *_wrap_sfRenderWindow_createFromHandle_graphics_cd286e83cc20e352(
 }
 
 
-void _wrap_sfRenderWindow_destroy_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_destroy_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5196,7 +5505,7 @@ void _wrap_sfRenderWindow_destroy_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-void _wrap_sfRenderWindow_close_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_close_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5206,7 +5515,7 @@ void _wrap_sfRenderWindow_close_graphics_cd286e83cc20e352(sfRenderWindow *_swig_
 }
 
 
-intgo _wrap_sfRenderWindow_isOpen_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+intgo _wrap_sfRenderWindow_isOpen_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5219,7 +5528,7 @@ intgo _wrap_sfRenderWindow_isOpen_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-sfContextSettings *_wrap_sfRenderWindow_getSettings_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfContextSettings *_wrap_sfRenderWindow_getSettings_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfContextSettings result;
   sfContextSettings *_swig_go_result;
@@ -5232,7 +5541,7 @@ sfContextSettings *_wrap_sfRenderWindow_getSettings_graphics_cd286e83cc20e352(sf
 }
 
 
-intgo _wrap_sfRenderWindow_pollEvent_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfEvent *_swig_go_1) {
+intgo _wrap_sfRenderWindow_pollEvent_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfEvent *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfEvent *arg2 = (sfEvent *) 0 ;
   sfBool result;
@@ -5247,7 +5556,7 @@ intgo _wrap_sfRenderWindow_pollEvent_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-intgo _wrap_sfRenderWindow_waitEvent_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfEvent *_swig_go_1) {
+intgo _wrap_sfRenderWindow_waitEvent_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfEvent *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfEvent *arg2 = (sfEvent *) 0 ;
   sfBool result;
@@ -5262,7 +5571,7 @@ intgo _wrap_sfRenderWindow_waitEvent_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-sfVector2i *_wrap_sfRenderWindow_getPosition_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfVector2i *_wrap_sfRenderWindow_getPosition_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2i result;
   sfVector2i *_swig_go_result;
@@ -5275,7 +5584,7 @@ sfVector2i *_wrap_sfRenderWindow_getPosition_graphics_cd286e83cc20e352(sfRenderW
 }
 
 
-void _wrap_sfRenderWindow_setPosition_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVector2i *_swig_go_1) {
+void _wrap_sfRenderWindow_setPosition_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVector2i *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2i arg2 ;
   sfVector2i *argp2 ;
@@ -5294,7 +5603,7 @@ void _wrap_sfRenderWindow_setPosition_graphics_cd286e83cc20e352(sfRenderWindow *
 }
 
 
-sfVector2u *_wrap_sfRenderWindow_getSize_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfVector2u *_wrap_sfRenderWindow_getSize_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2u result;
   sfVector2u *_swig_go_result;
@@ -5307,7 +5616,7 @@ sfVector2u *_wrap_sfRenderWindow_getSize_graphics_cd286e83cc20e352(sfRenderWindo
 }
 
 
-intgo _wrap_sfRenderWindow_isSrgb_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+intgo _wrap_sfRenderWindow_isSrgb_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5320,7 +5629,7 @@ intgo _wrap_sfRenderWindow_isSrgb_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-void _wrap_sfRenderWindow_setSize_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVector2u *_swig_go_1) {
+void _wrap_sfRenderWindow_setSize_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVector2u *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2u arg2 ;
   sfVector2u *argp2 ;
@@ -5339,7 +5648,7 @@ void _wrap_sfRenderWindow_setSize_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-void _wrap_sfRenderWindow_setTitle_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_sfRenderWindow_setTitle_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, _gostring_ _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -5356,7 +5665,7 @@ void _wrap_sfRenderWindow_setTitle_graphics_cd286e83cc20e352(sfRenderWindow *_sw
 }
 
 
-void _wrap_sfRenderWindow_setUnicodeTitle_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_sfRenderWindow_setUnicodeTitle_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfUint32 *arg2 = (sfUint32 *) 0 ;
   
@@ -5368,7 +5677,7 @@ void _wrap_sfRenderWindow_setUnicodeTitle_graphics_cd286e83cc20e352(sfRenderWind
 }
 
 
-void _wrap_sfRenderWindow_setIcon_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, char *_swig_go_3) {
+void _wrap_sfRenderWindow_setIcon_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, char *_swig_go_3) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   unsigned int arg2 ;
   unsigned int arg3 ;
@@ -5384,7 +5693,7 @@ void _wrap_sfRenderWindow_setIcon_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-void _wrap_sfRenderWindow_setVisible_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setVisible_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   
@@ -5396,7 +5705,7 @@ void _wrap_sfRenderWindow_setVisible_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-void _wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   
@@ -5408,7 +5717,7 @@ void _wrap_sfRenderWindow_setVerticalSyncEnabled_graphics_cd286e83cc20e352(sfRen
 }
 
 
-void _wrap_sfRenderWindow_setMouseCursorVisible_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setMouseCursorVisible_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   
@@ -5420,7 +5729,7 @@ void _wrap_sfRenderWindow_setMouseCursorVisible_graphics_cd286e83cc20e352(sfRend
 }
 
 
-void _wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   
@@ -5432,7 +5741,7 @@ void _wrap_sfRenderWindow_setMouseCursorGrabbed_graphics_cd286e83cc20e352(sfRend
 }
 
 
-void _wrap_sfRenderWindow_setMouseCursor_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfCursor *_swig_go_1) {
+void _wrap_sfRenderWindow_setMouseCursor_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfCursor *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfCursor *arg2 = (sfCursor *) 0 ;
   
@@ -5444,7 +5753,7 @@ void _wrap_sfRenderWindow_setMouseCursor_graphics_cd286e83cc20e352(sfRenderWindo
 }
 
 
-void _wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   
@@ -5456,7 +5765,7 @@ void _wrap_sfRenderWindow_setKeyRepeatEnabled_graphics_cd286e83cc20e352(sfRender
 }
 
 
-void _wrap_sfRenderWindow_setFramerateLimit_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfRenderWindow_setFramerateLimit_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   unsigned int arg2 ;
   
@@ -5468,7 +5777,7 @@ void _wrap_sfRenderWindow_setFramerateLimit_graphics_cd286e83cc20e352(sfRenderWi
 }
 
 
-void _wrap_sfRenderWindow_setJoystickThreshold_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, float _swig_go_1) {
+void _wrap_sfRenderWindow_setJoystickThreshold_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, float _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   float arg2 ;
   
@@ -5480,7 +5789,7 @@ void _wrap_sfRenderWindow_setJoystickThreshold_graphics_cd286e83cc20e352(sfRende
 }
 
 
-intgo _wrap_sfRenderWindow_setActive_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
+intgo _wrap_sfRenderWindow_setActive_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, intgo _swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool arg2 ;
   sfBool result;
@@ -5495,7 +5804,7 @@ intgo _wrap_sfRenderWindow_setActive_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-void _wrap_sfRenderWindow_requestFocus_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_requestFocus_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5505,7 +5814,7 @@ void _wrap_sfRenderWindow_requestFocus_graphics_cd286e83cc20e352(sfRenderWindow 
 }
 
 
-intgo _wrap_sfRenderWindow_hasFocus_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+intgo _wrap_sfRenderWindow_hasFocus_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -5518,7 +5827,7 @@ intgo _wrap_sfRenderWindow_hasFocus_graphics_cd286e83cc20e352(sfRenderWindow *_s
 }
 
 
-void _wrap_sfRenderWindow_display_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_display_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5528,7 +5837,7 @@ void _wrap_sfRenderWindow_display_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-sfWindowHandle *_wrap_sfRenderWindow_getSystemHandle_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfWindowHandle *_wrap_sfRenderWindow_getSystemHandle_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfWindowHandle result;
   sfWindowHandle *_swig_go_result;
@@ -5541,7 +5850,7 @@ sfWindowHandle *_wrap_sfRenderWindow_getSystemHandle_graphics_cd286e83cc20e352(s
 }
 
 
-void _wrap_sfRenderWindow_clear_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfRenderWindow_clear_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfColor *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -5560,7 +5869,7 @@ void _wrap_sfRenderWindow_clear_graphics_cd286e83cc20e352(sfRenderWindow *_swig_
 }
 
 
-void _wrap_sfRenderWindow_setView_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfView *_swig_go_1) {
+void _wrap_sfRenderWindow_setView_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfView *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfView *arg2 = (sfView *) 0 ;
   
@@ -5572,7 +5881,7 @@ void _wrap_sfRenderWindow_setView_graphics_cd286e83cc20e352(sfRenderWindow *_swi
 }
 
 
-sfView *_wrap_sfRenderWindow_getView_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfView *_wrap_sfRenderWindow_getView_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfView *result = 0 ;
   sfView *_swig_go_result;
@@ -5585,7 +5894,7 @@ sfView *_wrap_sfRenderWindow_getView_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-sfView *_wrap_sfRenderWindow_getDefaultView_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfView *_wrap_sfRenderWindow_getDefaultView_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfView *result = 0 ;
   sfView *_swig_go_result;
@@ -5598,7 +5907,7 @@ sfView *_wrap_sfRenderWindow_getDefaultView_graphics_cd286e83cc20e352(sfRenderWi
 }
 
 
-sfIntRect *_wrap_sfRenderWindow_getViewport_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfView *_swig_go_1) {
+sfIntRect *_wrap_sfRenderWindow_getViewport_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfView *_swig_go_1) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfView *arg2 = (sfView *) 0 ;
   sfIntRect result;
@@ -5613,7 +5922,7 @@ sfIntRect *_wrap_sfRenderWindow_getViewport_graphics_cd286e83cc20e352(sfRenderWi
 }
 
 
-sfVector2f *_wrap_sfRenderWindow_mapPixelToCoords_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVector2i *_swig_go_1, sfView *_swig_go_2) {
+sfVector2f *_wrap_sfRenderWindow_mapPixelToCoords_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVector2i *_swig_go_1, sfView *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2i arg2 ;
   sfView *arg3 = (sfView *) 0 ;
@@ -5637,7 +5946,7 @@ sfVector2f *_wrap_sfRenderWindow_mapPixelToCoords_graphics_cd286e83cc20e352(sfRe
 }
 
 
-sfVector2i *_wrap_sfRenderWindow_mapCoordsToPixel_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVector2f *_swig_go_1, sfView *_swig_go_2) {
+sfVector2i *_wrap_sfRenderWindow_mapCoordsToPixel_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVector2f *_swig_go_1, sfView *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2f arg2 ;
   sfView *arg3 = (sfView *) 0 ;
@@ -5661,7 +5970,7 @@ sfVector2i *_wrap_sfRenderWindow_mapCoordsToPixel_graphics_cd286e83cc20e352(sfRe
 }
 
 
-void _wrap_sfRenderWindow_drawSprite_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfSprite *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawSprite_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfSprite *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfSprite *arg2 = (sfSprite *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5675,7 +5984,7 @@ void _wrap_sfRenderWindow_drawSprite_graphics_cd286e83cc20e352(sfRenderWindow *_
 }
 
 
-void _wrap_sfRenderWindow_drawText_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfText *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawText_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfText *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfText *arg2 = (sfText *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5689,7 +5998,7 @@ void _wrap_sfRenderWindow_drawText_graphics_cd286e83cc20e352(sfRenderWindow *_sw
 }
 
 
-void _wrap_sfRenderWindow_drawShape_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawShape_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfShape *arg2 = (sfShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5703,7 +6012,7 @@ void _wrap_sfRenderWindow_drawShape_graphics_cd286e83cc20e352(sfRenderWindow *_s
 }
 
 
-void _wrap_sfRenderWindow_drawCircleShape_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfCircleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawCircleShape_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfCircleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfCircleShape *arg2 = (sfCircleShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5717,7 +6026,7 @@ void _wrap_sfRenderWindow_drawCircleShape_graphics_cd286e83cc20e352(sfRenderWind
 }
 
 
-void _wrap_sfRenderWindow_drawConvexShape_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfConvexShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawConvexShape_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfConvexShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfConvexShape *arg2 = (sfConvexShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5731,7 +6040,7 @@ void _wrap_sfRenderWindow_drawConvexShape_graphics_cd286e83cc20e352(sfRenderWind
 }
 
 
-void _wrap_sfRenderWindow_drawRectangleShape_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfRectangleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawRectangleShape_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfRectangleShape *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfRectangleShape *arg2 = (sfRectangleShape *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5745,7 +6054,7 @@ void _wrap_sfRenderWindow_drawRectangleShape_graphics_cd286e83cc20e352(sfRenderW
 }
 
 
-void _wrap_sfRenderWindow_drawVertexArray_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVertexArray *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawVertexArray_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVertexArray *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVertexArray *arg2 = (sfVertexArray *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5759,7 +6068,7 @@ void _wrap_sfRenderWindow_drawVertexArray_graphics_cd286e83cc20e352(sfRenderWind
 }
 
 
-void _wrap_sfRenderWindow_drawVertexBuffer_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVertexBuffer *_swig_go_1, sfRenderStates *_swig_go_2) {
+void _wrap_sfRenderWindow_drawVertexBuffer_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVertexBuffer *_swig_go_1, sfRenderStates *_swig_go_2) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   sfRenderStates *arg3 = (sfRenderStates *) 0 ;
@@ -5773,7 +6082,7 @@ void _wrap_sfRenderWindow_drawVertexBuffer_graphics_cd286e83cc20e352(sfRenderWin
 }
 
 
-void _wrap_sfRenderWindow_drawVertexBufferRange_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVertexBuffer *_swig_go_1, long long _swig_go_2, long long _swig_go_3, sfRenderStates *_swig_go_4) {
+void _wrap_sfRenderWindow_drawVertexBufferRange_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVertexBuffer *_swig_go_1, long long _swig_go_2, long long _swig_go_3, sfRenderStates *_swig_go_4) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   size_t arg3 ;
@@ -5791,7 +6100,7 @@ void _wrap_sfRenderWindow_drawVertexBufferRange_graphics_cd286e83cc20e352(sfRend
 }
 
 
-void _wrap_sfRenderWindow_drawPrimitives_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, sfVertex *_swig_go_1, long long _swig_go_2, intgo _swig_go_3, sfRenderStates *_swig_go_4) {
+void _wrap_sfRenderWindow_drawPrimitives_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, sfVertex *_swig_go_1, long long _swig_go_2, intgo _swig_go_3, sfRenderStates *_swig_go_4) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVertex *arg2 = (sfVertex *) 0 ;
   size_t arg3 ;
@@ -5809,7 +6118,7 @@ void _wrap_sfRenderWindow_drawPrimitives_graphics_cd286e83cc20e352(sfRenderWindo
 }
 
 
-void _wrap_sfRenderWindow_pushGLStates_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_pushGLStates_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5819,7 +6128,7 @@ void _wrap_sfRenderWindow_pushGLStates_graphics_cd286e83cc20e352(sfRenderWindow 
 }
 
 
-void _wrap_sfRenderWindow_popGLStates_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_popGLStates_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5829,7 +6138,7 @@ void _wrap_sfRenderWindow_popGLStates_graphics_cd286e83cc20e352(sfRenderWindow *
 }
 
 
-void _wrap_sfRenderWindow_resetGLStates_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+void _wrap_sfRenderWindow_resetGLStates_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   
   arg1 = *(sfRenderWindow **)&_swig_go_0; 
@@ -5839,7 +6148,7 @@ void _wrap_sfRenderWindow_resetGLStates_graphics_cd286e83cc20e352(sfRenderWindow
 }
 
 
-sfImage *_wrap_sfRenderWindow_capture_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfImage *_wrap_sfRenderWindow_capture_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfImage *result = 0 ;
   sfImage *_swig_go_result;
@@ -5852,7 +6161,7 @@ sfImage *_wrap_sfRenderWindow_capture_graphics_cd286e83cc20e352(sfRenderWindow *
 }
 
 
-sfVector2i *_wrap_sfMouse_getPositionRenderWindow_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0) {
+sfVector2i *_wrap_sfMouse_getPositionRenderWindow_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   sfVector2i result;
   sfVector2i *_swig_go_result;
@@ -5865,7 +6174,7 @@ sfVector2i *_wrap_sfMouse_getPositionRenderWindow_graphics_cd286e83cc20e352(sfRe
 }
 
 
-void _wrap_sfMouse_setPositionRenderWindow_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0, sfRenderWindow *_swig_go_1) {
+void _wrap_sfMouse_setPositionRenderWindow_graphics_c1a031043095f7b7(sfVector2i *_swig_go_0, sfRenderWindow *_swig_go_1) {
   sfVector2i arg1 ;
   sfRenderWindow *arg2 = (sfRenderWindow *) 0 ;
   sfVector2i *argp1 ;
@@ -5884,7 +6193,7 @@ void _wrap_sfMouse_setPositionRenderWindow_graphics_cd286e83cc20e352(sfVector2i 
 }
 
 
-sfVector2i *_wrap_sfTouch_getPositionRenderWindow_graphics_cd286e83cc20e352(intgo _swig_go_0, sfRenderWindow *_swig_go_1) {
+sfVector2i *_wrap_sfTouch_getPositionRenderWindow_graphics_c1a031043095f7b7(intgo _swig_go_0, sfRenderWindow *_swig_go_1) {
   unsigned int arg1 ;
   sfRenderWindow *arg2 = (sfRenderWindow *) 0 ;
   sfVector2i result;
@@ -5899,7 +6208,7 @@ sfVector2i *_wrap_sfTouch_getPositionRenderWindow_graphics_cd286e83cc20e352(intg
 }
 
 
-intgo _wrap_sfRenderWindow_createVulkanSurface_graphics_cd286e83cc20e352(sfRenderWindow *_swig_go_0, VkInstance *_swig_go_1, VkSurfaceKHR *_swig_go_2, VkAllocationCallbacks *_swig_go_3) {
+intgo _wrap_sfRenderWindow_createVulkanSurface_graphics_c1a031043095f7b7(sfRenderWindow *_swig_go_0, VkInstance *_swig_go_1, VkSurfaceKHR *_swig_go_2, VkAllocationCallbacks *_swig_go_3) {
   sfRenderWindow *arg1 = (sfRenderWindow *) 0 ;
   VkInstance *arg2 = (VkInstance *) 0 ;
   VkSurfaceKHR *arg3 = (VkSurfaceKHR *) 0 ;
@@ -5918,7 +6227,7 @@ intgo _wrap_sfRenderWindow_createVulkanSurface_graphics_cd286e83cc20e352(sfRende
 }
 
 
-sfShader *_wrap_sfShader_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+sfShader *_wrap_sfShader_createFromFile_graphics_c1a031043095f7b7(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -5950,7 +6259,7 @@ sfShader *_wrap_sfShader_createFromFile_graphics_cd286e83cc20e352(_gostring_ _sw
 }
 
 
-sfShader *_wrap_sfShader_createFromMemory_graphics_cd286e83cc20e352(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
+sfShader *_wrap_sfShader_createFromMemory_graphics_c1a031043095f7b7(_gostring_ _swig_go_0, _gostring_ _swig_go_1, _gostring_ _swig_go_2) {
   char *arg1 = (char *) 0 ;
   char *arg2 = (char *) 0 ;
   char *arg3 = (char *) 0 ;
@@ -5982,7 +6291,7 @@ sfShader *_wrap_sfShader_createFromMemory_graphics_cd286e83cc20e352(_gostring_ _
 }
 
 
-sfShader *_wrap_sfShader_createFromStream_graphics_cd286e83cc20e352(sfInputStream *_swig_go_0, sfInputStream *_swig_go_1, sfInputStream *_swig_go_2) {
+sfShader *_wrap_sfShader_createFromStream_graphics_c1a031043095f7b7(sfInputStream *_swig_go_0, sfInputStream *_swig_go_1, sfInputStream *_swig_go_2) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfInputStream *arg2 = (sfInputStream *) 0 ;
   sfInputStream *arg3 = (sfInputStream *) 0 ;
@@ -5999,7 +6308,7 @@ sfShader *_wrap_sfShader_createFromStream_graphics_cd286e83cc20e352(sfInputStrea
 }
 
 
-void _wrap_sfShader_destroy_graphics_cd286e83cc20e352(sfShader *_swig_go_0) {
+void _wrap_sfShader_destroy_graphics_c1a031043095f7b7(sfShader *_swig_go_0) {
   sfShader *arg1 = (sfShader *) 0 ;
   
   arg1 = *(sfShader **)&_swig_go_0; 
@@ -6009,7 +6318,7 @@ void _wrap_sfShader_destroy_graphics_cd286e83cc20e352(sfShader *_swig_go_0) {
 }
 
 
-void _wrap_sfShader_setFloatUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+void _wrap_sfShader_setFloatUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float arg3 ;
@@ -6028,7 +6337,7 @@ void _wrap_sfShader_setFloatUniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setVec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2) {
+void _wrap_sfShader_setVec2Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec2 arg3 ;
@@ -6054,7 +6363,7 @@ void _wrap_sfShader_setVec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setVec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2) {
+void _wrap_sfShader_setVec3Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec3 arg3 ;
@@ -6080,7 +6389,7 @@ void _wrap_sfShader_setVec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setVec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslVec4 *_swig_go_2) {
+void _wrap_sfShader_setVec4Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslVec4 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec4 arg3 ;
@@ -6106,7 +6415,7 @@ void _wrap_sfShader_setVec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setColorUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
+void _wrap_sfShader_setColorUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfColor arg3 ;
@@ -6132,7 +6441,7 @@ void _wrap_sfShader_setColorUniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setIntUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_sfShader_setIntUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   int arg3 ;
@@ -6151,7 +6460,7 @@ void _wrap_sfShader_setIntUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0
 }
 
 
-void _wrap_sfShader_setIvec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2i *_swig_go_2) {
+void _wrap_sfShader_setIvec2Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2i *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslIvec2 arg3 ;
@@ -6177,7 +6486,7 @@ void _wrap_sfShader_setIvec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setIvec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslIvec3 *_swig_go_2) {
+void _wrap_sfShader_setIvec3Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslIvec3 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslIvec3 arg3 ;
@@ -6203,7 +6512,7 @@ void _wrap_sfShader_setIvec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setIvec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslIvec4 *_swig_go_2) {
+void _wrap_sfShader_setIvec4Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslIvec4 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslIvec4 arg3 ;
@@ -6229,7 +6538,7 @@ void _wrap_sfShader_setIvec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setIntColorUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
+void _wrap_sfShader_setIntColorUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfColor arg3 ;
@@ -6255,7 +6564,7 @@ void _wrap_sfShader_setIntColorUniform_graphics_cd286e83cc20e352(sfShader *_swig
 }
 
 
-void _wrap_sfShader_setBoolUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
+void _wrap_sfShader_setBoolUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, intgo _swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfBool arg3 ;
@@ -6274,7 +6583,7 @@ void _wrap_sfShader_setBoolUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setBvec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec2 *_swig_go_2) {
+void _wrap_sfShader_setBvec2Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec2 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslBvec2 arg3 ;
@@ -6300,7 +6609,7 @@ void _wrap_sfShader_setBvec2Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setBvec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec3 *_swig_go_2) {
+void _wrap_sfShader_setBvec3Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec3 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslBvec3 arg3 ;
@@ -6326,7 +6635,7 @@ void _wrap_sfShader_setBvec3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setBvec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec4 *_swig_go_2) {
+void _wrap_sfShader_setBvec4Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslBvec4 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslBvec4 arg3 ;
@@ -6352,7 +6661,7 @@ void _wrap_sfShader_setBvec4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go
 }
 
 
-void _wrap_sfShader_setMat3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat3 *_swig_go_2) {
+void _wrap_sfShader_setMat3Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat3 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslMat3 *arg3 = (sfGlslMat3 *) 0 ;
@@ -6371,7 +6680,7 @@ void _wrap_sfShader_setMat3Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setMat4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat4 *_swig_go_2) {
+void _wrap_sfShader_setMat4Uniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat4 *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslMat4 *arg3 = (sfGlslMat4 *) 0 ;
@@ -6390,7 +6699,7 @@ void _wrap_sfShader_setMat4Uniform_graphics_cd286e83cc20e352(sfShader *_swig_go_
 }
 
 
-void _wrap_sfShader_setTextureUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTexture *_swig_go_2) {
+void _wrap_sfShader_setTextureUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTexture *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfTexture *arg3 = (sfTexture *) 0 ;
@@ -6409,7 +6718,7 @@ void _wrap_sfShader_setTextureUniform_graphics_cd286e83cc20e352(sfShader *_swig_
 }
 
 
-void _wrap_sfShader_setCurrentTextureUniform_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_sfShader_setCurrentTextureUniform_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -6426,7 +6735,7 @@ void _wrap_sfShader_setCurrentTextureUniform_graphics_cd286e83cc20e352(sfShader 
 }
 
 
-void _wrap_sfShader_setFloatUniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setFloatUniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float *arg3 = (float *) 0 ;
@@ -6447,7 +6756,7 @@ void _wrap_sfShader_setFloatUniformArray_graphics_cd286e83cc20e352(sfShader *_sw
 }
 
 
-void _wrap_sfShader_setVec2UniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setVec2UniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec2 *arg3 = (sfGlslVec2 *) 0 ;
@@ -6468,7 +6777,7 @@ void _wrap_sfShader_setVec2UniformArray_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setVec3UniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setVec3UniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec3 *arg3 = (sfGlslVec3 *) 0 ;
@@ -6489,7 +6798,7 @@ void _wrap_sfShader_setVec3UniformArray_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setVec4UniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslVec4 *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setVec4UniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslVec4 *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslVec4 *arg3 = (sfGlslVec4 *) 0 ;
@@ -6510,7 +6819,7 @@ void _wrap_sfShader_setVec4UniformArray_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setMat3UniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat3 *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setMat3UniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat3 *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslMat3 *arg3 = (sfGlslMat3 *) 0 ;
@@ -6531,7 +6840,7 @@ void _wrap_sfShader_setMat3UniformArray_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setMat4UniformArray_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat4 *_swig_go_2, long long _swig_go_3) {
+void _wrap_sfShader_setMat4UniformArray_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfGlslMat4 *_swig_go_2, long long _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfGlslMat4 *arg3 = (sfGlslMat4 *) 0 ;
@@ -6552,7 +6861,7 @@ void _wrap_sfShader_setMat4UniformArray_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setFloatParameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
+void _wrap_sfShader_setFloatParameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float arg3 ;
@@ -6571,7 +6880,7 @@ void _wrap_sfShader_setFloatParameter_graphics_cd286e83cc20e352(sfShader *_swig_
 }
 
 
-void _wrap_sfShader_setFloat2Parameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3) {
+void _wrap_sfShader_setFloat2Parameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float arg3 ;
@@ -6592,7 +6901,7 @@ void _wrap_sfShader_setFloat2Parameter_graphics_cd286e83cc20e352(sfShader *_swig
 }
 
 
-void _wrap_sfShader_setFloat3Parameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
+void _wrap_sfShader_setFloat3Parameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float arg3 ;
@@ -6615,7 +6924,7 @@ void _wrap_sfShader_setFloat3Parameter_graphics_cd286e83cc20e352(sfShader *_swig
 }
 
 
-void _wrap_sfShader_setFloat4Parameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, float _swig_go_5) {
+void _wrap_sfShader_setFloat4Parameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, float _swig_go_5) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   float arg3 ;
@@ -6640,7 +6949,7 @@ void _wrap_sfShader_setFloat4Parameter_graphics_cd286e83cc20e352(sfShader *_swig
 }
 
 
-void _wrap_sfShader_setVector2Parameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2) {
+void _wrap_sfShader_setVector2Parameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector2f *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfVector2f arg3 ;
@@ -6666,7 +6975,7 @@ void _wrap_sfShader_setVector2Parameter_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setVector3Parameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2) {
+void _wrap_sfShader_setVector3Parameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfVector3f *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfVector3f arg3 ;
@@ -6692,7 +7001,7 @@ void _wrap_sfShader_setVector3Parameter_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setColorParameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
+void _wrap_sfShader_setColorParameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfColor *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfColor arg3 ;
@@ -6718,7 +7027,7 @@ void _wrap_sfShader_setColorParameter_graphics_cd286e83cc20e352(sfShader *_swig_
 }
 
 
-void _wrap_sfShader_setTransformParameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTransform *_swig_go_2) {
+void _wrap_sfShader_setTransformParameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTransform *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfTransform arg3 ;
@@ -6744,7 +7053,7 @@ void _wrap_sfShader_setTransformParameter_graphics_cd286e83cc20e352(sfShader *_s
 }
 
 
-void _wrap_sfShader_setTextureParameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTexture *_swig_go_2) {
+void _wrap_sfShader_setTextureParameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1, sfTexture *_swig_go_2) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   sfTexture *arg3 = (sfTexture *) 0 ;
@@ -6763,7 +7072,7 @@ void _wrap_sfShader_setTextureParameter_graphics_cd286e83cc20e352(sfShader *_swi
 }
 
 
-void _wrap_sfShader_setCurrentTextureParameter_graphics_cd286e83cc20e352(sfShader *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_sfShader_setCurrentTextureParameter_graphics_c1a031043095f7b7(sfShader *_swig_go_0, _gostring_ _swig_go_1) {
   sfShader *arg1 = (sfShader *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -6780,7 +7089,7 @@ void _wrap_sfShader_setCurrentTextureParameter_graphics_cd286e83cc20e352(sfShade
 }
 
 
-intgo _wrap_sfShader_getNativeHandle_graphics_cd286e83cc20e352(sfShader *_swig_go_0) {
+intgo _wrap_sfShader_getNativeHandle_graphics_c1a031043095f7b7(sfShader *_swig_go_0) {
   sfShader *arg1 = (sfShader *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -6793,7 +7102,7 @@ intgo _wrap_sfShader_getNativeHandle_graphics_cd286e83cc20e352(sfShader *_swig_g
 }
 
 
-void _wrap_sfShader_bind_graphics_cd286e83cc20e352(sfShader *_swig_go_0) {
+void _wrap_sfShader_bind_graphics_c1a031043095f7b7(sfShader *_swig_go_0) {
   sfShader *arg1 = (sfShader *) 0 ;
   
   arg1 = *(sfShader **)&_swig_go_0; 
@@ -6803,7 +7112,7 @@ void _wrap_sfShader_bind_graphics_cd286e83cc20e352(sfShader *_swig_go_0) {
 }
 
 
-intgo _wrap_sfShader_isAvailable_graphics_cd286e83cc20e352() {
+intgo _wrap_sfShader_isAvailable_graphics_c1a031043095f7b7() {
   sfBool result;
   intgo _swig_go_result;
   
@@ -6814,7 +7123,7 @@ intgo _wrap_sfShader_isAvailable_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfShader_isGeometryAvailable_graphics_cd286e83cc20e352() {
+intgo _wrap_sfShader_isGeometryAvailable_graphics_c1a031043095f7b7() {
   sfBool result;
   intgo _swig_go_result;
   
@@ -6825,7 +7134,7 @@ intgo _wrap_sfShader_isGeometryAvailable_graphics_cd286e83cc20e352() {
 }
 
 
-sfShape *_wrap_sfShape_create_graphics_cd286e83cc20e352(void* _swig_go_0, void* _swig_go_1, void *_swig_go_2) {
+sfShape *_wrap_sfShape_create_graphics_c1a031043095f7b7(void* _swig_go_0, void* _swig_go_1, void *_swig_go_2) {
   sfShapeGetPointCountCallback arg1 = (sfShapeGetPointCountCallback) 0 ;
   sfShapeGetPointCallback arg2 = (sfShapeGetPointCallback) 0 ;
   void *arg3 = (void *) 0 ;
@@ -6842,7 +7151,7 @@ sfShape *_wrap_sfShape_create_graphics_cd286e83cc20e352(void* _swig_go_0, void* 
 }
 
 
-void _wrap_sfShape_destroy_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+void _wrap_sfShape_destroy_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   
   arg1 = *(sfShape **)&_swig_go_0; 
@@ -6852,7 +7161,7 @@ void _wrap_sfShape_destroy_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
 }
 
 
-void _wrap_sfShape_setPosition_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfShape_setPosition_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -6871,7 +7180,7 @@ void _wrap_sfShape_setPosition_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sf
 }
 
 
-void _wrap_sfShape_setRotation_graphics_cd286e83cc20e352(sfShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfShape_setRotation_graphics_c1a031043095f7b7(sfShape *_swig_go_0, float _swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   float arg2 ;
   
@@ -6883,7 +7192,7 @@ void _wrap_sfShape_setRotation_graphics_cd286e83cc20e352(sfShape *_swig_go_0, fl
 }
 
 
-void _wrap_sfShape_setScale_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfShape_setScale_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -6902,7 +7211,7 @@ void _wrap_sfShape_setScale_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVec
 }
 
 
-void _wrap_sfShape_setOrigin_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfShape_setOrigin_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -6921,7 +7230,7 @@ void _wrap_sfShape_setOrigin_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVe
 }
 
 
-sfVector2f *_wrap_sfShape_getPosition_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfVector2f *_wrap_sfShape_getPosition_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -6934,7 +7243,7 @@ sfVector2f *_wrap_sfShape_getPosition_graphics_cd286e83cc20e352(sfShape *_swig_g
 }
 
 
-float _wrap_sfShape_getRotation_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+float _wrap_sfShape_getRotation_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -6947,7 +7256,7 @@ float _wrap_sfShape_getRotation_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
 }
 
 
-sfVector2f *_wrap_sfShape_getScale_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfVector2f *_wrap_sfShape_getScale_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -6960,7 +7269,7 @@ sfVector2f *_wrap_sfShape_getScale_graphics_cd286e83cc20e352(sfShape *_swig_go_0
 }
 
 
-sfVector2f *_wrap_sfShape_getOrigin_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfVector2f *_wrap_sfShape_getOrigin_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -6973,7 +7282,7 @@ sfVector2f *_wrap_sfShape_getOrigin_graphics_cd286e83cc20e352(sfShape *_swig_go_
 }
 
 
-void _wrap_sfShape_move_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfShape_move_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -6992,7 +7301,7 @@ void _wrap_sfShape_move_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2
 }
 
 
-void _wrap_sfShape_rotate_graphics_cd286e83cc20e352(sfShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfShape_rotate_graphics_c1a031043095f7b7(sfShape *_swig_go_0, float _swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   float arg2 ;
   
@@ -7004,7 +7313,7 @@ void _wrap_sfShape_rotate_graphics_cd286e83cc20e352(sfShape *_swig_go_0, float _
 }
 
 
-void _wrap_sfShape_scale_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfShape_scale_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfVector2f *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7023,7 +7332,7 @@ void _wrap_sfShape_scale_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfVector
 }
 
 
-sfTransform *_wrap_sfShape_getTransform_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfTransform *_wrap_sfShape_getTransform_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7036,7 +7345,7 @@ sfTransform *_wrap_sfShape_getTransform_graphics_cd286e83cc20e352(sfShape *_swig
 }
 
 
-sfTransform *_wrap_sfShape_getInverseTransform_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfTransform *_wrap_sfShape_getInverseTransform_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7049,7 +7358,7 @@ sfTransform *_wrap_sfShape_getInverseTransform_graphics_cd286e83cc20e352(sfShape
 }
 
 
-void _wrap_sfShape_setTexture_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
+void _wrap_sfShape_setTexture_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   sfBool arg3 ;
@@ -7063,7 +7372,7 @@ void _wrap_sfShape_setTexture_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfT
 }
 
 
-void _wrap_sfShape_setTextureRect_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfShape_setTextureRect_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfIntRect *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfIntRect arg2 ;
   sfIntRect *argp2 ;
@@ -7082,7 +7391,7 @@ void _wrap_sfShape_setTextureRect_graphics_cd286e83cc20e352(sfShape *_swig_go_0,
 }
 
 
-void _wrap_sfShape_setFillColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfShape_setFillColor_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfColor *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -7101,7 +7410,7 @@ void _wrap_sfShape_setFillColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0, s
 }
 
 
-void _wrap_sfShape_setOutlineColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfShape_setOutlineColor_graphics_c1a031043095f7b7(sfShape *_swig_go_0, sfColor *_swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -7120,7 +7429,7 @@ void _wrap_sfShape_setOutlineColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0
 }
 
 
-void _wrap_sfShape_setOutlineThickness_graphics_cd286e83cc20e352(sfShape *_swig_go_0, float _swig_go_1) {
+void _wrap_sfShape_setOutlineThickness_graphics_c1a031043095f7b7(sfShape *_swig_go_0, float _swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   float arg2 ;
   
@@ -7132,7 +7441,7 @@ void _wrap_sfShape_setOutlineThickness_graphics_cd286e83cc20e352(sfShape *_swig_
 }
 
 
-sfTexture *_wrap_sfShape_getTexture_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfTexture *_wrap_sfShape_getTexture_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -7145,7 +7454,7 @@ sfTexture *_wrap_sfShape_getTexture_graphics_cd286e83cc20e352(sfShape *_swig_go_
 }
 
 
-sfIntRect *_wrap_sfShape_getTextureRect_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfIntRect *_wrap_sfShape_getTextureRect_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfIntRect result;
   sfIntRect *_swig_go_result;
@@ -7158,7 +7467,7 @@ sfIntRect *_wrap_sfShape_getTextureRect_graphics_cd286e83cc20e352(sfShape *_swig
 }
 
 
-sfColor *_wrap_sfShape_getFillColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfColor *_wrap_sfShape_getFillColor_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -7171,7 +7480,7 @@ sfColor *_wrap_sfShape_getFillColor_graphics_cd286e83cc20e352(sfShape *_swig_go_
 }
 
 
-sfColor *_wrap_sfShape_getOutlineColor_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfColor *_wrap_sfShape_getOutlineColor_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -7184,7 +7493,7 @@ sfColor *_wrap_sfShape_getOutlineColor_graphics_cd286e83cc20e352(sfShape *_swig_
 }
 
 
-float _wrap_sfShape_getOutlineThickness_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+float _wrap_sfShape_getOutlineThickness_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   float result;
   float _swig_go_result;
@@ -7197,7 +7506,7 @@ float _wrap_sfShape_getOutlineThickness_graphics_cd286e83cc20e352(sfShape *_swig
 }
 
 
-long long _wrap_sfShape_getPointCount_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+long long _wrap_sfShape_getPointCount_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -7210,7 +7519,7 @@ long long _wrap_sfShape_getPointCount_graphics_cd286e83cc20e352(sfShape *_swig_g
 }
 
 
-sfVector2f *_wrap_sfShape_getPoint_graphics_cd286e83cc20e352(sfShape *_swig_go_0, long long _swig_go_1) {
+sfVector2f *_wrap_sfShape_getPoint_graphics_c1a031043095f7b7(sfShape *_swig_go_0, long long _swig_go_1) {
   sfShape *arg1 = (sfShape *) 0 ;
   size_t arg2 ;
   sfVector2f result;
@@ -7225,7 +7534,7 @@ sfVector2f *_wrap_sfShape_getPoint_graphics_cd286e83cc20e352(sfShape *_swig_go_0
 }
 
 
-sfFloatRect *_wrap_sfShape_getLocalBounds_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfFloatRect *_wrap_sfShape_getLocalBounds_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -7238,7 +7547,7 @@ sfFloatRect *_wrap_sfShape_getLocalBounds_graphics_cd286e83cc20e352(sfShape *_sw
 }
 
 
-sfFloatRect *_wrap_sfShape_getGlobalBounds_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+sfFloatRect *_wrap_sfShape_getGlobalBounds_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -7251,7 +7560,7 @@ sfFloatRect *_wrap_sfShape_getGlobalBounds_graphics_cd286e83cc20e352(sfShape *_s
 }
 
 
-void _wrap_sfShape_update_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
+void _wrap_sfShape_update_graphics_c1a031043095f7b7(sfShape *_swig_go_0) {
   sfShape *arg1 = (sfShape *) 0 ;
   
   arg1 = *(sfShape **)&_swig_go_0; 
@@ -7261,7 +7570,7 @@ void _wrap_sfShape_update_graphics_cd286e83cc20e352(sfShape *_swig_go_0) {
 }
 
 
-sfSprite *_wrap_sfSprite_create_graphics_cd286e83cc20e352() {
+sfSprite *_wrap_sfSprite_create_graphics_c1a031043095f7b7() {
   sfSprite *result = 0 ;
   sfSprite *_swig_go_result;
   
@@ -7272,7 +7581,7 @@ sfSprite *_wrap_sfSprite_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfSprite *_wrap_sfSprite_copy_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfSprite *_wrap_sfSprite_copy_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfSprite *result = 0 ;
   sfSprite *_swig_go_result;
@@ -7285,7 +7594,7 @@ sfSprite *_wrap_sfSprite_copy_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
 }
 
 
-void _wrap_sfSprite_destroy_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+void _wrap_sfSprite_destroy_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   
   arg1 = *(sfSprite **)&_swig_go_0; 
@@ -7295,7 +7604,7 @@ void _wrap_sfSprite_destroy_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
 }
 
 
-void _wrap_sfSprite_setPosition_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfSprite_setPosition_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7314,7 +7623,7 @@ void _wrap_sfSprite_setPosition_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, 
 }
 
 
-void _wrap_sfSprite_setRotation_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSprite_setRotation_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, float _swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   float arg2 ;
   
@@ -7326,7 +7635,7 @@ void _wrap_sfSprite_setRotation_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, 
 }
 
 
-void _wrap_sfSprite_setScale_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfSprite_setScale_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7345,7 +7654,7 @@ void _wrap_sfSprite_setScale_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfV
 }
 
 
-void _wrap_sfSprite_setOrigin_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfSprite_setOrigin_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7364,7 +7673,7 @@ void _wrap_sfSprite_setOrigin_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sf
 }
 
 
-sfVector2f *_wrap_sfSprite_getPosition_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfVector2f *_wrap_sfSprite_getPosition_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7377,7 +7686,7 @@ sfVector2f *_wrap_sfSprite_getPosition_graphics_cd286e83cc20e352(sfSprite *_swig
 }
 
 
-float _wrap_sfSprite_getRotation_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+float _wrap_sfSprite_getRotation_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   float result;
   float _swig_go_result;
@@ -7390,7 +7699,7 @@ float _wrap_sfSprite_getRotation_graphics_cd286e83cc20e352(sfSprite *_swig_go_0)
 }
 
 
-sfVector2f *_wrap_sfSprite_getScale_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfVector2f *_wrap_sfSprite_getScale_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7403,7 +7712,7 @@ sfVector2f *_wrap_sfSprite_getScale_graphics_cd286e83cc20e352(sfSprite *_swig_go
 }
 
 
-sfVector2f *_wrap_sfSprite_getOrigin_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfVector2f *_wrap_sfSprite_getOrigin_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7416,7 +7725,7 @@ sfVector2f *_wrap_sfSprite_getOrigin_graphics_cd286e83cc20e352(sfSprite *_swig_g
 }
 
 
-void _wrap_sfSprite_move_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfSprite_move_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7435,7 +7744,7 @@ void _wrap_sfSprite_move_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVecto
 }
 
 
-void _wrap_sfSprite_rotate_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, float _swig_go_1) {
+void _wrap_sfSprite_rotate_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, float _swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   float arg2 ;
   
@@ -7447,7 +7756,7 @@ void _wrap_sfSprite_rotate_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, float
 }
 
 
-void _wrap_sfSprite_scale_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfSprite_scale_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfVector2f *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7466,7 +7775,7 @@ void _wrap_sfSprite_scale_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfVect
 }
 
 
-sfTransform *_wrap_sfSprite_getTransform_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfTransform *_wrap_sfSprite_getTransform_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7479,7 +7788,7 @@ sfTransform *_wrap_sfSprite_getTransform_graphics_cd286e83cc20e352(sfSprite *_sw
 }
 
 
-sfTransform *_wrap_sfSprite_getInverseTransform_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfTransform *_wrap_sfSprite_getInverseTransform_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7492,7 +7801,7 @@ sfTransform *_wrap_sfSprite_getInverseTransform_graphics_cd286e83cc20e352(sfSpri
 }
 
 
-void _wrap_sfSprite_setTexture_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
+void _wrap_sfSprite_setTexture_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   sfBool arg3 ;
@@ -7506,7 +7815,7 @@ void _wrap_sfSprite_setTexture_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, s
 }
 
 
-void _wrap_sfSprite_setTextureRect_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfIntRect *_swig_go_1) {
+void _wrap_sfSprite_setTextureRect_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfIntRect *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfIntRect arg2 ;
   sfIntRect *argp2 ;
@@ -7525,7 +7834,7 @@ void _wrap_sfSprite_setTextureRect_graphics_cd286e83cc20e352(sfSprite *_swig_go_
 }
 
 
-void _wrap_sfSprite_setColor_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfSprite_setColor_graphics_c1a031043095f7b7(sfSprite *_swig_go_0, sfColor *_swig_go_1) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -7544,7 +7853,7 @@ void _wrap_sfSprite_setColor_graphics_cd286e83cc20e352(sfSprite *_swig_go_0, sfC
 }
 
 
-sfTexture *_wrap_sfSprite_getTexture_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfTexture *_wrap_sfSprite_getTexture_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -7557,7 +7866,7 @@ sfTexture *_wrap_sfSprite_getTexture_graphics_cd286e83cc20e352(sfSprite *_swig_g
 }
 
 
-sfIntRect *_wrap_sfSprite_getTextureRect_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfIntRect *_wrap_sfSprite_getTextureRect_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfIntRect result;
   sfIntRect *_swig_go_result;
@@ -7570,7 +7879,7 @@ sfIntRect *_wrap_sfSprite_getTextureRect_graphics_cd286e83cc20e352(sfSprite *_sw
 }
 
 
-sfColor *_wrap_sfSprite_getColor_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfColor *_wrap_sfSprite_getColor_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -7583,7 +7892,7 @@ sfColor *_wrap_sfSprite_getColor_graphics_cd286e83cc20e352(sfSprite *_swig_go_0)
 }
 
 
-sfFloatRect *_wrap_sfSprite_getLocalBounds_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfFloatRect *_wrap_sfSprite_getLocalBounds_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -7596,7 +7905,7 @@ sfFloatRect *_wrap_sfSprite_getLocalBounds_graphics_cd286e83cc20e352(sfSprite *_
 }
 
 
-sfFloatRect *_wrap_sfSprite_getGlobalBounds_graphics_cd286e83cc20e352(sfSprite *_swig_go_0) {
+sfFloatRect *_wrap_sfSprite_getGlobalBounds_graphics_c1a031043095f7b7(sfSprite *_swig_go_0) {
   sfSprite *arg1 = (sfSprite *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -7609,7 +7918,7 @@ sfFloatRect *_wrap_sfSprite_getGlobalBounds_graphics_cd286e83cc20e352(sfSprite *
 }
 
 
-intgo _wrap_sfTextRegular_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextRegular_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -7621,7 +7930,7 @@ intgo _wrap_sfTextRegular_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTextBold_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextBold_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -7633,7 +7942,7 @@ intgo _wrap_sfTextBold_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTextItalic_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextItalic_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -7645,7 +7954,7 @@ intgo _wrap_sfTextItalic_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTextUnderlined_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextUnderlined_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -7657,7 +7966,7 @@ intgo _wrap_sfTextUnderlined_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTextStrikeThrough_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextStrikeThrough_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -7669,7 +7978,7 @@ intgo _wrap_sfTextStrikeThrough_graphics_cd286e83cc20e352() {
 }
 
 
-sfText *_wrap_sfText_create_graphics_cd286e83cc20e352() {
+sfText *_wrap_sfText_create_graphics_c1a031043095f7b7() {
   sfText *result = 0 ;
   sfText *_swig_go_result;
   
@@ -7680,7 +7989,7 @@ sfText *_wrap_sfText_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfText *_wrap_sfText_copy_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfText *_wrap_sfText_copy_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfText *result = 0 ;
   sfText *_swig_go_result;
@@ -7693,7 +8002,7 @@ sfText *_wrap_sfText_copy_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-void _wrap_sfText_destroy_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+void _wrap_sfText_destroy_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   
   arg1 = *(sfText **)&_swig_go_0; 
@@ -7703,7 +8012,7 @@ void _wrap_sfText_destroy_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-void _wrap_sfText_setPosition_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfText_setPosition_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7722,7 +8031,7 @@ void _wrap_sfText_setPosition_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVe
 }
 
 
-void _wrap_sfText_setRotation_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _swig_go_1) {
+void _wrap_sfText_setRotation_graphics_c1a031043095f7b7(sfText *_swig_go_0, float _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   float arg2 ;
   
@@ -7734,7 +8043,7 @@ void _wrap_sfText_setRotation_graphics_cd286e83cc20e352(sfText *_swig_go_0, floa
 }
 
 
-void _wrap_sfText_setScale_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfText_setScale_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7753,7 +8062,7 @@ void _wrap_sfText_setScale_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVecto
 }
 
 
-void _wrap_sfText_setOrigin_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfText_setOrigin_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7772,7 +8081,7 @@ void _wrap_sfText_setOrigin_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVect
 }
 
 
-sfVector2f *_wrap_sfText_getPosition_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfVector2f *_wrap_sfText_getPosition_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7785,7 +8094,7 @@ sfVector2f *_wrap_sfText_getPosition_graphics_cd286e83cc20e352(sfText *_swig_go_
 }
 
 
-float _wrap_sfText_getRotation_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+float _wrap_sfText_getRotation_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   float result;
   float _swig_go_result;
@@ -7798,7 +8107,7 @@ float _wrap_sfText_getRotation_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-sfVector2f *_wrap_sfText_getScale_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfVector2f *_wrap_sfText_getScale_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7811,7 +8120,7 @@ sfVector2f *_wrap_sfText_getScale_graphics_cd286e83cc20e352(sfText *_swig_go_0) 
 }
 
 
-sfVector2f *_wrap_sfText_getOrigin_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfVector2f *_wrap_sfText_getOrigin_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -7824,7 +8133,7 @@ sfVector2f *_wrap_sfText_getOrigin_graphics_cd286e83cc20e352(sfText *_swig_go_0)
 }
 
 
-void _wrap_sfText_move_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfText_move_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7843,7 +8152,7 @@ void _wrap_sfText_move_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f 
 }
 
 
-void _wrap_sfText_rotate_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _swig_go_1) {
+void _wrap_sfText_rotate_graphics_c1a031043095f7b7(sfText *_swig_go_0, float _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   float arg2 ;
   
@@ -7855,7 +8164,7 @@ void _wrap_sfText_rotate_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _sw
 }
 
 
-void _wrap_sfText_scale_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfText_scale_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfVector2f *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -7874,7 +8183,7 @@ void _wrap_sfText_scale_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfVector2f
 }
 
 
-sfTransform *_wrap_sfText_getTransform_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfTransform *_wrap_sfText_getTransform_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7887,7 +8196,7 @@ sfTransform *_wrap_sfText_getTransform_graphics_cd286e83cc20e352(sfText *_swig_g
 }
 
 
-sfTransform *_wrap_sfText_getInverseTransform_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfTransform *_wrap_sfText_getInverseTransform_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -7900,7 +8209,7 @@ sfTransform *_wrap_sfText_getInverseTransform_graphics_cd286e83cc20e352(sfText *
 }
 
 
-void _wrap_sfText_setString_graphics_cd286e83cc20e352(sfText *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_sfText_setString_graphics_c1a031043095f7b7(sfText *_swig_go_0, _gostring_ _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -7917,7 +8226,7 @@ void _wrap_sfText_setString_graphics_cd286e83cc20e352(sfText *_swig_go_0, _gostr
 }
 
 
-void _wrap_sfText_setUnicodeString_graphics_cd286e83cc20e352(sfText *_swig_go_0, intgo *_swig_go_1) {
+void _wrap_sfText_setUnicodeString_graphics_c1a031043095f7b7(sfText *_swig_go_0, intgo *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfUint32 *arg2 = (sfUint32 *) 0 ;
   
@@ -7929,7 +8238,7 @@ void _wrap_sfText_setUnicodeString_graphics_cd286e83cc20e352(sfText *_swig_go_0,
 }
 
 
-void _wrap_sfText_setFont_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfFont *_swig_go_1) {
+void _wrap_sfText_setFont_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfFont *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfFont *arg2 = (sfFont *) 0 ;
   
@@ -7941,7 +8250,7 @@ void _wrap_sfText_setFont_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfFont *
 }
 
 
-void _wrap_sfText_setCharacterSize_graphics_cd286e83cc20e352(sfText *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfText_setCharacterSize_graphics_c1a031043095f7b7(sfText *_swig_go_0, intgo _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   unsigned int arg2 ;
   
@@ -7953,7 +8262,7 @@ void _wrap_sfText_setCharacterSize_graphics_cd286e83cc20e352(sfText *_swig_go_0,
 }
 
 
-void _wrap_sfText_setLineSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _swig_go_1) {
+void _wrap_sfText_setLineSpacing_graphics_c1a031043095f7b7(sfText *_swig_go_0, float _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   float arg2 ;
   
@@ -7965,7 +8274,7 @@ void _wrap_sfText_setLineSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0, f
 }
 
 
-void _wrap_sfText_setLetterSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _swig_go_1) {
+void _wrap_sfText_setLetterSpacing_graphics_c1a031043095f7b7(sfText *_swig_go_0, float _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   float arg2 ;
   
@@ -7977,7 +8286,7 @@ void _wrap_sfText_setLetterSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0,
 }
 
 
-void _wrap_sfText_setStyle_graphics_cd286e83cc20e352(sfText *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfText_setStyle_graphics_c1a031043095f7b7(sfText *_swig_go_0, intgo _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfUint32 arg2 ;
   
@@ -7989,7 +8298,7 @@ void _wrap_sfText_setStyle_graphics_cd286e83cc20e352(sfText *_swig_go_0, intgo _
 }
 
 
-void _wrap_sfText_setColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfText_setColor_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfColor *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -8008,7 +8317,7 @@ void _wrap_sfText_setColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfColor
 }
 
 
-void _wrap_sfText_setFillColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfText_setFillColor_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfColor *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -8027,7 +8336,7 @@ void _wrap_sfText_setFillColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfC
 }
 
 
-void _wrap_sfText_setOutlineColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfText_setOutlineColor_graphics_c1a031043095f7b7(sfText *_swig_go_0, sfColor *_swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor arg2 ;
   sfColor *argp2 ;
@@ -8046,7 +8355,7 @@ void _wrap_sfText_setOutlineColor_graphics_cd286e83cc20e352(sfText *_swig_go_0, 
 }
 
 
-void _wrap_sfText_setOutlineThickness_graphics_cd286e83cc20e352(sfText *_swig_go_0, float _swig_go_1) {
+void _wrap_sfText_setOutlineThickness_graphics_c1a031043095f7b7(sfText *_swig_go_0, float _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   float arg2 ;
   
@@ -8058,7 +8367,7 @@ void _wrap_sfText_setOutlineThickness_graphics_cd286e83cc20e352(sfText *_swig_go
 }
 
 
-_gostring_ _wrap_sfText_getString_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+_gostring_ _wrap_sfText_getString_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -8071,7 +8380,7 @@ _gostring_ _wrap_sfText_getString_graphics_cd286e83cc20e352(sfText *_swig_go_0) 
 }
 
 
-intgo *_wrap_sfText_getUnicodeString_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+intgo *_wrap_sfText_getUnicodeString_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfUint32 *result = 0 ;
   intgo *_swig_go_result;
@@ -8084,7 +8393,7 @@ intgo *_wrap_sfText_getUnicodeString_graphics_cd286e83cc20e352(sfText *_swig_go_
 }
 
 
-sfFont *_wrap_sfText_getFont_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfFont *_wrap_sfText_getFont_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfFont *result = 0 ;
   sfFont *_swig_go_result;
@@ -8097,7 +8406,7 @@ sfFont *_wrap_sfText_getFont_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-intgo _wrap_sfText_getCharacterSize_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+intgo _wrap_sfText_getCharacterSize_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -8110,7 +8419,7 @@ intgo _wrap_sfText_getCharacterSize_graphics_cd286e83cc20e352(sfText *_swig_go_0
 }
 
 
-float _wrap_sfText_getLetterSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+float _wrap_sfText_getLetterSpacing_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   float result;
   float _swig_go_result;
@@ -8123,7 +8432,7 @@ float _wrap_sfText_getLetterSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0
 }
 
 
-float _wrap_sfText_getLineSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+float _wrap_sfText_getLineSpacing_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   float result;
   float _swig_go_result;
@@ -8136,7 +8445,7 @@ float _wrap_sfText_getLineSpacing_graphics_cd286e83cc20e352(sfText *_swig_go_0) 
 }
 
 
-intgo _wrap_sfText_getStyle_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+intgo _wrap_sfText_getStyle_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfUint32 result;
   intgo _swig_go_result;
@@ -8149,7 +8458,7 @@ intgo _wrap_sfText_getStyle_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfText_getColor_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfColor *_wrap_sfText_getColor_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -8162,7 +8471,7 @@ sfColor *_wrap_sfText_getColor_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
 }
 
 
-sfColor *_wrap_sfText_getFillColor_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfColor *_wrap_sfText_getFillColor_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -8175,7 +8484,7 @@ sfColor *_wrap_sfText_getFillColor_graphics_cd286e83cc20e352(sfText *_swig_go_0)
 }
 
 
-sfColor *_wrap_sfText_getOutlineColor_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfColor *_wrap_sfText_getOutlineColor_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfColor result;
   sfColor *_swig_go_result;
@@ -8188,7 +8497,7 @@ sfColor *_wrap_sfText_getOutlineColor_graphics_cd286e83cc20e352(sfText *_swig_go
 }
 
 
-float _wrap_sfText_getOutlineThickness_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+float _wrap_sfText_getOutlineThickness_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   float result;
   float _swig_go_result;
@@ -8201,7 +8510,7 @@ float _wrap_sfText_getOutlineThickness_graphics_cd286e83cc20e352(sfText *_swig_g
 }
 
 
-sfVector2f *_wrap_sfText_findCharacterPos_graphics_cd286e83cc20e352(sfText *_swig_go_0, long long _swig_go_1) {
+sfVector2f *_wrap_sfText_findCharacterPos_graphics_c1a031043095f7b7(sfText *_swig_go_0, long long _swig_go_1) {
   sfText *arg1 = (sfText *) 0 ;
   size_t arg2 ;
   sfVector2f result;
@@ -8216,7 +8525,7 @@ sfVector2f *_wrap_sfText_findCharacterPos_graphics_cd286e83cc20e352(sfText *_swi
 }
 
 
-sfFloatRect *_wrap_sfText_getLocalBounds_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfFloatRect *_wrap_sfText_getLocalBounds_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -8229,7 +8538,7 @@ sfFloatRect *_wrap_sfText_getLocalBounds_graphics_cd286e83cc20e352(sfText *_swig
 }
 
 
-sfFloatRect *_wrap_sfText_getGlobalBounds_graphics_cd286e83cc20e352(sfText *_swig_go_0) {
+sfFloatRect *_wrap_sfText_getGlobalBounds_graphics_c1a031043095f7b7(sfText *_swig_go_0) {
   sfText *arg1 = (sfText *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -8242,7 +8551,7 @@ sfFloatRect *_wrap_sfText_getGlobalBounds_graphics_cd286e83cc20e352(sfText *_swi
 }
 
 
-intgo _wrap_sfTextureNormalized_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTextureNormalized_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -8254,7 +8563,7 @@ intgo _wrap_sfTextureNormalized_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfTexturePixels_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTexturePixels_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -8266,7 +8575,7 @@ intgo _wrap_sfTexturePixels_graphics_cd286e83cc20e352() {
 }
 
 
-sfTexture *_wrap_sfTexture_create_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1) {
+sfTexture *_wrap_sfTexture_create_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1) {
   unsigned int arg1 ;
   unsigned int arg2 ;
   sfTexture *result = 0 ;
@@ -8281,7 +8590,7 @@ sfTexture *_wrap_sfTexture_create_graphics_cd286e83cc20e352(intgo _swig_go_0, in
 }
 
 
-sfTexture *_wrap_sfTexture_createFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createFromFile_graphics_c1a031043095f7b7(_gostring_ _swig_go_0, sfIntRect *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8301,7 +8610,7 @@ sfTexture *_wrap_sfTexture_createFromFile_graphics_cd286e83cc20e352(_gostring_ _
 }
 
 
-sfTexture *_wrap_sfTexture_createSrgbFromFile_graphics_cd286e83cc20e352(_gostring_ _swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createSrgbFromFile_graphics_c1a031043095f7b7(_gostring_ _swig_go_0, sfIntRect *_swig_go_1) {
   char *arg1 = (char *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8321,7 +8630,7 @@ sfTexture *_wrap_sfTexture_createSrgbFromFile_graphics_cd286e83cc20e352(_gostrin
 }
 
 
-sfTexture *_wrap_sfTexture_createFromMemory_graphics_cd286e83cc20e352(void *_swig_go_0, long long _swig_go_1, sfIntRect *_swig_go_2) {
+sfTexture *_wrap_sfTexture_createFromMemory_graphics_c1a031043095f7b7(void *_swig_go_0, long long _swig_go_1, sfIntRect *_swig_go_2) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfIntRect *arg3 = (sfIntRect *) 0 ;
@@ -8338,7 +8647,7 @@ sfTexture *_wrap_sfTexture_createFromMemory_graphics_cd286e83cc20e352(void *_swi
 }
 
 
-sfTexture *_wrap_sfTexture_createSrgbFromMemory_graphics_cd286e83cc20e352(void *_swig_go_0, long long _swig_go_1, sfIntRect *_swig_go_2) {
+sfTexture *_wrap_sfTexture_createSrgbFromMemory_graphics_c1a031043095f7b7(void *_swig_go_0, long long _swig_go_1, sfIntRect *_swig_go_2) {
   void *arg1 = (void *) 0 ;
   size_t arg2 ;
   sfIntRect *arg3 = (sfIntRect *) 0 ;
@@ -8355,7 +8664,7 @@ sfTexture *_wrap_sfTexture_createSrgbFromMemory_graphics_cd286e83cc20e352(void *
 }
 
 
-sfTexture *_wrap_sfTexture_createFromStream_graphics_cd286e83cc20e352(sfInputStream *_swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createFromStream_graphics_c1a031043095f7b7(sfInputStream *_swig_go_0, sfIntRect *_swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8370,7 +8679,7 @@ sfTexture *_wrap_sfTexture_createFromStream_graphics_cd286e83cc20e352(sfInputStr
 }
 
 
-sfTexture *_wrap_sfTexture_createSrgbFromStream_graphics_cd286e83cc20e352(sfInputStream *_swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createSrgbFromStream_graphics_c1a031043095f7b7(sfInputStream *_swig_go_0, sfIntRect *_swig_go_1) {
   sfInputStream *arg1 = (sfInputStream *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8385,7 +8694,7 @@ sfTexture *_wrap_sfTexture_createSrgbFromStream_graphics_cd286e83cc20e352(sfInpu
 }
 
 
-sfTexture *_wrap_sfTexture_createFromImage_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createFromImage_graphics_c1a031043095f7b7(sfImage *_swig_go_0, sfIntRect *_swig_go_1) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8400,7 +8709,7 @@ sfTexture *_wrap_sfTexture_createFromImage_graphics_cd286e83cc20e352(sfImage *_s
 }
 
 
-sfTexture *_wrap_sfTexture_createSrgbFromImage_graphics_cd286e83cc20e352(sfImage *_swig_go_0, sfIntRect *_swig_go_1) {
+sfTexture *_wrap_sfTexture_createSrgbFromImage_graphics_c1a031043095f7b7(sfImage *_swig_go_0, sfIntRect *_swig_go_1) {
   sfImage *arg1 = (sfImage *) 0 ;
   sfIntRect *arg2 = (sfIntRect *) 0 ;
   sfTexture *result = 0 ;
@@ -8415,7 +8724,7 @@ sfTexture *_wrap_sfTexture_createSrgbFromImage_graphics_cd286e83cc20e352(sfImage
 }
 
 
-sfTexture *_wrap_sfTexture_copy_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+sfTexture *_wrap_sfTexture_copy_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfTexture *result = 0 ;
   sfTexture *_swig_go_result;
@@ -8428,7 +8737,7 @@ sfTexture *_wrap_sfTexture_copy_graphics_cd286e83cc20e352(sfTexture *_swig_go_0)
 }
 
 
-void _wrap_sfTexture_destroy_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+void _wrap_sfTexture_destroy_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   
   arg1 = *(sfTexture **)&_swig_go_0; 
@@ -8438,7 +8747,7 @@ void _wrap_sfTexture_destroy_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
 }
 
 
-sfVector2u *_wrap_sfTexture_getSize_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+sfVector2u *_wrap_sfTexture_getSize_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfVector2u result;
   sfVector2u *_swig_go_result;
@@ -8451,7 +8760,7 @@ sfVector2u *_wrap_sfTexture_getSize_graphics_cd286e83cc20e352(sfTexture *_swig_g
 }
 
 
-sfImage *_wrap_sfTexture_copyToImage_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+sfImage *_wrap_sfTexture_copyToImage_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfImage *result = 0 ;
   sfImage *_swig_go_result;
@@ -8464,7 +8773,7 @@ sfImage *_wrap_sfTexture_copyToImage_graphics_cd286e83cc20e352(sfTexture *_swig_
 }
 
 
-void _wrap_sfTexture_updateFromPixels_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, char *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5) {
+void _wrap_sfTexture_updateFromPixels_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, char *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4, intgo _swig_go_5) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfUint8 *arg2 = (sfUint8 *) 0 ;
   unsigned int arg3 ;
@@ -8484,7 +8793,7 @@ void _wrap_sfTexture_updateFromPixels_graphics_cd286e83cc20e352(sfTexture *_swig
 }
 
 
-void _wrap_sfTexture_updateFromTexture_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_sfTexture_updateFromTexture_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, sfTexture *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   unsigned int arg3 ;
@@ -8500,7 +8809,7 @@ void _wrap_sfTexture_updateFromTexture_graphics_cd286e83cc20e352(sfTexture *_swi
 }
 
 
-void _wrap_sfTexture_updateFromImage_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfImage *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_sfTexture_updateFromImage_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, sfImage *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfImage *arg2 = (sfImage *) 0 ;
   unsigned int arg3 ;
@@ -8516,7 +8825,7 @@ void _wrap_sfTexture_updateFromImage_graphics_cd286e83cc20e352(sfTexture *_swig_
 }
 
 
-void _wrap_sfTexture_updateFromWindow_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfWindow *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_sfTexture_updateFromWindow_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, sfWindow *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfWindow *arg2 = (sfWindow *) 0 ;
   unsigned int arg3 ;
@@ -8532,7 +8841,7 @@ void _wrap_sfTexture_updateFromWindow_graphics_cd286e83cc20e352(sfTexture *_swig
 }
 
 
-void _wrap_sfTexture_updateFromRenderWindow_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfRenderWindow *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_sfTexture_updateFromRenderWindow_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, sfRenderWindow *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfRenderWindow *arg2 = (sfRenderWindow *) 0 ;
   unsigned int arg3 ;
@@ -8548,7 +8857,7 @@ void _wrap_sfTexture_updateFromRenderWindow_graphics_cd286e83cc20e352(sfTexture 
 }
 
 
-void _wrap_sfTexture_setSmooth_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfTexture_setSmooth_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, intgo _swig_go_1) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool arg2 ;
   
@@ -8560,7 +8869,7 @@ void _wrap_sfTexture_setSmooth_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, 
 }
 
 
-intgo _wrap_sfTexture_isSmooth_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+intgo _wrap_sfTexture_isSmooth_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -8573,7 +8882,7 @@ intgo _wrap_sfTexture_isSmooth_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) 
 }
 
 
-intgo _wrap_sfTexture_isSrgb_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+intgo _wrap_sfTexture_isSrgb_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -8586,7 +8895,7 @@ intgo _wrap_sfTexture_isSrgb_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
 }
 
 
-void _wrap_sfTexture_setRepeated_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfTexture_setRepeated_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, intgo _swig_go_1) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool arg2 ;
   
@@ -8598,7 +8907,7 @@ void _wrap_sfTexture_setRepeated_graphics_cd286e83cc20e352(sfTexture *_swig_go_0
 }
 
 
-intgo _wrap_sfTexture_isRepeated_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+intgo _wrap_sfTexture_isRepeated_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -8611,7 +8920,7 @@ intgo _wrap_sfTexture_isRepeated_graphics_cd286e83cc20e352(sfTexture *_swig_go_0
 }
 
 
-intgo _wrap_sfTexture_generateMipmap_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+intgo _wrap_sfTexture_generateMipmap_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfBool result;
   intgo _swig_go_result;
@@ -8624,7 +8933,7 @@ intgo _wrap_sfTexture_generateMipmap_graphics_cd286e83cc20e352(sfTexture *_swig_
 }
 
 
-void _wrap_sfTexture_swap_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfTexture *_swig_go_1) {
+void _wrap_sfTexture_swap_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, sfTexture *_swig_go_1) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfTexture *arg2 = (sfTexture *) 0 ;
   
@@ -8636,7 +8945,7 @@ void _wrap_sfTexture_swap_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, sfTex
 }
 
 
-intgo _wrap_sfTexture_getNativeHandle_graphics_cd286e83cc20e352(sfTexture *_swig_go_0) {
+intgo _wrap_sfTexture_getNativeHandle_graphics_c1a031043095f7b7(sfTexture *_swig_go_0) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -8649,7 +8958,7 @@ intgo _wrap_sfTexture_getNativeHandle_graphics_cd286e83cc20e352(sfTexture *_swig
 }
 
 
-void _wrap_sfTexture_bind_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfTexture_bind_graphics_c1a031043095f7b7(sfTexture *_swig_go_0, intgo _swig_go_1) {
   sfTexture *arg1 = (sfTexture *) 0 ;
   sfTextureCoordinateType arg2 ;
   
@@ -8661,7 +8970,7 @@ void _wrap_sfTexture_bind_graphics_cd286e83cc20e352(sfTexture *_swig_go_0, intgo
 }
 
 
-intgo _wrap_sfTexture_getMaximumSize_graphics_cd286e83cc20e352() {
+intgo _wrap_sfTexture_getMaximumSize_graphics_c1a031043095f7b7() {
   unsigned int result;
   intgo _swig_go_result;
   
@@ -8672,7 +8981,7 @@ intgo _wrap_sfTexture_getMaximumSize_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_sfTransform_matrix_set_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float *_swig_go_1) {
+void _wrap_sfTransform_matrix_set_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float *arg2 = (float *) (float *)0 ;
   
@@ -8688,7 +8997,7 @@ void _wrap_sfTransform_matrix_set_graphics_cd286e83cc20e352(sfTransform *_swig_g
 }
 
 
-float *_wrap_sfTransform_matrix_get_graphics_cd286e83cc20e352(sfTransform *_swig_go_0) {
+float *_wrap_sfTransform_matrix_get_graphics_c1a031043095f7b7(sfTransform *_swig_go_0) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float *result = 0 ;
   float *_swig_go_result;
@@ -8701,7 +9010,7 @@ float *_wrap_sfTransform_matrix_get_graphics_cd286e83cc20e352(sfTransform *_swig
 }
 
 
-sfTransform *_wrap_new_sfTransform_graphics_cd286e83cc20e352() {
+sfTransform *_wrap_new_sfTransform_graphics_c1a031043095f7b7() {
   sfTransform *result = 0 ;
   sfTransform *_swig_go_result;
   
@@ -8712,7 +9021,7 @@ sfTransform *_wrap_new_sfTransform_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfTransform_graphics_cd286e83cc20e352(sfTransform *_swig_go_0) {
+void _wrap_delete_sfTransform_graphics_c1a031043095f7b7(sfTransform *_swig_go_0) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   
   arg1 = *(sfTransform **)&_swig_go_0; 
@@ -8722,7 +9031,7 @@ void _wrap_delete_sfTransform_graphics_cd286e83cc20e352(sfTransform *_swig_go_0)
 }
 
 
-sfTransform *_wrap_sfTransform_Identity_get_graphics_cd286e83cc20e352() {
+sfTransform *_wrap_sfTransform_Identity_get_graphics_c1a031043095f7b7() {
   sfTransform *result = 0 ;
   sfTransform *_swig_go_result;
   
@@ -8733,7 +9042,7 @@ sfTransform *_wrap_sfTransform_Identity_get_graphics_cd286e83cc20e352() {
 }
 
 
-sfTransform *_wrap_sfTransform_fromMatrix_graphics_cd286e83cc20e352(float _swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, float _swig_go_5, float _swig_go_6, float _swig_go_7, float _swig_go_8) {
+sfTransform *_wrap_sfTransform_fromMatrix_graphics_c1a031043095f7b7(float _swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4, float _swig_go_5, float _swig_go_6, float _swig_go_7, float _swig_go_8) {
   float arg1 ;
   float arg2 ;
   float arg3 ;
@@ -8762,7 +9071,7 @@ sfTransform *_wrap_sfTransform_fromMatrix_graphics_cd286e83cc20e352(float _swig_
 }
 
 
-void _wrap_sfTransform_getMatrix_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float *_swig_go_1) {
+void _wrap_sfTransform_getMatrix_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float *arg2 = (float *) 0 ;
   
@@ -8774,7 +9083,7 @@ void _wrap_sfTransform_getMatrix_graphics_cd286e83cc20e352(sfTransform *_swig_go
 }
 
 
-sfTransform *_wrap_sfTransform_getInverse_graphics_cd286e83cc20e352(sfTransform *_swig_go_0) {
+sfTransform *_wrap_sfTransform_getInverse_graphics_c1a031043095f7b7(sfTransform *_swig_go_0) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -8787,7 +9096,7 @@ sfTransform *_wrap_sfTransform_getInverse_graphics_cd286e83cc20e352(sfTransform 
 }
 
 
-sfVector2f *_wrap_sfTransform_transformPoint_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, sfVector2f *_swig_go_1) {
+sfVector2f *_wrap_sfTransform_transformPoint_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -8809,7 +9118,7 @@ sfVector2f *_wrap_sfTransform_transformPoint_graphics_cd286e83cc20e352(sfTransfo
 }
 
 
-sfFloatRect *_wrap_sfTransform_transformRect_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, sfFloatRect *_swig_go_1) {
+sfFloatRect *_wrap_sfTransform_transformRect_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, sfFloatRect *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   sfFloatRect arg2 ;
   sfFloatRect *argp2 ;
@@ -8831,7 +9140,7 @@ sfFloatRect *_wrap_sfTransform_transformRect_graphics_cd286e83cc20e352(sfTransfo
 }
 
 
-void _wrap_sfTransform_combine_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, sfTransform *_swig_go_1) {
+void _wrap_sfTransform_combine_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, sfTransform *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   sfTransform *arg2 = (sfTransform *) 0 ;
   
@@ -8843,7 +9152,7 @@ void _wrap_sfTransform_combine_graphics_cd286e83cc20e352(sfTransform *_swig_go_0
 }
 
 
-void _wrap_sfTransform_translate_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+void _wrap_sfTransform_translate_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -8857,7 +9166,7 @@ void _wrap_sfTransform_translate_graphics_cd286e83cc20e352(sfTransform *_swig_go
 }
 
 
-void _wrap_sfTransform_rotate_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float _swig_go_1) {
+void _wrap_sfTransform_rotate_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float _swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float arg2 ;
   
@@ -8869,7 +9178,7 @@ void _wrap_sfTransform_rotate_graphics_cd286e83cc20e352(sfTransform *_swig_go_0,
 }
 
 
-void _wrap_sfTransform_rotateWithCenter_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3) {
+void _wrap_sfTransform_rotateWithCenter_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -8885,7 +9194,7 @@ void _wrap_sfTransform_rotateWithCenter_graphics_cd286e83cc20e352(sfTransform *_
 }
 
 
-void _wrap_sfTransform_scale_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2) {
+void _wrap_sfTransform_scale_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -8899,7 +9208,7 @@ void _wrap_sfTransform_scale_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, 
 }
 
 
-void _wrap_sfTransform_scaleWithCenter_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
+void _wrap_sfTransform_scaleWithCenter_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, float _swig_go_1, float _swig_go_2, float _swig_go_3, float _swig_go_4) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   float arg2 ;
   float arg3 ;
@@ -8917,7 +9226,7 @@ void _wrap_sfTransform_scaleWithCenter_graphics_cd286e83cc20e352(sfTransform *_s
 }
 
 
-intgo _wrap_sfTransform_equal_graphics_cd286e83cc20e352(sfTransform *_swig_go_0, sfTransform *_swig_go_1) {
+intgo _wrap_sfTransform_equal_graphics_c1a031043095f7b7(sfTransform *_swig_go_0, sfTransform *_swig_go_1) {
   sfTransform *arg1 = (sfTransform *) 0 ;
   sfTransform *arg2 = (sfTransform *) 0 ;
   sfBool result;
@@ -8932,7 +9241,7 @@ intgo _wrap_sfTransform_equal_graphics_cd286e83cc20e352(sfTransform *_swig_go_0,
 }
 
 
-sfTransformable *_wrap_sfTransformable_create_graphics_cd286e83cc20e352() {
+sfTransformable *_wrap_sfTransformable_create_graphics_c1a031043095f7b7() {
   sfTransformable *result = 0 ;
   sfTransformable *_swig_go_result;
   
@@ -8943,7 +9252,7 @@ sfTransformable *_wrap_sfTransformable_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfTransformable *_wrap_sfTransformable_copy_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfTransformable *_wrap_sfTransformable_copy_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfTransformable *result = 0 ;
   sfTransformable *_swig_go_result;
@@ -8956,7 +9265,7 @@ sfTransformable *_wrap_sfTransformable_copy_graphics_cd286e83cc20e352(sfTransfor
 }
 
 
-void _wrap_sfTransformable_destroy_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+void _wrap_sfTransformable_destroy_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   
   arg1 = *(sfTransformable **)&_swig_go_0; 
@@ -8966,7 +9275,7 @@ void _wrap_sfTransformable_destroy_graphics_cd286e83cc20e352(sfTransformable *_s
 }
 
 
-void _wrap_sfTransformable_setPosition_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfTransformable_setPosition_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -8985,7 +9294,7 @@ void _wrap_sfTransformable_setPosition_graphics_cd286e83cc20e352(sfTransformable
 }
 
 
-void _wrap_sfTransformable_setRotation_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, float _swig_go_1) {
+void _wrap_sfTransformable_setRotation_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, float _swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   float arg2 ;
   
@@ -8997,7 +9306,7 @@ void _wrap_sfTransformable_setRotation_graphics_cd286e83cc20e352(sfTransformable
 }
 
 
-void _wrap_sfTransformable_setScale_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfTransformable_setScale_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9016,7 +9325,7 @@ void _wrap_sfTransformable_setScale_graphics_cd286e83cc20e352(sfTransformable *_
 }
 
 
-void _wrap_sfTransformable_setOrigin_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfTransformable_setOrigin_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9035,7 +9344,7 @@ void _wrap_sfTransformable_setOrigin_graphics_cd286e83cc20e352(sfTransformable *
 }
 
 
-sfVector2f *_wrap_sfTransformable_getPosition_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfVector2f *_wrap_sfTransformable_getPosition_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -9048,7 +9357,7 @@ sfVector2f *_wrap_sfTransformable_getPosition_graphics_cd286e83cc20e352(sfTransf
 }
 
 
-float _wrap_sfTransformable_getRotation_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+float _wrap_sfTransformable_getRotation_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   float result;
   float _swig_go_result;
@@ -9061,7 +9370,7 @@ float _wrap_sfTransformable_getRotation_graphics_cd286e83cc20e352(sfTransformabl
 }
 
 
-sfVector2f *_wrap_sfTransformable_getScale_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfVector2f *_wrap_sfTransformable_getScale_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -9074,7 +9383,7 @@ sfVector2f *_wrap_sfTransformable_getScale_graphics_cd286e83cc20e352(sfTransform
 }
 
 
-sfVector2f *_wrap_sfTransformable_getOrigin_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfVector2f *_wrap_sfTransformable_getOrigin_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -9087,7 +9396,7 @@ sfVector2f *_wrap_sfTransformable_getOrigin_graphics_cd286e83cc20e352(sfTransfor
 }
 
 
-void _wrap_sfTransformable_move_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfTransformable_move_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9106,7 +9415,7 @@ void _wrap_sfTransformable_move_graphics_cd286e83cc20e352(sfTransformable *_swig
 }
 
 
-void _wrap_sfTransformable_rotate_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, float _swig_go_1) {
+void _wrap_sfTransformable_rotate_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, float _swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   float arg2 ;
   
@@ -9118,7 +9427,7 @@ void _wrap_sfTransformable_rotate_graphics_cd286e83cc20e352(sfTransformable *_sw
 }
 
 
-void _wrap_sfTransformable_scale_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfTransformable_scale_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0, sfVector2f *_swig_go_1) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9137,7 +9446,7 @@ void _wrap_sfTransformable_scale_graphics_cd286e83cc20e352(sfTransformable *_swi
 }
 
 
-sfTransform *_wrap_sfTransformable_getTransform_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfTransform *_wrap_sfTransformable_getTransform_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -9150,7 +9459,7 @@ sfTransform *_wrap_sfTransformable_getTransform_graphics_cd286e83cc20e352(sfTran
 }
 
 
-sfTransform *_wrap_sfTransformable_getInverseTransform_graphics_cd286e83cc20e352(sfTransformable *_swig_go_0) {
+sfTransform *_wrap_sfTransformable_getInverseTransform_graphics_c1a031043095f7b7(sfTransformable *_swig_go_0) {
   sfTransformable *arg1 = (sfTransformable *) 0 ;
   sfTransform result;
   sfTransform *_swig_go_result;
@@ -9163,7 +9472,7 @@ sfTransform *_wrap_sfTransformable_getInverseTransform_graphics_cd286e83cc20e352
 }
 
 
-void _wrap_sfVertex_position_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfVertex_position_set_graphics_c1a031043095f7b7(sfVertex *_swig_go_0, sfVector2f *_swig_go_1) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfVector2f *arg2 = (sfVector2f *) 0 ;
   
@@ -9175,7 +9484,7 @@ void _wrap_sfVertex_position_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0,
 }
 
 
-sfVector2f *_wrap_sfVertex_position_get_graphics_cd286e83cc20e352(sfVertex *_swig_go_0) {
+sfVector2f *_wrap_sfVertex_position_get_graphics_c1a031043095f7b7(sfVertex *_swig_go_0) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfVector2f *result = 0 ;
   sfVector2f *_swig_go_result;
@@ -9188,7 +9497,7 @@ sfVector2f *_wrap_sfVertex_position_get_graphics_cd286e83cc20e352(sfVertex *_swi
 }
 
 
-void _wrap_sfVertex_color_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0, sfColor *_swig_go_1) {
+void _wrap_sfVertex_color_set_graphics_c1a031043095f7b7(sfVertex *_swig_go_0, sfColor *_swig_go_1) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfColor *arg2 = (sfColor *) 0 ;
   
@@ -9200,7 +9509,7 @@ void _wrap_sfVertex_color_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0, sf
 }
 
 
-sfColor *_wrap_sfVertex_color_get_graphics_cd286e83cc20e352(sfVertex *_swig_go_0) {
+sfColor *_wrap_sfVertex_color_get_graphics_c1a031043095f7b7(sfVertex *_swig_go_0) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfColor *result = 0 ;
   sfColor *_swig_go_result;
@@ -9213,7 +9522,7 @@ sfColor *_wrap_sfVertex_color_get_graphics_cd286e83cc20e352(sfVertex *_swig_go_0
 }
 
 
-void _wrap_sfVertex_texCoords_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfVertex_texCoords_set_graphics_c1a031043095f7b7(sfVertex *_swig_go_0, sfVector2f *_swig_go_1) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfVector2f *arg2 = (sfVector2f *) 0 ;
   
@@ -9225,7 +9534,7 @@ void _wrap_sfVertex_texCoords_set_graphics_cd286e83cc20e352(sfVertex *_swig_go_0
 }
 
 
-sfVector2f *_wrap_sfVertex_texCoords_get_graphics_cd286e83cc20e352(sfVertex *_swig_go_0) {
+sfVector2f *_wrap_sfVertex_texCoords_get_graphics_c1a031043095f7b7(sfVertex *_swig_go_0) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   sfVector2f *result = 0 ;
   sfVector2f *_swig_go_result;
@@ -9238,7 +9547,7 @@ sfVector2f *_wrap_sfVertex_texCoords_get_graphics_cd286e83cc20e352(sfVertex *_sw
 }
 
 
-sfVertex *_wrap_new_sfVertex_graphics_cd286e83cc20e352() {
+sfVertex *_wrap_new_sfVertex_graphics_c1a031043095f7b7() {
   sfVertex *result = 0 ;
   sfVertex *_swig_go_result;
   
@@ -9249,7 +9558,7 @@ sfVertex *_wrap_new_sfVertex_graphics_cd286e83cc20e352() {
 }
 
 
-void _wrap_delete_sfVertex_graphics_cd286e83cc20e352(sfVertex *_swig_go_0) {
+void _wrap_delete_sfVertex_graphics_c1a031043095f7b7(sfVertex *_swig_go_0) {
   sfVertex *arg1 = (sfVertex *) 0 ;
   
   arg1 = *(sfVertex **)&_swig_go_0; 
@@ -9259,7 +9568,7 @@ void _wrap_delete_sfVertex_graphics_cd286e83cc20e352(sfVertex *_swig_go_0) {
 }
 
 
-sfVertexArray *_wrap_sfVertexArray_create_graphics_cd286e83cc20e352() {
+sfVertexArray *_wrap_sfVertexArray_create_graphics_c1a031043095f7b7() {
   sfVertexArray *result = 0 ;
   sfVertexArray *_swig_go_result;
   
@@ -9270,7 +9579,7 @@ sfVertexArray *_wrap_sfVertexArray_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfVertexArray *_wrap_sfVertexArray_copy_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+sfVertexArray *_wrap_sfVertexArray_copy_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   sfVertexArray *result = 0 ;
   sfVertexArray *_swig_go_result;
@@ -9283,7 +9592,7 @@ sfVertexArray *_wrap_sfVertexArray_copy_graphics_cd286e83cc20e352(sfVertexArray 
 }
 
 
-void _wrap_sfVertexArray_destroy_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+void _wrap_sfVertexArray_destroy_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   
   arg1 = *(sfVertexArray **)&_swig_go_0; 
@@ -9293,7 +9602,7 @@ void _wrap_sfVertexArray_destroy_graphics_cd286e83cc20e352(sfVertexArray *_swig_
 }
 
 
-long long _wrap_sfVertexArray_getVertexCount_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+long long _wrap_sfVertexArray_getVertexCount_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   size_t result;
   long long _swig_go_result;
@@ -9306,7 +9615,7 @@ long long _wrap_sfVertexArray_getVertexCount_graphics_cd286e83cc20e352(sfVertexA
 }
 
 
-sfVertex *_wrap_sfVertexArray_getVertex_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0, long long _swig_go_1) {
+sfVertex *_wrap_sfVertexArray_getVertex_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0, long long _swig_go_1) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   size_t arg2 ;
   sfVertex *result = 0 ;
@@ -9321,7 +9630,7 @@ sfVertex *_wrap_sfVertexArray_getVertex_graphics_cd286e83cc20e352(sfVertexArray 
 }
 
 
-void _wrap_sfVertexArray_clear_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+void _wrap_sfVertexArray_clear_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   
   arg1 = *(sfVertexArray **)&_swig_go_0; 
@@ -9331,7 +9640,7 @@ void _wrap_sfVertexArray_clear_graphics_cd286e83cc20e352(sfVertexArray *_swig_go
 }
 
 
-void _wrap_sfVertexArray_resize_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_sfVertexArray_resize_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0, long long _swig_go_1) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   size_t arg2 ;
   
@@ -9343,7 +9652,7 @@ void _wrap_sfVertexArray_resize_graphics_cd286e83cc20e352(sfVertexArray *_swig_g
 }
 
 
-void _wrap_sfVertexArray_append_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0, sfVertex *_swig_go_1) {
+void _wrap_sfVertexArray_append_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0, sfVertex *_swig_go_1) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   sfVertex arg2 ;
   sfVertex *argp2 ;
@@ -9362,7 +9671,7 @@ void _wrap_sfVertexArray_append_graphics_cd286e83cc20e352(sfVertexArray *_swig_g
 }
 
 
-void _wrap_sfVertexArray_setPrimitiveType_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVertexArray_setPrimitiveType_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0, intgo _swig_go_1) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   sfPrimitiveType arg2 ;
   
@@ -9374,7 +9683,7 @@ void _wrap_sfVertexArray_setPrimitiveType_graphics_cd286e83cc20e352(sfVertexArra
 }
 
 
-intgo _wrap_sfVertexArray_getPrimitiveType_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+intgo _wrap_sfVertexArray_getPrimitiveType_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   sfPrimitiveType result;
   intgo _swig_go_result;
@@ -9387,7 +9696,7 @@ intgo _wrap_sfVertexArray_getPrimitiveType_graphics_cd286e83cc20e352(sfVertexArr
 }
 
 
-sfFloatRect *_wrap_sfVertexArray_getBounds_graphics_cd286e83cc20e352(sfVertexArray *_swig_go_0) {
+sfFloatRect *_wrap_sfVertexArray_getBounds_graphics_c1a031043095f7b7(sfVertexArray *_swig_go_0) {
   sfVertexArray *arg1 = (sfVertexArray *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -9400,7 +9709,7 @@ sfFloatRect *_wrap_sfVertexArray_getBounds_graphics_cd286e83cc20e352(sfVertexArr
 }
 
 
-intgo _wrap_sfVertexBufferStream_graphics_cd286e83cc20e352() {
+intgo _wrap_sfVertexBufferStream_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -9412,7 +9721,7 @@ intgo _wrap_sfVertexBufferStream_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfVertexBufferDynamic_graphics_cd286e83cc20e352() {
+intgo _wrap_sfVertexBufferDynamic_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -9424,7 +9733,7 @@ intgo _wrap_sfVertexBufferDynamic_graphics_cd286e83cc20e352() {
 }
 
 
-intgo _wrap_sfVertexBufferStatic_graphics_cd286e83cc20e352() {
+intgo _wrap_sfVertexBufferStatic_graphics_c1a031043095f7b7() {
   int result;
   intgo _swig_go_result;
   
@@ -9436,7 +9745,7 @@ intgo _wrap_sfVertexBufferStatic_graphics_cd286e83cc20e352() {
 }
 
 
-sfVertexBuffer *_wrap_sfVertexBuffer_create_graphics_cd286e83cc20e352(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+sfVertexBuffer *_wrap_sfVertexBuffer_create_graphics_c1a031043095f7b7(intgo _swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   unsigned int arg1 ;
   sfPrimitiveType arg2 ;
   sfVertexBufferUsage arg3 ;
@@ -9453,7 +9762,7 @@ sfVertexBuffer *_wrap_sfVertexBuffer_create_graphics_cd286e83cc20e352(intgo _swi
 }
 
 
-sfVertexBuffer *_wrap_sfVertexBuffer_copy_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+sfVertexBuffer *_wrap_sfVertexBuffer_copy_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertexBuffer *result = 0 ;
   sfVertexBuffer *_swig_go_result;
@@ -9466,7 +9775,7 @@ sfVertexBuffer *_wrap_sfVertexBuffer_copy_graphics_cd286e83cc20e352(sfVertexBuff
 }
 
 
-void _wrap_sfVertexBuffer_destroy_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+void _wrap_sfVertexBuffer_destroy_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   
   arg1 = *(sfVertexBuffer **)&_swig_go_0; 
@@ -9476,7 +9785,7 @@ void _wrap_sfVertexBuffer_destroy_graphics_cd286e83cc20e352(sfVertexBuffer *_swi
 }
 
 
-intgo _wrap_sfVertexBuffer_getVertexCount_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+intgo _wrap_sfVertexBuffer_getVertexCount_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -9489,7 +9798,7 @@ intgo _wrap_sfVertexBuffer_getVertexCount_graphics_cd286e83cc20e352(sfVertexBuff
 }
 
 
-intgo _wrap_sfVertexBuffer_update_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0, sfVertex *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+intgo _wrap_sfVertexBuffer_update_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0, sfVertex *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertex *arg2 = (sfVertex *) 0 ;
   unsigned int arg3 ;
@@ -9508,7 +9817,7 @@ intgo _wrap_sfVertexBuffer_update_graphics_cd286e83cc20e352(sfVertexBuffer *_swi
 }
 
 
-intgo _wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0, sfVertexBuffer *_swig_go_1) {
+intgo _wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0, sfVertexBuffer *_swig_go_1) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   sfBool result;
@@ -9523,7 +9832,7 @@ intgo _wrap_sfVertexBuffer_updateFromVertexBuffer_graphics_cd286e83cc20e352(sfVe
 }
 
 
-void _wrap_sfVertexBuffer_swap_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0, sfVertexBuffer *_swig_go_1) {
+void _wrap_sfVertexBuffer_swap_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0, sfVertexBuffer *_swig_go_1) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertexBuffer *arg2 = (sfVertexBuffer *) 0 ;
   
@@ -9535,7 +9844,7 @@ void _wrap_sfVertexBuffer_swap_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_g
 }
 
 
-intgo _wrap_sfVertexBuffer_getNativeHandle_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+intgo _wrap_sfVertexBuffer_getNativeHandle_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -9548,7 +9857,7 @@ intgo _wrap_sfVertexBuffer_getNativeHandle_graphics_cd286e83cc20e352(sfVertexBuf
 }
 
 
-void _wrap_sfVertexBuffer_setPrimitiveType_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVertexBuffer_setPrimitiveType_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0, intgo _swig_go_1) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfPrimitiveType arg2 ;
   
@@ -9560,7 +9869,7 @@ void _wrap_sfVertexBuffer_setPrimitiveType_graphics_cd286e83cc20e352(sfVertexBuf
 }
 
 
-intgo _wrap_sfVertexBuffer_getPrimitiveType_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+intgo _wrap_sfVertexBuffer_getPrimitiveType_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfPrimitiveType result;
   intgo _swig_go_result;
@@ -9573,7 +9882,7 @@ intgo _wrap_sfVertexBuffer_getPrimitiveType_graphics_cd286e83cc20e352(sfVertexBu
 }
 
 
-void _wrap_sfVertexBuffer_setUsage_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0, intgo _swig_go_1) {
+void _wrap_sfVertexBuffer_setUsage_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0, intgo _swig_go_1) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertexBufferUsage arg2 ;
   
@@ -9585,7 +9894,7 @@ void _wrap_sfVertexBuffer_setUsage_graphics_cd286e83cc20e352(sfVertexBuffer *_sw
 }
 
 
-intgo _wrap_sfVertexBuffer_getUsage_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+intgo _wrap_sfVertexBuffer_getUsage_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   sfVertexBufferUsage result;
   intgo _swig_go_result;
@@ -9598,7 +9907,7 @@ intgo _wrap_sfVertexBuffer_getUsage_graphics_cd286e83cc20e352(sfVertexBuffer *_s
 }
 
 
-void _wrap_sfVertexBuffer_bind_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_go_0) {
+void _wrap_sfVertexBuffer_bind_graphics_c1a031043095f7b7(sfVertexBuffer *_swig_go_0) {
   sfVertexBuffer *arg1 = (sfVertexBuffer *) 0 ;
   
   arg1 = *(sfVertexBuffer **)&_swig_go_0; 
@@ -9608,7 +9917,7 @@ void _wrap_sfVertexBuffer_bind_graphics_cd286e83cc20e352(sfVertexBuffer *_swig_g
 }
 
 
-intgo _wrap_sfVertexBuffer_isAvailable_graphics_cd286e83cc20e352() {
+intgo _wrap_sfVertexBuffer_isAvailable_graphics_c1a031043095f7b7() {
   sfBool result;
   intgo _swig_go_result;
   
@@ -9619,7 +9928,7 @@ intgo _wrap_sfVertexBuffer_isAvailable_graphics_cd286e83cc20e352() {
 }
 
 
-sfView *_wrap_sfView_create_graphics_cd286e83cc20e352() {
+sfView *_wrap_sfView_create_graphics_c1a031043095f7b7() {
   sfView *result = 0 ;
   sfView *_swig_go_result;
   
@@ -9630,7 +9939,7 @@ sfView *_wrap_sfView_create_graphics_cd286e83cc20e352() {
 }
 
 
-sfView *_wrap_sfView_createFromRect_graphics_cd286e83cc20e352(sfFloatRect *_swig_go_0) {
+sfView *_wrap_sfView_createFromRect_graphics_c1a031043095f7b7(sfFloatRect *_swig_go_0) {
   sfFloatRect arg1 ;
   sfFloatRect *argp1 ;
   sfView *result = 0 ;
@@ -9650,7 +9959,7 @@ sfView *_wrap_sfView_createFromRect_graphics_cd286e83cc20e352(sfFloatRect *_swig
 }
 
 
-sfView *_wrap_sfView_copy_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+sfView *_wrap_sfView_copy_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   sfView *result = 0 ;
   sfView *_swig_go_result;
@@ -9663,7 +9972,7 @@ sfView *_wrap_sfView_copy_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
 }
 
 
-void _wrap_sfView_destroy_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+void _wrap_sfView_destroy_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   
   arg1 = *(sfView **)&_swig_go_0; 
@@ -9673,7 +9982,7 @@ void _wrap_sfView_destroy_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
 }
 
 
-void _wrap_sfView_setCenter_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfView_setCenter_graphics_c1a031043095f7b7(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9692,7 +10001,7 @@ void _wrap_sfView_setCenter_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVect
 }
 
 
-void _wrap_sfView_setSize_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfView_setSize_graphics_c1a031043095f7b7(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9711,7 +10020,7 @@ void _wrap_sfView_setSize_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVector
 }
 
 
-void _wrap_sfView_setRotation_graphics_cd286e83cc20e352(sfView *_swig_go_0, float _swig_go_1) {
+void _wrap_sfView_setRotation_graphics_c1a031043095f7b7(sfView *_swig_go_0, float _swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   float arg2 ;
   
@@ -9723,7 +10032,7 @@ void _wrap_sfView_setRotation_graphics_cd286e83cc20e352(sfView *_swig_go_0, floa
 }
 
 
-void _wrap_sfView_setViewport_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfFloatRect *_swig_go_1) {
+void _wrap_sfView_setViewport_graphics_c1a031043095f7b7(sfView *_swig_go_0, sfFloatRect *_swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   sfFloatRect arg2 ;
   sfFloatRect *argp2 ;
@@ -9742,7 +10051,7 @@ void _wrap_sfView_setViewport_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfFl
 }
 
 
-void _wrap_sfView_reset_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfFloatRect *_swig_go_1) {
+void _wrap_sfView_reset_graphics_c1a031043095f7b7(sfView *_swig_go_0, sfFloatRect *_swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   sfFloatRect arg2 ;
   sfFloatRect *argp2 ;
@@ -9761,7 +10070,7 @@ void _wrap_sfView_reset_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfFloatRec
 }
 
 
-sfVector2f *_wrap_sfView_getCenter_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+sfVector2f *_wrap_sfView_getCenter_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -9774,7 +10083,7 @@ sfVector2f *_wrap_sfView_getCenter_graphics_cd286e83cc20e352(sfView *_swig_go_0)
 }
 
 
-sfVector2f *_wrap_sfView_getSize_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+sfVector2f *_wrap_sfView_getSize_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   sfVector2f result;
   sfVector2f *_swig_go_result;
@@ -9787,7 +10096,7 @@ sfVector2f *_wrap_sfView_getSize_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
 }
 
 
-float _wrap_sfView_getRotation_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+float _wrap_sfView_getRotation_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   float result;
   float _swig_go_result;
@@ -9800,7 +10109,7 @@ float _wrap_sfView_getRotation_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
 }
 
 
-sfFloatRect *_wrap_sfView_getViewport_graphics_cd286e83cc20e352(sfView *_swig_go_0) {
+sfFloatRect *_wrap_sfView_getViewport_graphics_c1a031043095f7b7(sfView *_swig_go_0) {
   sfView *arg1 = (sfView *) 0 ;
   sfFloatRect result;
   sfFloatRect *_swig_go_result;
@@ -9813,7 +10122,7 @@ sfFloatRect *_wrap_sfView_getViewport_graphics_cd286e83cc20e352(sfView *_swig_go
 }
 
 
-void _wrap_sfView_move_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
+void _wrap_sfView_move_graphics_c1a031043095f7b7(sfView *_swig_go_0, sfVector2f *_swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   sfVector2f arg2 ;
   sfVector2f *argp2 ;
@@ -9832,7 +10141,7 @@ void _wrap_sfView_move_graphics_cd286e83cc20e352(sfView *_swig_go_0, sfVector2f 
 }
 
 
-void _wrap_sfView_rotate_graphics_cd286e83cc20e352(sfView *_swig_go_0, float _swig_go_1) {
+void _wrap_sfView_rotate_graphics_c1a031043095f7b7(sfView *_swig_go_0, float _swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   float arg2 ;
   
@@ -9844,7 +10153,7 @@ void _wrap_sfView_rotate_graphics_cd286e83cc20e352(sfView *_swig_go_0, float _sw
 }
 
 
-void _wrap_sfView_zoom_graphics_cd286e83cc20e352(sfView *_swig_go_0, float _swig_go_1) {
+void _wrap_sfView_zoom_graphics_c1a031043095f7b7(sfView *_swig_go_0, float _swig_go_1) {
   sfView *arg1 = (sfView *) 0 ;
   float arg2 ;
   
@@ -9852,315 +10161,6 @@ void _wrap_sfView_zoom_graphics_cd286e83cc20e352(sfView *_swig_go_0, float _swig
   arg2 = (float)_swig_go_1; 
   
   sfView_zoom(arg1,arg2);
-  
-}
-
-
-void _wrap_sfVector2i_x_set_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0, intgo _swig_go_1) {
-  sfVector2i *arg1 = (sfVector2i *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(sfVector2i **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->x = arg2;
-  
-}
-
-
-intgo _wrap_sfVector2i_x_get_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0) {
-  sfVector2i *arg1 = (sfVector2i *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(sfVector2i **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->x);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_sfVector2i_y_set_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0, intgo _swig_go_1) {
-  sfVector2i *arg1 = (sfVector2i *) 0 ;
-  int arg2 ;
-  
-  arg1 = *(sfVector2i **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
-  
-  if (arg1) (arg1)->y = arg2;
-  
-}
-
-
-intgo _wrap_sfVector2i_y_get_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0) {
-  sfVector2i *arg1 = (sfVector2i *) 0 ;
-  int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(sfVector2i **)&_swig_go_0; 
-  
-  result = (int) ((arg1)->y);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-sfVector2i *_wrap_new_sfVector2i_graphics_cd286e83cc20e352() {
-  sfVector2i *result = 0 ;
-  sfVector2i *_swig_go_result;
-  
-  
-  result = (sfVector2i *)new sfVector2i();
-  *(sfVector2i **)&_swig_go_result = (sfVector2i *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_sfVector2i_graphics_cd286e83cc20e352(sfVector2i *_swig_go_0) {
-  sfVector2i *arg1 = (sfVector2i *) 0 ;
-  
-  arg1 = *(sfVector2i **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
-void _wrap_sfVector2u_x_set_graphics_cd286e83cc20e352(sfVector2u *_swig_go_0, intgo _swig_go_1) {
-  sfVector2u *arg1 = (sfVector2u *) 0 ;
-  unsigned int arg2 ;
-  
-  arg1 = *(sfVector2u **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  
-  if (arg1) (arg1)->x = arg2;
-  
-}
-
-
-intgo _wrap_sfVector2u_x_get_graphics_cd286e83cc20e352(sfVector2u *_swig_go_0) {
-  sfVector2u *arg1 = (sfVector2u *) 0 ;
-  unsigned int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(sfVector2u **)&_swig_go_0; 
-  
-  result = (unsigned int) ((arg1)->x);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_sfVector2u_y_set_graphics_cd286e83cc20e352(sfVector2u *_swig_go_0, intgo _swig_go_1) {
-  sfVector2u *arg1 = (sfVector2u *) 0 ;
-  unsigned int arg2 ;
-  
-  arg1 = *(sfVector2u **)&_swig_go_0; 
-  arg2 = (unsigned int)_swig_go_1; 
-  
-  if (arg1) (arg1)->y = arg2;
-  
-}
-
-
-intgo _wrap_sfVector2u_y_get_graphics_cd286e83cc20e352(sfVector2u *_swig_go_0) {
-  sfVector2u *arg1 = (sfVector2u *) 0 ;
-  unsigned int result;
-  intgo _swig_go_result;
-  
-  arg1 = *(sfVector2u **)&_swig_go_0; 
-  
-  result = (unsigned int) ((arg1)->y);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-sfVector2u *_wrap_new_sfVector2u_graphics_cd286e83cc20e352() {
-  sfVector2u *result = 0 ;
-  sfVector2u *_swig_go_result;
-  
-  
-  result = (sfVector2u *)new sfVector2u();
-  *(sfVector2u **)&_swig_go_result = (sfVector2u *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_sfVector2u_graphics_cd286e83cc20e352(sfVector2u *_swig_go_0) {
-  sfVector2u *arg1 = (sfVector2u *) 0 ;
-  
-  arg1 = *(sfVector2u **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
-void _wrap_sfVector2f_x_set_graphics_cd286e83cc20e352(sfVector2f *_swig_go_0, float _swig_go_1) {
-  sfVector2f *arg1 = (sfVector2f *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(sfVector2f **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->x = arg2;
-  
-}
-
-
-float _wrap_sfVector2f_x_get_graphics_cd286e83cc20e352(sfVector2f *_swig_go_0) {
-  sfVector2f *arg1 = (sfVector2f *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(sfVector2f **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->x);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_sfVector2f_y_set_graphics_cd286e83cc20e352(sfVector2f *_swig_go_0, float _swig_go_1) {
-  sfVector2f *arg1 = (sfVector2f *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(sfVector2f **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->y = arg2;
-  
-}
-
-
-float _wrap_sfVector2f_y_get_graphics_cd286e83cc20e352(sfVector2f *_swig_go_0) {
-  sfVector2f *arg1 = (sfVector2f *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(sfVector2f **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->y);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-sfVector2f *_wrap_new_sfVector2f_graphics_cd286e83cc20e352() {
-  sfVector2f *result = 0 ;
-  sfVector2f *_swig_go_result;
-  
-  
-  result = (sfVector2f *)new sfVector2f();
-  *(sfVector2f **)&_swig_go_result = (sfVector2f *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_sfVector2f_graphics_cd286e83cc20e352(sfVector2f *_swig_go_0) {
-  sfVector2f *arg1 = (sfVector2f *) 0 ;
-  
-  arg1 = *(sfVector2f **)&_swig_go_0; 
-  
-  delete arg1;
-  
-}
-
-
-void _wrap_sfVector3f_x_set_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0, float _swig_go_1) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->x = arg2;
-  
-}
-
-
-float _wrap_sfVector3f_x_get_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->x);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_sfVector3f_y_set_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0, float _swig_go_1) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->y = arg2;
-  
-}
-
-
-float _wrap_sfVector3f_y_get_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->y);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_sfVector3f_z_set_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0, float _swig_go_1) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float arg2 ;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  arg2 = (float)_swig_go_1; 
-  
-  if (arg1) (arg1)->z = arg2;
-  
-}
-
-
-float _wrap_sfVector3f_z_get_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  float result;
-  float _swig_go_result;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  
-  result = (float) ((arg1)->z);
-  _swig_go_result = result; 
-  return _swig_go_result;
-}
-
-
-sfVector3f *_wrap_new_sfVector3f_graphics_cd286e83cc20e352() {
-  sfVector3f *result = 0 ;
-  sfVector3f *_swig_go_result;
-  
-  
-  result = (sfVector3f *)new sfVector3f();
-  *(sfVector3f **)&_swig_go_result = (sfVector3f *)result; 
-  return _swig_go_result;
-}
-
-
-void _wrap_delete_sfVector3f_graphics_cd286e83cc20e352(sfVector3f *_swig_go_0) {
-  sfVector3f *arg1 = (sfVector3f *) 0 ;
-  
-  arg1 = *(sfVector3f **)&_swig_go_0; 
-  
-  delete arg1;
   
 }
 

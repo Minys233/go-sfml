@@ -1,4 +1,4 @@
 module tennis
 
 go 1.18
-require github.com/minys233/go-sfml v0.0.3
+require github.com/minys233/go-sfml v0.0.4
