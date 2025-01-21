@@ -1,8 +1,8 @@
  %module "graphics"
  %{
  /* Includes the header in the wrapper code */
- #include <SFML/System.h>
  #include <SFML/Graphics.h>
+ #include <SFML/System.h>
  %}
 
  /* Parse the header file to generate wrappers */
@@ -39,3 +39,6 @@
 %include <SFML/Graphics/VertexArray.h>
 %include <SFML/Graphics/VertexBuffer.h>
 %include <SFML/Graphics/View.h>
+
+%include <SFML/System/Vector2.h>
+%include <SFML/System/Vector3.h>

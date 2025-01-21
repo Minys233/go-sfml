@@ -10,6 +10,7 @@ import (
 	"github.com/minys233/go-sfml/audio"
 	"github.com/minys233/go-sfml/graphics"
 	"github.com/minys233/go-sfml/window"
+	"github.com/minys233/go-sfml/system"
 )
 
 const cTrue = 1
@@ -18,7 +19,7 @@ const cFalse = 0
 const DegToRad = math.Pi / 180
 
 func makeVector2(x float32, y float32) graphics.SfVector2f {
-	v := graphics.NewSfVector2f()
+	v := system.NewSfVector2f()
 	v.SetX(x)
 	v.SetY(y)
 	return v

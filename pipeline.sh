@@ -103,5 +103,9 @@ done
 # export CGO_CXXFLAGS="-I$CSFML_INSTALL/include"
 # export CGO_LDFLAGS="-L$CSFML_INSTALL/lib"
 
-
+# VER="2.6.1" DST="/Users/yaosenmin/workspace" 
+# SFML_BASE=$(readlink -f $DST/SFML-$VER)
+# SFML_INSTALL=$SFML_BASE/build
+# CSFML_BASE=$(readlink -f $DST/CSFML-$VER)
+# CSFML_INSTALL=$CSFML_BASE/build
 # CGO_CXXFLAGS="-I$CSFML_INSTALL/include" CGO_LDFLAGS="-L$CSFML_INSTALL/lib -Wl,-rpath,/Users/yaosenmin/workspace/CSFML-2.6.1/build/lib -Wl,-rpath,/Users/yaosenmin/workspace/SFML-2.6.1/build/lib -lcsfml-audio -lcsfml-graphics -lcsfml-system -lcsfml-window" go run .
