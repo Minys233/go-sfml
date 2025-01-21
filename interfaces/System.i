@@ -11,7 +11,6 @@
 %include <SFML/Config.h>
 %include <SFML/System/Export.h>
 
-%include <SFML/System/Alloc.h>
 %include <SFML/System/Buffer.h>
 %include <SFML/System/Clock.h>
 %include <SFML/System/InputStream.h>
@@ -22,3 +21,6 @@
 %include <SFML/System/Types.h>
 %include <SFML/System/Vector2.h>
 %include <SFML/System/Vector3.h>
+
+%include <SFML/System/Alloc.h>
+
